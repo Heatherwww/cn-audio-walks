@@ -1,0 +1,88 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T02:25:15.171Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "taiyuan",
+  "cityName": "太原",
+  "routeId": "jinci",
+  "routeTitle": "晋祠水源木构线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "太原 · 晋祠水源木构线 · 路线开场",
+      "file": "jinci/intro.mp3",
+      "src": "audio-assets/jinci/intro.mp3",
+      "transcript": "jinci/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "太原 · 晋祠水源木构线 · 第 1 站 · 晋祠胜境",
+      "file": "jinci/stop-01.mp3",
+      "src": "audio-assets/jinci/stop-01.mp3",
+      "transcript": "jinci/stop-01.txt",
+      "plannedSeconds": 480,
+      "durationSeconds": 480,
+      "sizeBytes": 5760984
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "太原 · 晋祠水源木构线 · 第 2 站 · 水镜台",
+      "file": "jinci/stop-02.mp3",
+      "src": "audio-assets/jinci/stop-02.mp3",
+      "transcript": "jinci/stop-02.txt",
+      "plannedSeconds": 480,
+      "durationSeconds": 480,
+      "sizeBytes": 5760984
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "太原 · 晋祠水源木构线 · 第 3 站 · 献殿",
+      "file": "jinci/stop-03.mp3",
+      "src": "audio-assets/jinci/stop-03.mp3",
+      "transcript": "jinci/stop-03.txt",
+      "plannedSeconds": 480,
+      "durationSeconds": 480,
+      "sizeBytes": 5760984
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "太原 · 晋祠水源木构线 · 第 4 站 · 鱼沼飞梁",
+      "file": "jinci/stop-04.mp3",
+      "src": "audio-assets/jinci/stop-04.mp3",
+      "transcript": "jinci/stop-04.txt",
+      "plannedSeconds": 420,
+      "durationSeconds": 420,
+      "sizeBytes": 5041258
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "太原 · 晋祠水源木构线 · 第 5 站 · 圣母殿",
+      "file": "jinci/stop-05.mp3",
+      "src": "audio-assets/jinci/stop-05.mp3",
+      "transcript": "jinci/stop-05.txt",
+      "plannedSeconds": 420,
+      "durationSeconds": 420,
+      "sizeBytes": 5041258
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 5,
+      "label": "太原 · 晋祠水源木构线 · 第 6 站 · 难老泉",
+      "file": "jinci/stop-06.mp3",
+      "src": "audio-assets/jinci/stop-06.mp3",
+      "transcript": "jinci/stop-06.txt",
+      "plannedSeconds": 420,
+      "durationSeconds": 420,
+      "sizeBytes": 5041258
+    }
+  ]
+}

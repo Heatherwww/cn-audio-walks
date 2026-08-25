@@ -1,0 +1,299 @@
+{
+  "version": "20260824-v01",
+  "note": "Audio assets discovered by the web app. Generated files can be extended route by route.",
+  "routes": {
+    "yungang": {
+      "stops": {
+        "0": {
+          "src": "audio-assets/yungang/stop-01.mp3",
+          "durationSeconds": 720,
+          "label": "大同 · 云冈石窟半日线 · 第 1 站 · 入口广场",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "1": {
+          "src": "audio-assets/yungang/stop-02.mp3",
+          "durationSeconds": 720,
+          "label": "大同 · 云冈石窟半日线 · 第 2 站 · 第 5-6 窟",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "2": {
+          "src": "audio-assets/yungang/stop-03-009-013-caves.mp3",
+          "durationSeconds": 720,
+          "label": "大同 · 云冈石窟半日线 · 第 3 站 · 第 9-13 窟",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "3": {
+          "src": "audio-assets/yungang/stop-04.mp3",
+          "durationSeconds": 720,
+          "label": "大同 · 云冈石窟半日线 · 第 4 站 · 第 20 窟",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "4": {
+          "src": "audio-assets/yungang/stop-05.mp3",
+          "durationSeconds": 720,
+          "label": "大同 · 云冈石窟半日线 · 第 5 站 · 云冈博物馆",
+          "voice": "Microsoft Huihui Desktop"
+        }
+      },
+      "intro": {
+        "src": "audio-assets/yungang/intro.mp3",
+        "durationSeconds": 180,
+        "label": "大同 · 云冈石窟半日线 · 路线开场",
+        "voice": "Microsoft Huihui Desktop"
+      }
+    },
+    "datong-city": {
+      "stops": {
+        "0": {
+          "src": "audio-assets/datong-city/stop-01.mp3",
+          "durationSeconds": 540,
+          "label": "大同 · 辽金古城线 · 第 1 站 · 华严寺山门",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "1": {
+          "src": "audio-assets/datong-city/stop-02.mp3",
+          "durationSeconds": 540,
+          "label": "大同 · 辽金古城线 · 第 2 站 · 大雄宝殿",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "2": {
+          "src": "audio-assets/datong-city/stop-03.mp3",
+          "durationSeconds": 540,
+          "label": "大同 · 辽金古城线 · 第 3 站 · 薄伽教藏殿",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "3": {
+          "src": "audio-assets/datong-city/stop-04.mp3",
+          "durationSeconds": 540,
+          "label": "大同 · 辽金古城线 · 第 4 站 · 九龙壁外侧",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "4": {
+          "src": "audio-assets/datong-city/stop-05.mp3",
+          "durationSeconds": 540,
+          "label": "大同 · 辽金古城线 · 第 5 站 · 善化寺",
+          "voice": "Microsoft Huihui Desktop"
+        }
+      },
+      "intro": {
+        "src": "audio-assets/datong-city/intro.mp3",
+        "durationSeconds": 180,
+        "label": "大同 · 辽金古城线 · 路线开场",
+        "voice": "Microsoft Huihui Desktop"
+      }
+    },
+    "pingyao": {
+      "stops": {
+        "0": {
+          "src": "audio-assets/pingyao/stop-01.mp3",
+          "durationSeconds": 600,
+          "label": "晋中 · 平遥古城票号线 · 第 1 站 · 下西门",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "1": {
+          "src": "audio-assets/pingyao/stop-02.mp3",
+          "durationSeconds": 600,
+          "label": "晋中 · 平遥古城票号线 · 第 2 站 · 古城墙",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "2": {
+          "src": "audio-assets/pingyao/stop-03.mp3",
+          "durationSeconds": 600,
+          "label": "晋中 · 平遥古城票号线 · 第 3 站 · 日升昌票号",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "3": {
+          "src": "audio-assets/pingyao/stop-04.mp3",
+          "durationSeconds": 600,
+          "label": "晋中 · 平遥古城票号线 · 第 4 站 · 明清街",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "4": {
+          "src": "audio-assets/pingyao/stop-05.mp3",
+          "durationSeconds": 600,
+          "label": "晋中 · 平遥古城票号线 · 第 5 站 · 平遥县衙",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "5": {
+          "src": "audio-assets/pingyao/stop-06.mp3",
+          "durationSeconds": 600,
+          "label": "晋中 · 平遥古城票号线 · 第 6 站 · 城隍庙街",
+          "voice": "Microsoft Huihui Desktop"
+        }
+      },
+      "intro": {
+        "src": "audio-assets/pingyao/intro.mp3",
+        "durationSeconds": 180,
+        "label": "晋中 · 平遥古城票号线 · 路线开场",
+        "voice": "Microsoft Huihui Desktop"
+      }
+    },
+    "jinci": {
+      "stops": {
+        "0": {
+          "src": "audio-assets/jinci/stop-01.mp3",
+          "durationSeconds": 480,
+          "label": "太原 · 晋祠水源木构线 · 第 1 站 · 晋祠胜境",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "1": {
+          "src": "audio-assets/jinci/stop-02.mp3",
+          "durationSeconds": 480,
+          "label": "太原 · 晋祠水源木构线 · 第 2 站 · 水镜台",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "2": {
+          "src": "audio-assets/jinci/stop-03.mp3",
+          "durationSeconds": 480,
+          "label": "太原 · 晋祠水源木构线 · 第 3 站 · 献殿",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "3": {
+          "src": "audio-assets/jinci/stop-04.mp3",
+          "durationSeconds": 420,
+          "label": "太原 · 晋祠水源木构线 · 第 4 站 · 鱼沼飞梁",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "4": {
+          "src": "audio-assets/jinci/stop-05.mp3",
+          "durationSeconds": 420,
+          "label": "太原 · 晋祠水源木构线 · 第 5 站 · 圣母殿",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "5": {
+          "src": "audio-assets/jinci/stop-06.mp3",
+          "durationSeconds": 420,
+          "label": "太原 · 晋祠水源木构线 · 第 6 站 · 难老泉",
+          "voice": "Microsoft Huihui Desktop"
+        }
+      },
+      "intro": {
+        "src": "audio-assets/jinci/intro.mp3",
+        "durationSeconds": 180,
+        "label": "太原 · 晋祠水源木构线 · 路线开场",
+        "voice": "Microsoft Huihui Desktop"
+      }
+    },
+    "wutai": {
+      "stops": {
+        "0": {
+          "src": "audio-assets/wutai/stop-01.mp3",
+          "durationSeconds": 540,
+          "label": "忻州 · 台怀镇寺院慢行线 · 第 1 站 · 显通寺外",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "1": {
+          "src": "audio-assets/wutai/stop-02.mp3",
+          "durationSeconds": 540,
+          "label": "忻州 · 台怀镇寺院慢行线 · 第 2 站 · 显通寺中轴",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "2": {
+          "src": "audio-assets/wutai/stop-03.mp3",
+          "durationSeconds": 540,
+          "label": "忻州 · 台怀镇寺院慢行线 · 第 3 站 · 寺间小路",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "3": {
+          "src": "audio-assets/wutai/stop-04.mp3",
+          "durationSeconds": 540,
+          "label": "忻州 · 台怀镇寺院慢行线 · 第 4 站 · 塔院寺白塔",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "4": {
+          "src": "audio-assets/wutai/stop-05.mp3",
+          "durationSeconds": 540,
+          "label": "忻州 · 台怀镇寺院慢行线 · 第 5 站 · 塔院寺出口",
+          "voice": "Microsoft Huihui Desktop"
+        }
+      },
+      "intro": {
+        "src": "audio-assets/wutai/intro.mp3",
+        "durationSeconds": 180,
+        "label": "忻州 · 台怀镇寺院慢行线 · 路线开场",
+        "voice": "Microsoft Huihui Desktop"
+      }
+    },
+    "yingxian-pagoda": {
+      "stops": {
+        "0": {
+          "src": "audio-assets/yingxian-pagoda/stop-01.mp3",
+          "durationSeconds": 540,
+          "label": "朔州 · 应县木塔佛宫寺线 · 第 1 站 · 佛宫寺牌坊",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "1": {
+          "src": "audio-assets/yingxian-pagoda/stop-02.mp3",
+          "durationSeconds": 540,
+          "label": "朔州 · 应县木塔佛宫寺线 · 第 2 站 · 山门与天王殿",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "2": {
+          "src": "audio-assets/yingxian-pagoda/stop-03.mp3",
+          "durationSeconds": 540,
+          "label": "朔州 · 应县木塔佛宫寺线 · 第 3 站 · 木塔台基",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "3": {
+          "src": "audio-assets/yingxian-pagoda/stop-04.mp3",
+          "durationSeconds": 540,
+          "label": "朔州 · 应县木塔佛宫寺线 · 第 4 站 · 一层佛像与藻井",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "4": {
+          "src": "audio-assets/yingxian-pagoda/stop-05.mp3",
+          "durationSeconds": 540,
+          "label": "朔州 · 应县木塔佛宫寺线 · 第 5 站 · 塔后回望点",
+          "voice": "Microsoft Huihui Desktop"
+        }
+      },
+      "intro": {
+        "src": "audio-assets/yingxian-pagoda/intro.mp3",
+        "durationSeconds": 180,
+        "label": "朔州 · 应县木塔佛宫寺线 · 路线开场",
+        "voice": "Microsoft Huihui Desktop"
+      }
+    },
+    "yongle-murals": {
+      "stops": {
+        "0": {
+          "src": "audio-assets/yongle-murals/stop-01.mp3",
+          "durationSeconds": 600,
+          "label": "运城 · 永乐宫壁画中轴线 · 第 1 站 · 永乐宫山门",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "1": {
+          "src": "audio-assets/yongle-murals/stop-02.mp3",
+          "durationSeconds": 600,
+          "label": "运城 · 永乐宫壁画中轴线 · 第 2 站 · 无极门与龙虎殿",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "2": {
+          "src": "audio-assets/yongle-murals/stop-03.mp3",
+          "durationSeconds": 600,
+          "label": "运城 · 永乐宫壁画中轴线 · 第 3 站 · 三清殿外",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "3": {
+          "src": "audio-assets/yongle-murals/stop-04.mp3",
+          "durationSeconds": 600,
+          "label": "运城 · 永乐宫壁画中轴线 · 第 4 站 · 三清殿壁画",
+          "voice": "Microsoft Huihui Desktop"
+        },
+        "4": {
+          "src": "audio-assets/yongle-murals/stop-05.mp3",
+          "durationSeconds": 600,
+          "label": "运城 · 永乐宫壁画中轴线 · 第 5 站 · 纯阳殿与重阳殿",
+          "voice": "Microsoft Huihui Desktop"
+        }
+      },
+      "intro": {
+        "src": "audio-assets/yongle-murals/intro.mp3",
+        "durationSeconds": 180,
+        "label": "运城 · 永乐宫壁画中轴线 · 路线开场",
+        "voice": "Microsoft Huihui Desktop"
+      }
+    }
+  },
+  "updatedAt": "2026-08-25T02:30:13.258Z"
+}

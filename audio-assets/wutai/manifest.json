@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T02:26:49.848Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "xinzhou",
+  "cityName": "忻州",
+  "routeId": "wutai",
+  "routeTitle": "台怀镇寺院慢行线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "忻州 · 台怀镇寺院慢行线 · 路线开场",
+      "file": "wutai/intro.mp3",
+      "src": "audio-assets/wutai/intro.mp3",
+      "transcript": "wutai/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "忻州 · 台怀镇寺院慢行线 · 第 1 站 · 显通寺外",
+      "file": "wutai/stop-01.mp3",
+      "src": "audio-assets/wutai/stop-01.mp3",
+      "transcript": "wutai/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "忻州 · 台怀镇寺院慢行线 · 第 2 站 · 显通寺中轴",
+      "file": "wutai/stop-02.mp3",
+      "src": "audio-assets/wutai/stop-02.mp3",
+      "transcript": "wutai/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "忻州 · 台怀镇寺院慢行线 · 第 3 站 · 寺间小路",
+      "file": "wutai/stop-03.mp3",
+      "src": "audio-assets/wutai/stop-03.mp3",
+      "transcript": "wutai/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "忻州 · 台怀镇寺院慢行线 · 第 4 站 · 塔院寺白塔",
+      "file": "wutai/stop-04.mp3",
+      "src": "audio-assets/wutai/stop-04.mp3",
+      "transcript": "wutai/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "忻州 · 台怀镇寺院慢行线 · 第 5 站 · 塔院寺出口",
+      "file": "wutai/stop-05.mp3",
+      "src": "audio-assets/wutai/stop-05.mp3",
+      "transcript": "wutai/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

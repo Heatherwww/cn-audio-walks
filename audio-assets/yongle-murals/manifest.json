@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T02:30:13.234Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "yuncheng",
+  "cityName": "运城",
+  "routeId": "yongle-murals",
+  "routeTitle": "永乐宫壁画中轴线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "运城 · 永乐宫壁画中轴线 · 路线开场",
+      "file": "yongle-murals/intro.mp3",
+      "src": "audio-assets/yongle-murals/intro.mp3",
+      "transcript": "yongle-murals/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "运城 · 永乐宫壁画中轴线 · 第 1 站 · 永乐宫山门",
+      "file": "yongle-murals/stop-01.mp3",
+      "src": "audio-assets/yongle-murals/stop-01.mp3",
+      "transcript": "yongle-murals/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "运城 · 永乐宫壁画中轴线 · 第 2 站 · 无极门与龙虎殿",
+      "file": "yongle-murals/stop-02.mp3",
+      "src": "audio-assets/yongle-murals/stop-02.mp3",
+      "transcript": "yongle-murals/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "运城 · 永乐宫壁画中轴线 · 第 3 站 · 三清殿外",
+      "file": "yongle-murals/stop-03.mp3",
+      "src": "audio-assets/yongle-murals/stop-03.mp3",
+      "transcript": "yongle-murals/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "运城 · 永乐宫壁画中轴线 · 第 4 站 · 三清殿壁画",
+      "file": "yongle-murals/stop-04.mp3",
+      "src": "audio-assets/yongle-murals/stop-04.mp3",
+      "transcript": "yongle-murals/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "运城 · 永乐宫壁画中轴线 · 第 5 站 · 纯阳殿与重阳殿",
+      "file": "yongle-murals/stop-05.mp3",
+      "src": "audio-assets/yongle-murals/stop-05.mp3",
+      "transcript": "yongle-murals/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

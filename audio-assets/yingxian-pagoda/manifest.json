@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T02:28:30.302Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "shuozhou",
+  "cityName": "朔州",
+  "routeId": "yingxian-pagoda",
+  "routeTitle": "应县木塔佛宫寺线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "朔州 · 应县木塔佛宫寺线 · 路线开场",
+      "file": "yingxian-pagoda/intro.mp3",
+      "src": "audio-assets/yingxian-pagoda/intro.mp3",
+      "transcript": "yingxian-pagoda/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "朔州 · 应县木塔佛宫寺线 · 第 1 站 · 佛宫寺牌坊",
+      "file": "yingxian-pagoda/stop-01.mp3",
+      "src": "audio-assets/yingxian-pagoda/stop-01.mp3",
+      "transcript": "yingxian-pagoda/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "朔州 · 应县木塔佛宫寺线 · 第 2 站 · 山门与天王殿",
+      "file": "yingxian-pagoda/stop-02.mp3",
+      "src": "audio-assets/yingxian-pagoda/stop-02.mp3",
+      "transcript": "yingxian-pagoda/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "朔州 · 应县木塔佛宫寺线 · 第 3 站 · 木塔台基",
+      "file": "yingxian-pagoda/stop-03.mp3",
+      "src": "audio-assets/yingxian-pagoda/stop-03.mp3",
+      "transcript": "yingxian-pagoda/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "朔州 · 应县木塔佛宫寺线 · 第 4 站 · 一层佛像与藻井",
+      "file": "yingxian-pagoda/stop-04.mp3",
+      "src": "audio-assets/yingxian-pagoda/stop-04.mp3",
+      "transcript": "yingxian-pagoda/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "朔州 · 应县木塔佛宫寺线 · 第 5 站 · 塔后回望点",
+      "file": "yingxian-pagoda/stop-05.mp3",
+      "src": "audio-assets/yingxian-pagoda/stop-05.mp3",
+      "transcript": "yingxian-pagoda/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T02:23:36.256Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "jinzhong",
+  "cityName": "晋中",
+  "routeId": "pingyao",
+  "routeTitle": "平遥古城票号线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "晋中 · 平遥古城票号线 · 路线开场",
+      "file": "pingyao/intro.mp3",
+      "src": "audio-assets/pingyao/intro.mp3",
+      "transcript": "pingyao/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "晋中 · 平遥古城票号线 · 第 1 站 · 下西门",
+      "file": "pingyao/stop-01.mp3",
+      "src": "audio-assets/pingyao/stop-01.mp3",
+      "transcript": "pingyao/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "晋中 · 平遥古城票号线 · 第 2 站 · 古城墙",
+      "file": "pingyao/stop-02.mp3",
+      "src": "audio-assets/pingyao/stop-02.mp3",
+      "transcript": "pingyao/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "晋中 · 平遥古城票号线 · 第 3 站 · 日升昌票号",
+      "file": "pingyao/stop-03.mp3",
+      "src": "audio-assets/pingyao/stop-03.mp3",
+      "transcript": "pingyao/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "晋中 · 平遥古城票号线 · 第 4 站 · 明清街",
+      "file": "pingyao/stop-04.mp3",
+      "src": "audio-assets/pingyao/stop-04.mp3",
+      "transcript": "pingyao/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "晋中 · 平遥古城票号线 · 第 5 站 · 平遥县衙",
+      "file": "pingyao/stop-05.mp3",
+      "src": "audio-assets/pingyao/stop-05.mp3",
+      "transcript": "pingyao/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 5,
+      "label": "晋中 · 平遥古城票号线 · 第 6 站 · 城隍庙街",
+      "file": "pingyao/stop-06.mp3",
+      "src": "audio-assets/pingyao/stop-06.mp3",
+      "transcript": "pingyao/stop-06.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}
