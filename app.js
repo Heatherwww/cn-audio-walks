@@ -2051,10 +2051,12 @@ let audioAssetManifest = {
 };
 
 const state = {
+  view: "cities",
   cityId: data.cities[0].id,
   routeId: data.cities[0].routes[0].id,
   stopIndex: 0,
-  tab: "script",
+  introSelected: false,
+  tab: "info",
   isPlaying: false,
   progress: 0,
   tick: null,
@@ -2075,7 +2077,7 @@ const state = {
 };
 
 const app = document.querySelector("#app");
-const validTabs = new Set(["script", "chapters", "map"]);
+const validTabs = new Set(["info", "script"]);
 
 function getCity() {
   return data.cities.find((city) => city.id === state.cityId) || data.cities[0];
@@ -2090,14 +2092,28 @@ function getStop() {
   return getRoute().stops[state.stopIndex] || getRoute().stops[0];
 }
 
+function showCities() {
+  stopAudio();
+  state.view = "cities";
+  render();
+}
+
+function showCityRoutes() {
+  stopAudio();
+  state.view = "routes";
+  render();
+}
+
 function setCity(cityId) {
   const city = data.cities.find((item) => item.id === cityId);
   if (!city) return;
   stopAudio();
+  state.view = "routes";
   state.cityId = city.id;
   state.routeId = city.routes[0].id;
   state.stopIndex = 0;
-  state.tab = "script";
+  state.introSelected = false;
+  state.tab = "info";
   loadReviewChecks();
   render();
 }
@@ -2106,9 +2122,11 @@ function setRoute(routeId) {
   const route = getCity().routes.find((item) => item.id === routeId);
   if (!route) return;
   stopAudio();
+  state.view = "route";
   state.routeId = route.id;
   state.stopIndex = 0;
-  state.tab = "script";
+  state.introSelected = false;
+  state.tab = "info";
   loadReviewChecks();
   render();
 }
@@ -2117,8 +2135,16 @@ function setStop(index) {
   const route = getRoute();
   if (index < 0 || index >= route.stops.length) return;
   stopAudio();
+  state.view = "route";
   state.stopIndex = index;
-  state.tab = "script";
+  state.introSelected = false;
+  render();
+}
+
+function selectIntro() {
+  stopAudio();
+  state.view = "route";
+  state.introSelected = true;
   render();
 }
 
@@ -2134,15 +2160,18 @@ function applyInitialUrlState() {
   state.reviewMode = params.get("review") === "1";
   const city = data.cities.find((item) => item.id === params.get("city"));
   if (city) {
+    state.view = "routes";
     state.cityId = city.id;
     state.routeId = city.routes[0].id;
   }
   const route = getCity().routes.find((item) => item.id === params.get("route"));
-  if (route) state.routeId = route.id;
+  if (route) {
+    state.view = "route";
+    state.routeId = route.id;
+  }
   const stop = Number(params.get("stop"));
   if (Number.isInteger(stop) && stop >= 0 && stop < getRoute().stops.length) state.stopIndex = stop;
-  const tab = params.get("tab");
-  if (validTabs.has(tab)) state.tab = tab;
+  if (params.get("tab") === "script") state.tab = "script";
   loadReviewChecks();
 }
 
@@ -2291,7 +2320,7 @@ const reviewCheckpoints = [
     cityId: "guangzhou",
     routeId: "guangzhou-yuexiu",
     stopIndex: 4,
-    tab: "map",
+    tab: "script",
     focus: "终点侧看点，检查城市、景点、点位和路线完成状态"
   }
 ];
@@ -2911,21 +2940,10 @@ function pauseSegmentsForStop(route, stop, index) {
   return buildStopAudioSegments(route, stop, index).filter((segment) => segment.isPause);
 }
 
-function renderStopRhythm(route, stop, index) {
-  const segments = buildStopAudioSegments(route, stop, index);
-  return `
-    <div class="chapter-rhythm" aria-label="${stop.title}语音节奏">
-      ${segments
-        .map(
-          (segment) => `
-            <span class="rhythm-chip${segment.isPause ? " pause" : ""}">
-              <b>${formatMinuteMark(segment.minute)}</b>${segment.label}
-            </span>
-          `
-        )
-        .join("")}
-    </div>
-  `;
+function renderLongTranscript(route, stop, index) {
+  return buildStopAudioSegments(route, stop, index)
+    .map((segment) => `<p class="${segment.isPause ? "transcript-pause" : ""}"><strong>${formatMinuteMark(segment.minute)} ${segment.label}。</strong>${segment.text}</p>`)
+    .join("");
 }
 
 function renderPlaybackStatus(route, stop) {
@@ -2990,10 +3008,12 @@ function startRouteTour() {
   const shouldRestartRoute = state.routeTourCompleted;
   stopAudio(false);
   if (shouldRestartRoute) state.stopIndex = 0;
+  state.view = "route";
   state.routeTourMode = true;
   state.routeTourCompleted = false;
-  state.tab = "script";
+  state.tab = "info";
   const shouldPlayIntro = shouldRestartRoute || Boolean(nextStop(getRoute()));
+  state.introSelected = shouldPlayIntro;
   if (shouldPlayIntro) {
     speakRouteIntro();
   } else {
@@ -3020,7 +3040,8 @@ function finishStopPlayback(routeId, stopIndex) {
   if (stopIndex < route.stops.length - 1) {
     stopAudio(false, true);
     state.stopIndex = stopIndex + 1;
-    state.tab = "script";
+    state.introSelected = false;
+    state.tab = "info";
     speakCurrentStop();
     return;
   }
@@ -3039,7 +3060,8 @@ function finishIntroPlayback(routeId, startIndex) {
 
   stopAudio(false, true);
   state.stopIndex = startIndex;
-  state.tab = "script";
+  state.introSelected = false;
+  state.tab = "info";
   speakCurrentStop();
 }
 
@@ -3049,7 +3071,8 @@ function goStop(delta) {
   if (state.routeTourMode) {
     stopAudio(false, true);
     state.stopIndex = nextIndex;
-    state.tab = "script";
+    state.introSelected = false;
+    state.tab = "info";
     speakCurrentStop();
     return;
   }
@@ -3218,10 +3241,14 @@ function renderMobileMapSketch(route) {
     <div class="mobile-map-sketch" aria-label="${route.title}手机场地图">
       <div class="mobile-map-terrain">${mobileMapContext(route)}</div>
       <div class="mobile-map-track">
+        <button class="mobile-map-stop intro-stop${state.introSelected ? " active" : ""}" data-intro onclick="selectIntro()">
+          <span>起</span>
+          <b>路线开场</b>
+        </button>
         ${route.stops
           .map(
             (stop, index) => `
-              <button class="mobile-map-stop${index === state.stopIndex ? " active" : ""}" data-stop="${index}" onclick="setStop(${index})">
+              <button class="mobile-map-stop${index === state.stopIndex && !state.introSelected ? " active" : ""}" data-stop="${index}" onclick="setStop(${index})">
                 <span>${index + 1}</span>
                 <b>${stop.title}</b>
               </button>
@@ -3627,9 +3654,16 @@ function renderMap(route) {
   const currentStop = route.stops[state.stopIndex];
   const hereX = Math.min(820, currentStop.xy[0] + 34);
   const hereY = Math.max(76, currentStop.xy[1] - 42);
+  const first = route.stops[0].xy;
+  const second = route.stops[1] ? route.stops[1].xy : [first[0], first[1] + 1];
+  const dirX = first[0] - second[0];
+  const dirY = first[1] - second[1];
+  const dirLen = Math.hypot(dirX, dirY) || 1;
+  const introX = Math.max(56, Math.min(904, first[0] + (dirX / dirLen) * 58));
+  const introY = Math.max(82, Math.min(616, first[1] + (dirY / dirLen) * 58));
   const labels = route.stops
     .map((stop, index) => {
-      const active = index === state.stopIndex ? " active" : "";
+      const active = index === state.stopIndex && !state.introSelected ? " active" : "";
       const yLabel = stop.xy[1] > 610 ? stop.xy[1] - 38 : stop.xy[1] + 44;
       return `
         <g class="poi-button${active}" role="button" tabindex="0" data-stop="${index}" onclick="setStop(${index})" aria-label="${stop.title}">
@@ -3654,6 +3688,11 @@ function renderMap(route) {
         <path class="route-line" d="${path}"></path>
         <path class="route-line-dash" d="${path}"></path>
         ${labels}
+        <g class="poi-button intro-point${state.introSelected ? " active" : ""}" role="button" tabindex="0" data-intro onclick="selectIntro()" aria-label="路线开场">
+          <circle cx="${introX}" cy="${introY}" r="19"></circle>
+          <text x="${introX}" y="${introY + 1}">起</text>
+        </g>
+        <text class="poi-label" x="${introX + 26}" y="${introY + 5}">路线开场</text>
         <g class="map-here">
           <path d="M${hereX} ${hereY} h92 a18 18 0 0 1 18 18 v0 a18 18 0 0 1 -18 18 h-92 a18 18 0 0 1 -18 -18 v0 a18 18 0 0 1 18 -18Z"></path>
           <text x="${hereX + 46}" y="${hereY + 19}">你在这里</text>
@@ -3664,75 +3703,64 @@ function renderMap(route) {
   `;
 }
 
-function renderSidebar(city) {
+function renderBrand() {
   return `
-    <aside class="sidebar">
-      <div class="brand">
-        <div class="brand-mark">${icons.compass}</div>
-        <div>
-          <h1>中国耳游</h1>
-          <p>China Audio Walks</p>
-        </div>
+    <div class="brand">
+      <div class="brand-mark">${icons.compass}</div>
+      <div>
+        <h1>中国耳游</h1>
+        <p>China Audio Walks</p>
       </div>
+    </div>
+  `;
+}
 
-      <div class="section-label">目的地</div>
-      <div class="city-list">
+function renderHomeView() {
+  return `
+    <main class="home-view">
+      <header class="home-hero">
+        ${renderBrand()}
+        <p class="home-tagline">先选城市，再选一条路线，然后跟着地图一站一站听。像 Rick Steves Audio Europe 一样的现场音频导览。</p>
+      </header>
+      <div class="section-label">选择目的地 · ${data.cities.length} 个城市</div>
+      <div class="city-grid">
         ${data.cities
-          .map(
-            (item) => `
-              <button class="city-button${item.id === city.id ? " active" : ""}" data-city="${item.id}" onclick="setCity('${item.id}')">
-                <span class="city-name">${item.name}</span>
-                <span class="city-meta">${item.subtitle}</span>
+          .map((city) => {
+            const stopCount = city.routes.reduce((sum, route) => sum + route.stops.length, 0);
+            return `
+              <button class="city-tile" data-city="${city.id}" onclick="setCity('${city.id}')">
+                <span class="city-tile-name">${city.name}</span>
+                <span class="city-tile-meta">${city.subtitle}</span>
+                <span class="city-tile-stats">${city.routes.length} 条路线 · ${stopCount} 个点位</span>
               </button>
-            `
-          )
+            `;
+          })
           .join("")}
       </div>
-
-      <div class="sidebar-footer">
-        先选城市，再选景点，进入地图点位和现场讲解。
-      </div>
-    </aside>
+    </main>
   `;
 }
 
-function renderTopbar(city, route) {
+function renderCityView(city) {
   return `
-    <header class="topbar">
-      <div>
+    <main class="city-view">
+      <nav class="crumb" aria-label="返回上一级">
+        <button class="crumb-back" data-view="cities" onclick="showCities()">← 全部城市</button>
+      </nav>
+      <header class="city-hero">
         <p class="eyebrow">目的地 · ${city.routes.length} 个景点/片区</p>
         <h2>${city.name}</h2>
-        <p class="topbar-summary">${city.overview}</p>
-      </div>
-      <div class="status-strip" aria-label="当前景点信息">
-        <span class="status-pill">当前：${route.title}</span>
-        <span class="status-pill">建议游览 ${visitDurationLabel(route)}</span>
-        <span class="status-pill">语音覆盖 ${audioDurationLabel(route)}</span>
-        <span class="status-pill">${route.stops.length} 个点位</span>
-        <span class="status-pill">${route.bestTime}</span>
-      </div>
-    </header>
-  `;
-}
-
-function renderSightPicker(city, route) {
-  return `
-    <section class="sight-picker" aria-label="${city.name}景点选择">
-      <div class="sight-picker-head">
-        <div>
-          <p class="eyebrow">选择景点</p>
-          <h3>${city.name}可听的景点/片区</h3>
-        </div>
-        <span>当前：${route.title} · ${audioDurationLabel(route)} 语音覆盖</span>
-      </div>
-      <div class="sight-list">
-        ${routePickerItems(city, route)
+        <p class="city-summary">${city.overview}</p>
+      </header>
+      <div class="section-label">${city.name}可听的景点/片区 · 选择一条路线进入地图</div>
+      <div class="route-card-list">
+        ${routePickerItems(city, getRoute())
           .map(
             (item) => `
-              <button class="sight-card${item.id === route.id ? " active" : ""}" data-route="${item.id}" onclick="setRoute('${item.id}')">
+              <button class="sight-card${item.id === state.routeId ? " active" : ""}" data-route="${item.id}" onclick="setRoute('${item.id}')">
                 <span class="sight-card-top">
                   <span class="sight-title">${item.title}</span>
-                  <span class="sight-state">${item.id === route.id ? "正在讲解" : "点按开始"}</span>
+                  <span class="sight-state">${audioDurationLabel(item)} 语音覆盖</span>
                 </span>
                 <span class="sight-theme">${item.theme}</span>
                 <span class="sight-path">${item.start} → ${item.end}</span>
@@ -3746,7 +3774,7 @@ function renderSightPicker(city, route) {
           )
           .join("")}
       </div>
-    </section>
+    </main>
   `;
 }
 
@@ -3842,68 +3870,59 @@ function renderReviewAudit(route) {
   `;
 }
 
-function renderMapStage(route) {
-  const downloaded = state.downloaded.has(route.id);
-  const stop = getStop();
-  const next = nextStop(route);
-  const pauseCount = pauseSegmentsForStop(route, stop, state.stopIndex).length;
-  const anchor = contentAnchorForStop(route, state.stopIndex);
-  const sourceNote = sourceNoteForRoute(route);
+function renderRouteView(city, route, stop) {
   return `
-    <section class="map-stage">
-      <div class="map-header">
+    <main class="route-view${state.reviewMode ? " review-main" : ""}">
+      <nav class="crumb" aria-label="返回上一级">
+        <button class="crumb-back" data-view="cities" onclick="showCities()">全部城市</button>
+        <span class="crumb-sep">/</span>
+        <button class="crumb-back" data-view="routes" onclick="showCityRoutes()">${city.name}</button>
+        <span class="crumb-sep">/</span>
+        <strong class="crumb-current">${route.title}</strong>
+      </nav>
+      ${state.reviewMode ? renderReviewStrip(city, route) : ""}
+      <header class="route-hero">
         <div>
-          <h3>${route.title} · 景点地图</h3>
-          <p>建议游览 ${visitDurationLabel(route)}，语音覆盖 ${audioDurationLabel(route)}。点击地图编号选择讲解点。${route.mapNote}</p>
+          <p class="eyebrow">${route.theme}</p>
+          <h2>${route.title}</h2>
+          <p class="route-hero-path">${route.start} → ${route.end} · ${route.distance}</p>
         </div>
-        <button class="download-toggle" data-download onclick="toggleDownload()">
-          ${icons.download}
-          ${downloaded ? "已离线 · 导出" : "导出脚本"}
-        </button>
-      </div>
-      ${renderRouteGuide(route, stop)}
-      ${renderRouteIntro(route)}
+        <div class="status-strip" aria-label="当前路线信息">
+          <span class="status-pill">建议游览 ${visitDurationLabel(route)}</span>
+          <span class="status-pill">语音覆盖 ${audioDurationLabel(route)}</span>
+          <span class="status-pill">${route.stops.length} 个点位</span>
+          <span class="status-pill">${route.bestTime}</span>
+          <button class="download-toggle" data-download onclick="toggleDownload()">
+            ${icons.download}
+            ${state.downloaded.has(route.id) ? "已离线 · 导出" : "导出脚本"}
+          </button>
+        </div>
+      </header>
+      <section class="map-stage" aria-label="${route.title}景点地图">
+        <p class="map-hint">点击地图上的编号点播放该站讲解，点击「起」点听路线开场。${route.mapNote}</p>
+        <div class="map-wrap">
+          ${renderMobileMapSketch(route)}
+          ${renderMap(route)}
+        </div>
+        ${renderRouteGuide(route, stop)}
+      </section>
       ${state.routeTourCompleted ? renderRouteCompletion(route) : ""}
-      <div class="map-callout" aria-live="polite">
-        <div class="callout-kicker">第 ${state.stopIndex + 1} 站 · 本点语音 ${stopAudioDurationLabel(route, state.stopIndex)}</div>
-        <h4>${stop.title}</h4>
-        <div class="callout-orient">
-          <span>现在站位</span>
-          <strong>${stop.location}</strong>
-          <span>朝向提示</span>
-          <strong>${stop.cue}</strong>
-        </div>
-        <dl class="callout-grid">
-          <div><dt>本点语音</dt><dd>${stopAudioDurationLabel(route, state.stopIndex)}</dd></div>
-          <div><dt>留白</dt><dd>${pauseCount} 段驻足/拍照空档</dd></div>
-          <div><dt>听完走法</dt><dd>${stop.next}</dd></div>
-          <div><dt>下一点</dt><dd>${next ? next.title : "路线终点"}</dd></div>
-        </dl>
-        ${anchor ? `<div class="callout-anchor"><span>现场锚点</span><p>${anchor}</p>${sourceNote ? `<small>${sourceNote}</small>` : ""}</div>` : ""}
-        <p class="callout-script">${stop.script}</p>
-        <div class="callout-actions">
-          <button class="callout-play" data-play onclick="toggleAudio()">${playButtonLabel()}</button>
-          <button class="callout-next" data-next onclick="goStop(1)" ${next ? "" : "disabled"}>${next ? "下一站" : "路线完成"}</button>
-        </div>
-      </div>
-      <div class="map-wrap">
-        ${renderMobileMapSketch(route)}
-        ${renderMap(route)}
-      </div>
-    </section>
+      ${state.introSelected ? renderIntroSheet(route) : renderStopSheet(route, stop)}
+    </main>
   `;
 }
 
-function renderRouteIntro(route) {
+function renderIntroSheet(route) {
   const segments = buildRouteIntroSegments(route, state.stopIndex);
   const isActiveIntro = state.routeTourMode && state.playbackMode === "intro";
+  const introAsset = audioPlaybackAsset(route, 0, "intro");
   return `
-    <div class="route-intro${isActiveIntro ? " active" : ""}" aria-label="${route.title}路线开场">
-      <div class="route-intro-copy">
-        <span>${isActiveIntro ? "正在播放路线开场" : "开始前先听"}</span>
-        <strong>${route.title} · 路线开场 ${routeIntroDurationLabel(route, state.stopIndex)}</strong>
-        <p>${segments[0].text} ${segments[1].text}</p>
+    <section class="stop-sheet intro-sheet${isActiveIntro ? " active" : ""}" aria-label="${route.title}路线开场">
+      <div class="sheet-head">
+        <div class="stop-index">${isActiveIntro ? "路线开场中" : "开始前先听"} · ${routeIntroDurationLabel(route, state.stopIndex)}</div>
+        <h3>${route.title} · 路线开场</h3>
       </div>
+      <p class="sheet-copy">${segments[0].text} ${segments[1].text}</p>
       <div class="route-intro-steps">
         ${segments
           .map(
@@ -3916,7 +3935,68 @@ function renderRouteIntro(route) {
           )
           .join("")}
       </div>
-    </div>
+      <div class="player">
+        <div class="player-controls">
+          <button class="primary-button" data-play-intro onclick="playRouteIntro()">${isActiveIntro ? icons.pause + "停止开场" : icons.play + "播放开场"}</button>
+        </div>
+        <div class="audio-source-row">
+          <span class="audio-source-pill${introAsset ? " asset" : ""}">${audioPlaybackSourceLabel(route, 0, "intro")}</span>
+          <span>开场结束后从第 ${state.stopIndex + 1} 站正式开始。</span>
+        </div>
+        ${renderPlaybackStatus(route, getStop())}
+      </div>
+    </section>
+  `;
+}
+
+function renderStopSheet(route, stop) {
+  const next = nextStop(route);
+  const source = currentAudioSourceInfo(route);
+  const pauseCount = pauseSegmentsForStop(route, stop, state.stopIndex).length;
+  const anchor = contentAnchorForStop(route, state.stopIndex);
+  const sourceNote = sourceNoteForRoute(route);
+  return `
+    <section class="stop-sheet" aria-live="polite">
+      <div class="sheet-head">
+        <div class="stop-index">第 ${state.stopIndex + 1} 站 / ${route.stops.length} · 本点语音 ${stopAudioDurationLabel(route, state.stopIndex)}</div>
+        <h3>${stop.title}</h3>
+      </div>
+      <dl class="sheet-facts">
+        <div><dt>现在站位</dt><dd>${stop.location}</dd></div>
+        <div><dt>朝向提示</dt><dd>${stop.cue}</dd></div>
+        <div><dt>留白</dt><dd>${pauseCount} 段驻足/拍照空档</dd></div>
+        <div><dt>下一点</dt><dd>${next ? next.title : "路线终点"}</dd></div>
+      </dl>
+      ${anchor ? `<div class="callout-anchor"><span>现场锚点</span><p>${anchor}</p>${sourceNote ? `<small>${sourceNote}</small>` : ""}</div>` : ""}
+      <div class="player">
+        <div class="player-controls">
+          <button class="icon-button" data-prev onclick="goStop(-1)" aria-label="上一站">${icons.prev}</button>
+          <button class="primary-button" data-play onclick="toggleAudio()">${playButtonLabel()}</button>
+          <button class="icon-button" data-next onclick="goStop(1)" aria-label="下一站">${icons.next}</button>
+        </div>
+        <div class="progress-row">
+          <span class="progress-elapsed">${formatClock(playbackElapsedSeconds())}</span>
+          <div class="progress-track"><div class="progress-fill" style="width: ${state.progress}%"></div></div>
+          <span>${currentPlaybackDurationLabel(route)}</span>
+        </div>
+        <div class="audio-source-row">
+          <span class="audio-source-pill${source.hasAsset ? " asset" : ""}">${source.label}</span>
+          <span>${source.detail}</span>
+        </div>
+        ${renderPlaybackStatus(route, stop)}
+      </div>
+      <div class="sheet-actions">
+        <button class="transcript-toggle" data-tab="${state.tab === "script" ? "info" : "script"}" onclick="setTab('${state.tab === "script" ? "info" : "script"}')">
+          ${state.tab === "script" ? "收起文字稿" : "查看文字稿"}
+        </button>
+        <span class="sheet-next"><strong>听完走法：</strong>${stop.next}</span>
+      </div>
+      ${
+        state.tab === "script"
+          ? `<div class="script-block">${renderLongTranscript(route, stop, state.stopIndex)}<div class="next-step"><strong>下一步：</strong>${stop.next}</div></div>`
+          : ""
+      }
+    </section>
   `;
 }
 
@@ -3977,117 +4057,12 @@ function renderRouteGuide(route, stop) {
   `;
 }
 
-function renderPanel(route, stop) {
-  const source = currentAudioSourceInfo(route);
-  return `
-    <section class="guide-panel">
-      <div class="player">
-        <div class="player-top">
-          <div>
-            <div class="stop-index">第 ${state.stopIndex + 1} 站 / ${route.stops.length}</div>
-            <h3>${stop.title}</h3>
-            <p class="player-location">${stop.location}</p>
-          </div>
-          <button class="icon-button" data-tab-direct="map" onclick="setTab('map')" aria-label="查看地图">${icons.map}</button>
-        </div>
-        <div class="player-controls">
-          <button class="icon-button" data-prev onclick="goStop(-1)" aria-label="上一站">${icons.prev}</button>
-          <button class="primary-button" data-play onclick="toggleAudio()">${playButtonLabel()}</button>
-          <button class="icon-button" data-next onclick="goStop(1)" aria-label="下一站">${icons.next}</button>
-        </div>
-        <div class="progress-row">
-          <span class="progress-elapsed">${formatClock(playbackElapsedSeconds())}</span>
-          <div class="progress-track"><div class="progress-fill" style="width: ${state.progress}%"></div></div>
-          <span>${currentPlaybackDurationLabel(route)}</span>
-        </div>
-        <div class="audio-source-row">
-          <span class="audio-source-pill${source.hasAsset ? " asset" : ""}">${source.label}</span>
-          <span>${source.detail}</span>
-        </div>
-        ${renderPlaybackStatus(route, stop)}
-      </div>
-
-      <div class="tabs">
-        ${[
-          ["script", "文字稿"],
-          ["chapters", "章节"],
-          ["map", "点位"]
-        ]
-          .map(
-            ([id, label]) => `
-              <button class="tab-button${state.tab === id ? " active" : ""}" data-tab="${id}" onclick="setTab('${id}')">${label}</button>
-            `
-          )
-          .join("")}
-      </div>
-      <div class="panel-body">
-        ${renderTab(route, stop)}
-      </div>
-    </section>
-  `;
-}
-
-function renderTab(route, stop) {
-  if (state.tab === "chapters") {
-    return `
-      <div class="chapter-list">
-        ${route.stops
-          .map((item, index) => {
-            const pauseCount = pauseSegmentsForStop(route, item, index).length;
-            return `
-              <button class="chapter-button${index === state.stopIndex ? " active" : ""}" data-stop-list="${index}" onclick="setStop(${index})">
-                <span class="chapter-number">${index + 1}</span>
-                <span class="chapter-copy">
-                  <span class="chapter-title">${item.title}</span>
-                  <span class="chapter-cue">${item.cue}</span>
-                  <span class="chapter-brief">${stopAudioDurationLabel(route, index)} · ${pauseCount} 个驻足/拍照空档 · 下一站：${item.next}</span>
-                  ${renderStopRhythm(route, item, index)}
-                </span>
-                <span class="chapter-time">${stopAudioDurationLabel(route, index)}</span>
-              </button>
-            `;
-          })
-          .join("")}
-      </div>
-    `;
+function playRouteIntro() {
+  if (state.isPlaying && state.playbackMode === "intro") {
+    stopAudio();
+    return;
   }
-
-  if (state.tab === "map") {
-    const sourceNote = sourceNoteForRoute(route);
-    return `
-      <div class="stop-chip-list">
-        ${route.stops
-          .map(
-            (item, index) => `
-              <button class="stop-chip${index === state.stopIndex ? " active" : ""}" data-stop-chip="${index}" onclick="setStop(${index})">
-                ${index + 1}. ${item.title}
-              </button>
-            `
-          )
-          .join("")}
-      </div>
-      <div class="fact-grid">
-        <div class="fact"><b>起点</b><span>${route.start}</span></div>
-        <div class="fact"><b>终点</b><span>${route.end}</span></div>
-        <div class="fact"><b>主题</b><span>${route.theme}</span></div>
-        <div class="fact"><b>当前观察</b><span>${stop.cue}</span></div>
-        ${sourceNote ? `<div class="fact"><b>资料锚点</b><span>${sourceNote}</span></div>` : ""}
-      </div>
-    `;
-  }
-
-  return `
-    <div class="script-block">
-      ${renderLongTranscript(route, stop, state.stopIndex)}
-      <div class="next-step"><strong>下一步：</strong>${stop.next}</div>
-    </div>
-  `;
-}
-
-function renderLongTranscript(route, stop, index) {
-  return buildStopAudioSegments(route, stop, index)
-    .map((segment) => `<p class="${segment.isPause ? "transcript-pause" : ""}"><strong>${formatMinuteMark(segment.minute)} ${segment.label}。</strong>${segment.text}</p>`)
-    .join("");
+  speakRouteIntro();
 }
 
 function render() {
@@ -4095,38 +4070,34 @@ function render() {
   const route = getRoute();
   const stop = getStop();
 
-  app.innerHTML = `
-    <div class="layout">
-      ${renderSidebar(city, route)}
-      <main class="main${state.reviewMode ? " review-main" : ""}">
-        ${renderTopbar(city, route)}
-        ${state.reviewMode ? renderReviewStrip(city, route) : ""}
-        ${renderSightPicker(city, route)}
-        <div class="workspace">
-          ${renderMapStage(route)}
-          ${renderPanel(route, stop)}
-        </div>
-      </main>
-    </div>
-  `;
+  if (state.view === "cities") {
+    app.innerHTML = renderHomeView();
+    return;
+  }
+  if (state.view === "routes") {
+    app.innerHTML = renderCityView(city);
+    return;
+  }
+  app.innerHTML = renderRouteView(city, route, stop);
 }
 
 function handleAction(target) {
   const action = target.closest(
-    "[data-city], [data-route], [data-stop], [data-stop-list], [data-stop-chip], [data-tab], [data-tab-direct], [data-download], [data-library-download], [data-play], [data-prev], [data-next], [data-route-tour], [data-review-check]"
+    "[data-city], [data-route], [data-stop], [data-view], [data-intro], [data-tab], [data-download], [data-library-download], [data-play], [data-play-intro], [data-prev], [data-next], [data-route-tour], [data-review-check]"
   );
   if (!action || !app.contains(action)) return false;
 
   if (action.dataset.city) setCity(action.dataset.city);
   else if (action.dataset.route) setRoute(action.dataset.route);
-  else if (action.dataset.stop || action.dataset.stopList || action.dataset.stopChip) {
-    const value = action.dataset.stop || action.dataset.stopList || action.dataset.stopChip;
-    setStop(Number(value));
-  } else if (action.dataset.tab) setTab(action.dataset.tab);
-  else if (action.dataset.tabDirect) setTab(action.dataset.tabDirect);
+  else if (action.dataset.view === "cities") showCities();
+  else if (action.dataset.view === "routes") showCityRoutes();
+  else if (action.dataset.intro !== undefined) selectIntro();
+  else if (action.dataset.stop) setStop(Number(action.dataset.stop));
+  else if (action.dataset.tab) setTab(action.dataset.tab);
   else if (action.dataset.download !== undefined) toggleDownload();
   else if (action.dataset.libraryDownload !== undefined) toggleLibraryDownload();
   else if (action.dataset.play !== undefined) toggleAudio();
+  else if (action.dataset.playIntro !== undefined) playRouteIntro();
   else if (action.dataset.prev !== undefined) goStop(-1);
   else if (action.dataset.next !== undefined) goStop(1);
   else if (action.dataset.routeTour !== undefined) toggleRouteTour();
