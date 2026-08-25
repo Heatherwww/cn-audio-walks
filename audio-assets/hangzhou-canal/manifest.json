@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:28:16.317Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "hangzhou",
+  "cityName": "杭州",
+  "routeId": "hangzhou-canal",
+  "routeTitle": "拱宸桥运河街区线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "杭州 · 拱宸桥运河街区线 · 路线开场",
+      "file": "hangzhou-canal/intro.mp3",
+      "src": "audio-assets/hangzhou-canal/intro.mp3",
+      "transcript": "hangzhou-canal/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "杭州 · 拱宸桥运河街区线 · 第 1 站 · 拱宸桥桥头",
+      "file": "hangzhou-canal/stop-01.mp3",
+      "src": "audio-assets/hangzhou-canal/stop-01.mp3",
+      "transcript": "hangzhou-canal/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "杭州 · 拱宸桥运河街区线 · 第 2 站 · 桥中央回望",
+      "file": "hangzhou-canal/stop-02.mp3",
+      "src": "audio-assets/hangzhou-canal/stop-02.mp3",
+      "transcript": "hangzhou-canal/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "杭州 · 拱宸桥运河街区线 · 第 3 站 · 桥西历史街区",
+      "file": "hangzhou-canal/stop-03.mp3",
+      "src": "audio-assets/hangzhou-canal/stop-03.mp3",
+      "transcript": "hangzhou-canal/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "杭州 · 拱宸桥运河街区线 · 第 4 站 · 手工艺博物馆群外",
+      "file": "hangzhou-canal/stop-04.mp3",
+      "src": "audio-assets/hangzhou-canal/stop-04.mp3",
+      "transcript": "hangzhou-canal/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "杭州 · 拱宸桥运河街区线 · 第 5 站 · 小河直街",
+      "file": "hangzhou-canal/stop-05.mp3",
+      "src": "audio-assets/hangzhou-canal/stop-05.mp3",
+      "transcript": "hangzhou-canal/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

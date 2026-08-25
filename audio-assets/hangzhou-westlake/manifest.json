@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:26:50.818Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "hangzhou",
+  "cityName": "杭州",
+  "routeId": "hangzhou-westlake",
+  "routeTitle": "西湖北线文人线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "杭州 · 西湖北线文人线 · 路线开场",
+      "file": "hangzhou-westlake/intro.mp3",
+      "src": "audio-assets/hangzhou-westlake/intro.mp3",
+      "transcript": "hangzhou-westlake/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "杭州 · 西湖北线文人线 · 第 1 站 · 断桥",
+      "file": "hangzhou-westlake/stop-01.mp3",
+      "src": "audio-assets/hangzhou-westlake/stop-01.mp3",
+      "transcript": "hangzhou-westlake/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "杭州 · 西湖北线文人线 · 第 2 站 · 白堤湖岸",
+      "file": "hangzhou-westlake/stop-02.mp3",
+      "src": "audio-assets/hangzhou-westlake/stop-02.mp3",
+      "transcript": "hangzhou-westlake/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "杭州 · 西湖北线文人线 · 第 3 站 · 平湖秋月",
+      "file": "hangzhou-westlake/stop-03.mp3",
+      "src": "audio-assets/hangzhou-westlake/stop-03.mp3",
+      "transcript": "hangzhou-westlake/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "杭州 · 西湖北线文人线 · 第 4 站 · 西泠印社",
+      "file": "hangzhou-westlake/stop-04.mp3",
+      "src": "audio-assets/hangzhou-westlake/stop-04.mp3",
+      "transcript": "hangzhou-westlake/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "杭州 · 西湖北线文人线 · 第 5 站 · 苏堤北口",
+      "file": "hangzhou-westlake/stop-05.mp3",
+      "src": "audio-assets/hangzhou-westlake/stop-05.mp3",
+      "transcript": "hangzhou-westlake/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

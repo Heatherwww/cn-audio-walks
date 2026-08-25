@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:25:18.802Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "chengdu",
+  "cityName": "成都",
+  "routeId": "chengdu-wenshu-taikoo",
+  "routeTitle": "文殊院到太古里线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "成都 · 文殊院到太古里线 · 路线开场",
+      "file": "chengdu-wenshu-taikoo/intro.mp3",
+      "src": "audio-assets/chengdu-wenshu-taikoo/intro.mp3",
+      "transcript": "chengdu-wenshu-taikoo/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "成都 · 文殊院到太古里线 · 第 1 站 · 文殊院山门",
+      "file": "chengdu-wenshu-taikoo/stop-01.mp3",
+      "src": "audio-assets/chengdu-wenshu-taikoo/stop-01.mp3",
+      "transcript": "chengdu-wenshu-taikoo/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "成都 · 文殊院到太古里线 · 第 2 站 · 香园茶铺外",
+      "file": "chengdu-wenshu-taikoo/stop-02.mp3",
+      "src": "audio-assets/chengdu-wenshu-taikoo/stop-02.mp3",
+      "transcript": "chengdu-wenshu-taikoo/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "成都 · 文殊院到太古里线 · 第 3 站 · 文殊坊街口",
+      "file": "chengdu-wenshu-taikoo/stop-03.mp3",
+      "src": "audio-assets/chengdu-wenshu-taikoo/stop-03.mp3",
+      "transcript": "chengdu-wenshu-taikoo/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "成都 · 文殊院到太古里线 · 第 4 站 · 春熙路街口",
+      "file": "chengdu-wenshu-taikoo/stop-04.mp3",
+      "src": "audio-assets/chengdu-wenshu-taikoo/stop-04.mp3",
+      "transcript": "chengdu-wenshu-taikoo/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "成都 · 文殊院到太古里线 · 第 5 站 · 大慈寺太古里",
+      "file": "chengdu-wenshu-taikoo/stop-05.mp3",
+      "src": "audio-assets/chengdu-wenshu-taikoo/stop-05.mp3",
+      "transcript": "chengdu-wenshu-taikoo/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

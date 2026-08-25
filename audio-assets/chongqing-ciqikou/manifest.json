@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:40:00.840Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "chongqing",
+  "cityName": "重庆",
+  "routeId": "chongqing-ciqikou",
+  "routeTitle": "磁器口古镇码头线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "重庆 · 磁器口古镇码头线 · 路线开场",
+      "file": "chongqing-ciqikou/intro.mp3",
+      "src": "audio-assets/chongqing-ciqikou/intro.mp3",
+      "transcript": "chongqing-ciqikou/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "重庆 · 磁器口古镇码头线 · 第 1 站 · 磁器口牌坊",
+      "file": "chongqing-ciqikou/stop-01.mp3",
+      "src": "audio-assets/chongqing-ciqikou/stop-01.mp3",
+      "transcript": "chongqing-ciqikou/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "重庆 · 磁器口古镇码头线 · 第 2 站 · 正街坡道",
+      "file": "chongqing-ciqikou/stop-02.mp3",
+      "src": "audio-assets/chongqing-ciqikou/stop-02.mp3",
+      "transcript": "chongqing-ciqikou/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "重庆 · 磁器口古镇码头线 · 第 3 站 · 宝轮寺外",
+      "file": "chongqing-ciqikou/stop-03.mp3",
+      "src": "audio-assets/chongqing-ciqikou/stop-03.mp3",
+      "transcript": "chongqing-ciqikou/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "重庆 · 磁器口古镇码头线 · 第 4 站 · 下行街巷",
+      "file": "chongqing-ciqikou/stop-04.mp3",
+      "src": "audio-assets/chongqing-ciqikou/stop-04.mp3",
+      "transcript": "chongqing-ciqikou/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "重庆 · 磁器口古镇码头线 · 第 5 站 · 嘉陵江码头",
+      "file": "chongqing-ciqikou/stop-05.mp3",
+      "src": "audio-assets/chongqing-ciqikou/stop-05.mp3",
+      "transcript": "chongqing-ciqikou/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

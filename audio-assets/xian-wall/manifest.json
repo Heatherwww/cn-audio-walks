@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:20:55.733Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "xian",
+  "cityName": "西安",
+  "routeId": "xian-wall",
+  "routeTitle": "南门到碑林古城线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "西安 · 南门到碑林古城线 · 路线开场",
+      "file": "xian-wall/intro.mp3",
+      "src": "audio-assets/xian-wall/intro.mp3",
+      "transcript": "xian-wall/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "西安 · 南门到碑林古城线 · 第 1 站 · 永宁门瓮城",
+      "file": "xian-wall/stop-01.mp3",
+      "src": "audio-assets/xian-wall/stop-01.mp3",
+      "transcript": "xian-wall/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "西安 · 南门到碑林古城线 · 第 2 站 · 城墙步道",
+      "file": "xian-wall/stop-02.mp3",
+      "src": "audio-assets/xian-wall/stop-02.mp3",
+      "transcript": "xian-wall/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "西安 · 南门到碑林古城线 · 第 3 站 · 书院门街口",
+      "file": "xian-wall/stop-03.mp3",
+      "src": "audio-assets/xian-wall/stop-03.mp3",
+      "transcript": "xian-wall/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "西安 · 南门到碑林古城线 · 第 4 站 · 关中书院外",
+      "file": "xian-wall/stop-04.mp3",
+      "src": "audio-assets/xian-wall/stop-04.mp3",
+      "transcript": "xian-wall/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "西安 · 南门到碑林古城线 · 第 5 站 · 碑林博物馆入口",
+      "file": "xian-wall/stop-05.mp3",
+      "src": "audio-assets/xian-wall/stop-05.mp3",
+      "transcript": "xian-wall/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

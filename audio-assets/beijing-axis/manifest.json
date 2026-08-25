@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:14:45.453Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "beijing",
+  "cityName": "北京",
+  "routeId": "beijing-axis",
+  "routeTitle": "北京中轴线漫步",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "北京 · 北京中轴线漫步 · 路线开场",
+      "file": "beijing-axis/intro.mp3",
+      "src": "audio-assets/beijing-axis/intro.mp3",
+      "transcript": "beijing-axis/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "北京 · 北京中轴线漫步 · 第 1 站 · 前门箭楼",
+      "file": "beijing-axis/stop-01.mp3",
+      "src": "audio-assets/beijing-axis/stop-01.mp3",
+      "transcript": "beijing-axis/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "北京 · 北京中轴线漫步 · 第 2 站 · 天安门广场南缘",
+      "file": "beijing-axis/stop-02.mp3",
+      "src": "audio-assets/beijing-axis/stop-02.mp3",
+      "transcript": "beijing-axis/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "北京 · 北京中轴线漫步 · 第 3 站 · 天安门城楼外",
+      "file": "beijing-axis/stop-03.mp3",
+      "src": "audio-assets/beijing-axis/stop-03.mp3",
+      "transcript": "beijing-axis/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "北京 · 北京中轴线漫步 · 第 4 站 · 景山南门",
+      "file": "beijing-axis/stop-04.mp3",
+      "src": "audio-assets/beijing-axis/stop-04.mp3",
+      "transcript": "beijing-axis/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "北京 · 北京中轴线漫步 · 第 5 站 · 鼓楼",
+      "file": "beijing-axis/stop-05.mp3",
+      "src": "audio-assets/beijing-axis/stop-05.mp3",
+      "transcript": "beijing-axis/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

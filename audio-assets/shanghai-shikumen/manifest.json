@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:19:18.988Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "shanghai",
+  "cityName": "上海",
+  "routeId": "shanghai-shikumen",
+  "routeTitle": "新天地石库门街区线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "上海 · 新天地石库门街区线 · 路线开场",
+      "file": "shanghai-shikumen/intro.mp3",
+      "src": "audio-assets/shanghai-shikumen/intro.mp3",
+      "transcript": "shanghai-shikumen/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "上海 · 新天地石库门街区线 · 第 1 站 · 新天地石库门立面",
+      "file": "shanghai-shikumen/stop-01.mp3",
+      "src": "audio-assets/shanghai-shikumen/stop-01.mp3",
+      "transcript": "shanghai-shikumen/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "上海 · 新天地石库门街区线 · 第 2 站 · 中共一大会址外",
+      "file": "shanghai-shikumen/stop-02.mp3",
+      "src": "audio-assets/shanghai-shikumen/stop-02.mp3",
+      "transcript": "shanghai-shikumen/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "上海 · 新天地石库门街区线 · 第 3 站 · 太仓路街角",
+      "file": "shanghai-shikumen/stop-03.mp3",
+      "src": "audio-assets/shanghai-shikumen/stop-03.mp3",
+      "transcript": "shanghai-shikumen/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "上海 · 新天地石库门街区线 · 第 4 站 · 复兴公园边",
+      "file": "shanghai-shikumen/stop-04.mp3",
+      "src": "audio-assets/shanghai-shikumen/stop-04.mp3",
+      "transcript": "shanghai-shikumen/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "上海 · 新天地石库门街区线 · 第 5 站 · 思南路洋房街口",
+      "file": "shanghai-shikumen/stop-05.mp3",
+      "src": "audio-assets/shanghai-shikumen/stop-05.mp3",
+      "transcript": "shanghai-shikumen/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:32:43.325Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "nanjing",
+  "cityName": "南京",
+  "routeId": "nanjing-wall",
+  "routeTitle": "台城到总统府城市层线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "南京 · 台城到总统府城市层线 · 路线开场",
+      "file": "nanjing-wall/intro.mp3",
+      "src": "audio-assets/nanjing-wall/intro.mp3",
+      "transcript": "nanjing-wall/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "南京 · 台城到总统府城市层线 · 第 1 站 · 台城城墙",
+      "file": "nanjing-wall/stop-01.mp3",
+      "src": "audio-assets/nanjing-wall/stop-01.mp3",
+      "transcript": "nanjing-wall/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "南京 · 台城到总统府城市层线 · 第 2 站 · 玄武湖边",
+      "file": "nanjing-wall/stop-02.mp3",
+      "src": "audio-assets/nanjing-wall/stop-02.mp3",
+      "transcript": "nanjing-wall/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "南京 · 台城到总统府城市层线 · 第 3 站 · 鸡鸣寺黄墙",
+      "file": "nanjing-wall/stop-03.mp3",
+      "src": "audio-assets/nanjing-wall/stop-03.mp3",
+      "transcript": "nanjing-wall/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "南京 · 台城到总统府城市层线 · 第 4 站 · 长江路街区",
+      "file": "nanjing-wall/stop-04.mp3",
+      "src": "audio-assets/nanjing-wall/stop-04.mp3",
+      "transcript": "nanjing-wall/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "南京 · 台城到总统府城市层线 · 第 5 站 · 总统府外",
+      "file": "nanjing-wall/stop-05.mp3",
+      "src": "audio-assets/nanjing-wall/stop-05.mp3",
+      "transcript": "nanjing-wall/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

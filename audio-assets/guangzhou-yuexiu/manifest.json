@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:42:53.844Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "guangzhou",
+  "cityName": "广州",
+  "routeId": "guangzhou-yuexiu",
+  "routeTitle": "越秀山到纪念堂线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "广州 · 越秀山到纪念堂线 · 路线开场",
+      "file": "guangzhou-yuexiu/intro.mp3",
+      "src": "audio-assets/guangzhou-yuexiu/intro.mp3",
+      "transcript": "guangzhou-yuexiu/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "广州 · 越秀山到纪念堂线 · 第 1 站 · 镇海楼外",
+      "file": "guangzhou-yuexiu/stop-01.mp3",
+      "src": "audio-assets/guangzhou-yuexiu/stop-01.mp3",
+      "transcript": "guangzhou-yuexiu/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "广州 · 越秀山到纪念堂线 · 第 2 站 · 五羊雕像",
+      "file": "guangzhou-yuexiu/stop-02.mp3",
+      "src": "audio-assets/guangzhou-yuexiu/stop-02.mp3",
+      "transcript": "guangzhou-yuexiu/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "广州 · 越秀山到纪念堂线 · 第 3 站 · 越秀山下行路",
+      "file": "guangzhou-yuexiu/stop-03.mp3",
+      "src": "audio-assets/guangzhou-yuexiu/stop-03.mp3",
+      "transcript": "guangzhou-yuexiu/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "广州 · 越秀山到纪念堂线 · 第 4 站 · 中山纪念堂外广场",
+      "file": "guangzhou-yuexiu/stop-04.mp3",
+      "src": "audio-assets/guangzhou-yuexiu/stop-04.mp3",
+      "transcript": "guangzhou-yuexiu/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "广州 · 越秀山到纪念堂线 · 第 5 站 · 纪念堂侧看点",
+      "file": "guangzhou-yuexiu/stop-05.mp3",
+      "src": "audio-assets/guangzhou-yuexiu/stop-05.mp3",
+      "transcript": "guangzhou-yuexiu/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

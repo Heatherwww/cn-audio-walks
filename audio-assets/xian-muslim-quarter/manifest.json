@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:22:23.470Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "xian",
+  "cityName": "西安",
+  "routeId": "xian-muslim-quarter",
+  "routeTitle": "钟鼓楼到回民街线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "西安 · 钟鼓楼到回民街线 · 路线开场",
+      "file": "xian-muslim-quarter/intro.mp3",
+      "src": "audio-assets/xian-muslim-quarter/intro.mp3",
+      "transcript": "xian-muslim-quarter/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "西安 · 钟鼓楼到回民街线 · 第 1 站 · 钟楼环岛外侧",
+      "file": "xian-muslim-quarter/stop-01.mp3",
+      "src": "audio-assets/xian-muslim-quarter/stop-01.mp3",
+      "transcript": "xian-muslim-quarter/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "西安 · 钟鼓楼到回民街线 · 第 2 站 · 鼓楼前广场",
+      "file": "xian-muslim-quarter/stop-02.mp3",
+      "src": "audio-assets/xian-muslim-quarter/stop-02.mp3",
+      "transcript": "xian-muslim-quarter/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "西安 · 钟鼓楼到回民街线 · 第 3 站 · 北院门街口",
+      "file": "xian-muslim-quarter/stop-03.mp3",
+      "src": "audio-assets/xian-muslim-quarter/stop-03.mp3",
+      "transcript": "xian-muslim-quarter/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "西安 · 钟鼓楼到回民街线 · 第 4 站 · 高家大院外",
+      "file": "xian-muslim-quarter/stop-04.mp3",
+      "src": "audio-assets/xian-muslim-quarter/stop-04.mp3",
+      "transcript": "xian-muslim-quarter/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "西安 · 钟鼓楼到回民街线 · 第 5 站 · 化觉巷清真大寺外",
+      "file": "xian-muslim-quarter/stop-05.mp3",
+      "src": "audio-assets/xian-muslim-quarter/stop-05.mp3",
+      "transcript": "xian-muslim-quarter/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

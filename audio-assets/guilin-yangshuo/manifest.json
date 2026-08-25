@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:37:01.705Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "guilin",
+  "cityName": "桂林",
+  "routeId": "guilin-yangshuo",
+  "routeTitle": "阳朔西街山水线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "桂林 · 阳朔西街山水线 · 路线开场",
+      "file": "guilin-yangshuo/intro.mp3",
+      "src": "audio-assets/guilin-yangshuo/intro.mp3",
+      "transcript": "guilin-yangshuo/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "桂林 · 阳朔西街山水线 · 第 1 站 · 阳朔西街口",
+      "file": "guilin-yangshuo/stop-01.mp3",
+      "src": "audio-assets/guilin-yangshuo/stop-01.mp3",
+      "transcript": "guilin-yangshuo/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "桂林 · 阳朔西街山水线 · 第 2 站 · 西街中段",
+      "file": "guilin-yangshuo/stop-02.mp3",
+      "src": "audio-assets/guilin-yangshuo/stop-02.mp3",
+      "transcript": "guilin-yangshuo/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "桂林 · 阳朔西街山水线 · 第 3 站 · 通江小路",
+      "file": "guilin-yangshuo/stop-03.mp3",
+      "src": "audio-assets/guilin-yangshuo/stop-03.mp3",
+      "transcript": "guilin-yangshuo/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "桂林 · 阳朔西街山水线 · 第 4 站 · 漓江岸边",
+      "file": "guilin-yangshuo/stop-04.mp3",
+      "src": "audio-assets/guilin-yangshuo/stop-04.mp3",
+      "transcript": "guilin-yangshuo/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "桂林 · 阳朔西街山水线 · 第 5 站 · 江岸回望点",
+      "file": "guilin-yangshuo/stop-05.mp3",
+      "src": "audio-assets/guilin-yangshuo/stop-05.mp3",
+      "transcript": "guilin-yangshuo/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

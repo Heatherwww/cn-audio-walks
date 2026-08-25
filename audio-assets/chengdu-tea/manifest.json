@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:23:51.261Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "chengdu",
+  "cityName": "成都",
+  "routeId": "chengdu-tea",
+  "routeTitle": "人民公园到锦里慢走线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "成都 · 人民公园到锦里慢走线 · 路线开场",
+      "file": "chengdu-tea/intro.mp3",
+      "src": "audio-assets/chengdu-tea/intro.mp3",
+      "transcript": "chengdu-tea/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "成都 · 人民公园到锦里慢走线 · 第 1 站 · 人民公园入口",
+      "file": "chengdu-tea/stop-01.mp3",
+      "src": "audio-assets/chengdu-tea/stop-01.mp3",
+      "transcript": "chengdu-tea/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "成都 · 人民公园到锦里慢走线 · 第 2 站 · 鹤鸣茶社",
+      "file": "chengdu-tea/stop-02.mp3",
+      "src": "audio-assets/chengdu-tea/stop-02.mp3",
+      "transcript": "chengdu-tea/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "成都 · 人民公园到锦里慢走线 · 第 3 站 · 宽窄巷子口",
+      "file": "chengdu-tea/stop-03.mp3",
+      "src": "audio-assets/chengdu-tea/stop-03.mp3",
+      "transcript": "chengdu-tea/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "成都 · 人民公园到锦里慢走线 · 第 4 站 · 武侯祠外",
+      "file": "chengdu-tea/stop-04.mp3",
+      "src": "audio-assets/chengdu-tea/stop-04.mp3",
+      "transcript": "chengdu-tea/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "成都 · 人民公园到锦里慢走线 · 第 5 站 · 锦里街口",
+      "file": "chengdu-tea/stop-05.mp3",
+      "src": "audio-assets/chengdu-tea/stop-05.mp3",
+      "transcript": "chengdu-tea/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

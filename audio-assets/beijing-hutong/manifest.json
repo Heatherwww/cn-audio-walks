@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:16:13.893Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "beijing",
+  "cityName": "北京",
+  "routeId": "beijing-hutong",
+  "routeTitle": "什刹海胡同生活线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "北京 · 什刹海胡同生活线 · 路线开场",
+      "file": "beijing-hutong/intro.mp3",
+      "src": "audio-assets/beijing-hutong/intro.mp3",
+      "transcript": "beijing-hutong/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "北京 · 什刹海胡同生活线 · 第 1 站 · 银锭桥",
+      "file": "beijing-hutong/stop-01.mp3",
+      "src": "audio-assets/beijing-hutong/stop-01.mp3",
+      "transcript": "beijing-hutong/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "北京 · 什刹海胡同生活线 · 第 2 站 · 什刹海岸边",
+      "file": "beijing-hutong/stop-02.mp3",
+      "src": "audio-assets/beijing-hutong/stop-02.mp3",
+      "transcript": "beijing-hutong/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "北京 · 什刹海胡同生活线 · 第 3 站 · 烟袋斜街",
+      "file": "beijing-hutong/stop-03.mp3",
+      "src": "audio-assets/beijing-hutong/stop-03.mp3",
+      "transcript": "beijing-hutong/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "北京 · 什刹海胡同生活线 · 第 4 站 · 鼓楼东侧胡同口",
+      "file": "beijing-hutong/stop-04.mp3",
+      "src": "audio-assets/beijing-hutong/stop-04.mp3",
+      "transcript": "beijing-hutong/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "北京 · 什刹海胡同生活线 · 第 5 站 · 南锣鼓巷北口",
+      "file": "beijing-hutong/stop-05.mp3",
+      "src": "audio-assets/beijing-hutong/stop-05.mp3",
+      "transcript": "beijing-hutong/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

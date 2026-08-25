@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-25T05:34:12.018Z",
+  "voice": "Microsoft Huihui Desktop",
+  "cityId": "nanjing",
+  "cityName": "南京",
+  "routeId": "nanjing-qinhuai",
+  "routeTitle": "夫子庙秦淮河线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "南京 · 夫子庙秦淮河线 · 路线开场",
+      "file": "nanjing-qinhuai/intro.mp3",
+      "src": "audio-assets/nanjing-qinhuai/intro.mp3",
+      "transcript": "nanjing-qinhuai/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "南京 · 夫子庙秦淮河线 · 第 1 站 · 夫子庙牌坊",
+      "file": "nanjing-qinhuai/stop-01.mp3",
+      "src": "audio-assets/nanjing-qinhuai/stop-01.mp3",
+      "transcript": "nanjing-qinhuai/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "南京 · 夫子庙秦淮河线 · 第 2 站 · 大成殿外",
+      "file": "nanjing-qinhuai/stop-02.mp3",
+      "src": "audio-assets/nanjing-qinhuai/stop-02.mp3",
+      "transcript": "nanjing-qinhuai/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "南京 · 夫子庙秦淮河线 · 第 3 站 · 秦淮河岸",
+      "file": "nanjing-qinhuai/stop-03.mp3",
+      "src": "audio-assets/nanjing-qinhuai/stop-03.mp3",
+      "transcript": "nanjing-qinhuai/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "南京 · 夫子庙秦淮河线 · 第 4 站 · 乌衣巷口",
+      "file": "nanjing-qinhuai/stop-04.mp3",
+      "src": "audio-assets/nanjing-qinhuai/stop-04.mp3",
+      "transcript": "nanjing-qinhuai/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "南京 · 夫子庙秦淮河线 · 第 5 站 · 老门东街口",
+      "file": "nanjing-qinhuai/stop-05.mp3",
+      "src": "audio-assets/nanjing-qinhuai/stop-05.mp3",
+      "transcript": "nanjing-qinhuai/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}
