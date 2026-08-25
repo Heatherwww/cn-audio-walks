@@ -2495,7 +2495,7 @@ function buildAudioProductionManifest() {
 
   return {
     title: "中国耳游音频制作清单",
-    publicPreviewUrl: "https://cn-audio-walks.wangrhheather.workers.dev/",
+    publicPreviewUrl: "https://cn-audio-walks.chinaaudioguide.workers.dev/",
     cityCount: data.cities.length,
     routeCount: routeRecords.length,
     stopCount: routeRecords.reduce((sum, route) => sum + route.stopCount, 0),
