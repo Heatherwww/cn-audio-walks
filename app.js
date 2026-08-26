@@ -2068,6 +2068,9 @@ const state = {
   playDurationSeconds: 0,
   activeSegmentIndex: 0,
   playbackMode: "stop",
+  playbackRate: 1,
+  musicOn: true,
+  musicElement: null,
   routeTourMode: false,
   routeTourCompleted: false,
   downloaded: new Set(["yungang"]),
@@ -2683,6 +2686,9 @@ function playAudioAsset(asset, options) {
   state.playStartedAt = Date.now();
   state.playDurationSeconds = asset.durationSeconds || options.durationSeconds;
   state.activeSegmentIndex = 0;
+  audio.playbackRate = state.playbackRate;
+  ensureMusicElement();
+  syncMusicPlayback();
 
   const routeId = options.route.id;
   const stopIndex = options.stopIndex;
@@ -2735,13 +2741,14 @@ function speakCurrentStop() {
   speakCurrentStopWithSpeech();
 }
 
-function speakCurrentStopWithSpeech() {
+function speakCurrentStopWithSpeech(startOffsetSeconds = 0) {
   const stop = getStop();
   const route = getRoute();
   const routeId = route.id;
   const stopIndex = state.stopIndex;
   const stopMinutes = stopAudioMinutes(route, state.stopIndex);
   const segments = buildStopAudioSegments(route, stop, state.stopIndex);
+  const offsetMs = Math.max(0, startOffsetSeconds * 1000);
   window.speechSynthesis?.cancel();
   clearVoiceTimers();
   cleanupAudioElement();
@@ -2750,20 +2757,31 @@ function speakCurrentStopWithSpeech() {
   state.playbackMode = "stop";
   state.audioSourceMode = "speech";
   state.progress = 0;
-  state.playStartedAt = Date.now();
+  state.playStartedAt = Date.now() - offsetMs;
   state.playDurationSeconds = stopMinutes * 60;
+  ensureMusicElement();
+  syncMusicPlayback();
+  let startedImmediate = false;
   segments.forEach((segment, index) => {
     const text = segment.text;
-    if (index === 0) {
-      state.activeSegmentIndex = 0;
-      speakText(text);
+    const startMs = segment.minute * 60 * 1000 - offsetMs;
+    if (startMs <= 0) {
+      if (segments[index + 1] && segments[index + 1].minute * 60 * 1000 - offsetMs > 0) {
+        state.activeSegmentIndex = index;
+        speakText(text);
+        startedImmediate = true;
+      } else if (!segments[index + 1] && !startedImmediate) {
+        state.activeSegmentIndex = index;
+        speakText(text);
+        startedImmediate = true;
+      }
       return;
     }
     state.voiceTimers.push(window.setTimeout(() => {
       state.activeSegmentIndex = index;
       updatePlaybackStatusOnly();
       speakText(text);
-    }, segment.minute * 60 * 1000));
+    }, startMs));
   });
   window.clearInterval(state.tick);
   state.tick = window.setInterval(() => {
@@ -2792,12 +2810,13 @@ function speakRouteIntro() {
   speakRouteIntroWithSpeech();
 }
 
-function speakRouteIntroWithSpeech() {
+function speakRouteIntroWithSpeech(startOffsetSeconds = 0) {
   const route = getRoute();
   const routeId = route.id;
   const startIndex = state.stopIndex;
   const introMinutes = routeIntroDurationMinutes(route, startIndex);
   const segments = buildRouteIntroSegments(route, startIndex);
+  const offsetMs = Math.max(0, startOffsetSeconds * 1000);
   window.speechSynthesis?.cancel();
   clearVoiceTimers();
   cleanupAudioElement();
@@ -2806,20 +2825,31 @@ function speakRouteIntroWithSpeech() {
   state.playbackMode = "intro";
   state.audioSourceMode = "speech";
   state.progress = 0;
-  state.playStartedAt = Date.now();
+  state.playStartedAt = Date.now() - offsetMs;
   state.playDurationSeconds = introMinutes * 60;
+  ensureMusicElement();
+  syncMusicPlayback();
+  let startedImmediate = false;
   segments.forEach((segment, index) => {
     const text = segment.text;
-    if (index === 0) {
-      state.activeSegmentIndex = 0;
-      speakText(text);
+    const startMs = segment.minute * 60 * 1000 - offsetMs;
+    if (startMs <= 0) {
+      if (segments[index + 1] && segments[index + 1].minute * 60 * 1000 - offsetMs > 0) {
+        state.activeSegmentIndex = index;
+        speakText(text);
+        startedImmediate = true;
+      } else if (!segments[index + 1] && !startedImmediate) {
+        state.activeSegmentIndex = index;
+        speakText(text);
+        startedImmediate = true;
+      }
       return;
     }
     state.voiceTimers.push(window.setTimeout(() => {
       state.activeSegmentIndex = index;
       updatePlaybackStatusOnly();
       speakText(text);
-    }, segment.minute * 60 * 1000));
+    }, startMs));
   });
   window.clearInterval(state.tick);
   state.tick = window.setInterval(() => {
@@ -2852,6 +2882,7 @@ function stopAudio(shouldRender = true, keepRouteTour = false) {
     state.routeTourMode = false;
     state.routeTourCompleted = false;
   }
+  syncMusicPlayback();
   if (shouldRender) render();
 }
 
@@ -2864,7 +2895,7 @@ function speakText(text) {
   if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = "zh-CN";
-  utterance.rate = 0.86;
+  utterance.rate = Math.max(0.5, Math.min(2, 0.86 * state.playbackRate));
   utterance.pitch = 0.95;
   window.speechSynthesis.speak(utterance);
 }
@@ -2967,7 +2998,7 @@ function pauseSegmentsForStop(route, stop, index) {
 
 function renderLongTranscript(route, stop, index) {
   return buildStopAudioSegments(route, stop, index)
-    .map((segment) => `<p class="${segment.isPause ? "transcript-pause" : ""}"><strong>${formatMinuteMark(segment.minute)} ${segment.label}。</strong>${segment.text}</p>`)
+    .map((segment) => `<p class="${segment.isPause ? "transcript-pause" : ""}"><strong class="transcript-mark" data-seek="${segment.minute * 60}" onclick="seekPlayback(${segment.minute * 60})" role="button" tabindex="0" aria-label="跳到 ${formatMinuteMark(segment.minute)}">${formatMinuteMark(segment.minute)} ${segment.label}。</strong>${segment.text}</p>`)
     .join("");
 }
 
@@ -3010,7 +3041,7 @@ function renderPlaybackStatus(route, stop) {
         ${segments
           .map(
             (item, index) => `
-              <span class="rhythm-dot${index === activeIndex ? " active" : ""}${item.isPause ? " pause" : ""}">
+              <span class="rhythm-dot seekable${index === activeIndex ? " active" : ""}${item.isPause ? " pause" : ""}" data-seek="${item.minute * 60}" onclick="seekPlayback(${item.minute * 60})" role="button" tabindex="0" aria-label="跳到 ${formatMinuteMark(item.minute)} ${item.label}">
                 <b>${formatMinuteMark(item.minute)}</b>${item.label}
               </span>
             `
@@ -3027,6 +3058,79 @@ function toggleAudio() {
   } else {
     speakCurrentStop();
   }
+}
+
+function seekPlayback(seconds) {
+  const target = Math.max(0, Math.min((state.playDurationSeconds || 1) - 0.5, Number(seconds) || 0));
+  if (!state.isPlaying) {
+    if (state.playbackMode === "intro" && state.introSelected) {
+      speakRouteIntro();
+    } else {
+      speakCurrentStop();
+    }
+  }
+  if (!state.playDurationSeconds) return;
+  if (state.audioElement) {
+    state.audioElement.currentTime = target;
+    state.progress = (target / state.playDurationSeconds) * 100;
+    state.activeSegmentIndex = state.playbackMode === "intro"
+      ? activeSegmentIndexForSegments(buildRouteIntroSegments(getRoute(), state.stopIndex))
+      : activeSegmentIndexForElapsed(getRoute(), getStop(), state.stopIndex);
+    updateProgressOnly();
+    updatePlaybackStatusOnly();
+    return;
+  }
+  if (state.playbackMode === "intro") {
+    speakRouteIntroWithSpeech(target);
+  } else {
+    speakCurrentStopWithSpeech(target);
+  }
+}
+
+function seekBarEvent(event) {
+  if (!state.isPlaying) return;
+  const rect = event.currentTarget.getBoundingClientRect();
+  if (!rect.width) return;
+  const fraction = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
+  seekPlayback(fraction * state.playDurationSeconds);
+}
+
+function setPlaybackRate(rate) {
+  const value = Number(rate);
+  if (!value) return;
+  state.playbackRate = value;
+  if (state.audioElement) state.audioElement.playbackRate = value;
+  render();
+}
+
+function ensureMusicElement() {
+  if (state.musicElement) return state.musicElement;
+  const AudioCtor = audioConstructor();
+  if (!AudioCtor) return null;
+  const music = new AudioCtor("audio-assets/ambient-loop.mp3");
+  music.loop = true;
+  music.volume = 0.16;
+  music.preload = "auto";
+  state.musicElement = music;
+  return music;
+}
+
+function syncMusicPlayback() {
+  const music = state.musicElement;
+  if (!music) return;
+  if (state.isPlaying && state.musicOn) {
+    const attempt = music.play?.();
+    if (attempt?.catch) attempt.catch(() => {});
+  } else {
+    music.pause();
+  }
+}
+
+function toggleMusic() {
+  state.musicOn = !state.musicOn;
+  if (state.musicOn) ensureMusicElement();
+  syncMusicPlayback();
+  render();
 }
 
 function startRouteTour() {
@@ -3195,11 +3299,17 @@ function currentAudioSourceInfo(route) {
   };
 }
 
-function routeViewBox() {
+function routeViewBox(route) {
+  const xs = route.stops.map((stop) => stop.xy[0]);
+  const ys = route.stops.map((stop) => stop.xy[1] - 170);
+  const minX = Math.max(10, Math.min(...xs) - 170);
+  const maxX = Math.min(950, Math.max(...xs) + 170);
+  const minY = Math.max(0, Math.min(...ys) - 170);
+  const maxY = Math.min(680, Math.max(...ys) + 110);
   return {
-    value: "40 70 880 580",
-    noteX: 70,
-    noteY: 110
+    value: `${Math.round(minX)} ${Math.round(minY)} ${Math.round(maxX - minX)} ${Math.round(maxY - minY)}`,
+    noteX: Math.round(minX + 26),
+    noteY: Math.round(maxY - 22)
   };
 }
 
@@ -3650,7 +3760,7 @@ function mapBackdrop(routeId) {
 
 function renderMap(route) {
   const path = routePath(route.stops);
-  const viewBox = routeViewBox();
+  const viewBox = routeViewBox(route);
   const currentStop = route.stops[state.stopIndex];
   const hereX = Math.min(820, currentStop.xy[0] + 34);
   const hereY = Math.max(76, currentStop.xy[1] - 42);
@@ -3973,12 +4083,23 @@ function renderStopSheet(route, stop) {
         </div>
         <div class="progress-row">
           <span class="progress-elapsed">${formatClock(playbackElapsedSeconds())}</span>
-          <div class="progress-track"><div class="progress-fill" style="width: ${state.progress}%"></div></div>
+          <div class="progress-track seekable" data-seek-bar onclick="seekBarEvent(event)" role="slider" aria-label="播放进度，点击跳转"><div class="progress-fill" style="width: ${state.progress}%"></div></div>
           <span>${currentPlaybackDurationLabel(route)}</span>
         </div>
         <div class="audio-source-row">
           <span class="audio-source-pill${source.hasAsset ? " asset" : ""}">${source.label}</span>
           <span>${source.detail}</span>
+        </div>
+        <div class="rate-row">
+          <span class="rate-label">倍速</span>
+          ${[0.75, 1, 1.25, 1.5]
+            .map(
+              (rate) => `
+                <button class="rate-chip${state.playbackRate === rate ? " active" : ""}" data-rate="${rate}" onclick="setPlaybackRate(${rate})">${rate === 1 ? "1.0x" : `${rate}x`}</button>
+              `
+            )
+            .join("")}
+          <button class="music-toggle${state.musicOn ? " on" : ""}" data-music onclick="toggleMusic()">${state.musicOn ? "背景音 开" : "背景音 关"}</button>
         </div>
         ${renderPlaybackStatus(route, stop)}
       </div>
@@ -4080,7 +4201,7 @@ function render() {
 
 function handleAction(target) {
   const action = target.closest(
-    "[data-city], [data-route], [data-stop], [data-view], [data-intro], [data-tab], [data-download], [data-library-download], [data-play], [data-play-intro], [data-prev], [data-next], [data-route-tour], [data-review-check]"
+    "[data-city], [data-route], [data-stop], [data-view], [data-intro], [data-tab], [data-rate], [data-music], [data-seek], [data-download], [data-library-download], [data-play], [data-play-intro], [data-prev], [data-next], [data-route-tour], [data-review-check]"
   );
   if (!action || !app.contains(action)) return false;
 
@@ -4091,6 +4212,9 @@ function handleAction(target) {
   else if (action.dataset.intro !== undefined) selectIntroAndPlay();
   else if (action.dataset.stop) selectStopAndPlay(Number(action.dataset.stop));
   else if (action.dataset.tab) setTab(action.dataset.tab);
+  else if (action.dataset.rate) setPlaybackRate(action.dataset.rate);
+  else if (action.dataset.music !== undefined) toggleMusic();
+  else if (action.dataset.seek) seekPlayback(Number(action.dataset.seek));
   else if (action.dataset.download !== undefined) toggleDownload();
   else if (action.dataset.libraryDownload !== undefined) toggleLibraryDownload();
   else if (action.dataset.play !== undefined) toggleAudio();

@@ -8,38 +8,38 @@
           "src": "audio-assets/yungang/stop-01.mp3",
           "durationSeconds": 720,
           "label": "大同 · 云冈石窟半日线 · 第 1 站 · 入口广场",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/yungang/stop-02.mp3",
           "durationSeconds": 720,
           "label": "大同 · 云冈石窟半日线 · 第 2 站 · 第 5-6 窟",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/yungang/stop-03-009-013-caves.mp3",
           "durationSeconds": 720,
           "label": "大同 · 云冈石窟半日线 · 第 3 站 · 第 9-13 窟",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/yungang/stop-04.mp3",
           "durationSeconds": 720,
           "label": "大同 · 云冈石窟半日线 · 第 4 站 · 第 20 窟",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/yungang/stop-05.mp3",
           "durationSeconds": 720,
           "label": "大同 · 云冈石窟半日线 · 第 5 站 · 云冈博物馆",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/yungang/intro.mp3",
         "durationSeconds": 180,
         "label": "大同 · 云冈石窟半日线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "datong-city": {
@@ -48,38 +48,38 @@
           "src": "audio-assets/datong-city/stop-01.mp3",
           "durationSeconds": 540,
           "label": "大同 · 辽金古城线 · 第 1 站 · 华严寺山门",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/datong-city/stop-02.mp3",
           "durationSeconds": 540,
           "label": "大同 · 辽金古城线 · 第 2 站 · 大雄宝殿",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/datong-city/stop-03.mp3",
           "durationSeconds": 540,
           "label": "大同 · 辽金古城线 · 第 3 站 · 薄伽教藏殿",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/datong-city/stop-04.mp3",
           "durationSeconds": 540,
           "label": "大同 · 辽金古城线 · 第 4 站 · 九龙壁外侧",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/datong-city/stop-05.mp3",
           "durationSeconds": 540,
           "label": "大同 · 辽金古城线 · 第 5 站 · 善化寺",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/datong-city/intro.mp3",
         "durationSeconds": 180,
         "label": "大同 · 辽金古城线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "pingyao": {
@@ -88,44 +88,44 @@
           "src": "audio-assets/pingyao/stop-01.mp3",
           "durationSeconds": 600,
           "label": "晋中 · 平遥古城票号线 · 第 1 站 · 下西门",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/pingyao/stop-02.mp3",
           "durationSeconds": 600,
           "label": "晋中 · 平遥古城票号线 · 第 2 站 · 古城墙",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/pingyao/stop-03.mp3",
           "durationSeconds": 600,
           "label": "晋中 · 平遥古城票号线 · 第 3 站 · 日升昌票号",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/pingyao/stop-04.mp3",
           "durationSeconds": 600,
           "label": "晋中 · 平遥古城票号线 · 第 4 站 · 明清街",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/pingyao/stop-05.mp3",
           "durationSeconds": 600,
           "label": "晋中 · 平遥古城票号线 · 第 5 站 · 平遥县衙",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "5": {
           "src": "audio-assets/pingyao/stop-06.mp3",
           "durationSeconds": 600,
           "label": "晋中 · 平遥古城票号线 · 第 6 站 · 城隍庙街",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/pingyao/intro.mp3",
         "durationSeconds": 180,
         "label": "晋中 · 平遥古城票号线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "jinci": {
@@ -134,44 +134,44 @@
           "src": "audio-assets/jinci/stop-01.mp3",
           "durationSeconds": 480,
           "label": "太原 · 晋祠水源木构线 · 第 1 站 · 晋祠胜境",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/jinci/stop-02.mp3",
           "durationSeconds": 480,
           "label": "太原 · 晋祠水源木构线 · 第 2 站 · 水镜台",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/jinci/stop-03.mp3",
           "durationSeconds": 480,
           "label": "太原 · 晋祠水源木构线 · 第 3 站 · 献殿",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/jinci/stop-04.mp3",
           "durationSeconds": 420,
           "label": "太原 · 晋祠水源木构线 · 第 4 站 · 鱼沼飞梁",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/jinci/stop-05.mp3",
           "durationSeconds": 420,
           "label": "太原 · 晋祠水源木构线 · 第 5 站 · 圣母殿",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "5": {
           "src": "audio-assets/jinci/stop-06.mp3",
           "durationSeconds": 420,
           "label": "太原 · 晋祠水源木构线 · 第 6 站 · 难老泉",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/jinci/intro.mp3",
         "durationSeconds": 180,
         "label": "太原 · 晋祠水源木构线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "wutai": {
@@ -180,38 +180,38 @@
           "src": "audio-assets/wutai/stop-01.mp3",
           "durationSeconds": 540,
           "label": "忻州 · 台怀镇寺院慢行线 · 第 1 站 · 显通寺外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/wutai/stop-02.mp3",
           "durationSeconds": 540,
           "label": "忻州 · 台怀镇寺院慢行线 · 第 2 站 · 显通寺中轴",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/wutai/stop-03.mp3",
           "durationSeconds": 540,
           "label": "忻州 · 台怀镇寺院慢行线 · 第 3 站 · 寺间小路",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/wutai/stop-04.mp3",
           "durationSeconds": 540,
           "label": "忻州 · 台怀镇寺院慢行线 · 第 4 站 · 塔院寺白塔",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/wutai/stop-05.mp3",
           "durationSeconds": 540,
           "label": "忻州 · 台怀镇寺院慢行线 · 第 5 站 · 塔院寺出口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/wutai/intro.mp3",
         "durationSeconds": 180,
         "label": "忻州 · 台怀镇寺院慢行线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "yingxian-pagoda": {
@@ -220,38 +220,38 @@
           "src": "audio-assets/yingxian-pagoda/stop-01.mp3",
           "durationSeconds": 540,
           "label": "朔州 · 应县木塔佛宫寺线 · 第 1 站 · 佛宫寺牌坊",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/yingxian-pagoda/stop-02.mp3",
           "durationSeconds": 540,
           "label": "朔州 · 应县木塔佛宫寺线 · 第 2 站 · 山门与天王殿",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/yingxian-pagoda/stop-03.mp3",
           "durationSeconds": 540,
           "label": "朔州 · 应县木塔佛宫寺线 · 第 3 站 · 木塔台基",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/yingxian-pagoda/stop-04.mp3",
           "durationSeconds": 540,
           "label": "朔州 · 应县木塔佛宫寺线 · 第 4 站 · 一层佛像与藻井",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/yingxian-pagoda/stop-05.mp3",
           "durationSeconds": 540,
           "label": "朔州 · 应县木塔佛宫寺线 · 第 5 站 · 塔后回望点",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/yingxian-pagoda/intro.mp3",
         "durationSeconds": 180,
         "label": "朔州 · 应县木塔佛宫寺线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "yongle-murals": {
@@ -260,38 +260,38 @@
           "src": "audio-assets/yongle-murals/stop-01.mp3",
           "durationSeconds": 600,
           "label": "运城 · 永乐宫壁画中轴线 · 第 1 站 · 永乐宫山门",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/yongle-murals/stop-02.mp3",
           "durationSeconds": 600,
           "label": "运城 · 永乐宫壁画中轴线 · 第 2 站 · 无极门与龙虎殿",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/yongle-murals/stop-03.mp3",
           "durationSeconds": 600,
           "label": "运城 · 永乐宫壁画中轴线 · 第 3 站 · 三清殿外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/yongle-murals/stop-04.mp3",
           "durationSeconds": 600,
           "label": "运城 · 永乐宫壁画中轴线 · 第 4 站 · 三清殿壁画",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/yongle-murals/stop-05.mp3",
           "durationSeconds": 600,
           "label": "运城 · 永乐宫壁画中轴线 · 第 5 站 · 纯阳殿与重阳殿",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/yongle-murals/intro.mp3",
         "durationSeconds": 180,
         "label": "运城 · 永乐宫壁画中轴线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "beijing-axis": {
@@ -300,38 +300,38 @@
           "src": "audio-assets/beijing-axis/stop-01.mp3",
           "durationSeconds": 720,
           "label": "北京 · 北京中轴线漫步 · 第 1 站 · 前门箭楼",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/beijing-axis/stop-02.mp3",
           "durationSeconds": 720,
           "label": "北京 · 北京中轴线漫步 · 第 2 站 · 天安门广场南缘",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/beijing-axis/stop-03.mp3",
           "durationSeconds": 720,
           "label": "北京 · 北京中轴线漫步 · 第 3 站 · 天安门城楼外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/beijing-axis/stop-04.mp3",
           "durationSeconds": 720,
           "label": "北京 · 北京中轴线漫步 · 第 4 站 · 景山南门",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/beijing-axis/stop-05.mp3",
           "durationSeconds": 720,
           "label": "北京 · 北京中轴线漫步 · 第 5 站 · 鼓楼",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/beijing-axis/intro.mp3",
         "durationSeconds": 180,
         "label": "北京 · 北京中轴线漫步 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "beijing-hutong": {
@@ -340,38 +340,38 @@
           "src": "audio-assets/beijing-hutong/stop-01.mp3",
           "durationSeconds": 540,
           "label": "北京 · 什刹海胡同生活线 · 第 1 站 · 银锭桥",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/beijing-hutong/stop-02.mp3",
           "durationSeconds": 540,
           "label": "北京 · 什刹海胡同生活线 · 第 2 站 · 什刹海岸边",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/beijing-hutong/stop-03.mp3",
           "durationSeconds": 540,
           "label": "北京 · 什刹海胡同生活线 · 第 3 站 · 烟袋斜街",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/beijing-hutong/stop-04.mp3",
           "durationSeconds": 540,
           "label": "北京 · 什刹海胡同生活线 · 第 4 站 · 鼓楼东侧胡同口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/beijing-hutong/stop-05.mp3",
           "durationSeconds": 540,
           "label": "北京 · 什刹海胡同生活线 · 第 5 站 · 南锣鼓巷北口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/beijing-hutong/intro.mp3",
         "durationSeconds": 180,
         "label": "北京 · 什刹海胡同生活线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "shanghai-bund": {
@@ -380,38 +380,38 @@
           "src": "audio-assets/shanghai-bund/stop-01.mp3",
           "durationSeconds": 540,
           "label": "上海 · 外滩建筑听走线 · 第 1 站 · 外白渡桥",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/shanghai-bund/stop-02.mp3",
           "durationSeconds": 540,
           "label": "上海 · 外滩建筑听走线 · 第 2 站 · 外滩源街角",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/shanghai-bund/stop-03.mp3",
           "durationSeconds": 540,
           "label": "上海 · 外滩建筑听走线 · 第 3 站 · 海关大楼",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/shanghai-bund/stop-04.mp3",
           "durationSeconds": 540,
           "label": "上海 · 外滩建筑听走线 · 第 4 站 · 汇丰银行大楼外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/shanghai-bund/stop-05.mp3",
           "durationSeconds": 540,
           "label": "上海 · 外滩建筑听走线 · 第 5 站 · 和平饭店",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/shanghai-bund/intro.mp3",
         "durationSeconds": 180,
         "label": "上海 · 外滩建筑听走线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "shanghai-shikumen": {
@@ -420,38 +420,38 @@
           "src": "audio-assets/shanghai-shikumen/stop-01.mp3",
           "durationSeconds": 540,
           "label": "上海 · 新天地石库门街区线 · 第 1 站 · 新天地石库门立面",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/shanghai-shikumen/stop-02.mp3",
           "durationSeconds": 540,
           "label": "上海 · 新天地石库门街区线 · 第 2 站 · 中共一大会址外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/shanghai-shikumen/stop-03.mp3",
           "durationSeconds": 540,
           "label": "上海 · 新天地石库门街区线 · 第 3 站 · 太仓路街角",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/shanghai-shikumen/stop-04.mp3",
           "durationSeconds": 540,
           "label": "上海 · 新天地石库门街区线 · 第 4 站 · 复兴公园边",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/shanghai-shikumen/stop-05.mp3",
           "durationSeconds": 540,
           "label": "上海 · 新天地石库门街区线 · 第 5 站 · 思南路洋房街口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/shanghai-shikumen/intro.mp3",
         "durationSeconds": 180,
         "label": "上海 · 新天地石库门街区线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "xian-wall": {
@@ -460,38 +460,38 @@
           "src": "audio-assets/xian-wall/stop-01.mp3",
           "durationSeconds": 540,
           "label": "西安 · 南门到碑林古城线 · 第 1 站 · 永宁门瓮城",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/xian-wall/stop-02.mp3",
           "durationSeconds": 540,
           "label": "西安 · 南门到碑林古城线 · 第 2 站 · 城墙步道",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/xian-wall/stop-03.mp3",
           "durationSeconds": 540,
           "label": "西安 · 南门到碑林古城线 · 第 3 站 · 书院门街口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/xian-wall/stop-04.mp3",
           "durationSeconds": 540,
           "label": "西安 · 南门到碑林古城线 · 第 4 站 · 关中书院外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/xian-wall/stop-05.mp3",
           "durationSeconds": 540,
           "label": "西安 · 南门到碑林古城线 · 第 5 站 · 碑林博物馆入口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/xian-wall/intro.mp3",
         "durationSeconds": 180,
         "label": "西安 · 南门到碑林古城线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "xian-muslim-quarter": {
@@ -500,38 +500,38 @@
           "src": "audio-assets/xian-muslim-quarter/stop-01.mp3",
           "durationSeconds": 540,
           "label": "西安 · 钟鼓楼到回民街线 · 第 1 站 · 钟楼环岛外侧",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/xian-muslim-quarter/stop-02.mp3",
           "durationSeconds": 540,
           "label": "西安 · 钟鼓楼到回民街线 · 第 2 站 · 鼓楼前广场",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/xian-muslim-quarter/stop-03.mp3",
           "durationSeconds": 540,
           "label": "西安 · 钟鼓楼到回民街线 · 第 3 站 · 北院门街口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/xian-muslim-quarter/stop-04.mp3",
           "durationSeconds": 540,
           "label": "西安 · 钟鼓楼到回民街线 · 第 4 站 · 高家大院外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/xian-muslim-quarter/stop-05.mp3",
           "durationSeconds": 540,
           "label": "西安 · 钟鼓楼到回民街线 · 第 5 站 · 化觉巷清真大寺外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/xian-muslim-quarter/intro.mp3",
         "durationSeconds": 180,
         "label": "西安 · 钟鼓楼到回民街线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "chengdu-tea": {
@@ -540,38 +540,38 @@
           "src": "audio-assets/chengdu-tea/stop-01.mp3",
           "durationSeconds": 540,
           "label": "成都 · 人民公园到锦里慢走线 · 第 1 站 · 人民公园入口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/chengdu-tea/stop-02.mp3",
           "durationSeconds": 540,
           "label": "成都 · 人民公园到锦里慢走线 · 第 2 站 · 鹤鸣茶社",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/chengdu-tea/stop-03.mp3",
           "durationSeconds": 540,
           "label": "成都 · 人民公园到锦里慢走线 · 第 3 站 · 宽窄巷子口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/chengdu-tea/stop-04.mp3",
           "durationSeconds": 540,
           "label": "成都 · 人民公园到锦里慢走线 · 第 4 站 · 武侯祠外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/chengdu-tea/stop-05.mp3",
           "durationSeconds": 540,
           "label": "成都 · 人民公园到锦里慢走线 · 第 5 站 · 锦里街口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/chengdu-tea/intro.mp3",
         "durationSeconds": 180,
         "label": "成都 · 人民公园到锦里慢走线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "chengdu-wenshu-taikoo": {
@@ -580,38 +580,38 @@
           "src": "audio-assets/chengdu-wenshu-taikoo/stop-01.mp3",
           "durationSeconds": 540,
           "label": "成都 · 文殊院到太古里线 · 第 1 站 · 文殊院山门",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/chengdu-wenshu-taikoo/stop-02.mp3",
           "durationSeconds": 540,
           "label": "成都 · 文殊院到太古里线 · 第 2 站 · 香园茶铺外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/chengdu-wenshu-taikoo/stop-03.mp3",
           "durationSeconds": 540,
           "label": "成都 · 文殊院到太古里线 · 第 3 站 · 文殊坊街口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/chengdu-wenshu-taikoo/stop-04.mp3",
           "durationSeconds": 540,
           "label": "成都 · 文殊院到太古里线 · 第 4 站 · 春熙路街口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/chengdu-wenshu-taikoo/stop-05.mp3",
           "durationSeconds": 540,
           "label": "成都 · 文殊院到太古里线 · 第 5 站 · 大慈寺太古里",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/chengdu-wenshu-taikoo/intro.mp3",
         "durationSeconds": 180,
         "label": "成都 · 文殊院到太古里线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "hangzhou-westlake": {
@@ -620,38 +620,38 @@
           "src": "audio-assets/hangzhou-westlake/stop-01.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 西湖北线文人线 · 第 1 站 · 断桥",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/hangzhou-westlake/stop-02.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 西湖北线文人线 · 第 2 站 · 白堤湖岸",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/hangzhou-westlake/stop-03.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 西湖北线文人线 · 第 3 站 · 平湖秋月",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/hangzhou-westlake/stop-04.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 西湖北线文人线 · 第 4 站 · 西泠印社",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/hangzhou-westlake/stop-05.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 西湖北线文人线 · 第 5 站 · 苏堤北口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/hangzhou-westlake/intro.mp3",
         "durationSeconds": 180,
         "label": "杭州 · 西湖北线文人线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "hangzhou-canal": {
@@ -660,38 +660,38 @@
           "src": "audio-assets/hangzhou-canal/stop-01.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 拱宸桥运河街区线 · 第 1 站 · 拱宸桥桥头",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/hangzhou-canal/stop-02.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 拱宸桥运河街区线 · 第 2 站 · 桥中央回望",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/hangzhou-canal/stop-03.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 拱宸桥运河街区线 · 第 3 站 · 桥西历史街区",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/hangzhou-canal/stop-04.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 拱宸桥运河街区线 · 第 4 站 · 手工艺博物馆群外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/hangzhou-canal/stop-05.mp3",
           "durationSeconds": 540,
           "label": "杭州 · 拱宸桥运河街区线 · 第 5 站 · 小河直街",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/hangzhou-canal/intro.mp3",
         "durationSeconds": 180,
         "label": "杭州 · 拱宸桥运河街区线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "suzhou-garden": {
@@ -700,38 +700,38 @@
           "src": "audio-assets/suzhou-garden/stop-01.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 拙政园到平江路线 · 第 1 站 · 拙政园入口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/suzhou-garden/stop-02.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 拙政园到平江路线 · 第 2 站 · 拙政园水面",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/suzhou-garden/stop-03.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 拙政园到平江路线 · 第 3 站 · 苏州博物馆外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/suzhou-garden/stop-04.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 拙政园到平江路线 · 第 4 站 · 狮子林外墙",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/suzhou-garden/stop-05.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 拙政园到平江路线 · 第 5 站 · 平江路水巷",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/suzhou-garden/intro.mp3",
         "durationSeconds": 180,
         "label": "苏州 · 拙政园到平江路线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "suzhou-shantang": {
@@ -740,38 +740,38 @@
           "src": "audio-assets/suzhou-shantang/stop-01.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 虎丘到山塘街线 · 第 1 站 · 虎丘山门",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/suzhou-shantang/stop-02.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 虎丘到山塘街线 · 第 2 站 · 剑池外侧",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/suzhou-shantang/stop-03.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 虎丘到山塘街线 · 第 3 站 · 云岩寺塔视点",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/suzhou-shantang/stop-04.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 虎丘到山塘街线 · 第 4 站 · 山塘街西端",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/suzhou-shantang/stop-05.mp3",
           "durationSeconds": 540,
           "label": "苏州 · 虎丘到山塘街线 · 第 5 站 · 山塘水巷桥边",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/suzhou-shantang/intro.mp3",
         "durationSeconds": 180,
         "label": "苏州 · 虎丘到山塘街线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "nanjing-wall": {
@@ -780,38 +780,38 @@
           "src": "audio-assets/nanjing-wall/stop-01.mp3",
           "durationSeconds": 600,
           "label": "南京 · 台城到总统府城市层线 · 第 1 站 · 台城城墙",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/nanjing-wall/stop-02.mp3",
           "durationSeconds": 600,
           "label": "南京 · 台城到总统府城市层线 · 第 2 站 · 玄武湖边",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/nanjing-wall/stop-03.mp3",
           "durationSeconds": 600,
           "label": "南京 · 台城到总统府城市层线 · 第 3 站 · 鸡鸣寺黄墙",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/nanjing-wall/stop-04.mp3",
           "durationSeconds": 600,
           "label": "南京 · 台城到总统府城市层线 · 第 4 站 · 长江路街区",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/nanjing-wall/stop-05.mp3",
           "durationSeconds": 600,
           "label": "南京 · 台城到总统府城市层线 · 第 5 站 · 总统府外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/nanjing-wall/intro.mp3",
         "durationSeconds": 180,
         "label": "南京 · 台城到总统府城市层线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "nanjing-qinhuai": {
@@ -820,38 +820,38 @@
           "src": "audio-assets/nanjing-qinhuai/stop-01.mp3",
           "durationSeconds": 600,
           "label": "南京 · 夫子庙秦淮河线 · 第 1 站 · 夫子庙牌坊",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/nanjing-qinhuai/stop-02.mp3",
           "durationSeconds": 600,
           "label": "南京 · 夫子庙秦淮河线 · 第 2 站 · 大成殿外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/nanjing-qinhuai/stop-03.mp3",
           "durationSeconds": 600,
           "label": "南京 · 夫子庙秦淮河线 · 第 3 站 · 秦淮河岸",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/nanjing-qinhuai/stop-04.mp3",
           "durationSeconds": 600,
           "label": "南京 · 夫子庙秦淮河线 · 第 4 站 · 乌衣巷口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/nanjing-qinhuai/stop-05.mp3",
           "durationSeconds": 600,
           "label": "南京 · 夫子庙秦淮河线 · 第 5 站 · 老门东街口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/nanjing-qinhuai/intro.mp3",
         "durationSeconds": 180,
         "label": "南京 · 夫子庙秦淮河线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "guilin-river": {
@@ -860,38 +860,38 @@
           "src": "audio-assets/guilin-river/stop-01.mp3",
           "durationSeconds": 480,
           "label": "桂林 · 象鼻山到王城山水线 · 第 1 站 · 象鼻山观景处",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/guilin-river/stop-02.mp3",
           "durationSeconds": 480,
           "label": "桂林 · 象鼻山到王城山水线 · 第 2 站 · 杉湖双塔",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/guilin-river/stop-03.mp3",
           "durationSeconds": 480,
           "label": "桂林 · 象鼻山到王城山水线 · 第 3 站 · 榕湖桥边",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/guilin-river/stop-04.mp3",
           "durationSeconds": 480,
           "label": "桂林 · 象鼻山到王城山水线 · 第 4 站 · 东西巷",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/guilin-river/stop-05.mp3",
           "durationSeconds": 480,
           "label": "桂林 · 象鼻山到王城山水线 · 第 5 站 · 靖江王城外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/guilin-river/intro.mp3",
         "durationSeconds": 180,
         "label": "桂林 · 象鼻山到王城山水线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "guilin-yangshuo": {
@@ -900,38 +900,38 @@
           "src": "audio-assets/guilin-yangshuo/stop-01.mp3",
           "durationSeconds": 540,
           "label": "桂林 · 阳朔西街山水线 · 第 1 站 · 阳朔西街口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/guilin-yangshuo/stop-02.mp3",
           "durationSeconds": 540,
           "label": "桂林 · 阳朔西街山水线 · 第 2 站 · 西街中段",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/guilin-yangshuo/stop-03.mp3",
           "durationSeconds": 540,
           "label": "桂林 · 阳朔西街山水线 · 第 3 站 · 通江小路",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/guilin-yangshuo/stop-04.mp3",
           "durationSeconds": 540,
           "label": "桂林 · 阳朔西街山水线 · 第 4 站 · 漓江岸边",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/guilin-yangshuo/stop-05.mp3",
           "durationSeconds": 540,
           "label": "桂林 · 阳朔西街山水线 · 第 5 站 · 江岸回望点",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/guilin-yangshuo/intro.mp3",
         "durationSeconds": 180,
         "label": "桂林 · 阳朔西街山水线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "chongqing-hill": {
@@ -940,38 +940,38 @@
           "src": "audio-assets/chongqing-hill/stop-01.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 山城步道到洪崖洞线 · 第 1 站 · 山城步道入口",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/chongqing-hill/stop-02.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 山城步道到洪崖洞线 · 第 2 站 · 步道观景点",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/chongqing-hill/stop-03.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 山城步道到洪崖洞线 · 第 3 站 · 十八梯",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/chongqing-hill/stop-04.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 山城步道到洪崖洞线 · 第 4 站 · 解放碑",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/chongqing-hill/stop-05.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 山城步道到洪崖洞线 · 第 5 站 · 洪崖洞外侧",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/chongqing-hill/intro.mp3",
         "durationSeconds": 180,
         "label": "重庆 · 山城步道到洪崖洞线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "chongqing-ciqikou": {
@@ -980,38 +980,38 @@
           "src": "audio-assets/chongqing-ciqikou/stop-01.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 磁器口古镇码头线 · 第 1 站 · 磁器口牌坊",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/chongqing-ciqikou/stop-02.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 磁器口古镇码头线 · 第 2 站 · 正街坡道",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/chongqing-ciqikou/stop-03.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 磁器口古镇码头线 · 第 3 站 · 宝轮寺外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/chongqing-ciqikou/stop-04.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 磁器口古镇码头线 · 第 4 站 · 下行街巷",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/chongqing-ciqikou/stop-05.mp3",
           "durationSeconds": 540,
           "label": "重庆 · 磁器口古镇码头线 · 第 5 站 · 嘉陵江码头",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/chongqing-ciqikou/intro.mp3",
         "durationSeconds": 180,
         "label": "重庆 · 磁器口古镇码头线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "guangzhou-xiguan": {
@@ -1020,38 +1020,38 @@
           "src": "audio-assets/guangzhou-xiguan/stop-01.mp3",
           "durationSeconds": 540,
           "label": "广州 · 西关到沙面骑楼线 · 第 1 站 · 荔枝湾",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/guangzhou-xiguan/stop-02.mp3",
           "durationSeconds": 540,
           "label": "广州 · 西关到沙面骑楼线 · 第 2 站 · 泮塘老街",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/guangzhou-xiguan/stop-03.mp3",
           "durationSeconds": 540,
           "label": "广州 · 西关到沙面骑楼线 · 第 3 站 · 永庆坊",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/guangzhou-xiguan/stop-04.mp3",
           "durationSeconds": 540,
           "label": "广州 · 西关到沙面骑楼线 · 第 4 站 · 骑楼街段",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/guangzhou-xiguan/stop-05.mp3",
           "durationSeconds": 540,
           "label": "广州 · 西关到沙面骑楼线 · 第 5 站 · 沙面岛外侧",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/guangzhou-xiguan/intro.mp3",
         "durationSeconds": 180,
         "label": "广州 · 西关到沙面骑楼线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     },
     "guangzhou-yuexiu": {
@@ -1060,40 +1060,40 @@
           "src": "audio-assets/guangzhou-yuexiu/stop-01.mp3",
           "durationSeconds": 540,
           "label": "广州 · 越秀山到纪念堂线 · 第 1 站 · 镇海楼外",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "1": {
           "src": "audio-assets/guangzhou-yuexiu/stop-02.mp3",
           "durationSeconds": 540,
           "label": "广州 · 越秀山到纪念堂线 · 第 2 站 · 五羊雕像",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "2": {
           "src": "audio-assets/guangzhou-yuexiu/stop-03.mp3",
           "durationSeconds": 540,
           "label": "广州 · 越秀山到纪念堂线 · 第 3 站 · 越秀山下行路",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "3": {
           "src": "audio-assets/guangzhou-yuexiu/stop-04.mp3",
           "durationSeconds": 540,
           "label": "广州 · 越秀山到纪念堂线 · 第 4 站 · 中山纪念堂外广场",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         },
         "4": {
           "src": "audio-assets/guangzhou-yuexiu/stop-05.mp3",
           "durationSeconds": 540,
           "label": "广州 · 越秀山到纪念堂线 · 第 5 站 · 纪念堂侧看点",
-          "voice": "Microsoft Huihui Desktop"
+          "voice": "zh-CN-YunxiNeural"
         }
       },
       "intro": {
         "src": "audio-assets/guangzhou-yuexiu/intro.mp3",
         "durationSeconds": 180,
         "label": "广州 · 越秀山到纪念堂线 · 路线开场",
-        "voice": "Microsoft Huihui Desktop"
+        "voice": "zh-CN-YunxiNeural"
       }
     }
   },
-  "updatedAt": "2026-08-25T11:40:56.844Z"
+  "updatedAt": "2026-08-26T15:08:25.773Z"
 }

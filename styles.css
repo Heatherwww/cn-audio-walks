@@ -2862,3 +2862,87 @@ svg .icon-stroke {
     margin-right: auto;
   }
 }
+
+/* ---------- Player upgrades: seek, chapters, rate, ambient ---------- */
+
+.progress-track.seekable {
+  cursor: pointer;
+  position: relative;
+}
+
+.progress-track.seekable:hover {
+  outline: 2px solid rgba(31, 111, 100, 0.45);
+  outline-offset: 2px;
+}
+
+.rate-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.rate-label {
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.rate-chip {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--porcelain);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.rate-chip.active {
+  border-color: var(--malachite);
+  background: var(--malachite);
+  color: #fff;
+}
+
+.music-toggle {
+  margin-left: auto;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--porcelain);
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.music-toggle.on {
+  border-color: var(--gold);
+  color: var(--cinnabar-dark);
+  background: rgba(200, 150, 62, 0.16);
+}
+
+.rhythm-dot.seekable {
+  cursor: pointer;
+}
+
+.rhythm-dot.seekable:hover {
+  border-color: var(--malachite);
+  color: var(--malachite);
+}
+
+.transcript-mark {
+  cursor: pointer;
+  color: var(--malachite);
+}
+
+.transcript-mark:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+  .music-toggle {
+    margin-left: 0;
+  }
+}
