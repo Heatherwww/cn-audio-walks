@@ -2231,19 +2231,11 @@ svg .icon-stroke {
   }
 
   .route-map {
-    display: none;
+    min-width: 560px;
   }
 
   .mobile-map-sketch {
-    display: grid;
-    gap: 12px;
-    min-height: 250px;
-    padding: 16px;
-    border-radius: 6px;
-    background:
-      linear-gradient(180deg, rgba(146, 116, 84, 0.22), rgba(146, 116, 84, 0.08) 32%, transparent 33%),
-      linear-gradient(0deg, rgba(78, 140, 155, 0.14), transparent 34%),
-      #edf3ed;
+    display: none;
   }
 
   .mobile-map-terrain {
@@ -2680,6 +2672,14 @@ svg .icon-stroke {
 }
 
 @media (max-width: 1040px) {
+  .route-view .map-stage {
+    display: block;
+  }
+
+  .route-view .map-scroll {
+    max-width: 100%;
+  }
+
   .route-view .map-stage .map-wrap {
     margin-bottom: 12px;
   }
@@ -2728,4 +2728,137 @@ svg .icon-stroke {
 
 .mobile-map-stop.intro-stop.active span {
   background: var(--cinnabar);
+}
+
+/* ---------- Mobile unification: real map, centered type, tidy guide bar ---------- */
+
+.map-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 6px;
+}
+
+.map-scroll .route-map {
+  width: 100%;
+  height: auto;
+}
+
+.route-view {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.route-view p,
+.route-view dd,
+.route-view span,
+.route-view small {
+  line-height: 1.7;
+}
+
+.stop-sheet .player p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.stop-sheet .script-block p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0 0 10px;
+}
+
+@media (max-width: 720px) {
+  .route-view {
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .route-hero {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .route-hero .status-strip {
+    justify-content: center;
+  }
+
+  .crumb {
+    justify-content: center;
+  }
+
+  .map-hint {
+    text-align: center;
+  }
+
+  .route-guide {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .route-guide-progress {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .route-guide-track {
+    flex: 1;
+  }
+
+  .route-guide-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .route-guide-actions button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sheet-head {
+    text-align: center;
+  }
+
+  .sheet-facts div {
+    text-align: center;
+  }
+
+  .player-controls {
+    justify-content: center;
+  }
+
+  .audio-source-row {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .sheet-actions {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .transcript-toggle {
+    width: 100%;
+  }
+
+  .city-hero {
+    text-align: center;
+  }
+
+  .home-hero {
+    text-align: center;
+  }
+
+  .home-tagline {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

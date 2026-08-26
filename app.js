@@ -2148,6 +2148,27 @@ function selectIntro() {
   render();
 }
 
+function selectStopAndPlay(index) {
+  const alreadyHere = state.view === "route" && !state.introSelected && state.stopIndex === index;
+  setStop(index);
+  scrollSheetIntoView();
+  if (!alreadyHere || !state.isPlaying) speakCurrentStop();
+}
+
+function selectIntroAndPlay() {
+  selectIntro();
+  scrollSheetIntoView();
+  if (!(state.isPlaying && state.playbackMode === "intro")) speakRouteIntro();
+}
+
+function scrollSheetIntoView() {
+  if (typeof window === "undefined") return;
+  if (window.innerWidth && window.innerWidth > 1040) return;
+  window.setTimeout(() => {
+    document.querySelector(".stop-sheet")?.scrollIntoView?.({ behavior: "smooth", block: "start" });
+  }, 0);
+}
+
 function setTab(tab) {
   if (!validTabs.has(tab)) return;
   state.tab = tab;
@@ -2732,7 +2753,7 @@ function speakCurrentStopWithSpeech() {
   state.playStartedAt = Date.now();
   state.playDurationSeconds = stopMinutes * 60;
   segments.forEach((segment, index) => {
-    const text = `${formatMinuteMark(segment.minute)}，${segment.label}。${segment.text}`;
+    const text = segment.text;
     if (index === 0) {
       state.activeSegmentIndex = 0;
       speakText(text);
@@ -2788,7 +2809,7 @@ function speakRouteIntroWithSpeech() {
   state.playStartedAt = Date.now();
   state.playDurationSeconds = introMinutes * 60;
   segments.forEach((segment, index) => {
-    const text = `${formatMinuteMark(segment.minute)}，${segment.label}。${segment.text}`;
+    const text = segment.text;
     if (index === 0) {
       state.activeSegmentIndex = 0;
       speakText(text);
@@ -2859,42 +2880,46 @@ function buildStopAudioSegments(route, stop, index) {
   const minutes = stopAudioMinutes(route, index);
   const offsets = buildTimelineOffsets(minutes);
   const anchor = contentAnchorForStop(route, index);
-  const anchorText = anchor ? ` 这一站的现场锚点是：${anchor}` : "";
+  const openers = [
+    `到了，${stop.title}。${stop.location}。就站在这儿，别急着走，也别急着掏手机，先让眼睛适应几秒钟。`,
+    `这一站是${stop.title}。先找好位置：${stop.location}。站定就好，我跟你说怎么看。`,
+    `往前走就是${stop.title}。${stop.location}。接下来几分钟交给我。`
+  ];
   const coreSegments = [
     {
-      label: "站位提示",
-      text: `第 ${index + 1} 站，${stop.title}。本点语音约 ${minutes} 分钟，请先确认自己站在这里：${stop.location}。`
+      label: "到站",
+      text: openers[index % openers.length]
     },
     {
-      label: "第一眼",
-      text: `${stop.cue}。先把视线停在最明显的轮廓上，不要急着拍照，也不要急着往前走。`
+      label: "先看",
+      text: `${stop.cue}。先只看大的轮廓，别管细节——细节我等下指给你。`
     },
     {
-      label: "驻足浏览",
+      label: "慢慢看",
       isPause: true,
-      text: "接下来一到两分钟我会少说话。你可以原地看完整体、拍一张远景，或者等人流过去后再看一次。"
+      text: "我安静一两分钟。你自己看，想拍就拍；等人少一点，再看一次整体。"
     },
     {
-      label: "背景进入",
-      text: `${route.title}这一段的主题是${route.theme}。现在听一遍现场背景：${stop.script}${anchorText}`
+      label: "讲给你听",
+      text: `说说你眼前这东西。${stop.script}${anchor ? ` 顺带一个考证过的背景：${anchor}` : ""}`
     },
     {
-      label: "拍照空档",
+      label: "拍两张",
       isPause: true,
-      text: "这里再留出一段安静时间。先拍全景，再拍一个细节；如果不拍照，就把视线从近处慢慢推到远处。"
+      text: "再留点时间给你。全景一张、细节一张，够了就把手机收起来——用眼睛看，比用镜头看值。"
     },
     {
-      label: "换角度",
-      text: `如果周围人流允许，向侧面移动几步再停下。重新看：${stop.cue}。你会发现同一个对象从正面和侧面看到的重点不一样。`
+      label: "换个角度",
+      text: `要是旁边不挤，往侧面挪几步再看一次。${stop.cue}——同一个东西，正面和侧面讲的不是一个故事。`
     },
     {
-      label: "收束",
-      text: `这一站最后回到核心记忆点：${stop.script}把这句话和你眼前的一个细节对应起来，再准备移动。`
+      label: "记住这个",
+      text: `这一站如果只能记住一件事，就记这个：${stop.script}好了，抬眼看看，把它和你眼前的东西对上号。`
     }
   ];
   const finalSegment = {
     label: "下一站",
-    text: `本段结束。下一步：${stop.next}`
+    text: `好了，出发。${stop.next}`
   };
 
   return offsets.map((minute, segmentIndex) => {
@@ -3234,31 +3259,6 @@ function mobileMapContext(route) {
     "guangzhou-yuexiu": "越秀山丘陵台地 · 镇海楼城防高点 · 纪念堂轴线广场"
   };
   return contexts[route.id] || `${route.start} · ${route.end}`;
-}
-
-function renderMobileMapSketch(route) {
-  return `
-    <div class="mobile-map-sketch" aria-label="${route.title}手机场地图">
-      <div class="mobile-map-terrain">${mobileMapContext(route)}</div>
-      <div class="mobile-map-track">
-        <button class="mobile-map-stop intro-stop${state.introSelected ? " active" : ""}" data-intro onclick="selectIntro()">
-          <span>起</span>
-          <b>路线开场</b>
-        </button>
-        ${route.stops
-          .map(
-            (stop, index) => `
-              <button class="mobile-map-stop${index === state.stopIndex && !state.introSelected ? " active" : ""}" data-stop="${index}" onclick="setStop(${index})">
-                <span>${index + 1}</span>
-                <b>${stop.title}</b>
-              </button>
-            `
-          )
-          .join("")}
-      </div>
-      <div class="mobile-map-foot">从 ${route.start} 到 ${route.end}</div>
-    </div>
-  `;
 }
 
 function mapBackdrop(routeId) {
@@ -3666,7 +3666,7 @@ function renderMap(route) {
       const active = index === state.stopIndex && !state.introSelected ? " active" : "";
       const yLabel = stop.xy[1] > 610 ? stop.xy[1] - 38 : stop.xy[1] + 44;
       return `
-        <g class="poi-button${active}" role="button" tabindex="0" data-stop="${index}" onclick="setStop(${index})" aria-label="${stop.title}">
+        <g class="poi-button${active}" role="button" tabindex="0" data-stop="${index}" onclick="selectStopAndPlay(${index})" aria-label="${stop.title}">
           <circle cx="${stop.xy[0]}" cy="${stop.xy[1]}" r="21"></circle>
           <text x="${stop.xy[0]}" y="${stop.xy[1] + 1}">${index + 1}</text>
         </g>
@@ -3688,7 +3688,7 @@ function renderMap(route) {
         <path class="route-line" d="${path}"></path>
         <path class="route-line-dash" d="${path}"></path>
         ${labels}
-        <g class="poi-button intro-point${state.introSelected ? " active" : ""}" role="button" tabindex="0" data-intro onclick="selectIntro()" aria-label="路线开场">
+        <g class="poi-button intro-point${state.introSelected ? " active" : ""}" role="button" tabindex="0" data-intro onclick="selectIntroAndPlay()" aria-label="路线开场">
           <circle cx="${introX}" cy="${introY}" r="19"></circle>
           <text x="${introX}" y="${introY + 1}">起</text>
         </g>
@@ -3899,11 +3899,8 @@ function renderRouteView(city, route, stop) {
         </div>
       </header>
       <section class="map-stage" aria-label="${route.title}景点地图">
-        <p class="map-hint">点击地图上的编号点播放该站讲解，点击「起」点听路线开场。${route.mapNote}</p>
-        <div class="map-wrap">
-          ${renderMobileMapSketch(route)}
-          ${renderMap(route)}
-        </div>
+        <p class="map-hint">点击地图上的编号点直接播放该站讲解，点击「起」点听路线开场。${route.mapNote}</p>
+        <div class="map-wrap"><div class="map-scroll">${renderMap(route)}</div></div>
         ${renderRouteGuide(route, stop)}
       </section>
       ${state.routeTourCompleted ? renderRouteCompletion(route) : ""}
@@ -4091,8 +4088,8 @@ function handleAction(target) {
   else if (action.dataset.route) setRoute(action.dataset.route);
   else if (action.dataset.view === "cities") showCities();
   else if (action.dataset.view === "routes") showCityRoutes();
-  else if (action.dataset.intro !== undefined) selectIntro();
-  else if (action.dataset.stop) setStop(Number(action.dataset.stop));
+  else if (action.dataset.intro !== undefined) selectIntroAndPlay();
+  else if (action.dataset.stop) selectStopAndPlay(Number(action.dataset.stop));
   else if (action.dataset.tab) setTab(action.dataset.tab);
   else if (action.dataset.download !== undefined) toggleDownload();
   else if (action.dataset.libraryDownload !== undefined) toggleLibraryDownload();
