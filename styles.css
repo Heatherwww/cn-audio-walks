@@ -2946,3 +2946,26 @@ svg .icon-stroke {
     margin-left: 0;
   }
 }
+
+/* ---------- Sheet bottom next-stop action ---------- */
+
+.sheet-next-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 4px;
+  border-radius: 999px;
+  background: var(--cinnabar);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.sheet-next-action:disabled {
+  background: rgba(22, 33, 31, 0.14);
+  color: var(--ink-soft);
+  cursor: default;
+}

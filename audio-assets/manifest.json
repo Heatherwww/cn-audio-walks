@@ -1093,7 +1093,47 @@
         "label": "广州 · 越秀山到纪念堂线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
+    },
+    "datong-wall": {
+      "stops": {
+        "0": {
+          "src": "audio-assets/datong-wall/stop-01.mp3",
+          "durationSeconds": 600,
+          "label": "大同 · 大同古城墙步行线 · 第 1 站 · 永泰门瓮城",
+          "voice": "zh-CN-YunxiNeural"
+        },
+        "1": {
+          "src": "audio-assets/datong-wall/stop-02.mp3",
+          "durationSeconds": 600,
+          "label": "大同 · 大同古城墙步行线 · 第 2 站 · 城墙顶步道南段",
+          "voice": "zh-CN-YunxiNeural"
+        },
+        "2": {
+          "src": "audio-assets/datong-wall/stop-03.mp3",
+          "durationSeconds": 600,
+          "label": "大同 · 大同古城墙步行线 · 第 3 站 · 东南角楼",
+          "voice": "zh-CN-YunxiNeural"
+        },
+        "3": {
+          "src": "audio-assets/datong-wall/stop-04.mp3",
+          "durationSeconds": 600,
+          "label": "大同 · 大同古城墙步行线 · 第 4 站 · 雁塔（文峰塔）",
+          "voice": "zh-CN-YunxiNeural"
+        },
+        "4": {
+          "src": "audio-assets/datong-wall/stop-05.mp3",
+          "durationSeconds": 600,
+          "label": "大同 · 大同古城墙步行线 · 第 5 站 · 和阳门下城",
+          "voice": "zh-CN-YunxiNeural"
+        }
+      },
+      "intro": {
+        "src": "audio-assets/datong-wall/intro.mp3",
+        "durationSeconds": 180,
+        "label": "大同 · 大同古城墙步行线 · 路线开场",
+        "voice": "zh-CN-YunxiNeural"
+      }
     }
   },
-  "updatedAt": "2026-08-26T15:08:25.773Z"
+  "updatedAt": "2026-08-27T12:44:38.014Z"
 }

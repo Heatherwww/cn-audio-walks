@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-27T12:44:37.999Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "datong",
+  "cityName": "大同",
+  "routeId": "datong-wall",
+  "routeTitle": "大同古城墙步行线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "大同 · 大同古城墙步行线 · 路线开场",
+      "file": "datong-wall/intro.mp3",
+      "src": "audio-assets/datong-wall/intro.mp3",
+      "transcript": "datong-wall/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "大同 · 大同古城墙步行线 · 第 1 站 · 永泰门瓮城",
+      "file": "datong-wall/stop-01.mp3",
+      "src": "audio-assets/datong-wall/stop-01.mp3",
+      "transcript": "datong-wall/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "大同 · 大同古城墙步行线 · 第 2 站 · 城墙顶步道南段",
+      "file": "datong-wall/stop-02.mp3",
+      "src": "audio-assets/datong-wall/stop-02.mp3",
+      "transcript": "datong-wall/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "大同 · 大同古城墙步行线 · 第 3 站 · 东南角楼",
+      "file": "datong-wall/stop-03.mp3",
+      "src": "audio-assets/datong-wall/stop-03.mp3",
+      "transcript": "datong-wall/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "大同 · 大同古城墙步行线 · 第 4 站 · 雁塔（文峰塔）",
+      "file": "datong-wall/stop-04.mp3",
+      "src": "audio-assets/datong-wall/stop-04.mp3",
+      "transcript": "datong-wall/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "大同 · 大同古城墙步行线 · 第 5 站 · 和阳门下城",
+      "file": "datong-wall/stop-05.mp3",
+      "src": "audio-assets/datong-wall/stop-05.mp3",
+      "transcript": "datong-wall/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}
