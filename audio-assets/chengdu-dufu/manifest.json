@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T11:11:55.156Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "chengdu",
+  "cityName": "成都",
+  "routeId": "chengdu-dufu",
+  "routeTitle": "杜甫草堂诗圣线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "成都 · 杜甫草堂诗圣线 · 路线开场",
+      "file": "chengdu-dufu/intro.mp3",
+      "src": "audio-assets/chengdu-dufu/intro.mp3",
+      "transcript": "chengdu-dufu/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "成都 · 杜甫草堂诗圣线 · 第 1 站 · 草堂正门",
+      "file": "chengdu-dufu/stop-01.mp3",
+      "src": "audio-assets/chengdu-dufu/stop-01.mp3",
+      "transcript": "chengdu-dufu/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "成都 · 杜甫草堂诗圣线 · 第 2 站 · 大廨",
+      "file": "chengdu-dufu/stop-02.mp3",
+      "src": "audio-assets/chengdu-dufu/stop-02.mp3",
+      "transcript": "chengdu-dufu/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "成都 · 杜甫草堂诗圣线 · 第 3 站 · 诗史堂",
+      "file": "chengdu-dufu/stop-03.mp3",
+      "src": "audio-assets/chengdu-dufu/stop-03.mp3",
+      "transcript": "chengdu-dufu/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "成都 · 杜甫草堂诗圣线 · 第 4 站 · 柴门与工部祠",
+      "file": "chengdu-dufu/stop-04.mp3",
+      "src": "audio-assets/chengdu-dufu/stop-04.mp3",
+      "transcript": "chengdu-dufu/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "成都 · 杜甫草堂诗圣线 · 第 5 站 · 茅屋故居",
+      "file": "chengdu-dufu/stop-05.mp3",
+      "src": "audio-assets/chengdu-dufu/stop-05.mp3",
+      "transcript": "chengdu-dufu/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

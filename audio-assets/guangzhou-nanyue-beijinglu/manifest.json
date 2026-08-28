@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T14:58:44.271Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "guangzhou",
+  "cityName": "广州",
+  "routeId": "guangzhou-nanyue-beijinglu",
+  "routeTitle": "南越王墓到北京路线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "广州 · 南越王墓到北京路线 · 路线开场",
+      "file": "guangzhou-nanyue-beijinglu/intro.mp3",
+      "src": "audio-assets/guangzhou-nanyue-beijinglu/intro.mp3",
+      "transcript": "guangzhou-nanyue-beijinglu/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "广州 · 南越王墓到北京路线 · 第 1 站 · 王墓展区入口",
+      "file": "guangzhou-nanyue-beijinglu/stop-01.mp3",
+      "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-01.mp3",
+      "transcript": "guangzhou-nanyue-beijinglu/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "广州 · 南越王墓到北京路线 · 第 2 站 · 墓室原址",
+      "file": "guangzhou-nanyue-beijinglu/stop-02.mp3",
+      "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-02.mp3",
+      "transcript": "guangzhou-nanyue-beijinglu/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "广州 · 南越王墓到北京路线 · 第 3 站 · 文帝行玺与丝缕玉衣",
+      "file": "guangzhou-nanyue-beijinglu/stop-03.mp3",
+      "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-03.mp3",
+      "transcript": "guangzhou-nanyue-beijinglu/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "广州 · 南越王墓到北京路线 · 第 4 站 · 王宫展区曲流石渠",
+      "file": "guangzhou-nanyue-beijinglu/stop-04.mp3",
+      "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-04.mp3",
+      "transcript": "guangzhou-nanyue-beijinglu/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "广州 · 南越王墓到北京路线 · 第 5 站 · 北京路千年古道",
+      "file": "guangzhou-nanyue-beijinglu/stop-05.mp3",
+      "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-05.mp3",
+      "transcript": "guangzhou-nanyue-beijinglu/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T12:00:32.998Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "hangzhou",
+  "cityName": "杭州",
+  "routeId": "hangzhou-liangzhu",
+  "routeTitle": "良渚古城遗址线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "杭州 · 良渚古城遗址线 · 路线开场",
+      "file": "hangzhou-liangzhu/intro.mp3",
+      "src": "audio-assets/hangzhou-liangzhu/intro.mp3",
+      "transcript": "hangzhou-liangzhu/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "杭州 · 良渚古城遗址线 · 第 1 站 · 南入口陆城门",
+      "file": "hangzhou-liangzhu/stop-01.mp3",
+      "src": "audio-assets/hangzhou-liangzhu/stop-01.mp3",
+      "transcript": "hangzhou-liangzhu/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "杭州 · 良渚古城遗址线 · 第 2 站 · 南城墙遗址",
+      "file": "hangzhou-liangzhu/stop-02.mp3",
+      "src": "audio-assets/hangzhou-liangzhu/stop-02.mp3",
+      "transcript": "hangzhou-liangzhu/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "杭州 · 良渚古城遗址线 · 第 3 站 · 莫角山宫殿区",
+      "file": "hangzhou-liangzhu/stop-03.mp3",
+      "src": "audio-assets/hangzhou-liangzhu/stop-03.mp3",
+      "transcript": "hangzhou-liangzhu/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "杭州 · 良渚古城遗址线 · 第 4 站 · 反山王陵",
+      "file": "hangzhou-liangzhu/stop-04.mp3",
+      "src": "audio-assets/hangzhou-liangzhu/stop-04.mp3",
+      "transcript": "hangzhou-liangzhu/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "杭州 · 良渚古城遗址线 · 第 5 站 · 反山展示馆",
+      "file": "hangzhou-liangzhu/stop-05.mp3",
+      "src": "audio-assets/hangzhou-liangzhu/stop-05.mp3",
+      "transcript": "hangzhou-liangzhu/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

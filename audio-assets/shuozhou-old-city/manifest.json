@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T08:08:56.367Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "shuozhou",
+  "cityName": "朔州",
+  "routeId": "shuozhou-old-city",
+  "routeTitle": "朔州老城马邑线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "朔州 · 朔州老城马邑线 · 路线开场",
+      "file": "shuozhou-old-city/intro.mp3",
+      "src": "audio-assets/shuozhou-old-city/intro.mp3",
+      "transcript": "shuozhou-old-city/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "朔州 · 朔州老城马邑线 · 第 1 站 · 古城墙公园",
+      "file": "shuozhou-old-city/stop-01.mp3",
+      "src": "audio-assets/shuozhou-old-city/stop-01.mp3",
+      "transcript": "shuozhou-old-city/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "朔州 · 朔州老城马邑线 · 第 2 站 · 老城十字街",
+      "file": "shuozhou-old-city/stop-02.mp3",
+      "src": "audio-assets/shuozhou-old-city/stop-02.mp3",
+      "transcript": "shuozhou-old-city/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "朔州 · 朔州老城马邑线 · 第 3 站 · 马邑博物馆",
+      "file": "shuozhou-old-city/stop-03.mp3",
+      "src": "audio-assets/shuozhou-old-city/stop-03.mp3",
+      "transcript": "shuozhou-old-city/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "朔州 · 朔州老城马邑线 · 第 4 站 · 尉迟敬德庙",
+      "file": "shuozhou-old-city/stop-04.mp3",
+      "src": "audio-assets/shuozhou-old-city/stop-04.mp3",
+      "transcript": "shuozhou-old-city/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "朔州 · 朔州老城马邑线 · 第 5 站 · 崇福寺门前广场",
+      "file": "shuozhou-old-city/stop-05.mp3",
+      "src": "audio-assets/shuozhou-old-city/stop-05.mp3",
+      "transcript": "shuozhou-old-city/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

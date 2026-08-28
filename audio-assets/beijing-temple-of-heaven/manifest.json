@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T09:31:15.135Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "beijing",
+  "cityName": "北京",
+  "routeId": "beijing-temple-of-heaven",
+  "routeTitle": "天坛祭天线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "北京 · 天坛祭天线 · 路线开场",
+      "file": "beijing-temple-of-heaven/intro.mp3",
+      "src": "audio-assets/beijing-temple-of-heaven/intro.mp3",
+      "transcript": "beijing-temple-of-heaven/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "北京 · 天坛祭天线 · 第 1 站 · 昭亨门与坛墙",
+      "file": "beijing-temple-of-heaven/stop-01.mp3",
+      "src": "audio-assets/beijing-temple-of-heaven/stop-01.mp3",
+      "transcript": "beijing-temple-of-heaven/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "北京 · 天坛祭天线 · 第 2 站 · 圜丘坛",
+      "file": "beijing-temple-of-heaven/stop-02.mp3",
+      "src": "audio-assets/beijing-temple-of-heaven/stop-02.mp3",
+      "transcript": "beijing-temple-of-heaven/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "北京 · 天坛祭天线 · 第 3 站 · 皇穹宇与回音壁",
+      "file": "beijing-temple-of-heaven/stop-03.mp3",
+      "src": "audio-assets/beijing-temple-of-heaven/stop-03.mp3",
+      "transcript": "beijing-temple-of-heaven/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "北京 · 天坛祭天线 · 第 4 站 · 丹陛桥",
+      "file": "beijing-temple-of-heaven/stop-04.mp3",
+      "src": "audio-assets/beijing-temple-of-heaven/stop-04.mp3",
+      "transcript": "beijing-temple-of-heaven/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "北京 · 天坛祭天线 · 第 5 站 · 祈年殿",
+      "file": "beijing-temple-of-heaven/stop-05.mp3",
+      "src": "audio-assets/beijing-temple-of-heaven/stop-05.mp3",
+      "transcript": "beijing-temple-of-heaven/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T09:44:36.322Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "beijing",
+  "cityName": "北京",
+  "routeId": "beijing-lama-confucius",
+  "routeTitle": "雍和宫国子监线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "北京 · 雍和宫国子监线 · 路线开场",
+      "file": "beijing-lama-confucius/intro.mp3",
+      "src": "audio-assets/beijing-lama-confucius/intro.mp3",
+      "transcript": "beijing-lama-confucius/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "北京 · 雍和宫国子监线 · 第 1 站 · 雍和宫牌楼",
+      "file": "beijing-lama-confucius/stop-01.mp3",
+      "src": "audio-assets/beijing-lama-confucius/stop-01.mp3",
+      "transcript": "beijing-lama-confucius/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "北京 · 雍和宫国子监线 · 第 2 站 · 法轮殿",
+      "file": "beijing-lama-confucius/stop-02.mp3",
+      "src": "audio-assets/beijing-lama-confucius/stop-02.mp3",
+      "transcript": "beijing-lama-confucius/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "北京 · 雍和宫国子监线 · 第 3 站 · 万福阁",
+      "file": "beijing-lama-confucius/stop-03.mp3",
+      "src": "audio-assets/beijing-lama-confucius/stop-03.mp3",
+      "transcript": "beijing-lama-confucius/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "北京 · 雍和宫国子监线 · 第 4 站 · 国子监街与孔庙",
+      "file": "beijing-lama-confucius/stop-04.mp3",
+      "src": "audio-assets/beijing-lama-confucius/stop-04.mp3",
+      "transcript": "beijing-lama-confucius/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "北京 · 雍和宫国子监线 · 第 5 站 · 国子监辟雍",
+      "file": "beijing-lama-confucius/stop-05.mp3",
+      "src": "audio-assets/beijing-lama-confucius/stop-05.mp3",
+      "transcript": "beijing-lama-confucius/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

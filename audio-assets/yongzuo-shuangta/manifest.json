@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T06:56:54.512Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "taiyuan",
+  "cityName": "太原",
+  "routeId": "yongzuo-shuangta",
+  "routeTitle": "永祚寺双塔线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "太原 · 永祚寺双塔线 · 路线开场",
+      "file": "yongzuo-shuangta/intro.mp3",
+      "src": "audio-assets/yongzuo-shuangta/intro.mp3",
+      "transcript": "yongzuo-shuangta/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "太原 · 永祚寺双塔线 · 第 1 站 · 双塔公园望塔",
+      "file": "yongzuo-shuangta/stop-01.mp3",
+      "src": "audio-assets/yongzuo-shuangta/stop-01.mp3",
+      "transcript": "yongzuo-shuangta/stop-01.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "太原 · 永祚寺双塔线 · 第 2 站 · 永祚寺山门",
+      "file": "yongzuo-shuangta/stop-02.mp3",
+      "src": "audio-assets/yongzuo-shuangta/stop-02.mp3",
+      "transcript": "yongzuo-shuangta/stop-02.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "太原 · 永祚寺双塔线 · 第 3 站 · 大雄宝殿",
+      "file": "yongzuo-shuangta/stop-03.mp3",
+      "src": "audio-assets/yongzuo-shuangta/stop-03.mp3",
+      "transcript": "yongzuo-shuangta/stop-03.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "太原 · 永祚寺双塔线 · 第 4 站 · 塔院与宣文塔",
+      "file": "yongzuo-shuangta/stop-04.mp3",
+      "src": "audio-assets/yongzuo-shuangta/stop-04.mp3",
+      "transcript": "yongzuo-shuangta/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "太原 · 永祚寺双塔线 · 第 5 站 · 东南角回望",
+      "file": "yongzuo-shuangta/stop-05.mp3",
+      "src": "audio-assets/yongzuo-shuangta/stop-05.mp3",
+      "transcript": "yongzuo-shuangta/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

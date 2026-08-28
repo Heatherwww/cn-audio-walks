@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T07:03:41.830Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "taiyuan",
+  "cityName": "太原",
+  "routeId": "tianlongshan",
+  "routeTitle": "天龙山石窟线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "太原 · 天龙山石窟线 · 路线开场",
+      "file": "tianlongshan/intro.mp3",
+      "src": "audio-assets/tianlongshan/intro.mp3",
+      "transcript": "tianlongshan/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "太原 · 天龙山石窟线 · 第 1 站 · 天龙寺前",
+      "file": "tianlongshan/stop-01.mp3",
+      "src": "audio-assets/tianlongshan/stop-01.mp3",
+      "transcript": "tianlongshan/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "太原 · 天龙山石窟线 · 第 2 站 · 东峰第2、3窟",
+      "file": "tianlongshan/stop-02.mp3",
+      "src": "audio-assets/tianlongshan/stop-02.mp3",
+      "transcript": "tianlongshan/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "太原 · 天龙山石窟线 · 第 3 站 · 西峰崖面远望",
+      "file": "tianlongshan/stop-03.mp3",
+      "src": "audio-assets/tianlongshan/stop-03.mp3",
+      "transcript": "tianlongshan/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "太原 · 天龙山石窟线 · 第 4 站 · 第8窟",
+      "file": "tianlongshan/stop-04.mp3",
+      "src": "audio-assets/tianlongshan/stop-04.mp3",
+      "transcript": "tianlongshan/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "太原 · 天龙山石窟线 · 第 5 站 · 漫山阁",
+      "file": "tianlongshan/stop-05.mp3",
+      "src": "audio-assets/tianlongshan/stop-05.mp3",
+      "transcript": "tianlongshan/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

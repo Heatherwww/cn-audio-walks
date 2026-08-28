@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T08:27:58.444Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "shuozhou",
+  "cityName": "朔州",
+  "routeId": "shahukou-west",
+  "routeTitle": "右玉杀虎口西口线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "朔州 · 右玉杀虎口西口线 · 路线开场",
+      "file": "shahukou-west/intro.mp3",
+      "src": "audio-assets/shahukou-west/intro.mp3",
+      "transcript": "shahukou-west/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "朔州 · 右玉杀虎口西口线 · 第 1 站 · 右玉县博物馆",
+      "file": "shahukou-west/stop-01.mp3",
+      "src": "audio-assets/shahukou-west/stop-01.mp3",
+      "transcript": "shahukou-west/stop-01.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "朔州 · 右玉杀虎口西口线 · 第 2 站 · 杀虎口关楼",
+      "file": "shahukou-west/stop-02.mp3",
+      "src": "audio-assets/shahukou-west/stop-02.mp3",
+      "transcript": "shahukou-west/stop-02.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "朔州 · 右玉杀虎口西口线 · 第 3 站 · 西口古道",
+      "file": "shahukou-west/stop-03.mp3",
+      "src": "audio-assets/shahukou-west/stop-03.mp3",
+      "transcript": "shahukou-west/stop-03.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "朔州 · 右玉杀虎口西口线 · 第 4 站 · 杀虎堡",
+      "file": "shahukou-west/stop-04.mp3",
+      "src": "audio-assets/shahukou-west/stop-04.mp3",
+      "transcript": "shahukou-west/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "朔州 · 右玉杀虎口西口线 · 第 5 站 · 广义桥",
+      "file": "shahukou-west/stop-05.mp3",
+      "src": "audio-assets/shahukou-west/stop-05.mp3",
+      "transcript": "shahukou-west/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

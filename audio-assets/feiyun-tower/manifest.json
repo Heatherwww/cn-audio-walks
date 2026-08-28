@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T09:05:20.916Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "yuncheng",
+  "cityName": "运城",
+  "routeId": "feiyun-tower",
+  "routeTitle": "万荣东岳庙飞云楼线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "运城 · 万荣东岳庙飞云楼线 · 路线开场",
+      "file": "feiyun-tower/intro.mp3",
+      "src": "audio-assets/feiyun-tower/intro.mp3",
+      "transcript": "feiyun-tower/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "运城 · 万荣东岳庙飞云楼线 · 第 1 站 · 街对面远望飞云楼",
+      "file": "feiyun-tower/stop-01.mp3",
+      "src": "audio-assets/feiyun-tower/stop-01.mp3",
+      "transcript": "feiyun-tower/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "运城 · 万荣东岳庙飞云楼线 · 第 2 站 · 楼底看通天柱",
+      "file": "feiyun-tower/stop-02.mp3",
+      "src": "audio-assets/feiyun-tower/stop-02.mp3",
+      "transcript": "feiyun-tower/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "运城 · 万荣东岳庙飞云楼线 · 第 3 站 · 绕楼看斗栱与十字歇山顶",
+      "file": "feiyun-tower/stop-03.mp3",
+      "src": "audio-assets/feiyun-tower/stop-03.mp3",
+      "transcript": "feiyun-tower/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "运城 · 万荣东岳庙飞云楼线 · 第 4 站 · 午门与献殿",
+      "file": "feiyun-tower/stop-04.mp3",
+      "src": "audio-assets/feiyun-tower/stop-04.mp3",
+      "transcript": "feiyun-tower/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "运城 · 万荣东岳庙飞云楼线 · 第 5 站 · 献殿前回望",
+      "file": "feiyun-tower/stop-05.mp3",
+      "src": "audio-assets/feiyun-tower/stop-05.mp3",
+      "transcript": "feiyun-tower/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T07:16:52.925Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "taiyuan",
+  "cityName": "太原",
+  "routeId": "guxiancheng",
+  "routeTitle": "太原古县城十字街线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "太原 · 太原古县城十字街线 · 路线开场",
+      "file": "guxiancheng/intro.mp3",
+      "src": "audio-assets/guxiancheng/intro.mp3",
+      "transcript": "guxiancheng/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "太原 · 太原古县城十字街线 · 第 1 站 · 南城门",
+      "file": "guxiancheng/stop-01.mp3",
+      "src": "audio-assets/guxiancheng/stop-01.mp3",
+      "transcript": "guxiancheng/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "太原 · 太原古县城十字街线 · 第 2 站 · 十字街口",
+      "file": "guxiancheng/stop-02.mp3",
+      "src": "audio-assets/guxiancheng/stop-02.mp3",
+      "transcript": "guxiancheng/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "太原 · 太原古县城十字街线 · 第 3 站 · 县衙",
+      "file": "guxiancheng/stop-03.mp3",
+      "src": "audio-assets/guxiancheng/stop-03.mp3",
+      "transcript": "guxiancheng/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "太原 · 太原古县城十字街线 · 第 4 站 · 城隍庙",
+      "file": "guxiancheng/stop-04.mp3",
+      "src": "audio-assets/guxiancheng/stop-04.mp3",
+      "transcript": "guxiancheng/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "太原 · 太原古县城十字街线 · 第 5 站 · 城墙东门段",
+      "file": "guxiancheng/stop-05.mp3",
+      "src": "audio-assets/guxiancheng/stop-05.mp3",
+      "transcript": "guxiancheng/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

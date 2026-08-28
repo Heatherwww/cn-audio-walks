@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T13:13:47.802Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "nanjing",
+  "cityName": "南京",
+  "routeId": "nanjing-yihe",
+  "routeTitle": "颐和路民国街区线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "南京 · 颐和路民国街区线 · 路线开场",
+      "file": "nanjing-yihe/intro.mp3",
+      "src": "audio-assets/nanjing-yihe/intro.mp3",
+      "transcript": "nanjing-yihe/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "南京 · 颐和路民国街区线 · 第 1 站 · 江苏路广场",
+      "file": "nanjing-yihe/stop-01.mp3",
+      "src": "audio-assets/nanjing-yihe/stop-01.mp3",
+      "transcript": "nanjing-yihe/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "南京 · 颐和路民国街区线 · 第 2 站 · 颐和路梧桐街段",
+      "file": "nanjing-yihe/stop-02.mp3",
+      "src": "audio-assets/nanjing-yihe/stop-02.mp3",
+      "transcript": "nanjing-yihe/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "南京 · 颐和路民国街区线 · 第 3 站 · 颐和路第十二片区",
+      "file": "nanjing-yihe/stop-03.mp3",
+      "src": "audio-assets/nanjing-yihe/stop-03.mp3",
+      "transcript": "nanjing-yihe/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "南京 · 颐和路民国街区线 · 第 4 站 · 牯岭路口",
+      "file": "nanjing-yihe/stop-04.mp3",
+      "src": "audio-assets/nanjing-yihe/stop-04.mp3",
+      "transcript": "nanjing-yihe/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "南京 · 颐和路民国街区线 · 第 5 站 · 西桥巷口",
+      "file": "nanjing-yihe/stop-05.mp3",
+      "src": "audio-assets/nanjing-yihe/stop-05.mp3",
+      "transcript": "nanjing-yihe/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

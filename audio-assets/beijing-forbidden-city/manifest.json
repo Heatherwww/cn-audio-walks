@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T09:24:43.163Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "beijing",
+  "cityName": "北京",
+  "routeId": "beijing-forbidden-city",
+  "routeTitle": "故宫中轴精华线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "北京 · 故宫中轴精华线 · 路线开场",
+      "file": "beijing-forbidden-city/intro.mp3",
+      "src": "audio-assets/beijing-forbidden-city/intro.mp3",
+      "transcript": "beijing-forbidden-city/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "北京 · 故宫中轴精华线 · 第 1 站 · 午门",
+      "file": "beijing-forbidden-city/stop-01.mp3",
+      "src": "audio-assets/beijing-forbidden-city/stop-01.mp3",
+      "transcript": "beijing-forbidden-city/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "北京 · 故宫中轴精华线 · 第 2 站 · 太和殿广场",
+      "file": "beijing-forbidden-city/stop-02.mp3",
+      "src": "audio-assets/beijing-forbidden-city/stop-02.mp3",
+      "transcript": "beijing-forbidden-city/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "北京 · 故宫中轴精华线 · 第 3 站 · 乾清门",
+      "file": "beijing-forbidden-city/stop-03.mp3",
+      "src": "audio-assets/beijing-forbidden-city/stop-03.mp3",
+      "transcript": "beijing-forbidden-city/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "北京 · 故宫中轴精华线 · 第 4 站 · 御花园",
+      "file": "beijing-forbidden-city/stop-04.mp3",
+      "src": "audio-assets/beijing-forbidden-city/stop-04.mp3",
+      "transcript": "beijing-forbidden-city/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "北京 · 故宫中轴精华线 · 第 5 站 · 神武门",
+      "file": "beijing-forbidden-city/stop-05.mp3",
+      "src": "audio-assets/beijing-forbidden-city/stop-05.mp3",
+      "transcript": "beijing-forbidden-city/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

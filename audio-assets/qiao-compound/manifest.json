@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T06:24:31.286Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "jinzhong",
+  "cityName": "晋中",
+  "routeId": "qiao-compound",
+  "routeTitle": "乔家大院晋商宅院线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "晋中 · 乔家大院晋商宅院线 · 路线开场",
+      "file": "qiao-compound/intro.mp3",
+      "src": "audio-assets/qiao-compound/intro.mp3",
+      "transcript": "qiao-compound/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "晋中 · 乔家大院晋商宅院线 · 第 1 站 · 百寿图照壁",
+      "file": "qiao-compound/stop-01.mp3",
+      "src": "audio-assets/qiao-compound/stop-01.mp3",
+      "transcript": "qiao-compound/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "晋中 · 乔家大院晋商宅院线 · 第 2 站 · 青石甬道",
+      "file": "qiao-compound/stop-02.mp3",
+      "src": "audio-assets/qiao-compound/stop-02.mp3",
+      "transcript": "qiao-compound/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "晋中 · 乔家大院晋商宅院线 · 第 3 站 · 老院正房",
+      "file": "qiao-compound/stop-03.mp3",
+      "src": "audio-assets/qiao-compound/stop-03.mp3",
+      "transcript": "qiao-compound/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "晋中 · 乔家大院晋商宅院线 · 第 4 站 · 三雕与馆藏旧物",
+      "file": "qiao-compound/stop-04.mp3",
+      "src": "audio-assets/qiao-compound/stop-04.mp3",
+      "transcript": "qiao-compound/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "晋中 · 乔家大院晋商宅院线 · 第 5 站 · 花园",
+      "file": "qiao-compound/stop-05.mp3",
+      "src": "audio-assets/qiao-compound/stop-05.mp3",
+      "transcript": "qiao-compound/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

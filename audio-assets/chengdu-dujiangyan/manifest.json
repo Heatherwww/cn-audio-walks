@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T11:30:18.644Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "chengdu",
+  "cityName": "成都",
+  "routeId": "chengdu-dujiangyan",
+  "routeTitle": "都江堰无坝引水线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "成都 · 都江堰无坝引水线 · 路线开场",
+      "file": "chengdu-dujiangyan/intro.mp3",
+      "src": "audio-assets/chengdu-dujiangyan/intro.mp3",
+      "transcript": "chengdu-dujiangyan/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "成都 · 都江堰无坝引水线 · 第 1 站 · 堰功道",
+      "file": "chengdu-dujiangyan/stop-01.mp3",
+      "src": "audio-assets/chengdu-dujiangyan/stop-01.mp3",
+      "transcript": "chengdu-dujiangyan/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "成都 · 都江堰无坝引水线 · 第 2 站 · 伏龙观",
+      "file": "chengdu-dujiangyan/stop-02.mp3",
+      "src": "audio-assets/chengdu-dujiangyan/stop-02.mp3",
+      "transcript": "chengdu-dujiangyan/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "成都 · 都江堰无坝引水线 · 第 3 站 · 宝瓶口",
+      "file": "chengdu-dujiangyan/stop-03.mp3",
+      "src": "audio-assets/chengdu-dujiangyan/stop-03.mp3",
+      "transcript": "chengdu-dujiangyan/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "成都 · 都江堰无坝引水线 · 第 4 站 · 飞沙堰",
+      "file": "chengdu-dujiangyan/stop-04.mp3",
+      "src": "audio-assets/chengdu-dujiangyan/stop-04.mp3",
+      "transcript": "chengdu-dujiangyan/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "成都 · 都江堰无坝引水线 · 第 5 站 · 鱼嘴",
+      "file": "chengdu-dujiangyan/stop-05.mp3",
+      "src": "audio-assets/chengdu-dujiangyan/stop-05.mp3",
+      "transcript": "chengdu-dujiangyan/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

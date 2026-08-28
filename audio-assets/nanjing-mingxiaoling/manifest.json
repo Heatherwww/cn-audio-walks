@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T13:01:15.419Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "nanjing",
+  "cityName": "南京",
+  "routeId": "nanjing-mingxiaoling",
+  "routeTitle": "明孝陵神道线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "南京 · 明孝陵神道线 · 路线开场",
+      "file": "nanjing-mingxiaoling/intro.mp3",
+      "src": "audio-assets/nanjing-mingxiaoling/intro.mp3",
+      "transcript": "nanjing-mingxiaoling/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "南京 · 明孝陵神道线 · 第 1 站 · 大金门",
+      "file": "nanjing-mingxiaoling/stop-01.mp3",
+      "src": "audio-assets/nanjing-mingxiaoling/stop-01.mp3",
+      "transcript": "nanjing-mingxiaoling/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "南京 · 明孝陵神道线 · 第 2 站 · 四方城",
+      "file": "nanjing-mingxiaoling/stop-02.mp3",
+      "src": "audio-assets/nanjing-mingxiaoling/stop-02.mp3",
+      "transcript": "nanjing-mingxiaoling/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "南京 · 明孝陵神道线 · 第 3 站 · 石象路",
+      "file": "nanjing-mingxiaoling/stop-03.mp3",
+      "src": "audio-assets/nanjing-mingxiaoling/stop-03.mp3",
+      "transcript": "nanjing-mingxiaoling/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "南京 · 明孝陵神道线 · 第 4 站 · 翁仲路",
+      "file": "nanjing-mingxiaoling/stop-04.mp3",
+      "src": "audio-assets/nanjing-mingxiaoling/stop-04.mp3",
+      "transcript": "nanjing-mingxiaoling/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "南京 · 明孝陵神道线 · 第 5 站 · 方城明楼",
+      "file": "nanjing-mingxiaoling/stop-05.mp3",
+      "src": "audio-assets/nanjing-mingxiaoling/stop-05.mp3",
+      "transcript": "nanjing-mingxiaoling/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

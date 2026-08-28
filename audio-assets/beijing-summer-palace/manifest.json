@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T09:38:00.399Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "beijing",
+  "cityName": "北京",
+  "routeId": "beijing-summer-palace",
+  "routeTitle": "颐和园湖山线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "北京 · 颐和园湖山线 · 路线开场",
+      "file": "beijing-summer-palace/intro.mp3",
+      "src": "audio-assets/beijing-summer-palace/intro.mp3",
+      "transcript": "beijing-summer-palace/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "北京 · 颐和园湖山线 · 第 1 站 · 东宫门",
+      "file": "beijing-summer-palace/stop-01.mp3",
+      "src": "audio-assets/beijing-summer-palace/stop-01.mp3",
+      "transcript": "beijing-summer-palace/stop-01.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "北京 · 颐和园湖山线 · 第 2 站 · 仁寿殿",
+      "file": "beijing-summer-palace/stop-02.mp3",
+      "src": "audio-assets/beijing-summer-palace/stop-02.mp3",
+      "transcript": "beijing-summer-palace/stop-02.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "北京 · 颐和园湖山线 · 第 3 站 · 长廊",
+      "file": "beijing-summer-palace/stop-03.mp3",
+      "src": "audio-assets/beijing-summer-palace/stop-03.mp3",
+      "transcript": "beijing-summer-palace/stop-03.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "北京 · 颐和园湖山线 · 第 4 站 · 排云殿与佛香阁",
+      "file": "beijing-summer-palace/stop-04.mp3",
+      "src": "audio-assets/beijing-summer-palace/stop-04.mp3",
+      "transcript": "beijing-summer-palace/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "北京 · 颐和园湖山线 · 第 5 站 · 石舫",
+      "file": "beijing-summer-palace/stop-05.mp3",
+      "src": "audio-assets/beijing-summer-palace/stop-05.mp3",
+      "transcript": "beijing-summer-palace/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

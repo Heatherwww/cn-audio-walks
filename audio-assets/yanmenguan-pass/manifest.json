@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T07:45:55.114Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "xinzhou",
+  "cityName": "忻州",
+  "routeId": "yanmenguan-pass",
+  "routeTitle": "雁门关长城线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "忻州 · 雁门关长城线 · 路线开场",
+      "file": "yanmenguan-pass/intro.mp3",
+      "src": "audio-assets/yanmenguan-pass/intro.mp3",
+      "transcript": "yanmenguan-pass/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "忻州 · 雁门关长城线 · 第 1 站 · 南门与边贸街",
+      "file": "yanmenguan-pass/stop-01.mp3",
+      "src": "audio-assets/yanmenguan-pass/stop-01.mp3",
+      "transcript": "yanmenguan-pass/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "忻州 · 雁门关长城线 · 第 2 站 · 瓮城门",
+      "file": "yanmenguan-pass/stop-02.mp3",
+      "src": "audio-assets/yanmenguan-pass/stop-02.mp3",
+      "transcript": "yanmenguan-pass/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "忻州 · 雁门关长城线 · 第 3 站 · 天险门与雁楼",
+      "file": "yanmenguan-pass/stop-03.mp3",
+      "src": "audio-assets/yanmenguan-pass/stop-03.mp3",
+      "transcript": "yanmenguan-pass/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "忻州 · 雁门关长城线 · 第 4 站 · 关署与镇边祠",
+      "file": "yanmenguan-pass/stop-04.mp3",
+      "src": "audio-assets/yanmenguan-pass/stop-04.mp3",
+      "transcript": "yanmenguan-pass/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "忻州 · 雁门关长城线 · 第 5 站 · 雁塔回望",
+      "file": "yanmenguan-pass/stop-05.mp3",
+      "src": "audio-assets/yanmenguan-pass/stop-05.mp3",
+      "transcript": "yanmenguan-pass/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T10:01:21.651Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "shanghai",
+  "cityName": "上海",
+  "routeId": "shanghai-yuyuan",
+  "routeTitle": "豫园老城厢园林线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "上海 · 豫园老城厢园林线 · 路线开场",
+      "file": "shanghai-yuyuan/intro.mp3",
+      "src": "audio-assets/shanghai-yuyuan/intro.mp3",
+      "transcript": "shanghai-yuyuan/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "上海 · 豫园老城厢园林线 · 第 1 站 · 三穗堂前",
+      "file": "shanghai-yuyuan/stop-01.mp3",
+      "src": "audio-assets/shanghai-yuyuan/stop-01.mp3",
+      "transcript": "shanghai-yuyuan/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "上海 · 豫园老城厢园林线 · 第 2 站 · 大假山",
+      "file": "shanghai-yuyuan/stop-02.mp3",
+      "src": "audio-assets/shanghai-yuyuan/stop-02.mp3",
+      "transcript": "shanghai-yuyuan/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "上海 · 豫园老城厢园林线 · 第 3 站 · 点春堂",
+      "file": "shanghai-yuyuan/stop-03.mp3",
+      "src": "audio-assets/shanghai-yuyuan/stop-03.mp3",
+      "transcript": "shanghai-yuyuan/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "上海 · 豫园老城厢园林线 · 第 4 站 · 玉玲珑",
+      "file": "shanghai-yuyuan/stop-04.mp3",
+      "src": "audio-assets/shanghai-yuyuan/stop-04.mp3",
+      "transcript": "shanghai-yuyuan/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "上海 · 豫园老城厢园林线 · 第 5 站 · 九曲桥与湖心亭",
+      "file": "shanghai-yuyuan/stop-05.mp3",
+      "src": "audio-assets/shanghai-yuyuan/stop-05.mp3",
+      "transcript": "shanghai-yuyuan/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T08:53:26.447Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "yuncheng",
+  "cityName": "运城",
+  "routeId": "guanque-tower",
+  "routeTitle": "鹳雀楼登高远望线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "运城 · 鹳雀楼登高远望线 · 路线开场",
+      "file": "guanque-tower/intro.mp3",
+      "src": "audio-assets/guanque-tower/intro.mp3",
+      "transcript": "guanque-tower/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "运城 · 鹳雀楼登高远望线 · 第 1 站 · 入口广场远望",
+      "file": "guanque-tower/stop-01.mp3",
+      "src": "audio-assets/guanque-tower/stop-01.mp3",
+      "transcript": "guanque-tower/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "运城 · 鹳雀楼登高远望线 · 第 2 站 · 楼前仰视高台",
+      "file": "guanque-tower/stop-02.mp3",
+      "src": "audio-assets/guanque-tower/stop-02.mp3",
+      "transcript": "guanque-tower/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "运城 · 鹳雀楼登高远望线 · 第 3 站 · 台基与一层",
+      "file": "guanque-tower/stop-03.mp3",
+      "src": "audio-assets/guanque-tower/stop-03.mp3",
+      "transcript": "guanque-tower/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "运城 · 鹳雀楼登高远望线 · 第 4 站 · 中层看仿唐构件",
+      "file": "guanque-tower/stop-04.mp3",
+      "src": "audio-assets/guanque-tower/stop-04.mp3",
+      "transcript": "guanque-tower/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "运城 · 鹳雀楼登高远望线 · 第 5 站 · 顶层西望黄河",
+      "file": "guanque-tower/stop-05.mp3",
+      "src": "audio-assets/guanque-tower/stop-05.mp3",
+      "transcript": "guanque-tower/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

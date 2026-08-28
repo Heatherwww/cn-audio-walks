@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T14:51:56.012Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "guangzhou",
+  "cityName": "广州",
+  "routeId": "guangzhou-twin-temples",
+  "routeTitle": "光孝六榕双寺线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "广州 · 光孝六榕双寺线 · 路线开场",
+      "file": "guangzhou-twin-temples/intro.mp3",
+      "src": "audio-assets/guangzhou-twin-temples/intro.mp3",
+      "transcript": "guangzhou-twin-temples/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "广州 · 光孝六榕双寺线 · 第 1 站 · 光孝寺山门",
+      "file": "guangzhou-twin-temples/stop-01.mp3",
+      "src": "audio-assets/guangzhou-twin-temples/stop-01.mp3",
+      "transcript": "guangzhou-twin-temples/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "广州 · 光孝六榕双寺线 · 第 2 站 · 光孝寺大雄宝殿",
+      "file": "guangzhou-twin-temples/stop-02.mp3",
+      "src": "audio-assets/guangzhou-twin-temples/stop-02.mp3",
+      "transcript": "guangzhou-twin-temples/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "广州 · 光孝六榕双寺线 · 第 3 站 · 瘗发塔与菩提树",
+      "file": "guangzhou-twin-temples/stop-03.mp3",
+      "src": "audio-assets/guangzhou-twin-temples/stop-03.mp3",
+      "transcript": "guangzhou-twin-temples/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "广州 · 光孝六榕双寺线 · 第 4 站 · 六榕寺山门",
+      "file": "guangzhou-twin-temples/stop-04.mp3",
+      "src": "audio-assets/guangzhou-twin-temples/stop-04.mp3",
+      "transcript": "guangzhou-twin-temples/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "广州 · 光孝六榕双寺线 · 第 5 站 · 六榕寺花塔",
+      "file": "guangzhou-twin-temples/stop-05.mp3",
+      "src": "audio-assets/guangzhou-twin-temples/stop-05.mp3",
+      "transcript": "guangzhou-twin-temples/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

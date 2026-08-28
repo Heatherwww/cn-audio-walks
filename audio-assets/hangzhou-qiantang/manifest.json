@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T12:07:23.889Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "hangzhou",
+  "cityName": "杭州",
+  "routeId": "hangzhou-qiantang",
+  "routeTitle": "六和塔钱塘江大桥线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "杭州 · 六和塔钱塘江大桥线 · 路线开场",
+      "file": "hangzhou-qiantang/intro.mp3",
+      "src": "audio-assets/hangzhou-qiantang/intro.mp3",
+      "transcript": "hangzhou-qiantang/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "杭州 · 六和塔钱塘江大桥线 · 第 1 站 · 六和塔下",
+      "file": "hangzhou-qiantang/stop-01.mp3",
+      "src": "audio-assets/hangzhou-qiantang/stop-01.mp3",
+      "transcript": "hangzhou-qiantang/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "杭州 · 六和塔钱塘江大桥线 · 第 2 站 · 塔上望江",
+      "file": "hangzhou-qiantang/stop-02.mp3",
+      "src": "audio-assets/hangzhou-qiantang/stop-02.mp3",
+      "transcript": "hangzhou-qiantang/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "杭州 · 六和塔钱塘江大桥线 · 第 3 站 · 大桥北桥头",
+      "file": "hangzhou-qiantang/stop-03.mp3",
+      "src": "audio-assets/hangzhou-qiantang/stop-03.mp3",
+      "transcript": "hangzhou-qiantang/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "杭州 · 六和塔钱塘江大桥线 · 第 4 站 · 桥面人行道",
+      "file": "hangzhou-qiantang/stop-04.mp3",
+      "src": "audio-assets/hangzhou-qiantang/stop-04.mp3",
+      "transcript": "hangzhou-qiantang/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "杭州 · 六和塔钱塘江大桥线 · 第 5 站 · 闸口白塔",
+      "file": "hangzhou-qiantang/stop-05.mp3",
+      "src": "audio-assets/hangzhou-qiantang/stop-05.mp3",
+      "transcript": "hangzhou-qiantang/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

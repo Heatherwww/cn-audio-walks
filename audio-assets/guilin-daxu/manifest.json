@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T13:49:49.828Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "guilin",
+  "cityName": "桂林",
+  "routeId": "guilin-daxu",
+  "routeTitle": "大圩古镇老街线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "桂林 · 大圩古镇老街线 · 路线开场",
+      "file": "guilin-daxu/intro.mp3",
+      "src": "audio-assets/guilin-daxu/intro.mp3",
+      "transcript": "guilin-daxu/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "桂林 · 大圩古镇老街线 · 第 1 站 · 大圩老街东口",
+      "file": "guilin-daxu/stop-01.mp3",
+      "src": "audio-assets/guilin-daxu/stop-01.mp3",
+      "transcript": "guilin-daxu/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "桂林 · 大圩古镇老街线 · 第 2 站 · 万寿桥",
+      "file": "guilin-daxu/stop-02.mp3",
+      "src": "audio-assets/guilin-daxu/stop-02.mp3",
+      "transcript": "guilin-daxu/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "桂林 · 大圩古镇老街线 · 第 3 站 · 老街中段作坊",
+      "file": "guilin-daxu/stop-03.mp3",
+      "src": "audio-assets/guilin-daxu/stop-03.mp3",
+      "transcript": "guilin-daxu/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "桂林 · 大圩古镇老街线 · 第 4 站 · 孙中山登岸处巷口",
+      "file": "guilin-daxu/stop-04.mp3",
+      "src": "audio-assets/guilin-daxu/stop-04.mp3",
+      "transcript": "guilin-daxu/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "桂林 · 大圩古镇老街线 · 第 5 站 · 漓江古码头",
+      "file": "guilin-daxu/stop-05.mp3",
+      "src": "audio-assets/guilin-daxu/stop-05.mp3",
+      "transcript": "guilin-daxu/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T07:33:02.103Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "xinzhou",
+  "cityName": "忻州",
+  "routeId": "nanchan-temple",
+  "routeTitle": "南禅寺最早木构线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "忻州 · 南禅寺最早木构线 · 路线开场",
+      "file": "nanchan-temple/intro.mp3",
+      "src": "audio-assets/nanchan-temple/intro.mp3",
+      "transcript": "nanchan-temple/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "忻州 · 南禅寺最早木构线 · 第 1 站 · 李家庄村口",
+      "file": "nanchan-temple/stop-01.mp3",
+      "src": "audio-assets/nanchan-temple/stop-01.mp3",
+      "transcript": "nanchan-temple/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "忻州 · 南禅寺最早木构线 · 第 2 站 · 山门与四合院",
+      "file": "nanchan-temple/stop-02.mp3",
+      "src": "audio-assets/nanchan-temple/stop-02.mp3",
+      "transcript": "nanchan-temple/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "忻州 · 南禅寺最早木构线 · 第 3 站 · 大殿正面",
+      "file": "nanchan-temple/stop-03.mp3",
+      "src": "audio-assets/nanchan-temple/stop-03.mp3",
+      "transcript": "nanchan-temple/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "忻州 · 南禅寺最早木构线 · 第 4 站 · 檐下斗拱与梁架",
+      "file": "nanchan-temple/stop-04.mp3",
+      "src": "audio-assets/nanchan-temple/stop-04.mp3",
+      "transcript": "nanchan-temple/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "忻州 · 南禅寺最早木构线 · 第 5 站 · 佛坛唐塑",
+      "file": "nanchan-temple/stop-05.mp3",
+      "src": "audio-assets/nanchan-temple/stop-05.mp3",
+      "transcript": "nanchan-temple/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

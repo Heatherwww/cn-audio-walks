@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T10:19:29.594Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "shanghai",
+  "cityName": "上海",
+  "routeId": "shanghai-suzhou-creek",
+  "routeTitle": "苏州河北岸工业遗产线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "上海 · 苏州河北岸工业遗产线 · 路线开场",
+      "file": "shanghai-suzhou-creek/intro.mp3",
+      "src": "audio-assets/shanghai-suzhou-creek/intro.mp3",
+      "transcript": "shanghai-suzhou-creek/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "上海 · 苏州河北岸工业遗产线 · 第 1 站 · 四行仓库",
+      "file": "shanghai-suzhou-creek/stop-01.mp3",
+      "src": "audio-assets/shanghai-suzhou-creek/stop-01.mp3",
+      "transcript": "shanghai-suzhou-creek/stop-01.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "上海 · 苏州河北岸工业遗产线 · 第 2 站 · 浙江路桥",
+      "file": "shanghai-suzhou-creek/stop-02.mp3",
+      "src": "audio-assets/shanghai-suzhou-creek/stop-02.mp3",
+      "transcript": "shanghai-suzhou-creek/stop-02.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "上海 · 苏州河北岸工业遗产线 · 第 3 站 · 上海总商会旧址",
+      "file": "shanghai-suzhou-creek/stop-03.mp3",
+      "src": "audio-assets/shanghai-suzhou-creek/stop-03.mp3",
+      "transcript": "shanghai-suzhou-creek/stop-03.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "上海 · 苏州河北岸工业遗产线 · 第 4 站 · 河滨大楼",
+      "file": "shanghai-suzhou-creek/stop-04.mp3",
+      "src": "audio-assets/shanghai-suzhou-creek/stop-04.mp3",
+      "transcript": "shanghai-suzhou-creek/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "上海 · 苏州河北岸工业遗产线 · 第 5 站 · 上海邮政博物馆",
+      "file": "shanghai-suzhou-creek/stop-05.mp3",
+      "src": "audio-assets/shanghai-suzhou-creek/stop-05.mp3",
+      "transcript": "shanghai-suzhou-creek/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T14:12:09.470Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "chongqing",
+  "cityName": "重庆",
+  "routeId": "chongqing-dazu",
+  "routeTitle": "大足宝顶山石刻线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "重庆 · 大足宝顶山石刻线 · 路线开场",
+      "file": "chongqing-dazu/intro.mp3",
+      "src": "audio-assets/chongqing-dazu/intro.mp3",
+      "transcript": "chongqing-dazu/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "重庆 · 大足宝顶山石刻线 · 第 1 站 · 大佛湾入口",
+      "file": "chongqing-dazu/stop-01.mp3",
+      "src": "audio-assets/chongqing-dazu/stop-01.mp3",
+      "transcript": "chongqing-dazu/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "重庆 · 大足宝顶山石刻线 · 第 2 站 · 华严三圣",
+      "file": "chongqing-dazu/stop-02.mp3",
+      "src": "audio-assets/chongqing-dazu/stop-02.mp3",
+      "transcript": "chongqing-dazu/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "重庆 · 大足宝顶山石刻线 · 第 3 站 · 千手观音",
+      "file": "chongqing-dazu/stop-03.mp3",
+      "src": "audio-assets/chongqing-dazu/stop-03.mp3",
+      "transcript": "chongqing-dazu/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "重庆 · 大足宝顶山石刻线 · 第 4 站 · 释迦涅槃圣迹图",
+      "file": "chongqing-dazu/stop-04.mp3",
+      "src": "audio-assets/chongqing-dazu/stop-04.mp3",
+      "transcript": "chongqing-dazu/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "重庆 · 大足宝顶山石刻线 · 第 5 站 · 牧牛图",
+      "file": "chongqing-dazu/stop-05.mp3",
+      "src": "audio-assets/chongqing-dazu/stop-05.mp3",
+      "transcript": "chongqing-dazu/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

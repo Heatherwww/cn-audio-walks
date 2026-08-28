@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T14:45:31.824Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "guangzhou",
+  "cityName": "广州",
+  "routeId": "guangzhou-chen-clan",
+  "routeTitle": "陈家祠民间工艺线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "广州 · 陈家祠民间工艺线 · 路线开场",
+      "file": "guangzhou-chen-clan/intro.mp3",
+      "src": "audio-assets/guangzhou-chen-clan/intro.mp3",
+      "transcript": "guangzhou-chen-clan/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "广州 · 陈家祠民间工艺线 · 第 1 站 · 前广场看全祠",
+      "file": "guangzhou-chen-clan/stop-01.mp3",
+      "src": "audio-assets/guangzhou-chen-clan/stop-01.mp3",
+      "transcript": "guangzhou-chen-clan/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "广州 · 陈家祠民间工艺线 · 第 2 站 · 头门门面",
+      "file": "guangzhou-chen-clan/stop-02.mp3",
+      "src": "audio-assets/guangzhou-chen-clan/stop-02.mp3",
+      "transcript": "guangzhou-chen-clan/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "广州 · 陈家祠民间工艺线 · 第 3 站 · 聚贤堂",
+      "file": "guangzhou-chen-clan/stop-03.mp3",
+      "src": "audio-assets/guangzhou-chen-clan/stop-03.mp3",
+      "transcript": "guangzhou-chen-clan/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "广州 · 陈家祠民间工艺线 · 第 4 站 · 后进大厅屋脊",
+      "file": "guangzhou-chen-clan/stop-04.mp3",
+      "src": "audio-assets/guangzhou-chen-clan/stop-04.mp3",
+      "transcript": "guangzhou-chen-clan/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "广州 · 陈家祠民间工艺线 · 第 5 站 · 东厅工艺展厅",
+      "file": "guangzhou-chen-clan/stop-05.mp3",
+      "src": "audio-assets/guangzhou-chen-clan/stop-05.mp3",
+      "transcript": "guangzhou-chen-clan/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

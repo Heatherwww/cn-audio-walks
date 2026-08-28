@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T08:40:48.027Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "yuncheng",
+  "cityName": "运城",
+  "routeId": "haizhou-guandi",
+  "routeTitle": "解州关帝庙帝王规制线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "运城 · 解州关帝庙帝王规制线 · 路线开场",
+      "file": "haizhou-guandi/intro.mp3",
+      "src": "audio-assets/haizhou-guandi/intro.mp3",
+      "transcript": "haizhou-guandi/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "运城 · 解州关帝庙帝王规制线 · 第 1 站 · 端门与琉璃影壁",
+      "file": "haizhou-guandi/stop-01.mp3",
+      "src": "audio-assets/haizhou-guandi/stop-01.mp3",
+      "transcript": "haizhou-guandi/stop-01.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "运城 · 解州关帝庙帝王规制线 · 第 2 站 · 雉门与午门",
+      "file": "haizhou-guandi/stop-02.mp3",
+      "src": "audio-assets/haizhou-guandi/stop-02.mp3",
+      "transcript": "haizhou-guandi/stop-02.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "运城 · 解州关帝庙帝王规制线 · 第 3 站 · 御书楼",
+      "file": "haizhou-guandi/stop-03.mp3",
+      "src": "audio-assets/haizhou-guandi/stop-03.mp3",
+      "transcript": "haizhou-guandi/stop-03.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "运城 · 解州关帝庙帝王规制线 · 第 4 站 · 崇宁殿",
+      "file": "haizhou-guandi/stop-04.mp3",
+      "src": "audio-assets/haizhou-guandi/stop-04.mp3",
+      "transcript": "haizhou-guandi/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "运城 · 解州关帝庙帝王规制线 · 第 5 站 · 春秋楼",
+      "file": "haizhou-guandi/stop-05.mp3",
+      "src": "audio-assets/haizhou-guandi/stop-05.mp3",
+      "transcript": "haizhou-guandi/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

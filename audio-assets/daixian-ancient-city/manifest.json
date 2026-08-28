@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T07:52:11.436Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "xinzhou",
+  "cityName": "忻州",
+  "routeId": "daixian-ancient-city",
+  "routeTitle": "代州古城三宝线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "忻州 · 代州古城三宝线 · 路线开场",
+      "file": "daixian-ancient-city/intro.mp3",
+      "src": "audio-assets/daixian-ancient-city/intro.mp3",
+      "transcript": "daixian-ancient-city/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "忻州 · 代州古城三宝线 · 第 1 站 · 代州文庙前院",
+      "file": "daixian-ancient-city/stop-01.mp3",
+      "src": "audio-assets/daixian-ancient-city/stop-01.mp3",
+      "transcript": "daixian-ancient-city/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "忻州 · 代州古城三宝线 · 第 2 站 · 大成殿",
+      "file": "daixian-ancient-city/stop-02.mp3",
+      "src": "audio-assets/daixian-ancient-city/stop-02.mp3",
+      "transcript": "daixian-ancient-city/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "忻州 · 代州古城三宝线 · 第 3 站 · 边靖楼下",
+      "file": "daixian-ancient-city/stop-03.mp3",
+      "src": "audio-assets/daixian-ancient-city/stop-03.mp3",
+      "transcript": "daixian-ancient-city/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "忻州 · 代州古城三宝线 · 第 4 站 · 边靖楼北望",
+      "file": "daixian-ancient-city/stop-04.mp3",
+      "src": "audio-assets/daixian-ancient-city/stop-04.mp3",
+      "transcript": "daixian-ancient-city/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "忻州 · 代州古城三宝线 · 第 5 站 · 阿育王塔",
+      "file": "daixian-ancient-city/stop-05.mp3",
+      "src": "audio-assets/daixian-ancient-city/stop-05.mp3",
+      "transcript": "daixian-ancient-city/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

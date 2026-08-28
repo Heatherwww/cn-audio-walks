@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T07:39:25.849Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "xinzhou",
+  "cityName": "忻州",
+  "routeId": "xinzhou-ancient-city",
+  "routeTitle": "忻州古城秀容线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "忻州 · 忻州古城秀容线 · 路线开场",
+      "file": "xinzhou-ancient-city/intro.mp3",
+      "src": "audio-assets/xinzhou-ancient-city/intro.mp3",
+      "transcript": "xinzhou-ancient-city/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "忻州 · 忻州古城秀容线 · 第 1 站 · 景贤门外",
+      "file": "xinzhou-ancient-city/stop-01.mp3",
+      "src": "audio-assets/xinzhou-ancient-city/stop-01.mp3",
+      "transcript": "xinzhou-ancient-city/stop-01.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "忻州 · 忻州古城秀容线 · 第 2 站 · 南北大街",
+      "file": "xinzhou-ancient-city/stop-02.mp3",
+      "src": "audio-assets/xinzhou-ancient-city/stop-02.mp3",
+      "transcript": "xinzhou-ancient-city/stop-02.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "忻州 · 忻州古城秀容线 · 第 3 站 · 书院坡道",
+      "file": "xinzhou-ancient-city/stop-03.mp3",
+      "src": "audio-assets/xinzhou-ancient-city/stop-03.mp3",
+      "transcript": "xinzhou-ancient-city/stop-03.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "忻州 · 忻州古城秀容线 · 第 4 站 · 秀容书院",
+      "file": "xinzhou-ancient-city/stop-04.mp3",
+      "src": "audio-assets/xinzhou-ancient-city/stop-04.mp3",
+      "transcript": "xinzhou-ancient-city/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "忻州 · 忻州古城秀容线 · 第 5 站 · 书院高处俯瞰",
+      "file": "xinzhou-ancient-city/stop-05.mp3",
+      "src": "audio-assets/xinzhou-ancient-city/stop-05.mp3",
+      "transcript": "xinzhou-ancient-city/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T08:14:15.796Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "shuozhou",
+  "cityName": "朔州",
+  "routeId": "jingtu-temple",
+  "routeTitle": "应县净土寺辽金遗珠线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "朔州 · 应县净土寺辽金遗珠线 · 路线开场",
+      "file": "jingtu-temple/intro.mp3",
+      "src": "audio-assets/jingtu-temple/intro.mp3",
+      "transcript": "jingtu-temple/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "朔州 · 应县净土寺辽金遗珠线 · 第 1 站 · 木塔东门街口",
+      "file": "jingtu-temple/stop-01.mp3",
+      "src": "audio-assets/jingtu-temple/stop-01.mp3",
+      "transcript": "jingtu-temple/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "朔州 · 应县净土寺辽金遗珠线 · 第 2 站 · 净土寺山门",
+      "file": "jingtu-temple/stop-02.mp3",
+      "src": "audio-assets/jingtu-temple/stop-02.mp3",
+      "transcript": "jingtu-temple/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "朔州 · 应县净土寺辽金遗珠线 · 第 3 站 · 大雄宝殿外",
+      "file": "jingtu-temple/stop-03.mp3",
+      "src": "audio-assets/jingtu-temple/stop-03.mp3",
+      "transcript": "jingtu-temple/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "朔州 · 应县净土寺辽金遗珠线 · 第 4 站 · 天宫楼阁藻井",
+      "file": "jingtu-temple/stop-04.mp3",
+      "src": "audio-assets/jingtu-temple/stop-04.mp3",
+      "transcript": "jingtu-temple/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "朔州 · 应县净土寺辽金遗珠线 · 第 5 站 · 辽代石狮与回望",
+      "file": "jingtu-temple/stop-05.mp3",
+      "src": "audio-assets/jingtu-temple/stop-05.mp3",
+      "transcript": "jingtu-temple/stop-05.txt",
+      "plannedSeconds": 480,
+      "durationSeconds": 480,
+      "sizeBytes": 5760984
+    }
+  ]
+}

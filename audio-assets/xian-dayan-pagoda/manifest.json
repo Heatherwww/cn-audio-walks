@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T10:36:30.605Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "xian",
+  "cityName": "西安",
+  "routeId": "xian-dayan-pagoda",
+  "routeTitle": "大雁塔到大唐不夜城线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "西安 · 大雁塔到大唐不夜城线 · 路线开场",
+      "file": "xian-dayan-pagoda/intro.mp3",
+      "src": "audio-assets/xian-dayan-pagoda/intro.mp3",
+      "transcript": "xian-dayan-pagoda/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "西安 · 大雁塔到大唐不夜城线 · 第 1 站 · 大雁塔北广场",
+      "file": "xian-dayan-pagoda/stop-01.mp3",
+      "src": "audio-assets/xian-dayan-pagoda/stop-01.mp3",
+      "transcript": "xian-dayan-pagoda/stop-01.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "西安 · 大雁塔到大唐不夜城线 · 第 2 站 · 大慈恩寺山门",
+      "file": "xian-dayan-pagoda/stop-02.mp3",
+      "src": "audio-assets/xian-dayan-pagoda/stop-02.mp3",
+      "transcript": "xian-dayan-pagoda/stop-02.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "西安 · 大雁塔到大唐不夜城线 · 第 3 站 · 大雁塔塔基前",
+      "file": "xian-dayan-pagoda/stop-03.mp3",
+      "src": "audio-assets/xian-dayan-pagoda/stop-03.mp3",
+      "transcript": "xian-dayan-pagoda/stop-03.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "西安 · 大雁塔到大唐不夜城线 · 第 4 站 · 玄奘三藏院",
+      "file": "xian-dayan-pagoda/stop-04.mp3",
+      "src": "audio-assets/xian-dayan-pagoda/stop-04.mp3",
+      "transcript": "xian-dayan-pagoda/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "西安 · 大雁塔到大唐不夜城线 · 第 5 站 · 大雁塔南广场",
+      "file": "xian-dayan-pagoda/stop-05.mp3",
+      "src": "audio-assets/xian-dayan-pagoda/stop-05.mp3",
+      "transcript": "xian-dayan-pagoda/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

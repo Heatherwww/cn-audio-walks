@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T05:47:57.744Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "datong",
+  "cityName": "大同",
+  "routeId": "xuankong-temple",
+  "routeTitle": "恒山悬空寺线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "大同 · 恒山悬空寺线 · 路线开场",
+      "file": "xuankong-temple/intro.mp3",
+      "src": "audio-assets/xuankong-temple/intro.mp3",
+      "transcript": "xuankong-temple/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "大同 · 恒山悬空寺线 · 第 1 站 · 入口观景平台",
+      "file": "xuankong-temple/stop-01.mp3",
+      "src": "audio-assets/xuankong-temple/stop-01.mp3",
+      "transcript": "xuankong-temple/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "大同 · 恒山悬空寺线 · 第 2 站 · 金龙峡栈道",
+      "file": "xuankong-temple/stop-02.mp3",
+      "src": "audio-assets/xuankong-temple/stop-02.mp3",
+      "transcript": "xuankong-temple/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "大同 · 恒山悬空寺线 · 第 3 站 · 寺下仰望点",
+      "file": "xuankong-temple/stop-03.mp3",
+      "src": "audio-assets/xuankong-temple/stop-03.mp3",
+      "transcript": "xuankong-temple/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "大同 · 恒山悬空寺线 · 第 4 站 · 登临寺内·三教殿",
+      "file": "xuankong-temple/stop-04.mp3",
+      "src": "audio-assets/xuankong-temple/stop-04.mp3",
+      "transcript": "xuankong-temple/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "大同 · 恒山悬空寺线 · 第 5 站 · 出口平台回望",
+      "file": "xuankong-temple/stop-05.mp3",
+      "src": "audio-assets/xuankong-temple/stop-05.mp3",
+      "transcript": "xuankong-temple/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

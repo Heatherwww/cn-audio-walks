@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T09:00:02.303Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "yuncheng",
+  "cityName": "运城",
+  "routeId": "pujin-ferry",
+  "routeTitle": "蒲津渡铁牛与蒲州故城线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "运城 · 蒲津渡铁牛与蒲州故城线 · 路线开场",
+      "file": "pujin-ferry/intro.mp3",
+      "src": "audio-assets/pujin-ferry/intro.mp3",
+      "transcript": "pujin-ferry/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "运城 · 蒲津渡铁牛与蒲州故城线 · 第 1 站 · 蒲州故城西门外",
+      "file": "pujin-ferry/stop-01.mp3",
+      "src": "audio-assets/pujin-ferry/stop-01.mp3",
+      "transcript": "pujin-ferry/stop-01.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "运城 · 蒲津渡铁牛与蒲州故城线 · 第 2 站 · 遗址陈列区",
+      "file": "pujin-ferry/stop-02.mp3",
+      "src": "audio-assets/pujin-ferry/stop-02.mp3",
+      "transcript": "pujin-ferry/stop-02.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "运城 · 蒲津渡铁牛与蒲州故城线 · 第 3 站 · 开元铁牛群",
+      "file": "pujin-ferry/stop-03.mp3",
+      "src": "audio-assets/pujin-ferry/stop-03.mp3",
+      "transcript": "pujin-ferry/stop-03.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "运城 · 蒲津渡铁牛与蒲州故城线 · 第 4 站 · 铁人、铁山与七星柱",
+      "file": "pujin-ferry/stop-04.mp3",
+      "src": "audio-assets/pujin-ferry/stop-04.mp3",
+      "transcript": "pujin-ferry/stop-04.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "运城 · 蒲津渡铁牛与蒲州故城线 · 第 5 站 · 黄河故道边",
+      "file": "pujin-ferry/stop-05.mp3",
+      "src": "audio-assets/pujin-ferry/stop-05.mp3",
+      "transcript": "pujin-ferry/stop-05.txt",
+      "plannedSeconds": 660,
+      "durationSeconds": 660,
+      "sizeBytes": 7921102
+    }
+  ]
+}

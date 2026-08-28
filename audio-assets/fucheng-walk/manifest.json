@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T07:10:13.294Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "taiyuan",
+  "cityName": "太原",
+  "routeId": "fucheng-walk",
+  "routeTitle": "府城儒释道步行线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "太原 · 府城儒释道步行线 · 路线开场",
+      "file": "fucheng-walk/intro.mp3",
+      "src": "audio-assets/fucheng-walk/intro.mp3",
+      "transcript": "fucheng-walk/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "太原 · 府城儒释道步行线 · 第 1 站 · 纯阳宫木牌坊",
+      "file": "fucheng-walk/stop-01.mp3",
+      "src": "audio-assets/fucheng-walk/stop-01.mp3",
+      "transcript": "fucheng-walk/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "太原 · 府城儒释道步行线 · 第 2 站 · 九宫八卦院",
+      "file": "fucheng-walk/stop-02.mp3",
+      "src": "audio-assets/fucheng-walk/stop-02.mp3",
+      "transcript": "fucheng-walk/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "太原 · 府城儒释道步行线 · 第 3 站 · 上官巷",
+      "file": "fucheng-walk/stop-03.mp3",
+      "src": "audio-assets/fucheng-walk/stop-03.mp3",
+      "transcript": "fucheng-walk/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "太原 · 府城儒释道步行线 · 第 4 站 · 崇善寺大悲殿",
+      "file": "fucheng-walk/stop-04.mp3",
+      "src": "audio-assets/fucheng-walk/stop-04.mp3",
+      "transcript": "fucheng-walk/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "太原 · 府城儒释道步行线 · 第 5 站 · 文庙大成殿",
+      "file": "fucheng-walk/stop-05.mp3",
+      "src": "audio-assets/fucheng-walk/stop-05.mp3",
+      "transcript": "fucheng-walk/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

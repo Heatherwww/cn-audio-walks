@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T06:10:35.690Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "jinzhong",
+  "cityName": "晋中",
+  "routeId": "shuanglin-temple",
+  "routeTitle": "双林寺彩塑线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "晋中 · 双林寺彩塑线 · 路线开场",
+      "file": "shuanglin-temple/intro.mp3",
+      "src": "audio-assets/shuanglin-temple/intro.mp3",
+      "transcript": "shuanglin-temple/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "晋中 · 双林寺彩塑线 · 第 1 站 · 堡墙山门",
+      "file": "shuanglin-temple/stop-01.mp3",
+      "src": "audio-assets/shuanglin-temple/stop-01.mp3",
+      "transcript": "shuanglin-temple/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "晋中 · 双林寺彩塑线 · 第 2 站 · 天王殿",
+      "file": "shuanglin-temple/stop-02.mp3",
+      "src": "audio-assets/shuanglin-temple/stop-02.mp3",
+      "transcript": "shuanglin-temple/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "晋中 · 双林寺彩塑线 · 第 3 站 · 释迦殿",
+      "file": "shuanglin-temple/stop-03.mp3",
+      "src": "audio-assets/shuanglin-temple/stop-03.mp3",
+      "transcript": "shuanglin-temple/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "晋中 · 双林寺彩塑线 · 第 4 站 · 千佛殿",
+      "file": "shuanglin-temple/stop-04.mp3",
+      "src": "audio-assets/shuanglin-temple/stop-04.mp3",
+      "transcript": "shuanglin-temple/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "晋中 · 双林寺彩塑线 · 第 5 站 · 菩萨殿",
+      "file": "shuanglin-temple/stop-05.mp3",
+      "src": "audio-assets/shuanglin-temple/stop-05.mp3",
+      "transcript": "shuanglin-temple/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T14:18:24.856Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "chongqing",
+  "cityName": "重庆",
+  "routeId": "chongqing-diaoyucheng",
+  "routeTitle": "合川钓鱼城遗址线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "重庆 · 合川钓鱼城遗址线 · 路线开场",
+      "file": "chongqing-diaoyucheng/intro.mp3",
+      "src": "audio-assets/chongqing-diaoyucheng/intro.mp3",
+      "transcript": "chongqing-diaoyucheng/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "重庆 · 合川钓鱼城遗址线 · 第 1 站 · 护国门",
+      "file": "chongqing-diaoyucheng/stop-01.mp3",
+      "src": "audio-assets/chongqing-diaoyucheng/stop-01.mp3",
+      "transcript": "chongqing-diaoyucheng/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "重庆 · 合川钓鱼城遗址线 · 第 2 站 · 城墙跑马道",
+      "file": "chongqing-diaoyucheng/stop-02.mp3",
+      "src": "audio-assets/chongqing-diaoyucheng/stop-02.mp3",
+      "transcript": "chongqing-diaoyucheng/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "重庆 · 合川钓鱼城遗址线 · 第 3 站 · 九口锅遗址",
+      "file": "chongqing-diaoyucheng/stop-03.mp3",
+      "src": "audio-assets/chongqing-diaoyucheng/stop-03.mp3",
+      "transcript": "chongqing-diaoyucheng/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "重庆 · 合川钓鱼城遗址线 · 第 4 站 · 忠义祠与范家堰",
+      "file": "chongqing-diaoyucheng/stop-04.mp3",
+      "src": "audio-assets/chongqing-diaoyucheng/stop-04.mp3",
+      "transcript": "chongqing-diaoyucheng/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "重庆 · 合川钓鱼城遗址线 · 第 5 站 · 水军码头",
+      "file": "chongqing-diaoyucheng/stop-05.mp3",
+      "src": "audio-assets/chongqing-diaoyucheng/stop-05.mp3",
+      "transcript": "chongqing-diaoyucheng/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

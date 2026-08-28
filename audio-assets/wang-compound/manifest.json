@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T06:31:43.592Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "jinzhong",
+  "cityName": "晋中",
+  "routeId": "wang-compound",
+  "routeTitle": "王家大院依山堡院线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "晋中 · 王家大院依山堡院线 · 路线开场",
+      "file": "wang-compound/intro.mp3",
+      "src": "audio-assets/wang-compound/intro.mp3",
+      "transcript": "wang-compound/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "晋中 · 王家大院依山堡院线 · 第 1 站 · 高家崖东堡门",
+      "file": "wang-compound/stop-01.mp3",
+      "src": "audio-assets/wang-compound/stop-01.mp3",
+      "transcript": "wang-compound/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "晋中 · 王家大院依山堡院线 · 第 2 站 · 敦厚宅",
+      "file": "wang-compound/stop-02.mp3",
+      "src": "audio-assets/wang-compound/stop-02.mp3",
+      "transcript": "wang-compound/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "晋中 · 王家大院依山堡院线 · 第 3 站 · 凝瑞居",
+      "file": "wang-compound/stop-03.mp3",
+      "src": "audio-assets/wang-compound/stop-03.mp3",
+      "transcript": "wang-compound/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "晋中 · 王家大院依山堡院线 · 第 4 站 · 过街石桥",
+      "file": "wang-compound/stop-04.mp3",
+      "src": "audio-assets/wang-compound/stop-04.mp3",
+      "transcript": "wang-compound/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "晋中 · 王家大院依山堡院线 · 第 5 站 · 红门堡堡墙",
+      "file": "wang-compound/stop-05.mp3",
+      "src": "audio-assets/wang-compound/stop-05.mp3",
+      "transcript": "wang-compound/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

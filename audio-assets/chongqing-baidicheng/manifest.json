@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T14:30:01.541Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "chongqing",
+  "cityName": "重庆",
+  "routeId": "chongqing-baidicheng",
+  "routeTitle": "白帝城夔门线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "重庆 · 白帝城夔门线 · 路线开场",
+      "file": "chongqing-baidicheng/intro.mp3",
+      "src": "audio-assets/chongqing-baidicheng/intro.mp3",
+      "transcript": "chongqing-baidicheng/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "重庆 · 白帝城夔门线 · 第 1 站 · 风雨廊桥与白帝山岛",
+      "file": "chongqing-baidicheng/stop-01.mp3",
+      "src": "audio-assets/chongqing-baidicheng/stop-01.mp3",
+      "transcript": "chongqing-baidicheng/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "重庆 · 白帝城夔门线 · 第 2 站 · 白帝庙山门",
+      "file": "chongqing-baidicheng/stop-02.mp3",
+      "src": "audio-assets/chongqing-baidicheng/stop-02.mp3",
+      "transcript": "chongqing-baidicheng/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "重庆 · 白帝城夔门线 · 第 3 站 · 托孤堂与明良殿",
+      "file": "chongqing-baidicheng/stop-03.mp3",
+      "src": "audio-assets/chongqing-baidicheng/stop-03.mp3",
+      "transcript": "chongqing-baidicheng/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "重庆 · 白帝城夔门线 · 第 4 站 · 碑林与诗城",
+      "file": "chongqing-baidicheng/stop-04.mp3",
+      "src": "audio-assets/chongqing-baidicheng/stop-04.mp3",
+      "transcript": "chongqing-baidicheng/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "重庆 · 白帝城夔门线 · 第 5 站 · 夔门观景台",
+      "file": "chongqing-baidicheng/stop-05.mp3",
+      "src": "audio-assets/chongqing-baidicheng/stop-05.mp3",
+      "transcript": "chongqing-baidicheng/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

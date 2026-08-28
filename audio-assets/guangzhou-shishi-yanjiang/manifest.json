@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T15:05:02.736Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "guangzhou",
+  "cityName": "广州",
+  "routeId": "guangzhou-shishi-yanjiang",
+  "routeTitle": "石室到沿江西路线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "广州 · 石室到沿江西路线 · 路线开场",
+      "file": "guangzhou-shishi-yanjiang/intro.mp3",
+      "src": "audio-assets/guangzhou-shishi-yanjiang/intro.mp3",
+      "transcript": "guangzhou-shishi-yanjiang/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "广州 · 石室到沿江西路线 · 第 1 站 · 石室前广场",
+      "file": "guangzhou-shishi-yanjiang/stop-01.mp3",
+      "src": "audio-assets/guangzhou-shishi-yanjiang/stop-01.mp3",
+      "transcript": "guangzhou-shishi-yanjiang/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "广州 · 石室到沿江西路线 · 第 2 站 · 石室东侧看飞扶壁",
+      "file": "guangzhou-shishi-yanjiang/stop-02.mp3",
+      "src": "audio-assets/guangzhou-shishi-yanjiang/stop-02.mp3",
+      "transcript": "guangzhou-shishi-yanjiang/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "广州 · 石室到沿江西路线 · 第 3 站 · 一德路骑楼街段",
+      "file": "guangzhou-shishi-yanjiang/stop-03.mp3",
+      "src": "audio-assets/guangzhou-shishi-yanjiang/stop-03.mp3",
+      "transcript": "guangzhou-shishi-yanjiang/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "广州 · 石室到沿江西路线 · 第 4 站 · 爱群大厦门前",
+      "file": "guangzhou-shishi-yanjiang/stop-04.mp3",
+      "src": "audio-assets/guangzhou-shishi-yanjiang/stop-04.mp3",
+      "transcript": "guangzhou-shishi-yanjiang/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "广州 · 石室到沿江西路线 · 第 5 站 · 粤海关大钟楼前",
+      "file": "guangzhou-shishi-yanjiang/stop-05.mp3",
+      "src": "audio-assets/guangzhou-shishi-yanjiang/stop-05.mp3",
+      "transcript": "guangzhou-shishi-yanjiang/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T05:42:12.557Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "datong",
+  "cityName": "大同",
+  "routeId": "datong-axis",
+  "routeTitle": "古城中轴街巷线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "大同 · 古城中轴街巷线 · 路线开场",
+      "file": "datong-axis/intro.mp3",
+      "src": "audio-assets/datong-axis/intro.mp3",
+      "transcript": "datong-axis/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "大同 · 古城中轴街巷线 · 第 1 站 · 四牌楼",
+      "file": "datong-axis/stop-01.mp3",
+      "src": "audio-assets/datong-axis/stop-01.mp3",
+      "transcript": "datong-axis/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "大同 · 古城中轴街巷线 · 第 2 站 · 鼓楼",
+      "file": "datong-axis/stop-02.mp3",
+      "src": "audio-assets/datong-axis/stop-02.mp3",
+      "transcript": "datong-axis/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "大同 · 古城中轴街巷线 · 第 3 站 · 纯阳宫",
+      "file": "datong-axis/stop-03.mp3",
+      "src": "audio-assets/datong-axis/stop-03.mp3",
+      "transcript": "datong-axis/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "大同 · 古城中轴街巷线 · 第 4 站 · 代王府中轴",
+      "file": "datong-axis/stop-04.mp3",
+      "src": "audio-assets/datong-axis/stop-04.mp3",
+      "transcript": "datong-axis/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "大同 · 古城中轴街巷线 · 第 5 站 · 九龙壁",
+      "file": "datong-axis/stop-05.mp3",
+      "src": "audio-assets/datong-axis/stop-05.mp3",
+      "transcript": "datong-axis/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

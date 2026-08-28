@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T05:55:47.054Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "datong",
+  "cityName": "大同",
+  "routeId": "datong-museum",
+  "routeTitle": "大同市博物馆半日线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "大同 · 大同市博物馆半日线 · 路线开场",
+      "file": "datong-museum/intro.mp3",
+      "src": "audio-assets/datong-museum/intro.mp3",
+      "transcript": "datong-museum/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "大同 · 大同市博物馆半日线 · 第 1 站 · 入口广场与建筑外观",
+      "file": "datong-museum/stop-01.mp3",
+      "src": "audio-assets/datong-museum/stop-01.mp3",
+      "transcript": "datong-museum/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "大同 · 大同市博物馆半日线 · 第 2 站 · 序厅·沧桑代地",
+      "file": "datong-museum/stop-02.mp3",
+      "src": "audio-assets/datong-museum/stop-02.mp3",
+      "transcript": "datong-museum/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "大同 · 大同市博物馆半日线 · 第 3 站 · 魏都平城·司马金龙墓文物",
+      "file": "datong-museum/stop-03.mp3",
+      "src": "audio-assets/datong-museum/stop-03.mp3",
+      "transcript": "datong-museum/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "大同 · 大同市博物馆半日线 · 第 4 站 · 辽金西京展厅",
+      "file": "datong-museum/stop-04.mp3",
+      "src": "audio-assets/datong-museum/stop-04.mp3",
+      "transcript": "datong-museum/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "大同 · 大同市博物馆半日线 · 第 5 站 · 明清重镇与出口",
+      "file": "datong-museum/stop-05.mp3",
+      "src": "audio-assets/datong-museum/stop-05.mp3",
+      "transcript": "datong-museum/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

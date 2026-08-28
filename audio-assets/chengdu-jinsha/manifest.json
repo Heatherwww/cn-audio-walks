@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T11:18:15.660Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "chengdu",
+  "cityName": "成都",
+  "routeId": "chengdu-jinsha",
+  "routeTitle": "金沙遗址古蜀线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "成都 · 金沙遗址古蜀线 · 路线开场",
+      "file": "chengdu-jinsha/intro.mp3",
+      "src": "audio-assets/chengdu-jinsha/intro.mp3",
+      "transcript": "chengdu-jinsha/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "成都 · 金沙遗址古蜀线 · 第 1 站 · 遗迹馆",
+      "file": "chengdu-jinsha/stop-01.mp3",
+      "src": "audio-assets/chengdu-jinsha/stop-01.mp3",
+      "transcript": "chengdu-jinsha/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "成都 · 金沙遗址古蜀线 · 第 2 站 · 陈列馆前广场",
+      "file": "chengdu-jinsha/stop-02.mp3",
+      "src": "audio-assets/chengdu-jinsha/stop-02.mp3",
+      "transcript": "chengdu-jinsha/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "成都 · 金沙遗址古蜀线 · 第 3 站 · 太阳神鸟金饰",
+      "file": "chengdu-jinsha/stop-03.mp3",
+      "src": "audio-assets/chengdu-jinsha/stop-03.mp3",
+      "transcript": "chengdu-jinsha/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "成都 · 金沙遗址古蜀线 · 第 4 站 · 大金面具与青铜立人",
+      "file": "chengdu-jinsha/stop-04.mp3",
+      "src": "audio-assets/chengdu-jinsha/stop-04.mp3",
+      "transcript": "chengdu-jinsha/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "成都 · 金沙遗址古蜀线 · 第 5 站 · 乌木林",
+      "file": "chengdu-jinsha/stop-05.mp3",
+      "src": "audio-assets/chengdu-jinsha/stop-05.mp3",
+      "transcript": "chengdu-jinsha/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

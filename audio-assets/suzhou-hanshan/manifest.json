@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T12:29:50.056Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "suzhou",
+  "cityName": "苏州",
+  "routeId": "suzhou-hanshan",
+  "routeTitle": "寒山寺枫桥听钟线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "苏州 · 寒山寺枫桥听钟线 · 路线开场",
+      "file": "suzhou-hanshan/intro.mp3",
+      "src": "audio-assets/suzhou-hanshan/intro.mp3",
+      "transcript": "suzhou-hanshan/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "苏州 · 寒山寺枫桥听钟线 · 第 1 站 · 照壁与山门",
+      "file": "suzhou-hanshan/stop-01.mp3",
+      "src": "audio-assets/suzhou-hanshan/stop-01.mp3",
+      "transcript": "suzhou-hanshan/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "苏州 · 寒山寺枫桥听钟线 · 第 2 站 · 大雄宝殿前",
+      "file": "suzhou-hanshan/stop-02.mp3",
+      "src": "audio-assets/suzhou-hanshan/stop-02.mp3",
+      "transcript": "suzhou-hanshan/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "苏州 · 寒山寺枫桥听钟线 · 第 3 站 · 碑廊",
+      "file": "suzhou-hanshan/stop-03.mp3",
+      "src": "audio-assets/suzhou-hanshan/stop-03.mp3",
+      "transcript": "suzhou-hanshan/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "苏州 · 寒山寺枫桥听钟线 · 第 4 站 · 钟楼与普明宝塔",
+      "file": "suzhou-hanshan/stop-04.mp3",
+      "src": "audio-assets/suzhou-hanshan/stop-04.mp3",
+      "transcript": "suzhou-hanshan/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "苏州 · 寒山寺枫桥听钟线 · 第 5 站 · 枫桥与铁铃关",
+      "file": "suzhou-hanshan/stop-05.mp3",
+      "src": "audio-assets/suzhou-hanshan/stop-05.mp3",
+      "transcript": "suzhou-hanshan/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}

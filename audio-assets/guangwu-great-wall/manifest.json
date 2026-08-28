@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T08:21:13.539Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "shuozhou",
+  "cityName": "朔州",
+  "routeId": "guangwu-great-wall",
+  "routeTitle": "山阴广武长城古城线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "朔州 · 山阴广武长城古城线 · 路线开场",
+      "file": "guangwu-great-wall/intro.mp3",
+      "src": "audio-assets/guangwu-great-wall/intro.mp3",
+      "transcript": "guangwu-great-wall/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "朔州 · 山阴广武长城古城线 · 第 1 站 · 旧广武城城门",
+      "file": "guangwu-great-wall/stop-01.mp3",
+      "src": "audio-assets/guangwu-great-wall/stop-01.mp3",
+      "transcript": "guangwu-great-wall/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "朔州 · 山阴广武长城古城线 · 第 2 站 · 城内四街八巷",
+      "file": "guangwu-great-wall/stop-02.mp3",
+      "src": "audio-assets/guangwu-great-wall/stop-02.mp3",
+      "transcript": "guangwu-great-wall/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "朔州 · 山阴广武长城古城线 · 第 3 站 · 广武汉墓群远眺",
+      "file": "guangwu-great-wall/stop-03.mp3",
+      "src": "audio-assets/guangwu-great-wall/stop-03.mp3",
+      "transcript": "guangwu-great-wall/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "朔州 · 山阴广武长城古城线 · 第 4 站 · 新广武城",
+      "file": "guangwu-great-wall/stop-04.mp3",
+      "src": "audio-assets/guangwu-great-wall/stop-04.mp3",
+      "transcript": "guangwu-great-wall/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "朔州 · 山阴广武长城古城线 · 第 5 站 · 广武明长城月亮门",
+      "file": "guangwu-great-wall/stop-05.mp3",
+      "src": "audio-assets/guangwu-great-wall/stop-05.mp3",
+      "transcript": "guangwu-great-wall/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

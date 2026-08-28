@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T10:42:54.609Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "xian",
+  "cityName": "西安",
+  "routeId": "xian-xiaoyan-temple",
+  "routeTitle": "小雁塔到西安博物院线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "西安 · 小雁塔到西安博物院线 · 路线开场",
+      "file": "xian-xiaoyan-temple/intro.mp3",
+      "src": "audio-assets/xian-xiaoyan-temple/intro.mp3",
+      "transcript": "xian-xiaoyan-temple/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "西安 · 小雁塔到西安博物院线 · 第 1 站 · 荐福寺山门",
+      "file": "xian-xiaoyan-temple/stop-01.mp3",
+      "src": "audio-assets/xian-xiaoyan-temple/stop-01.mp3",
+      "transcript": "xian-xiaoyan-temple/stop-01.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "西安 · 小雁塔到西安博物院线 · 第 2 站 · 雁塔晨钟钟楼",
+      "file": "xian-xiaoyan-temple/stop-02.mp3",
+      "src": "audio-assets/xian-xiaoyan-temple/stop-02.mp3",
+      "transcript": "xian-xiaoyan-temple/stop-02.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "西安 · 小雁塔到西安博物院线 · 第 3 站 · 大雄宝殿前",
+      "file": "xian-xiaoyan-temple/stop-03.mp3",
+      "src": "audio-assets/xian-xiaoyan-temple/stop-03.mp3",
+      "transcript": "xian-xiaoyan-temple/stop-03.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "西安 · 小雁塔到西安博物院线 · 第 4 站 · 小雁塔塔下",
+      "file": "xian-xiaoyan-temple/stop-04.mp3",
+      "src": "audio-assets/xian-xiaoyan-temple/stop-04.mp3",
+      "transcript": "xian-xiaoyan-temple/stop-04.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "西安 · 小雁塔到西安博物院线 · 第 5 站 · 西安博物院主馆入口",
+      "file": "xian-xiaoyan-temple/stop-05.mp3",
+      "src": "audio-assets/xian-xiaoyan-temple/stop-05.mp3",
+      "transcript": "xian-xiaoyan-temple/stop-05.txt",
+      "plannedSeconds": 600,
+      "durationSeconds": 600,
+      "sizeBytes": 7201062
+    }
+  ]
+}

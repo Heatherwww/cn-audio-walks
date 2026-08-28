@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T10:49:39.308Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "xian",
+  "cityName": "西安",
+  "routeId": "xian-daming-palace",
+  "routeTitle": "大明宫遗址中轴线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "西安 · 大明宫遗址中轴线 · 路线开场",
+      "file": "xian-daming-palace/intro.mp3",
+      "src": "audio-assets/xian-daming-palace/intro.mp3",
+      "transcript": "xian-daming-palace/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "西安 · 大明宫遗址中轴线 · 第 1 站 · 丹凤门遗址博物馆外",
+      "file": "xian-daming-palace/stop-01.mp3",
+      "src": "audio-assets/xian-daming-palace/stop-01.mp3",
+      "transcript": "xian-daming-palace/stop-01.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "西安 · 大明宫遗址中轴线 · 第 2 站 · 御道广场",
+      "file": "xian-daming-palace/stop-02.mp3",
+      "src": "audio-assets/xian-daming-palace/stop-02.mp3",
+      "transcript": "xian-daming-palace/stop-02.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "西安 · 大明宫遗址中轴线 · 第 3 站 · 含元殿遗址",
+      "file": "xian-daming-palace/stop-03.mp3",
+      "src": "audio-assets/xian-daming-palace/stop-03.mp3",
+      "transcript": "xian-daming-palace/stop-03.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "西安 · 大明宫遗址中轴线 · 第 4 站 · 太液池边",
+      "file": "xian-daming-palace/stop-04.mp3",
+      "src": "audio-assets/xian-daming-palace/stop-04.mp3",
+      "transcript": "xian-daming-palace/stop-04.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "西安 · 大明宫遗址中轴线 · 第 5 站 · 麟德殿遗址",
+      "file": "xian-daming-palace/stop-05.mp3",
+      "src": "audio-assets/xian-daming-palace/stop-05.mp3",
+      "transcript": "xian-daming-palace/stop-05.txt",
+      "plannedSeconds": 720,
+      "durationSeconds": 720,
+      "sizeBytes": 8641141
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "20260824-v01",
+  "generatedAt": "2026-08-28T14:23:39.998Z",
+  "voice": "zh-CN-YunxiNeural",
+  "cityId": "chongqing",
+  "cityName": "重庆",
+  "routeId": "chongqing-huguang",
+  "routeTitle": "湖广会馆到东水门线",
+  "assets": [
+    {
+      "kind": "intro",
+      "stopIndex": null,
+      "label": "重庆 · 湖广会馆到东水门线 · 路线开场",
+      "file": "chongqing-huguang/intro.mp3",
+      "src": "audio-assets/chongqing-huguang/intro.mp3",
+      "transcript": "chongqing-huguang/intro.txt",
+      "plannedSeconds": 180,
+      "durationSeconds": 180,
+      "sizeBytes": 2161102
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 0,
+      "label": "重庆 · 湖广会馆到东水门线 · 第 1 站 · 东水门城门与城墙",
+      "file": "chongqing-huguang/stop-01.mp3",
+      "src": "audio-assets/chongqing-huguang/stop-01.mp3",
+      "transcript": "chongqing-huguang/stop-01.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 1,
+      "label": "重庆 · 湖广会馆到东水门线 · 第 2 站 · 会馆山门与禹王宫",
+      "file": "chongqing-huguang/stop-02.mp3",
+      "src": "audio-assets/chongqing-huguang/stop-02.mp3",
+      "transcript": "chongqing-huguang/stop-02.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 2,
+      "label": "重庆 · 湖广会馆到东水门线 · 第 3 站 · 齐安公所",
+      "file": "chongqing-huguang/stop-03.mp3",
+      "src": "audio-assets/chongqing-huguang/stop-03.mp3",
+      "transcript": "chongqing-huguang/stop-03.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 3,
+      "label": "重庆 · 湖广会馆到东水门线 · 第 4 站 · 广东公所",
+      "file": "chongqing-huguang/stop-04.mp3",
+      "src": "audio-assets/chongqing-huguang/stop-04.mp3",
+      "transcript": "chongqing-huguang/stop-04.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    },
+    {
+      "kind": "stop",
+      "stopIndex": 4,
+      "label": "重庆 · 湖广会馆到东水门线 · 第 5 站 · 移民博物馆与望江台",
+      "file": "chongqing-huguang/stop-05.mp3",
+      "src": "audio-assets/chongqing-huguang/stop-05.mp3",
+      "transcript": "chongqing-huguang/stop-05.txt",
+      "plannedSeconds": 540,
+      "durationSeconds": 540,
+      "sizeBytes": 6481023
+    }
+  ]
+}
