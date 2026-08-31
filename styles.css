@@ -2669,6 +2669,16 @@ svg .icon-stroke {
     position: sticky;
     top: 16px;
   }
+
+  .route-view .route-guide {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    align-content: start;
+  }
+
+  .route-view .route-guide-actions {
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 1040px) {
@@ -2968,4 +2978,60 @@ svg .icon-stroke {
   background: rgba(22, 33, 31, 0.14);
   color: var(--ink-soft);
   cursor: default;
+}
+
+/* ---------- Hand-drawn map motifs ---------- */
+
+.map-compass-ring {
+  fill: rgba(255, 250, 238, 0.6);
+  stroke: rgba(22, 33, 31, 0.3);
+  stroke-width: 2;
+}
+
+.map-motif .motif-body {
+  fill: rgba(255, 250, 238, 0.9);
+  stroke: rgba(90, 66, 48, 0.55);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+
+.map-motif .motif-roof {
+  fill: rgba(146, 116, 84, 0.55);
+  stroke: rgba(90, 66, 48, 0.6);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+
+.map-motif .motif-line {
+  fill: none;
+  stroke: rgba(90, 66, 48, 0.55);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.map-motif-tree .motif-tree-crown {
+  fill: rgba(119, 151, 87, 0.4);
+  stroke: rgba(71, 95, 60, 0.5);
+  stroke-width: 2;
+}
+
+.map-motif-tree .motif-line {
+  stroke: rgba(116, 78, 54, 0.55);
+}
+
+.map-crenel {
+  fill: none;
+  stroke: rgba(116, 78, 54, 0.58);
+  stroke-width: 4;
+  stroke-linejoin: round;
+}
+
+.map-wall-inner {
+  stroke: rgba(116, 78, 54, 0.3);
+  stroke-width: 8;
+}
+
+.map-road-soft {
+  stroke: rgba(22, 33, 31, 0.12);
+  stroke-width: 6;
 }
