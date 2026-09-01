@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T19:59:35.714Z",
+  "generatedAt": "2026-09-01T15:21:16.163Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "suzhou",
   "cityName": "苏州",
@@ -14,9 +14,9 @@
       "file": "suzhou-shantang/intro.mp3",
       "src": "audio-assets/suzhou-shantang/intro.mp3",
       "transcript": "suzhou-shantang/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

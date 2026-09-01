@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T13:08:13.607Z",
+  "generatedAt": "2026-09-01T07:21:31.209Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "datong",
   "cityName": "大同",
@@ -14,9 +14,9 @@
       "file": "datong-museum/intro.mp3",
       "src": "audio-assets/datong-museum/intro.mp3",
       "transcript": "datong-museum/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T17:08:08.912Z",
+  "generatedAt": "2026-09-01T12:07:54.057Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "beijing",
   "cityName": "北京",
@@ -14,9 +14,9 @@
       "file": "beijing-summer-palace/intro.mp3",
       "src": "audio-assets/beijing-summer-palace/intro.mp3",
       "transcript": "beijing-summer-palace/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

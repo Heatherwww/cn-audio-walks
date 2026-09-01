@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T20:31:07.855Z",
+  "generatedAt": "2026-09-01T15:55:15.295Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "nanjing",
   "cityName": "南京",
@@ -14,9 +14,9 @@
       "file": "nanjing-wall/intro.mp3",
       "src": "audio-assets/nanjing-wall/intro.mp3",
       "transcript": "nanjing-wall/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

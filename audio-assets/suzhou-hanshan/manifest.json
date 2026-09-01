@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T20:12:10.826Z",
+  "generatedAt": "2026-09-01T15:34:58.448Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "suzhou",
   "cityName": "苏州",
@@ -14,9 +14,9 @@
       "file": "suzhou-hanshan/intro.mp3",
       "src": "audio-assets/suzhou-hanshan/intro.mp3",
       "transcript": "suzhou-hanshan/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

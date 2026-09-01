@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T15:24:48.695Z",
+  "generatedAt": "2026-09-01T09:44:19.225Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shuozhou",
   "cityName": "朔州",
@@ -14,9 +14,9 @@
       "file": "yingxian-pagoda/intro.mp3",
       "src": "audio-assets/yingxian-pagoda/intro.mp3",
       "transcript": "yingxian-pagoda/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

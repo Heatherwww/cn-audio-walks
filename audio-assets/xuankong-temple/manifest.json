@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T12:59:50.472Z",
+  "generatedAt": "2026-09-01T07:12:18.411Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "datong",
   "cityName": "大同",
@@ -14,9 +14,9 @@
       "file": "xuankong-temple/intro.mp3",
       "src": "audio-assets/xuankong-temple/intro.mp3",
       "transcript": "xuankong-temple/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

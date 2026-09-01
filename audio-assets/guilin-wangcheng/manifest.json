@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T21:20:38.329Z",
+  "generatedAt": "2026-09-01T16:48:03.544Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guilin",
   "cityName": "桂林",
@@ -14,9 +14,9 @@
       "file": "guilin-wangcheng/intro.mp3",
       "src": "audio-assets/guilin-wangcheng/intro.mp3",
       "transcript": "guilin-wangcheng/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

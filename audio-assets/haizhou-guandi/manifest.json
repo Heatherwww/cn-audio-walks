@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T16:09:46.619Z",
+  "generatedAt": "2026-09-01T10:49:14.623Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "yuncheng",
   "cityName": "运城",
@@ -14,9 +14,9 @@
       "file": "haizhou-guandi/intro.mp3",
       "src": "audio-assets/haizhou-guandi/intro.mp3",
       "transcript": "haizhou-guandi/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

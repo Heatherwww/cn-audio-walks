@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T14:04:35.679Z",
+  "generatedAt": "2026-09-01T08:14:15.600Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "taiyuan",
   "cityName": "太原",
@@ -14,9 +14,9 @@
       "file": "jinci/intro.mp3",
       "src": "audio-assets/jinci/intro.mp3",
       "transcript": "jinci/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T21:27:14.352Z",
+  "generatedAt": "2026-09-01T16:55:01.357Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guilin",
   "cityName": "桂林",
@@ -14,9 +14,9 @@
       "file": "guilin-lingqu/intro.mp3",
       "src": "audio-assets/guilin-lingqu/intro.mp3",
       "transcript": "guilin-lingqu/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T13:49:41.390Z",
+  "generatedAt": "2026-09-01T07:59:35.454Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "jinzhong",
   "cityName": "晋中",
@@ -14,9 +14,9 @@
       "file": "wang-compound/intro.mp3",
       "src": "audio-assets/wang-compound/intro.mp3",
       "transcript": "wang-compound/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T22:35:51.637Z",
+  "generatedAt": "2026-09-01T18:12:12.716Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guangzhou",
   "cityName": "广州",
@@ -14,9 +14,9 @@
       "file": "guangzhou-chen-clan/intro.mp3",
       "src": "audio-assets/guangzhou-chen-clan/intro.mp3",
       "transcript": "guangzhou-chen-clan/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

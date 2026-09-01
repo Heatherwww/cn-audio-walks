@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T14:19:35.550Z",
+  "generatedAt": "2026-09-01T08:29:42.630Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "taiyuan",
   "cityName": "太原",
@@ -14,9 +14,9 @@
       "file": "yongzuo-shuangta/intro.mp3",
       "src": "audio-assets/yongzuo-shuangta/intro.mp3",
       "transcript": "yongzuo-shuangta/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

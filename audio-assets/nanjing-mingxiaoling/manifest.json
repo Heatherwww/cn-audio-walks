@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T20:44:14.278Z",
+  "generatedAt": "2026-09-01T16:09:57.895Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "nanjing",
   "cityName": "南京",
@@ -14,9 +14,9 @@
       "file": "nanjing-mingxiaoling/intro.mp3",
       "src": "audio-assets/nanjing-mingxiaoling/intro.mp3",
       "transcript": "nanjing-mingxiaoling/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

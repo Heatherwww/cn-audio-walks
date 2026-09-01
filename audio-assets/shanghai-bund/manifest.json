@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T17:20:53.460Z",
+  "generatedAt": "2026-09-01T12:24:44.538Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shanghai",
   "cityName": "上海",
@@ -14,9 +14,9 @@
       "file": "shanghai-bund/intro.mp3",
       "src": "audio-assets/shanghai-bund/intro.mp3",
       "transcript": "shanghai-bund/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

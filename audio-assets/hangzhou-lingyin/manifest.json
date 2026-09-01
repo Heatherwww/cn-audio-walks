@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T19:27:40.121Z",
+  "generatedAt": "2026-09-01T14:46:59.198Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "hangzhou",
   "cityName": "杭州",
@@ -14,9 +14,9 @@
       "file": "hangzhou-lingyin/intro.mp3",
       "src": "audio-assets/hangzhou-lingyin/intro.mp3",
       "transcript": "hangzhou-lingyin/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

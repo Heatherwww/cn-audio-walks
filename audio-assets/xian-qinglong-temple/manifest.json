@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T18:31:14.677Z",
+  "generatedAt": "2026-09-01T13:49:37.779Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xian",
   "cityName": "西安",
@@ -14,9 +14,9 @@
       "file": "xian-qinglong-temple/intro.mp3",
       "src": "audio-assets/xian-qinglong-temple/intro.mp3",
       "transcript": "xian-qinglong-temple/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

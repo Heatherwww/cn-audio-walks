@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T13:25:46.356Z",
+  "generatedAt": "2026-09-01T07:36:30.427Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "jinzhong",
   "cityName": "晋中",
@@ -14,9 +14,9 @@
       "file": "shuanglin-temple/intro.mp3",
       "src": "audio-assets/shuanglin-temple/intro.mp3",
       "transcript": "shuanglin-temple/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

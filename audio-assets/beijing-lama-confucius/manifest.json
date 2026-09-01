@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T17:14:34.519Z",
+  "generatedAt": "2026-09-01T12:17:43.276Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "beijing",
   "cityName": "北京",
@@ -14,9 +14,9 @@
       "file": "beijing-lama-confucius/intro.mp3",
       "src": "audio-assets/beijing-lama-confucius/intro.mp3",
       "transcript": "beijing-lama-confucius/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

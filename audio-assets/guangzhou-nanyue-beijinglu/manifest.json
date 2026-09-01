@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T22:49:05.620Z",
+  "generatedAt": "2026-09-01T18:27:21.453Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guangzhou",
   "cityName": "广州",
@@ -14,9 +14,9 @@
       "file": "guangzhou-nanyue-beijinglu/intro.mp3",
       "src": "audio-assets/guangzhou-nanyue-beijinglu/intro.mp3",
       "transcript": "guangzhou-nanyue-beijinglu/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

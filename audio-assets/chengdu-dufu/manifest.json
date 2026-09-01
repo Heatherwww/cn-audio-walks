@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T18:49:27.630Z",
+  "generatedAt": "2026-09-01T14:06:55.094Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chengdu",
   "cityName": "成都",
@@ -14,9 +14,9 @@
       "file": "chengdu-dufu/intro.mp3",
       "src": "audio-assets/chengdu-dufu/intro.mp3",
       "transcript": "chengdu-dufu/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

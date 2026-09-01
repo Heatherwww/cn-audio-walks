@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T18:37:15.768Z",
+  "generatedAt": "2026-09-01T13:55:16.759Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chengdu",
   "cityName": "成都",
@@ -14,9 +14,9 @@
       "file": "chengdu-tea/intro.mp3",
       "src": "audio-assets/chengdu-tea/intro.mp3",
       "transcript": "chengdu-tea/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

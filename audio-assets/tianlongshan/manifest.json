@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T14:26:28.083Z",
+  "generatedAt": "2026-09-01T08:38:57.275Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "taiyuan",
   "cityName": "太原",
@@ -14,9 +14,9 @@
       "file": "tianlongshan/intro.mp3",
       "src": "audio-assets/tianlongshan/intro.mp3",
       "transcript": "tianlongshan/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

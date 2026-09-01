@@ -3035,3 +3035,52 @@ svg .icon-stroke {
   stroke: rgba(22, 33, 31, 0.12);
   stroke-width: 6;
 }
+
+/* ---------- Intro sheet compact player row ---------- */
+
+.player-controls-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.intro-skip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 16px;
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid var(--malachite);
+  background: transparent;
+  color: var(--malachite);
+  font-weight: 700;
+}
+
+.intro-skip:hover {
+  background: var(--malachite);
+  color: #fff;
+}
+
+.intro-skip {
+  width: auto;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+
+.intro-skip svg {
+  flex: 0 0 auto;
+}
+
+.player .intro-skip {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+
+.player .intro-skip:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+}

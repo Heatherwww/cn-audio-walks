@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T13:57:06.098Z",
+  "generatedAt": "2026-09-01T08:07:50.333Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "jinzhong",
   "cityName": "晋中",
@@ -14,9 +14,9 @@
       "file": "zhangbi-fortress/intro.mp3",
       "src": "audio-assets/zhangbi-fortress/intro.mp3",
       "transcript": "zhangbi-fortress/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

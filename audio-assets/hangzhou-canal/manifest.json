@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T19:20:56.180Z",
+  "generatedAt": "2026-09-01T14:39:19.433Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "hangzhou",
   "cityName": "杭州",
@@ -14,9 +14,9 @@
       "file": "hangzhou-canal/intro.mp3",
       "src": "audio-assets/hangzhou-canal/intro.mp3",
       "transcript": "hangzhou-canal/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",

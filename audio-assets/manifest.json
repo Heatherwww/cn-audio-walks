@@ -37,7 +37,7 @@
       },
       "intro": {
         "src": "audio-assets/yungang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "大同 · 云冈石窟半日线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -77,7 +77,7 @@
       },
       "intro": {
         "src": "audio-assets/datong-city/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "大同 · 辽金古城线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -123,7 +123,7 @@
       },
       "intro": {
         "src": "audio-assets/pingyao/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "晋中 · 平遥古城票号线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -169,7 +169,7 @@
       },
       "intro": {
         "src": "audio-assets/jinci/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "太原 · 晋祠水源木构线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -209,7 +209,7 @@
       },
       "intro": {
         "src": "audio-assets/wutai/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "忻州 · 台怀镇寺院慢行线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -249,7 +249,7 @@
       },
       "intro": {
         "src": "audio-assets/yingxian-pagoda/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "朔州 · 应县木塔佛宫寺线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -289,7 +289,7 @@
       },
       "intro": {
         "src": "audio-assets/yongle-murals/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "运城 · 永乐宫壁画中轴线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -329,7 +329,7 @@
       },
       "intro": {
         "src": "audio-assets/beijing-axis/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "北京 · 北京中轴线漫步 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -369,7 +369,7 @@
       },
       "intro": {
         "src": "audio-assets/beijing-hutong/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "北京 · 什刹海胡同生活线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -409,7 +409,7 @@
       },
       "intro": {
         "src": "audio-assets/shanghai-bund/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "上海 · 外滩建筑听走线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -449,7 +449,7 @@
       },
       "intro": {
         "src": "audio-assets/shanghai-shikumen/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "上海 · 新天地石库门街区线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -489,7 +489,7 @@
       },
       "intro": {
         "src": "audio-assets/xian-wall/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "西安 · 南门到碑林古城线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -529,7 +529,7 @@
       },
       "intro": {
         "src": "audio-assets/xian-muslim-quarter/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "西安 · 钟鼓楼到回民街线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -569,7 +569,7 @@
       },
       "intro": {
         "src": "audio-assets/chengdu-tea/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "成都 · 人民公园到锦里慢走线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -609,7 +609,7 @@
       },
       "intro": {
         "src": "audio-assets/chengdu-wenshu-taikoo/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "成都 · 文殊院到太古里线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -649,7 +649,7 @@
       },
       "intro": {
         "src": "audio-assets/hangzhou-westlake/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "杭州 · 西湖北线文人线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -689,7 +689,7 @@
       },
       "intro": {
         "src": "audio-assets/hangzhou-canal/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "杭州 · 拱宸桥运河街区线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -729,7 +729,7 @@
       },
       "intro": {
         "src": "audio-assets/suzhou-garden/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "苏州 · 拙政园到平江路线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -769,7 +769,7 @@
       },
       "intro": {
         "src": "audio-assets/suzhou-shantang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "苏州 · 虎丘到山塘街线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -809,7 +809,7 @@
       },
       "intro": {
         "src": "audio-assets/nanjing-wall/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "南京 · 台城到总统府城市层线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -849,7 +849,7 @@
       },
       "intro": {
         "src": "audio-assets/nanjing-qinhuai/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "南京 · 夫子庙秦淮河线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -889,7 +889,7 @@
       },
       "intro": {
         "src": "audio-assets/guilin-river/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "桂林 · 象鼻山到王城山水线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -929,7 +929,7 @@
       },
       "intro": {
         "src": "audio-assets/guilin-yangshuo/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "桂林 · 阳朔西街山水线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -969,7 +969,7 @@
       },
       "intro": {
         "src": "audio-assets/chongqing-hill/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "重庆 · 山城步道到洪崖洞线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1009,7 +1009,7 @@
       },
       "intro": {
         "src": "audio-assets/chongqing-ciqikou/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "重庆 · 磁器口古镇码头线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1049,7 +1049,7 @@
       },
       "intro": {
         "src": "audio-assets/guangzhou-xiguan/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "广州 · 西关到沙面骑楼线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1089,7 +1089,7 @@
       },
       "intro": {
         "src": "audio-assets/guangzhou-yuexiu/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "广州 · 越秀山到纪念堂线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1129,7 +1129,7 @@
       },
       "intro": {
         "src": "audio-assets/datong-wall/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "大同 · 大同古城墙步行线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1169,7 +1169,7 @@
       },
       "intro": {
         "src": "audio-assets/datong-axis/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "大同 · 古城中轴街巷线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1209,7 +1209,7 @@
       },
       "intro": {
         "src": "audio-assets/xuankong-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "大同 · 恒山悬空寺线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1249,7 +1249,7 @@
       },
       "intro": {
         "src": "audio-assets/datong-museum/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "大同 · 大同市博物馆半日线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1289,7 +1289,7 @@
       },
       "intro": {
         "src": "audio-assets/shuanglin-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "晋中 · 双林寺彩塑线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1329,7 +1329,7 @@
       },
       "intro": {
         "src": "audio-assets/zhenguo-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "晋中 · 镇国寺五代木构线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1369,7 +1369,7 @@
       },
       "intro": {
         "src": "audio-assets/qiao-compound/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "晋中 · 乔家大院晋商宅院线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1409,7 +1409,7 @@
       },
       "intro": {
         "src": "audio-assets/wang-compound/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "晋中 · 王家大院依山堡院线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1449,7 +1449,7 @@
       },
       "intro": {
         "src": "audio-assets/zhangbi-fortress/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "晋中 · 张壁古堡明堡暗道线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1489,7 +1489,7 @@
       },
       "intro": {
         "src": "audio-assets/shanxi-museum/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "太原 · 山西博物院晋魂线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1529,7 +1529,7 @@
       },
       "intro": {
         "src": "audio-assets/yongzuo-shuangta/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "太原 · 永祚寺双塔线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1569,7 +1569,7 @@
       },
       "intro": {
         "src": "audio-assets/tianlongshan/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "太原 · 天龙山石窟线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1609,7 +1609,7 @@
       },
       "intro": {
         "src": "audio-assets/fucheng-walk/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "太原 · 府城儒释道步行线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1649,7 +1649,7 @@
       },
       "intro": {
         "src": "audio-assets/guxiancheng/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "太原 · 太原古县城十字街线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1689,7 +1689,7 @@
       },
       "intro": {
         "src": "audio-assets/foguang-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "忻州 · 佛光寺东大殿线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1729,7 +1729,7 @@
       },
       "intro": {
         "src": "audio-assets/nanchan-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "忻州 · 南禅寺最早木构线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1769,7 +1769,7 @@
       },
       "intro": {
         "src": "audio-assets/xinzhou-ancient-city/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "忻州 · 忻州古城秀容线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1809,7 +1809,7 @@
       },
       "intro": {
         "src": "audio-assets/yanmenguan-pass/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "忻州 · 雁门关长城线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1849,7 +1849,7 @@
       },
       "intro": {
         "src": "audio-assets/daixian-ancient-city/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "忻州 · 代州古城三宝线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1889,7 +1889,7 @@
       },
       "intro": {
         "src": "audio-assets/chongfu-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "朔州 · 崇福寺金代艺术线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1929,7 +1929,7 @@
       },
       "intro": {
         "src": "audio-assets/shuozhou-old-city/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "朔州 · 朔州老城马邑线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -1969,7 +1969,7 @@
       },
       "intro": {
         "src": "audio-assets/jingtu-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "朔州 · 应县净土寺辽金遗珠线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2009,7 +2009,7 @@
       },
       "intro": {
         "src": "audio-assets/guangwu-great-wall/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "朔州 · 山阴广武长城古城线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2049,7 +2049,7 @@
       },
       "intro": {
         "src": "audio-assets/shahukou-west/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "朔州 · 右玉杀虎口西口线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2089,7 +2089,7 @@
       },
       "intro": {
         "src": "audio-assets/haizhou-guandi/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "运城 · 解州关帝庙帝王规制线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2129,7 +2129,7 @@
       },
       "intro": {
         "src": "audio-assets/pujiu-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "运城 · 普救寺西厢故事线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2169,7 +2169,7 @@
       },
       "intro": {
         "src": "audio-assets/guanque-tower/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "运城 · 鹳雀楼登高远望线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2209,7 +2209,7 @@
       },
       "intro": {
         "src": "audio-assets/pujin-ferry/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "运城 · 蒲津渡铁牛与蒲州故城线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2249,7 +2249,7 @@
       },
       "intro": {
         "src": "audio-assets/feiyun-tower/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "运城 · 万荣东岳庙飞云楼线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2289,7 +2289,7 @@
       },
       "intro": {
         "src": "audio-assets/beijing-forbidden-city/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "北京 · 故宫中轴精华线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2329,7 +2329,7 @@
       },
       "intro": {
         "src": "audio-assets/beijing-temple-of-heaven/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "北京 · 天坛祭天线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2369,7 +2369,7 @@
       },
       "intro": {
         "src": "audio-assets/beijing-summer-palace/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "北京 · 颐和园湖山线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2409,7 +2409,7 @@
       },
       "intro": {
         "src": "audio-assets/beijing-lama-confucius/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "北京 · 雍和宫国子监线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2449,7 +2449,7 @@
       },
       "intro": {
         "src": "audio-assets/shanghai-yuyuan/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "上海 · 豫园老城厢园林线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2489,7 +2489,7 @@
       },
       "intro": {
         "src": "audio-assets/shanghai-longhua/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "上海 · 龙华寺塔千年线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2529,7 +2529,7 @@
       },
       "intro": {
         "src": "audio-assets/shanghai-wukang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "上海 · 武康路建筑漫步线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2569,7 +2569,7 @@
       },
       "intro": {
         "src": "audio-assets/shanghai-suzhou-creek/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "上海 · 苏州河北岸工业遗产线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2609,7 +2609,7 @@
       },
       "intro": {
         "src": "audio-assets/xian-dayan-pagoda/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "西安 · 大雁塔到大唐不夜城线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2649,7 +2649,7 @@
       },
       "intro": {
         "src": "audio-assets/xian-xiaoyan-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "西安 · 小雁塔到西安博物院线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2689,7 +2689,7 @@
       },
       "intro": {
         "src": "audio-assets/xian-daming-palace/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "西安 · 大明宫遗址中轴线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2729,7 +2729,7 @@
       },
       "intro": {
         "src": "audio-assets/xian-qinglong-temple/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "西安 · 乐游原青龙寺线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2769,7 +2769,7 @@
       },
       "intro": {
         "src": "audio-assets/chengdu-dufu/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "成都 · 杜甫草堂诗圣线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2809,7 +2809,7 @@
       },
       "intro": {
         "src": "audio-assets/chengdu-jinsha/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "成都 · 金沙遗址古蜀线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2849,7 +2849,7 @@
       },
       "intro": {
         "src": "audio-assets/chengdu-qingyang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "成都 · 青羊宫川西道观线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2889,7 +2889,7 @@
       },
       "intro": {
         "src": "audio-assets/chengdu-dujiangyan/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "成都 · 都江堰无坝引水线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2929,7 +2929,7 @@
       },
       "intro": {
         "src": "audio-assets/hangzhou-lingyin/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "杭州 · 灵隐寺飞来峰线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -2969,7 +2969,7 @@
       },
       "intro": {
         "src": "audio-assets/hangzhou-hefang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "杭州 · 南宋御街清河坊线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3009,7 +3009,7 @@
       },
       "intro": {
         "src": "audio-assets/hangzhou-liangzhu/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "杭州 · 良渚古城遗址线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3049,7 +3049,7 @@
       },
       "intro": {
         "src": "audio-assets/hangzhou-qiantang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "杭州 · 六和塔钱塘江大桥线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3089,7 +3089,7 @@
       },
       "intro": {
         "src": "audio-assets/suzhou-liuyuan/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "苏州 · 留园深院线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3129,7 +3129,7 @@
       },
       "intro": {
         "src": "audio-assets/suzhou-hanshan/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "苏州 · 寒山寺枫桥听钟线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3169,7 +3169,7 @@
       },
       "intro": {
         "src": "audio-assets/suzhou-panmen/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "苏州 · 盘门水陆城门线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3209,7 +3209,7 @@
       },
       "intro": {
         "src": "audio-assets/suzhou-canglang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "苏州 · 沧浪亭借景线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3249,7 +3249,7 @@
       },
       "intro": {
         "src": "audio-assets/nanjing-mingxiaoling/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "南京 · 明孝陵神道线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3289,7 +3289,7 @@
       },
       "intro": {
         "src": "audio-assets/nanjing-linggu/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "南京 · 灵谷寺无梁殿线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3329,7 +3329,7 @@
       },
       "intro": {
         "src": "audio-assets/nanjing-yihe/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "南京 · 颐和路民国街区线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3369,7 +3369,7 @@
       },
       "intro": {
         "src": "audio-assets/nanjing-chaotiangong/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "南京 · 朝天宫府学线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3409,7 +3409,7 @@
       },
       "intro": {
         "src": "audio-assets/guilin-wangcheng/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "桂林 · 靖江王城中轴线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3449,7 +3449,7 @@
       },
       "intro": {
         "src": "audio-assets/guilin-lingqu/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "桂林 · 兴安灵渠古运河线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3489,7 +3489,7 @@
       },
       "intro": {
         "src": "audio-assets/guilin-daxu/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "桂林 · 大圩古镇老街线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3529,7 +3529,7 @@
       },
       "intro": {
         "src": "audio-assets/guilin-gongcheng/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "桂林 · 恭城文武庙古建筑线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3569,7 +3569,7 @@
       },
       "intro": {
         "src": "audio-assets/chongqing-dazu/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "重庆 · 大足宝顶山石刻线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3609,7 +3609,7 @@
       },
       "intro": {
         "src": "audio-assets/chongqing-diaoyucheng/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "重庆 · 合川钓鱼城遗址线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3649,7 +3649,7 @@
       },
       "intro": {
         "src": "audio-assets/chongqing-huguang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "重庆 · 湖广会馆到东水门线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3689,7 +3689,7 @@
       },
       "intro": {
         "src": "audio-assets/chongqing-baidicheng/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "重庆 · 白帝城夔门线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3729,7 +3729,7 @@
       },
       "intro": {
         "src": "audio-assets/guangzhou-chen-clan/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "广州 · 陈家祠民间工艺线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3769,7 +3769,7 @@
       },
       "intro": {
         "src": "audio-assets/guangzhou-twin-temples/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "广州 · 光孝六榕双寺线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3809,7 +3809,7 @@
       },
       "intro": {
         "src": "audio-assets/guangzhou-nanyue-beijinglu/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "广州 · 南越王墓到北京路线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
@@ -3849,11 +3849,11 @@
       },
       "intro": {
         "src": "audio-assets/guangzhou-shishi-yanjiang/intro.mp3",
-        "durationSeconds": 180,
+        "durationSeconds": 120,
         "label": "广州 · 石室到沿江西路线 · 路线开场",
         "voice": "zh-CN-YunxiNeural"
       }
     }
   },
-  "updatedAt": "2026-08-31T22:55:25.077Z"
+  "updatedAt": "2026-09-01T18:34:44.514Z"
 }

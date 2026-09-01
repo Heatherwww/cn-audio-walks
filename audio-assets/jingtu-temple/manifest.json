@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-08-31T15:43:13.280Z",
+  "generatedAt": "2026-09-01T10:08:22.469Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shuozhou",
   "cityName": "朔州",
@@ -14,9 +14,9 @@
       "file": "jingtu-temple/intro.mp3",
       "src": "audio-assets/jingtu-temple/intro.mp3",
       "transcript": "jingtu-temple/intro.txt",
-      "plannedSeconds": 180,
-      "durationSeconds": 180,
-      "sizeBytes": 2161102
+      "plannedSeconds": 120,
+      "durationSeconds": 120,
+      "sizeBytes": 1441062
     },
     {
       "kind": "stop",
