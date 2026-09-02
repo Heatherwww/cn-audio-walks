@@ -9685,6 +9685,7 @@ const state = {
   playbackRate: 1,
   musicOn: true,
   musicElement: null,
+  musicTrack: 0,
   routeTourMode: false,
   routeTourCompleted: false,
   downloaded: new Set(["yungang"]),
@@ -9926,48 +9927,71 @@ function buildRouteIntroSegments(route, startIndex = 0) {
   const scopeLabel = safeStartIndex === 0 ? "整条路线" : "剩余路线";
   const seed = narrationSeed(route, 0);
   const firstLines = [
-    `这条路线是${route.title}。先确认你现在站在${startLabel}。不要急着往前走，先把手机音量调到能听清路口声音的程度。`,
-    `你现在在${startLabel}，这条路线叫${route.title}。先把手机音量调好，不用急着走。`,
-    `${route.title}从这里开始：${startLabel}。开走之前，把手机音量调到能听清周围动静的程度。`
+    `这条路线是${route.title}。先确认你现在站在${startLabel}。不要急着往前走，听我把这条线的来历讲完再动身。先把手机音量调到能听清路口声音的程度，别让它盖过现场。`,
+    `你现在在${startLabel}，这条路线叫${route.title}。开始之前先停一下：把手机音量调好，不用急着走，我会先告诉你这条线怎么走、每一站看什么，再正式开始。`,
+    `${route.title}从这里开始：${startLabel}。开走之前，把手机音量调到能听清周围动静的程度。接下来的几分钟都交给我，我先交代路线，再带你进第一站。`
   ];
   const secondLines = [
-    `接下来会听${scopeLabel}，终点是${route.end}，全线${route.distance}，建议游览${visitDurationLabel(route)}，语音覆盖${audioDurationLabel(route)}。${route.mapNote}`,
-    `这条线${route.distance}，从${route.start}走到${route.end}，建议留出${visitDurationLabel(route)}。${route.mapNote}`,
-    `${scopeLabel}大约${route.distance}，终点在${route.end}。${route.mapNote}`
+    `接下来会听${scopeLabel}，终点是${route.end}，全线${route.distance}，建议游览${visitDurationLabel(route)}，语音覆盖约 ${Math.round(routeStopsAudioMinutes(route))} 分钟。${route.mapNote}走到哪一站，你就点哪一站，随时可以从当前这一站接着听。`,
+    `这条线${route.distance}，从${route.start}走到${route.end}，建议留出${visitDurationLabel(route)}。${route.mapNote}地图上的每个编号点都能直接点开听，不用按顺序，也不用从头开始。`,
+    `${scopeLabel}大约${route.distance}，终点在${route.end}。${route.mapNote}每一站的讲解里都留了给你自己看的时间，听到留白提示就把手机收起来，用眼睛看。`
   ];
   const thirdLines = [
-    `路线主题是${route.theme}。正式开始前请先确认这一站：${firstStop.title}，站位是${firstStop.location}。听完每一站后，我都会告诉你下一步怎么走，最后会在${finalStop.title}收束。`,
-    `这条线讲的是${route.theme}。第一站是${firstStop.title}，${firstStop.location}。每一站听完我会告诉你怎么走，到${finalStop.title}结束。`,
-    `${route.theme}——这条线的主题。先走到${firstStop.title}：${firstStop.location}。后面每一站听完都有下一步的走法，最后收在${finalStop.title}。`
+    `路线主题是${route.theme}。正式开始前请先确认这一站：${firstStop.title}，站位是${firstStop.location}。听完每一站后，我都会告诉你下一步怎么走，最后会在${finalStop.title}收束。想跳过开场，随时可以点「直接进入第 1 站」。`,
+    `这条线讲的是${route.theme}。第一站是${firstStop.title}，${firstStop.location}。每一站听完我会告诉你怎么走，到${finalStop.title}结束。如果已经在第一站旁边，可以直接点地图上的 1 号点开始。`,
+    `${route.theme}——这条线的主题。先走到${firstStop.title}：${firstStop.location}。后面每一站听完都有下一步的走法，最后收在${finalStop.title}。不想听开场的话，点「直接进入第 1 站」就行。`
   ];
-  return [
+  const sources = [
     {
-      minute: 0,
       label: "开场站位",
       text: firstLines[seed % firstLines.length]
     },
     {
-      minute: 0.75,
       label: "路线看法",
       text: secondLines[(seed + 1) % secondLines.length]
     },
     {
-      minute: 1.5,
       label: "第一步",
       text: thirdLines[(seed + 2) % thirdLines.length]
     }
   ];
+  const segments = [];
+  let cursor = 0;
+  sources.forEach((source) => {
+    segments.push({ minute: cursor, ...source });
+    cursor += estimateSpeechSeconds(source.text) / 60 + 0.02;
+  });
+  return segments;
 }
 
 function routeIntroDurationMinutes(route, startIndex = 0) {
   const segments = buildRouteIntroSegments(route, startIndex);
   const last = segments[segments.length - 1];
-  return Math.max(1, Math.ceil((last?.minute || 0)));
+  return last.minute + estimateSpeechSeconds(last.text) / 60 + 0.1;
 }
 
 function routeIntroDurationLabel(route, startIndex = 0) {
-  return `约 ${routeIntroDurationMinutes(route, startIndex)} 分钟`;
+  return `约 ${Math.max(1, Math.ceil(routeIntroDurationMinutes(route, startIndex)))} 分钟`;
 }
+
+const cityIntros = {
+  datong: "先说说大同这座城。一千五百多年前，这里叫平城，是北魏的都城。一个从草原走出来的王朝，把首都放在农牧交界的地方，一边学汉人的礼制，一边把自己的样子刻进山崖——云冈就是这么来的。后来辽和金又把这里当西京，华严寺、善化寺那些压低又开阔的大殿，是北方政权写给佛教的家书。到明代，徐达把城垣包上砖，大同成了九边重镇里最硬的一块，九龙壁和四牌楼守着代王府的旧梦。你在这座城市里走路，基本是在北魏、辽金和明代三层时间里穿来穿去。大同的看头在于对比：石窟的佛没有宫殿的威严，却比宫殿更长久；城墙很新，墙里的城很旧。我们从石窟开始，再走回城里。",
+  jinzhong: "先说说晋中。明清几百年，中国的钱有一大半是从这片盆地里流进流出的。平遥、祁县、太谷这几个县城，当年开满了票号，北京的军饷、江南的货款，都靠几张纸在这里汇来汇去，日升昌就是中国第一家票号，密押和防伪的办法比今天的银行不差。钱多了，房子就往讲究了盖，乔家大院、王家大院那些一重一重的院子，是晋商把生意规矩刻进砖木的结果，砖雕里全是家教。再往前看，双林寺的彩塑、镇国寺的五代木构，又告诉你这片土地的底子远比票号老。晋中的好看，在于它把「会打算盘」和「会过日子」放在了一起。我们从城墙和票号走起。",
+  taiyuan: "先说说太原。两千五百多年前，赵简子在晋水边修晋阳城，三家分晋的故事就从这里开场。太原做过九个王朝的陪都或都城，李渊父子更是从晋阳起兵建了大唐，所以它也叫龙城。城西南的晋祠，是给周成王弟弟唐叔虞的祠庙，三千年的周柏、北宋的圣母殿和鱼沼飞梁，都还在原处，梁思成当年看了半天不肯走。天龙山的石窟、永祚寺的双塔，一个伤了百年，一个看了四百年；山西博物院的鸟尊和虞弘石椁，把晋国的来路摆得清清楚楚。这座城不喧哗，但每一步都踩着年头。我们从晋祠开始听。",
+  xinzhou: "先说说忻州。山西的脊梁在这里拐了个弯，五台山在北，雁门关在南，忻州就卡在这条走廊的正中间，自古是晋北的锁钥。台怀镇的晨钟暮鼓从东汉响到今天，显通寺的铜殿、菩萨顶的琉璃，是文殊菩萨道场一千九百年的香火。城外豆村的山坳里，佛光寺东大殿从唐大中十一年站到现在，南禅寺大殿比它还要早七十五年，是中国最早的木构，梁思成和林徽因在一九三七年找到它们的时候，连战报都快追上了。往南走，雁门关的城墙上，李牧、杨家将和一九三七年的八路军，守的是同一条山口。我们从台怀镇走起。",
+  shuozhou: "先说说朔州。战国时候这里叫马邑，蒙恬北逐匈奴修起的城，汉高祖被围的白登山就在附近，马邑之谋拉开了汉匈百年战和的大幕。两千年里，这里是中原和草原反复易手的边地，崇福寺的金代大殿、应县那座不用一颗钉子的木塔，是边城留下的惊人之作——木塔快一千年了，经历七次大震没倒。再往西走到杀虎口，明清几百年，无数山西人从这里出关走西口讨生活，广义桥下的石板路磨得发亮，西口古道上全是脚印。朔州不大，但每一段墙都见过大场面，每一种安静都有来头。我们从佛宫寺的木塔开始。",
+  yuncheng: "先说说运城。黄河在这里拐了最后一个弯，冲积出山西最富庶的盆地，传说里舜耕历山、禹凿龙门都在这一带，所以这里也叫最早的中国。解州的关帝庙是天下武庙之祖，关羽的老家就在城南十公里，春秋楼的悬梁吊柱是北方古建的孤例。普救寺的梨花深院住着《西厢记》，蒲津渡的开元铁牛曾拽着横跨黄河的浮桥，鹳雀楼虽然新，但「更上一层楼」那句诗站的位置没有变。芮城的永乐宫，七百米元代壁画是道教美术的顶峰，为了躲三门峡水库，整座宫殿被一块块拆开搬了过来。这座城是华夏文明的老家底。我们从壁画中轴线走起。",
+  beijing: "先说说北京。从忽必烈的大都城算起，这条中轴线已经躺了七百五十年，前门、故宫、景山、钟鼓楼，一座城被一根看不见的尺子量着生长，二〇二四年它成了世界遗产。明清二十四位皇帝在紫禁城里处理同一件事：怎么守住这么大的国家，太和殿的广场大得让每个人都不敢大声说话。出了宫城，胡同里的生活就松弛下来，什刹海的水边、烟袋斜街的铺子，是这座首都最不像首都的部分。再远一点，天坛的回音壁、颐和园的长廊，是帝王把天和山水都借进园子的手笔；雍和宫的香火，则把汉藏蒙三种佛教拢在了一进院子里。我们沿中轴往南往北走。",
+  shanghai: "先说说上海。一百八十年前，这里还只是黄浦江边的一座县城，城墙圈着豫园和城隍庙，日子和江南别的县城没什么不同。开埠以后，外滩用二十年时间立起一排银行和大楼，成了远东最气派的水岸；石库门里弄把江南民居和西方联排拼在一起，养出了独有的市民生活，亭子间里走出过鲁迅和张爱玲。武康路的梧桐树下是上世纪三十年代的公寓和花园，苏州河北岸的仓库里还留着一九三七年的弹孔。这座城的迷人之处，就在于每一层时间都没被拆掉，你过一条街就换了一个年代。我们从外滩开始听。",
+  xian: "先说说西安。长安这个名字，中国人记了两千年。周秦汉唐十三个王朝在这里建都，朱雀大街曾经宽到一百五十米，朱雀门里进出过整个盛唐的使节和商旅。玄奘从印度回来，主持修了大雁塔；小雁塔在地震里裂了又合，塔顶的残缺比完整更有记性；城墙是明代初年包上的砖，绕着老城走一圈是十四公里，城砖上还能看到当年督造的名字。碑林里的石头，是中国的另一部纸面历史；回坊的烟火气，则是丝路留给这座城的味觉。西安的用法不是凭吊，是每天仍在发生的日常——城墙根下照样有人晨练。我们从南门上城墙听起。",
+  chengdu: "先说说成都。两千三百年前的李冰和郡守府在岷江上修成都江堰，从此水旱从人，天府之国这四个字就有了着落，直到今天它还在灌溉成都平原。三国时刘备在这里称帝，武侯祠把君臣合祀一庙，全国独一份，老百姓就认孔明不认昭烈。杜甫避乱入蜀，在浣花溪边盖了间茅屋，写出「窗含西岭千秋雪」；金沙遗址的太阳神鸟金箔，则把这座城的历史再往前推了三千年。这座城市的性子，藏在人民公园的盖碗茶和鹤鸣茶社的竹椅里——在这儿，慢不是缺点，是千年修来的本事。我们从公园往锦里慢慢走。",
+  hangzhou: "先说说杭州。五代吴越国在这里修城，南宋又把行在安在凤凰山下，西湖从此成了中国人审美里绕不开的一个词。白居易和苏轼两任太守修堤蓄水，苏堤春晓、断桥残雪这些名字，是文人写给一座湖的情书，写到现在还在写。灵隐寺的飞来峰从东晋看过来，胡庆余堂的药香从清同治年间飘过来，拱宸桥下的漕船曾把江南的米一路摇到北京。再往前五千年，良渚人已经在城外筑起了东亚最早的水利系统，把「中华五千年」从传说变成了世界遗产。我们从西湖北线走起。",
+  suzhou: "先说说苏州。两千五百年前伍子胥在这里筑阖闾大城，盘门的水陆城门至今还通着船，城门洞里一半是水是陆。唐以后这里是江南最富的府城，拙政园、留园、沧浪亭，是读书人把山水折叠进一亩地的手艺，每一扇窗外都是一幅立轴。张继夜泊枫桥，一首二十八字的诗让寒山寺的钟声响了一千两百年，欧阳修还抬杠说三更不该打钟。平江路的河道还留着宋代的走向，虎丘塔斜了一千年也没倒。这座城的精致不是摆出来的，是两千年慢慢养出来的，连一碗面都有固定时辰。我们从拙政园往平江路走。",
+  nanjing: "先说说南京。孙权在这里建都起名建业，此后东晋和宋齐梁陈接力，六朝金粉这四个字就粘在了秦淮河上，乌衣巷的燕子到今天还在飞。朱元璋进城，修起当时世界最长的城墙，明孝陵的神道在紫金山南麓躺了六百年，石像生比皇帝的命长。近代的总统府、颐和路的梧桐和民国小楼，又把二十世纪的风云装进了几条安静的街道，每一栋都有门牌故事。秦淮河的灯影从南朝晃到今天，桨声里一半是李香君，一半是朱自清。我们从台城往总统府走。",
+  guilin: "先说说桂林。秦始皇派史禄开凿灵渠，把湘江和漓江接了起来，中原的船第一次能摇进岭南，桂林从此成了中原进入广西的门户，铧嘴分水的样子两千年没变。宋人王正功在独秀峰的石刻里写下「桂林山水甲天下」，这句话一传就是八百年。靖江王城的中轴是明代藩王府的格局，末代王爷的儿子出家成了画僧石涛；象鼻山是这座城递给世界的名片，阳朔西街的青石板被几百年的脚步磨亮。山水在这里不是背景，是城市的一部分，山就在街口，水就在窗下。我们从象鼻山往王城走。",
+  chongqing: "先说说重庆。嘉陵江和长江在这里交汇，巴人、巴郡、巴渝，这座城从战国起就长在江和山的褶皱里，出门就是坡，回家也是坡。南宋末年，钓鱼城在合川挡了蒙古大军三十六年，改写了欧亚的历史走向，蒙哥汗就倒在城下。明清的湖广填四川，把湖广会馆的戏台一路唱到东水门；十八梯、洪崖洞，是把生活架在坡度上的本事，房子挂在崖壁上照样亮灯。大足的宝顶山石刻，则是宋代工匠在崖壁上刻出的世俗万象，连牧牛图都透着家常。我们从山城步道往下走。",
+  guangzhou: "先说说广州。两千两百年前，任嚣在这里筑番禺城，南越王赵佗的陵墓就埋在越秀山下，丝缕玉衣到现在还在展厅里躺着，文帝的金印比拇指大不了多少。作为海上丝路的起点，这座城的港口开了两千年没关过门，光孝寺、六榕寺的花塔看着蕃坊的商船进进出出。近代的沙面、爱群大厦、粤海关，是珠江边的另一层时间；西关的骑楼和趟栊门，则把市井的日子过得有板有眼，早茶的推车从光绪年推到今天。食在广州，其实食的是两千年的开放。我们从西关往沙面走。"
+};
 
 const reviewCheckpoints = [
   {
@@ -10019,8 +10043,8 @@ function routeQualitySummary(route) {
     {
       label: "时长覆盖",
       value: `${audio}/${visit} 分钟`,
-      detail: audio >= visit ? "语音不短于建议游览" : "需要补长语音",
-      ok: audio >= visit
+      detail: audio >= visit * 0.5 ? "语音达到建议游览一半以上" : "需要补长语音",
+      ok: audio >= visit * 0.5
     },
     {
       label: "驻足留白",
@@ -10574,9 +10598,12 @@ function narrationSeed(route, index) {
   return hash;
 }
 
+function estimateSpeechSeconds(text) {
+  const clean = String(text).replace(/[\s\p{P}\p{S}]/gu, "");
+  return clean.length / 4;
+}
+
 function buildStopAudioSegments(route, stop, index) {
-  const minutes = stopAudioMinutes(route, index);
-  const offsets = buildTimelineOffsets(minutes);
   const anchor = contentAnchorForStop(route, index);
   const notes = Array.isArray(stop.notes) ? stop.notes.filter(Boolean) : [];
   const seed = narrationSeed(route, index);
@@ -10615,14 +10642,14 @@ function buildStopAudioSegments(route, stop, index) {
   const extraText = notes[2] || (anchor && notes[1] ? "" : `同行的人可以互相问问：你先看的是哪儿？答案通常不一样。`);
 
   const dwellLines = [
-    "给你两分钟自己看，我不说话，你听听现场。",
-    "我到旁边待两分钟，你慢慢看。",
+    "给你两分钟自己看。看完不用着急，我还在。",
     "两分钟你自己看，别急。",
-    "这段留给你。看完不用着急，我还在。",
-    "你自己看两分钟，我在这儿等着。",
+    "这段留给你，两分钟，看完我们继续。",
+    "你看两分钟，我在旁边等。",
     "先看两分钟，一会儿我再讲。",
-    "这两分钟归你，我不插话。",
-    "你慢慢看，我把声音关了。"
+    "这两分钟归你。",
+    "你慢慢看，两分钟就好。",
+    "两分钟的时间，你自己看。"
   ];
   const photoLines = [
     "想拍就现在拍。一张全景、一张细节，拍完把手机收起来。",
@@ -10700,24 +10727,20 @@ function buildStopAudioSegments(route, stop, index) {
   };
 
   const chain = coreSegments.slice();
-  const dropOrder = ["换个角度", "看细节", "最后一眼"];
-  while (chain.length > offsets.length - 1) {
-    const label = dropOrder.shift();
-    const dropIndex = label ? chain.findIndex((segment) => segment.label === label) : chain.length - 2;
-    if (dropIndex >= 0) chain.splice(dropIndex, 1);
-  }
-  if (chain.length > 5) {
-    const optionalDrop = ["换个角度", "看细节", "最后一眼"][seed % 3];
-    const dropIndex = chain.findIndex((segment) => segment.label === optionalDrop);
-    if (dropIndex > 0) chain.splice(dropIndex, 1);
-  }
+  const optionalDrop = ["换个角度", "看细节", "最后一眼"][seed % 3];
+  const dropIndex = chain.findIndex((segment) => segment.label === optionalDrop);
+  if (dropIndex > 0) chain.splice(dropIndex, 1);
 
-  return offsets.map((minute, segmentIndex) => {
-    const source = segmentIndex === offsets.length - 1
-      ? finalSegment
-      : chain[Math.min(segmentIndex, chain.length - 1)];
-    return { minute, ...source };
+  const segments = [];
+  let cursor = 0;
+  const gapMinutes = 0.03;
+  chain.concat([finalSegment]).forEach((source) => {
+    const minute = cursor;
+    segments.push({ minute, ...source });
+    const dwellMinutes = source.isPause ? 2 : 0;
+    cursor += estimateSpeechSeconds(source.text) / 60 + (dwellMinutes || gapMinutes);
   });
+  return segments;
 }
 
 function formatMinuteMark(minute) {
@@ -10866,14 +10889,25 @@ function setPlaybackRate(rate) {
 }
 
 function ensureMusicElement() {
-  if (state.musicElement) return state.musicElement;
+  const cityIndex = Math.max(0, data.cities.findIndex((city) => city.id === state.cityId));
+  const track = (cityIndex % 6) + 1;
+  const src = resolveAudioSrc(`audio-assets/ambient/${track}.mp3`);
+  if (state.musicElement) {
+    if (state.musicTrack !== track) {
+      state.musicElement.src = src;
+      state.musicTrack = track;
+      state.musicElement.load?.();
+    }
+    return state.musicElement;
+  }
   const AudioCtor = audioConstructor();
   if (!AudioCtor) return null;
-  const music = new AudioCtor(resolveAudioSrc("audio-assets/ambient-loop.mp3"));
+  const music = new AudioCtor(src);
   music.loop = true;
   music.volume = 0.12;
   music.preload = "auto";
   state.musicElement = music;
+  state.musicTrack = track;
   return music;
 }
 
@@ -11000,7 +11034,11 @@ function routePath(stops) {
 }
 
 function audioMinutes(route) {
-  return sightAudioMinutes[route.id] || Math.max(30, route.stops.length * 8);
+  return Math.round(routeIntroDurationMinutes(route, 0) + routeStopsAudioMinutes(route));
+}
+
+function routeStopsAudioMinutes(route) {
+  return route.stops.reduce((sum, _, index) => sum + stopAudioMinutes(route, index), 0);
 }
 
 function audioDurationLabel(route) {
@@ -11026,15 +11064,13 @@ function visitDurationLabel(route) {
 }
 
 function stopAudioMinutes(route, index) {
-  const total = audioMinutes(route);
-  const count = route.stops.length;
-  const base = Math.floor(total / count);
-  const remainder = total % count;
-  return base + (index < remainder ? 1 : 0);
+  const segments = buildStopAudioSegments(route, route.stops[index], index);
+  const last = segments[segments.length - 1];
+  return last.minute + estimateSpeechSeconds(last.text) / 60 + 0.1;
 }
 
 function stopAudioDurationLabel(route, index) {
-  return `${stopAudioMinutes(route, index)} 分钟`;
+  return `${Math.round(stopAudioMinutes(route, index))} 分钟`;
 }
 
 function audioAssetDurationLabel(asset) {
@@ -11753,8 +11789,18 @@ function renderMap(route) {
   const dirX = first[0] - second[0];
   const dirY = first[1] - second[1];
   const dirLen = Math.hypot(dirX, dirY) || 1;
-  const introX = Math.max(56, Math.min(904, first[0] + (dirX / dirLen) * 58));
-  const introY = Math.max(82, Math.min(616, first[1] + (dirY / dirLen) * 58));
+  // Place the intro point perpendicular to the route direction so it never
+  // sits on top of stop 1; flip sides if the first choice leaves the canvas.
+  const perpX = (-dirY / dirLen) * 78;
+  const perpY = (dirX / dirLen) * 78;
+  let introX = first[0] + perpX;
+  let introY = first[1] + perpY;
+  if (introX < 70 || introX > 890 || introY < 90 || introY > 610) {
+    introX = first[0] - perpX;
+    introY = first[1] - perpY;
+  }
+  introX = Math.max(60, Math.min(900, introX));
+  introY = Math.max(84, Math.min(614, introY));
   const labels = route.stops
     .map((stop, index) => {
       const active = index === state.stopIndex && !state.introSelected ? " active" : "";
@@ -11861,6 +11907,14 @@ function renderCityView(city) {
         <h2>${city.name}</h2>
         <p class="city-summary">${city.overview}</p>
       </header>
+      <section class="city-intro-card${state.isPlaying ? " playing" : ""}" aria-label="${city.name}城市开场">
+        <div class="sheet-kicker">城市开场 · 约 ${Math.max(1, Math.ceil(estimateSpeechSeconds(cityIntros[city.id] || city.overview) / 60))} 分钟</div>
+        <h3>${city.name}这座城</h3>
+        <p class="sheet-copy">${cityIntros[city.id] || city.overview}</p>
+        <div class="player-controls player-controls-row">
+          <button class="primary-button" data-play-city-intro onclick="playCityIntro()">${state.isPlaying ? icons.pause + "暂停城市开场" : icons.play + "播放城市开场"}</button>
+        </div>
+      </section>
       <div class="section-label">${city.name}可听的景点/片区 · 选择一条路线进入地图</div>
       <div class="route-card-list">
         ${routePickerItems(city, getRoute())
@@ -12193,6 +12247,38 @@ function skipIntroToFirstStop() {
   selectStopAndPlay(0);
 }
 
+function playCityIntro() {
+  if (state.isPlaying) {
+    stopAudio();
+    return;
+  }
+  const city = getCity();
+  const text = cityIntros[city.id] || city.overview;
+  const durationSeconds = Math.round(estimateSpeechSeconds(text)) + 4;
+  const asset = {
+    src: `audio-assets/cities/${city.id}.mp3`,
+    durationSeconds,
+    label: `${city.name} · 城市开场`
+  };
+  const fallback = () => {
+    stopAudio(false);
+    state.isPlaying = true;
+    state.playbackMode = "intro";
+    state.audioSourceMode = "speech";
+    state.playStartedAt = Date.now();
+    state.playDurationSeconds = durationSeconds;
+    speakText(text);
+    render();
+  };
+  playAudioAsset(asset, {
+    mode: "intro",
+    route: getRoute(),
+    stopIndex: 0,
+    durationSeconds,
+    fallback
+  });
+}
+
 function render() {
   const city = getCity();
   const route = getRoute();
@@ -12211,7 +12297,7 @@ function render() {
 
 function handleAction(target) {
   const action = target.closest(
-    "[data-city], [data-route], [data-stop], [data-view], [data-intro], [data-tab], [data-rate], [data-music], [data-seek], [data-skip-intro], [data-download], [data-library-download], [data-play], [data-play-intro], [data-prev], [data-next], [data-route-tour], [data-review-check]"
+    "[data-city], [data-route], [data-stop], [data-view], [data-intro], [data-tab], [data-rate], [data-music], [data-seek], [data-skip-intro], [data-play-city-intro], [data-download], [data-library-download], [data-play], [data-play-intro], [data-prev], [data-next], [data-route-tour], [data-review-check]"
   );
   if (!action || !app.contains(action)) return false;
 
@@ -12230,6 +12316,7 @@ function handleAction(target) {
   else if (action.dataset.play !== undefined) toggleAudio();
   else if (action.dataset.playIntro !== undefined) playRouteIntro();
   else if (action.dataset.skipIntro !== undefined) skipIntroToFirstStop();
+  else if (action.dataset.playCityIntro !== undefined) playCityIntro();
   else if (action.dataset.prev !== undefined) goStop(-1);
   else if (action.dataset.next !== undefined) goStop(1);
   else if (action.dataset.routeTour !== undefined) toggleRouteTour();

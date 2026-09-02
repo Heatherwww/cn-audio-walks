@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T18:34:44.506Z",
+  "generatedAt": "2026-09-02T22:41:54.361Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guangzhou",
   "cityName": "广州",
@@ -14,9 +14,9 @@
       "file": "guangzhou-shishi-yanjiang/intro.mp3",
       "src": "audio-assets/guangzhou-shishi-yanjiang/intro.mp3",
       "transcript": "guangzhou-shishi-yanjiang/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 73.9,
+      "durationSeconds": 74,
+      "sizeBytes": 887789
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guangzhou-shishi-yanjiang/stop-01.mp3",
       "src": "audio-assets/guangzhou-shishi-yanjiang/stop-01.mp3",
       "transcript": "guangzhou-shishi-yanjiang/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 408.29999999999995,
+      "durationSeconds": 408,
+      "sizeBytes": 4900824
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guangzhou-shishi-yanjiang/stop-02.mp3",
       "src": "audio-assets/guangzhou-shishi-yanjiang/stop-02.mp3",
       "transcript": "guangzhou-shishi-yanjiang/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 386.79999999999995,
+      "durationSeconds": 387,
+      "sizeBytes": 4642839
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guangzhou-shishi-yanjiang/stop-03.mp3",
       "src": "audio-assets/guangzhou-shishi-yanjiang/stop-03.mp3",
       "transcript": "guangzhou-shishi-yanjiang/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 386.05,
+      "durationSeconds": 386,
+      "sizeBytes": 4633748
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guangzhou-shishi-yanjiang/stop-04.mp3",
       "src": "audio-assets/guangzhou-shishi-yanjiang/stop-04.mp3",
       "transcript": "guangzhou-shishi-yanjiang/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 411.05,
+      "durationSeconds": 411,
+      "sizeBytes": 4933738
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guangzhou-shishi-yanjiang/stop-05.mp3",
       "src": "audio-assets/guangzhou-shishi-yanjiang/stop-05.mp3",
       "transcript": "guangzhou-shishi-yanjiang/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 388.79999999999995,
+      "durationSeconds": 389,
+      "sizeBytes": 4666662
     }
   ]
 }

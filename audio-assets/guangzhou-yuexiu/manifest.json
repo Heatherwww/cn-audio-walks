@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T18:05:59.517Z",
+  "generatedAt": "2026-09-02T22:18:31.138Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guangzhou",
   "cityName": "广州",
@@ -14,9 +14,9 @@
       "file": "guangzhou-yuexiu/intro.mp3",
       "src": "audio-assets/guangzhou-yuexiu/intro.mp3",
       "transcript": "guangzhou-yuexiu/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 68.65,
+      "durationSeconds": 69,
+      "sizeBytes": 825095
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guangzhou-yuexiu/stop-01.mp3",
       "src": "audio-assets/guangzhou-yuexiu/stop-01.mp3",
       "transcript": "guangzhou-yuexiu/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 387.79999999999995,
+      "durationSeconds": 388,
+      "sizeBytes": 4654750
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guangzhou-yuexiu/stop-02.mp3",
       "src": "audio-assets/guangzhou-yuexiu/stop-02.mp3",
       "transcript": "guangzhou-yuexiu/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 381.05,
+      "durationSeconds": 381,
+      "sizeBytes": 4573875
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guangzhou-yuexiu/stop-03.mp3",
       "src": "audio-assets/guangzhou-yuexiu/stop-03.mp3",
       "transcript": "guangzhou-yuexiu/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 380.29999999999995,
+      "durationSeconds": 380,
+      "sizeBytes": 4564785
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guangzhou-yuexiu/stop-04.mp3",
       "src": "audio-assets/guangzhou-yuexiu/stop-04.mp3",
       "transcript": "guangzhou-yuexiu/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 386.04999999999995,
+      "durationSeconds": 386,
+      "sizeBytes": 4633748
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guangzhou-yuexiu/stop-05.mp3",
       "src": "audio-assets/guangzhou-yuexiu/stop-05.mp3",
       "transcript": "guangzhou-yuexiu/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 376.80000000000007,
+      "durationSeconds": 377,
+      "sizeBytes": 4522780
     }
   ]
 }

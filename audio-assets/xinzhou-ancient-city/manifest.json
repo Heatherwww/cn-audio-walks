@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T09:20:23.686Z",
+  "generatedAt": "2026-09-02T15:47:49.340Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xinzhou",
   "cityName": "忻州",
@@ -14,9 +14,9 @@
       "file": "xinzhou-ancient-city/intro.mp3",
       "src": "audio-assets/xinzhou-ancient-city/intro.mp3",
       "transcript": "xinzhou-ancient-city/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 70.9,
+      "durationSeconds": 71,
+      "sizeBytes": 852053
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "xinzhou-ancient-city/stop-01.mp3",
       "src": "audio-assets/xinzhou-ancient-city/stop-01.mp3",
       "transcript": "xinzhou-ancient-city/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 365.8,
+      "durationSeconds": 366,
+      "sizeBytes": 4390809
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "xinzhou-ancient-city/stop-02.mp3",
       "src": "audio-assets/xinzhou-ancient-city/stop-02.mp3",
       "transcript": "xinzhou-ancient-city/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 374.55,
+      "durationSeconds": 375,
+      "sizeBytes": 4495822
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "xinzhou-ancient-city/stop-03.mp3",
       "src": "audio-assets/xinzhou-ancient-city/stop-03.mp3",
       "transcript": "xinzhou-ancient-city/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 362.05,
+      "durationSeconds": 362,
+      "sizeBytes": 4345670
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "xinzhou-ancient-city/stop-04.mp3",
       "src": "audio-assets/xinzhou-ancient-city/stop-04.mp3",
       "transcript": "xinzhou-ancient-city/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 376.29999999999995,
+      "durationSeconds": 376,
+      "sizeBytes": 4516824
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "xinzhou-ancient-city/stop-05.mp3",
       "src": "audio-assets/xinzhou-ancient-city/stop-05.mp3",
       "transcript": "xinzhou-ancient-city/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 364.54999999999995,
+      "durationSeconds": 365,
+      "sizeBytes": 4375763
     }
   ]
 }

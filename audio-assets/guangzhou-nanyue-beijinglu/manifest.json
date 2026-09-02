@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T18:27:21.453Z",
+  "generatedAt": "2026-09-02T22:36:06.694Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guangzhou",
   "cityName": "广州",
@@ -14,9 +14,9 @@
       "file": "guangzhou-nanyue-beijinglu/intro.mp3",
       "src": "audio-assets/guangzhou-nanyue-beijinglu/intro.mp3",
       "transcript": "guangzhou-nanyue-beijinglu/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 78.4,
+      "durationSeconds": 78,
+      "sizeBytes": 942019
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guangzhou-nanyue-beijinglu/stop-01.mp3",
       "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-01.mp3",
       "transcript": "guangzhou-nanyue-beijinglu/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 390.54999999999995,
+      "durationSeconds": 391,
+      "sizeBytes": 4687665
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guangzhou-nanyue-beijinglu/stop-02.mp3",
       "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-02.mp3",
       "transcript": "guangzhou-nanyue-beijinglu/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 397.54999999999995,
+      "durationSeconds": 398,
+      "sizeBytes": 4771675
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guangzhou-nanyue-beijinglu/stop-03.mp3",
       "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-03.mp3",
       "transcript": "guangzhou-nanyue-beijinglu/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 391.54999999999995,
+      "durationSeconds": 392,
+      "sizeBytes": 4699890
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guangzhou-nanyue-beijinglu/stop-04.mp3",
       "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-04.mp3",
       "transcript": "guangzhou-nanyue-beijinglu/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 397.29999999999995,
+      "durationSeconds": 397,
+      "sizeBytes": 4768853
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guangzhou-nanyue-beijinglu/stop-05.mp3",
       "src": "audio-assets/guangzhou-nanyue-beijinglu/stop-05.mp3",
       "transcript": "guangzhou-nanyue-beijinglu/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 392.8,
+      "durationSeconds": 393,
+      "sizeBytes": 4714623
     }
   ]
 }

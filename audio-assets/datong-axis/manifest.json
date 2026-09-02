@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T07:06:04.659Z",
+  "generatedAt": "2026-09-02T14:04:12.306Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "datong",
   "cityName": "大同",
@@ -14,9 +14,9 @@
       "file": "datong-axis/intro.mp3",
       "src": "audio-assets/datong-axis/intro.mp3",
       "transcript": "datong-axis/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.4,
+      "durationSeconds": 69,
+      "sizeBytes": 833872
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "datong-axis/stop-01.mp3",
       "src": "audio-assets/datong-axis/stop-01.mp3",
       "transcript": "datong-axis/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 372.7999999999999,
+      "durationSeconds": 373,
+      "sizeBytes": 4474819
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "datong-axis/stop-02.mp3",
       "src": "audio-assets/datong-axis/stop-02.mp3",
       "transcript": "datong-axis/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 376.55,
+      "durationSeconds": 377,
+      "sizeBytes": 4519645
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "datong-axis/stop-03.mp3",
       "src": "audio-assets/datong-axis/stop-03.mp3",
       "transcript": "datong-axis/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 366.05000000000007,
+      "durationSeconds": 366,
+      "sizeBytes": 4393630
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "datong-axis/stop-04.mp3",
       "src": "audio-assets/datong-axis/stop-04.mp3",
       "transcript": "datong-axis/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 383.29999999999995,
+      "durationSeconds": 383,
+      "sizeBytes": 4600834
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "datong-axis/stop-05.mp3",
       "src": "audio-assets/datong-axis/stop-05.mp3",
       "transcript": "datong-axis/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 385.29999999999995,
+      "durationSeconds": 385,
+      "sizeBytes": 4624657
     }
   ]
 }

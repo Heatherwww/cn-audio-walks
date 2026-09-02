@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T14:06:55.094Z",
+  "generatedAt": "2026-09-02T18:57:24.463Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chengdu",
   "cityName": "成都",
@@ -14,9 +14,9 @@
       "file": "chengdu-dufu/intro.mp3",
       "src": "audio-assets/chengdu-dufu/intro.mp3",
       "transcript": "chengdu-dufu/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.15,
+      "durationSeconds": 69,
+      "sizeBytes": 831051
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "chengdu-dufu/stop-01.mp3",
       "src": "audio-assets/chengdu-dufu/stop-01.mp3",
       "transcript": "chengdu-dufu/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 381.55000000000007,
+      "durationSeconds": 382,
+      "sizeBytes": 4579831
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "chengdu-dufu/stop-02.mp3",
       "src": "audio-assets/chengdu-dufu/stop-02.mp3",
       "transcript": "chengdu-dufu/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 375.8,
+      "durationSeconds": 376,
+      "sizeBytes": 4510868
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "chengdu-dufu/stop-03.mp3",
       "src": "audio-assets/chengdu-dufu/stop-03.mp3",
       "transcript": "chengdu-dufu/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 365.80000000000007,
+      "durationSeconds": 366,
+      "sizeBytes": 4390809
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "chengdu-dufu/stop-04.mp3",
       "src": "audio-assets/chengdu-dufu/stop-04.mp3",
       "transcript": "chengdu-dufu/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 375.29999999999995,
+      "durationSeconds": 375,
+      "sizeBytes": 4504599
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "chengdu-dufu/stop-05.mp3",
       "src": "audio-assets/chengdu-dufu/stop-05.mp3",
       "transcript": "chengdu-dufu/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 384.55000000000007,
+      "durationSeconds": 385,
+      "sizeBytes": 4615880
     }
   ]
 }

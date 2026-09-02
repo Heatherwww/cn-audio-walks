@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T11:58:43.045Z",
+  "generatedAt": "2026-09-02T17:21:48.782Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "beijing",
   "cityName": "北京",
@@ -14,9 +14,9 @@
       "file": "beijing-temple-of-heaven/intro.mp3",
       "src": "audio-assets/beijing-temple-of-heaven/intro.mp3",
       "transcript": "beijing-temple-of-heaven/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.9,
+      "durationSeconds": 72,
+      "sizeBytes": 863965
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "beijing-temple-of-heaven/stop-01.mp3",
       "src": "audio-assets/beijing-temple-of-heaven/stop-01.mp3",
       "transcript": "beijing-temple-of-heaven/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 408.05,
+      "durationSeconds": 408,
+      "sizeBytes": 4897689
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "beijing-temple-of-heaven/stop-02.mp3",
       "src": "audio-assets/beijing-temple-of-heaven/stop-02.mp3",
       "transcript": "beijing-temple-of-heaven/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 390.05,
+      "durationSeconds": 390,
+      "sizeBytes": 4681709
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "beijing-temple-of-heaven/stop-03.mp3",
       "src": "audio-assets/beijing-temple-of-heaven/stop-03.mp3",
       "transcript": "beijing-temple-of-heaven/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 395.79999999999995,
+      "durationSeconds": 396,
+      "sizeBytes": 4750672
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "beijing-temple-of-heaven/stop-04.mp3",
       "src": "audio-assets/beijing-temple-of-heaven/stop-04.mp3",
       "transcript": "beijing-temple-of-heaven/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 401.3,
+      "durationSeconds": 401,
+      "sizeBytes": 4816814
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "beijing-temple-of-heaven/stop-05.mp3",
       "src": "audio-assets/beijing-temple-of-heaven/stop-05.mp3",
       "transcript": "beijing-temple-of-heaven/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 400.54999999999995,
+      "durationSeconds": 401,
+      "sizeBytes": 4807724
     }
   ]
 }

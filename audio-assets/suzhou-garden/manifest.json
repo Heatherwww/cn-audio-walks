@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T15:15:29.678Z",
+  "generatedAt": "2026-09-02T19:55:07.116Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "suzhou",
   "cityName": "苏州",
@@ -14,9 +14,9 @@
       "file": "suzhou-garden/intro.mp3",
       "src": "audio-assets/suzhou-garden/intro.mp3",
       "transcript": "suzhou-garden/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 64.15,
+      "durationSeconds": 64,
+      "sizeBytes": 770865
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "suzhou-garden/stop-01.mp3",
       "src": "audio-assets/suzhou-garden/stop-01.mp3",
       "transcript": "suzhou-garden/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 372.55,
+      "durationSeconds": 373,
+      "sizeBytes": 4471684
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "suzhou-garden/stop-02.mp3",
       "src": "audio-assets/suzhou-garden/stop-02.mp3",
       "transcript": "suzhou-garden/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 354.54999999999995,
+      "durationSeconds": 355,
+      "sizeBytes": 4255704
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "suzhou-garden/stop-03.mp3",
       "src": "audio-assets/suzhou-garden/stop-03.mp3",
       "transcript": "suzhou-garden/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 374.7999999999999,
+      "durationSeconds": 375,
+      "sizeBytes": 4498643
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "suzhou-garden/stop-04.mp3",
       "src": "audio-assets/suzhou-garden/stop-04.mp3",
       "transcript": "suzhou-garden/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 375.05,
+      "durationSeconds": 375,
+      "sizeBytes": 4501777
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "suzhou-garden/stop-05.mp3",
       "src": "audio-assets/suzhou-garden/stop-05.mp3",
       "transcript": "suzhou-garden/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 356.79999999999995,
+      "durationSeconds": 357,
+      "sizeBytes": 4282662
     }
   ]
 }

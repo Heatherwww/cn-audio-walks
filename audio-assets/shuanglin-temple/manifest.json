@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T07:36:30.427Z",
+  "generatedAt": "2026-09-02T14:24:57.044Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "jinzhong",
   "cityName": "晋中",
@@ -14,9 +14,9 @@
       "file": "shuanglin-temple/intro.mp3",
       "src": "audio-assets/shuanglin-temple/intro.mp3",
       "transcript": "shuanglin-temple/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 68.9,
+      "durationSeconds": 69,
+      "sizeBytes": 827916
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "shuanglin-temple/stop-01.mp3",
       "src": "audio-assets/shuanglin-temple/stop-01.mp3",
       "transcript": "shuanglin-temple/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 400.54999999999995,
+      "durationSeconds": 401,
+      "sizeBytes": 4807724
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "shuanglin-temple/stop-02.mp3",
       "src": "audio-assets/shuanglin-temple/stop-02.mp3",
       "transcript": "shuanglin-temple/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 385.04999999999995,
+      "durationSeconds": 385,
+      "sizeBytes": 4621836
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "shuanglin-temple/stop-03.mp3",
       "src": "audio-assets/shuanglin-temple/stop-03.mp3",
       "transcript": "shuanglin-temple/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 385.04999999999995,
+      "durationSeconds": 385,
+      "sizeBytes": 4621836
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "shuanglin-temple/stop-04.mp3",
       "src": "audio-assets/shuanglin-temple/stop-04.mp3",
       "transcript": "shuanglin-temple/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 396.05,
+      "durationSeconds": 396,
+      "sizeBytes": 4753807
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "shuanglin-temple/stop-05.mp3",
       "src": "audio-assets/shuanglin-temple/stop-05.mp3",
       "transcript": "shuanglin-temple/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 386.8,
+      "durationSeconds": 387,
+      "sizeBytes": 4642839
     }
   ]
 }

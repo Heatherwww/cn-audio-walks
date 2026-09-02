@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T14:28:05.709Z",
+  "generatedAt": "2026-09-02T19:14:45.416Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chengdu",
   "cityName": "成都",
@@ -14,9 +14,9 @@
       "file": "chengdu-dujiangyan/intro.mp3",
       "src": "audio-assets/chengdu-dujiangyan/intro.mp3",
       "transcript": "chengdu-dujiangyan/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.4,
+      "durationSeconds": 69,
+      "sizeBytes": 833872
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "chengdu-dujiangyan/stop-01.mp3",
       "src": "audio-assets/chengdu-dujiangyan/stop-01.mp3",
       "transcript": "chengdu-dujiangyan/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 379.55,
+      "durationSeconds": 380,
+      "sizeBytes": 4555694
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "chengdu-dujiangyan/stop-02.mp3",
       "src": "audio-assets/chengdu-dujiangyan/stop-02.mp3",
       "transcript": "chengdu-dujiangyan/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 373.04999999999995,
+      "durationSeconds": 373,
+      "sizeBytes": 4477640
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "chengdu-dujiangyan/stop-03.mp3",
       "src": "audio-assets/chengdu-dujiangyan/stop-03.mp3",
       "transcript": "chengdu-dujiangyan/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 366.5499999999999,
+      "durationSeconds": 367,
+      "sizeBytes": 4399586
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "chengdu-dujiangyan/stop-04.mp3",
       "src": "audio-assets/chengdu-dujiangyan/stop-04.mp3",
       "transcript": "chengdu-dujiangyan/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 383.05,
+      "durationSeconds": 383,
+      "sizeBytes": 4597699
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "chengdu-dujiangyan/stop-05.mp3",
       "src": "audio-assets/chengdu-dujiangyan/stop-05.mp3",
       "transcript": "chengdu-dujiangyan/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 376.54999999999995,
+      "durationSeconds": 377,
+      "sizeBytes": 4519645
     }
   ]
 }

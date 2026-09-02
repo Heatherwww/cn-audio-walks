@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T15:34:58.448Z",
+  "generatedAt": "2026-09-02T20:12:06.800Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "suzhou",
   "cityName": "苏州",
@@ -14,9 +14,9 @@
       "file": "suzhou-hanshan/intro.mp3",
       "src": "audio-assets/suzhou-hanshan/intro.mp3",
       "transcript": "suzhou-hanshan/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 70.65,
+      "durationSeconds": 71,
+      "sizeBytes": 848919
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "suzhou-hanshan/stop-01.mp3",
       "src": "audio-assets/suzhou-hanshan/stop-01.mp3",
       "transcript": "suzhou-hanshan/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 369.29999999999995,
+      "durationSeconds": 369,
+      "sizeBytes": 4432814
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "suzhou-hanshan/stop-02.mp3",
       "src": "audio-assets/suzhou-hanshan/stop-02.mp3",
       "transcript": "suzhou-hanshan/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 361.79999999999995,
+      "durationSeconds": 362,
+      "sizeBytes": 4342848
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "suzhou-hanshan/stop-03.mp3",
       "src": "audio-assets/suzhou-hanshan/stop-03.mp3",
       "transcript": "suzhou-hanshan/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 359.3,
+      "durationSeconds": 359,
+      "sizeBytes": 4312755
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "suzhou-hanshan/stop-04.mp3",
       "src": "audio-assets/suzhou-hanshan/stop-04.mp3",
       "transcript": "suzhou-hanshan/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 370.54999999999995,
+      "durationSeconds": 371,
+      "sizeBytes": 4447861
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "suzhou-hanshan/stop-05.mp3",
       "src": "audio-assets/suzhou-hanshan/stop-05.mp3",
       "transcript": "suzhou-hanshan/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 369.79999999999995,
+      "durationSeconds": 370,
+      "sizeBytes": 4438770
     }
   ]
 }

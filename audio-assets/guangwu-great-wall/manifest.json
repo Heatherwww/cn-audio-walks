@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T10:19:18.393Z",
+  "generatedAt": "2026-09-02T16:26:14.566Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shuozhou",
   "cityName": "朔州",
@@ -14,9 +14,9 @@
       "file": "guangwu-great-wall/intro.mp3",
       "src": "audio-assets/guangwu-great-wall/intro.mp3",
       "transcript": "guangwu-great-wall/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 73.15000000000002,
+      "durationSeconds": 73,
+      "sizeBytes": 879012
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guangwu-great-wall/stop-01.mp3",
       "src": "audio-assets/guangwu-great-wall/stop-01.mp3",
       "transcript": "guangwu-great-wall/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 381.79999999999995,
+      "durationSeconds": 382,
+      "sizeBytes": 4582653
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guangwu-great-wall/stop-02.mp3",
       "src": "audio-assets/guangwu-great-wall/stop-02.mp3",
       "transcript": "guangwu-great-wall/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 400.29999999999995,
+      "durationSeconds": 400,
+      "sizeBytes": 4804589
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guangwu-great-wall/stop-03.mp3",
       "src": "audio-assets/guangwu-great-wall/stop-03.mp3",
       "transcript": "guangwu-great-wall/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 383.04999999999995,
+      "durationSeconds": 383,
+      "sizeBytes": 4597699
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guangwu-great-wall/stop-04.mp3",
       "src": "audio-assets/guangwu-great-wall/stop-04.mp3",
       "transcript": "guangwu-great-wall/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 383.29999999999995,
+      "durationSeconds": 383,
+      "sizeBytes": 4600834
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guangwu-great-wall/stop-05.mp3",
       "src": "audio-assets/guangwu-great-wall/stop-05.mp3",
       "transcript": "guangwu-great-wall/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 413.04999999999995,
+      "durationSeconds": 413,
+      "sizeBytes": 4957875
     }
   ]
 }

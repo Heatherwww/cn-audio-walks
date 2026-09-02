@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T06:44:49.438Z",
+  "generatedAt": "2026-09-02T13:48:28.892Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "datong",
   "cityName": "大同",
@@ -14,9 +14,9 @@
       "file": "yungang/intro.mp3",
       "src": "audio-assets/yungang/intro.mp3",
       "transcript": "yungang/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 65.65,
+      "durationSeconds": 66,
+      "sizeBytes": 789046
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "yungang/stop-01.mp3",
       "src": "audio-assets/yungang/stop-01.mp3",
       "transcript": "yungang/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 377.04999999999995,
+      "durationSeconds": 377,
+      "sizeBytes": 4525601
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "yungang/stop-02.mp3",
       "src": "audio-assets/yungang/stop-02.mp3",
       "transcript": "yungang/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 366.04999999999995,
+      "durationSeconds": 366,
+      "sizeBytes": 4393630
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "yungang/stop-03-009-013-caves.mp3",
       "src": "audio-assets/yungang/stop-03-009-013-caves.mp3",
       "transcript": "yungang/stop-03-009-013-caves.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 380.29999999999995,
+      "durationSeconds": 380,
+      "sizeBytes": 4564785
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "yungang/stop-04.mp3",
       "src": "audio-assets/yungang/stop-04.mp3",
       "transcript": "yungang/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 386.79999999999995,
+      "durationSeconds": 387,
+      "sizeBytes": 4642839
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "yungang/stop-05.mp3",
       "src": "audio-assets/yungang/stop-05.mp3",
       "transcript": "yungang/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 365.2999999999999,
+      "durationSeconds": 365,
+      "sizeBytes": 4384853
     }
   ]
 }

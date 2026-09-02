@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T18:12:12.716Z",
+  "generatedAt": "2026-09-02T22:24:31.033Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guangzhou",
   "cityName": "广州",
@@ -14,9 +14,9 @@
       "file": "guangzhou-chen-clan/intro.mp3",
       "src": "audio-assets/guangzhou-chen-clan/intro.mp3",
       "transcript": "guangzhou-chen-clan/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.9,
+      "durationSeconds": 72,
+      "sizeBytes": 863965
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guangzhou-chen-clan/stop-01.mp3",
       "src": "audio-assets/guangzhou-chen-clan/stop-01.mp3",
       "transcript": "guangzhou-chen-clan/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 391.8,
+      "durationSeconds": 392,
+      "sizeBytes": 4702711
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guangzhou-chen-clan/stop-02.mp3",
       "src": "audio-assets/guangzhou-chen-clan/stop-02.mp3",
       "transcript": "guangzhou-chen-clan/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 396.55,
+      "durationSeconds": 397,
+      "sizeBytes": 4759763
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guangzhou-chen-clan/stop-03.mp3",
       "src": "audio-assets/guangzhou-chen-clan/stop-03.mp3",
       "transcript": "guangzhou-chen-clan/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 388.30000000000007,
+      "durationSeconds": 388,
+      "sizeBytes": 4660706
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guangzhou-chen-clan/stop-04.mp3",
       "src": "audio-assets/guangzhou-chen-clan/stop-04.mp3",
       "transcript": "guangzhou-chen-clan/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 380.04999999999995,
+      "durationSeconds": 380,
+      "sizeBytes": 4561650
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guangzhou-chen-clan/stop-05.mp3",
       "src": "audio-assets/guangzhou-chen-clan/stop-05.mp3",
       "transcript": "guangzhou-chen-clan/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 390.29999999999995,
+      "durationSeconds": 390,
+      "sizeBytes": 4684844
     }
   ]
 }

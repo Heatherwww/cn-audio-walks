@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T15:41:57.283Z",
+  "generatedAt": "2026-09-02T20:17:45.343Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "suzhou",
   "cityName": "苏州",
@@ -14,9 +14,9 @@
       "file": "suzhou-panmen/intro.mp3",
       "src": "audio-assets/suzhou-panmen/intro.mp3",
       "transcript": "suzhou-panmen/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.15,
+      "durationSeconds": 69,
+      "sizeBytes": 831051
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "suzhou-panmen/stop-01.mp3",
       "src": "audio-assets/suzhou-panmen/stop-01.mp3",
       "transcript": "suzhou-panmen/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 374.8,
+      "durationSeconds": 375,
+      "sizeBytes": 4498643
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "suzhou-panmen/stop-02.mp3",
       "src": "audio-assets/suzhou-panmen/stop-02.mp3",
       "transcript": "suzhou-panmen/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 371.3,
+      "durationSeconds": 371,
+      "sizeBytes": 4456638
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "suzhou-panmen/stop-03.mp3",
       "src": "audio-assets/suzhou-panmen/stop-03.mp3",
       "transcript": "suzhou-panmen/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 362.05000000000007,
+      "durationSeconds": 362,
+      "sizeBytes": 4345670
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "suzhou-panmen/stop-04.mp3",
       "src": "audio-assets/suzhou-panmen/stop-04.mp3",
       "transcript": "suzhou-panmen/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 367.54999999999995,
+      "durationSeconds": 368,
+      "sizeBytes": 4411812
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "suzhou-panmen/stop-05.mp3",
       "src": "audio-assets/suzhou-panmen/stop-05.mp3",
       "transcript": "suzhou-panmen/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 372.05,
+      "durationSeconds": 372,
+      "sizeBytes": 4465728
     }
   ]
 }

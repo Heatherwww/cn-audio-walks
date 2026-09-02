@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T12:42:38.307Z",
+  "generatedAt": "2026-09-02T17:48:38.563Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shanghai",
   "cityName": "上海",
@@ -14,9 +14,9 @@
       "file": "shanghai-yuyuan/intro.mp3",
       "src": "audio-assets/shanghai-yuyuan/intro.mp3",
       "transcript": "shanghai-yuyuan/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.4,
+      "durationSeconds": 71,
+      "sizeBytes": 858009
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "shanghai-yuyuan/stop-01.mp3",
       "src": "audio-assets/shanghai-yuyuan/stop-01.mp3",
       "transcript": "shanghai-yuyuan/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 390.29999999999995,
+      "durationSeconds": 390,
+      "sizeBytes": 4684844
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "shanghai-yuyuan/stop-02.mp3",
       "src": "audio-assets/shanghai-yuyuan/stop-02.mp3",
       "transcript": "shanghai-yuyuan/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 384.55,
+      "durationSeconds": 385,
+      "sizeBytes": 4615880
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "shanghai-yuyuan/stop-03.mp3",
       "src": "audio-assets/shanghai-yuyuan/stop-03.mp3",
       "transcript": "shanghai-yuyuan/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 389.5499999999999,
+      "durationSeconds": 390,
+      "sizeBytes": 4675753
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "shanghai-yuyuan/stop-04.mp3",
       "src": "audio-assets/shanghai-yuyuan/stop-04.mp3",
       "transcript": "shanghai-yuyuan/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 385.55,
+      "durationSeconds": 386,
+      "sizeBytes": 4627792
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "shanghai-yuyuan/stop-05.mp3",
       "src": "audio-assets/shanghai-yuyuan/stop-05.mp3",
       "transcript": "shanghai-yuyuan/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 378.79999999999995,
+      "durationSeconds": 379,
+      "sizeBytes": 4546604
     }
   ]
 }

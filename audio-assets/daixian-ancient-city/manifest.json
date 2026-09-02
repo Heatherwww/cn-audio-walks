@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T09:37:49.370Z",
+  "generatedAt": "2026-09-02T15:58:32.300Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xinzhou",
   "cityName": "忻州",
@@ -14,9 +14,9 @@
       "file": "daixian-ancient-city/intro.mp3",
       "src": "audio-assets/daixian-ancient-city/intro.mp3",
       "transcript": "daixian-ancient-city/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.65,
+      "durationSeconds": 72,
+      "sizeBytes": 860830
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "daixian-ancient-city/stop-01.mp3",
       "src": "audio-assets/daixian-ancient-city/stop-01.mp3",
       "transcript": "daixian-ancient-city/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 370.05000000000007,
+      "durationSeconds": 370,
+      "sizeBytes": 4441591
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "daixian-ancient-city/stop-02.mp3",
       "src": "audio-assets/daixian-ancient-city/stop-02.mp3",
       "transcript": "daixian-ancient-city/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 358.79999999999995,
+      "durationSeconds": 359,
+      "sizeBytes": 4306799
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "daixian-ancient-city/stop-03.mp3",
       "src": "audio-assets/daixian-ancient-city/stop-03.mp3",
       "transcript": "daixian-ancient-city/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 384.79999999999995,
+      "durationSeconds": 385,
+      "sizeBytes": 4618702
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "daixian-ancient-city/stop-04.mp3",
       "src": "audio-assets/daixian-ancient-city/stop-04.mp3",
       "transcript": "daixian-ancient-city/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 370.29999999999995,
+      "durationSeconds": 370,
+      "sizeBytes": 4444726
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "daixian-ancient-city/stop-05.mp3",
       "src": "audio-assets/daixian-ancient-city/stop-05.mp3",
       "transcript": "daixian-ancient-city/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 373.05,
+      "durationSeconds": 373,
+      "sizeBytes": 4477640
     }
   ]
 }

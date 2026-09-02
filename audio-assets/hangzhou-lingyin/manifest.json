@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T14:46:59.198Z",
+  "generatedAt": "2026-09-02T19:32:05.266Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "hangzhou",
   "cityName": "杭州",
@@ -14,9 +14,9 @@
       "file": "hangzhou-lingyin/intro.mp3",
       "src": "audio-assets/hangzhou-lingyin/intro.mp3",
       "transcript": "hangzhou-lingyin/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.65000000000002,
+      "durationSeconds": 70,
+      "sizeBytes": 837007
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "hangzhou-lingyin/stop-01.mp3",
       "src": "audio-assets/hangzhou-lingyin/stop-01.mp3",
       "transcript": "hangzhou-lingyin/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 391.54999999999995,
+      "durationSeconds": 392,
+      "sizeBytes": 4699890
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "hangzhou-lingyin/stop-02.mp3",
       "src": "audio-assets/hangzhou-lingyin/stop-02.mp3",
       "transcript": "hangzhou-lingyin/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 392.3,
+      "durationSeconds": 392,
+      "sizeBytes": 4708667
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "hangzhou-lingyin/stop-03.mp3",
       "src": "audio-assets/hangzhou-lingyin/stop-03.mp3",
       "transcript": "hangzhou-lingyin/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 379.3,
+      "durationSeconds": 379,
+      "sizeBytes": 4552873
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "hangzhou-lingyin/stop-04.mp3",
       "src": "audio-assets/hangzhou-lingyin/stop-04.mp3",
       "transcript": "hangzhou-lingyin/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 397.8,
+      "durationSeconds": 398,
+      "sizeBytes": 4774809
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "hangzhou-lingyin/stop-05.mp3",
       "src": "audio-assets/hangzhou-lingyin/stop-05.mp3",
       "transcript": "hangzhou-lingyin/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 376.30000000000007,
+      "durationSeconds": 376,
+      "sizeBytes": 4516824
     }
   ]
 }

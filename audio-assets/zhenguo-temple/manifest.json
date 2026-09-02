@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T07:41:51.274Z",
+  "generatedAt": "2026-09-02T14:30:51.264Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "jinzhong",
   "cityName": "晋中",
@@ -14,9 +14,9 @@
       "file": "zhenguo-temple/intro.mp3",
       "src": "audio-assets/zhenguo-temple/intro.mp3",
       "transcript": "zhenguo-temple/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 67.4,
+      "durationSeconds": 67,
+      "sizeBytes": 810048
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "zhenguo-temple/stop-01.mp3",
       "src": "audio-assets/zhenguo-temple/stop-01.mp3",
       "transcript": "zhenguo-temple/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 391.79999999999995,
+      "durationSeconds": 392,
+      "sizeBytes": 4702711
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "zhenguo-temple/stop-02.mp3",
       "src": "audio-assets/zhenguo-temple/stop-02.mp3",
       "transcript": "zhenguo-temple/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 374.29999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4492687
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "zhenguo-temple/stop-03.mp3",
       "src": "audio-assets/zhenguo-temple/stop-03.mp3",
       "transcript": "zhenguo-temple/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 396.54999999999995,
+      "durationSeconds": 397,
+      "sizeBytes": 4759763
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "zhenguo-temple/stop-04.mp3",
       "src": "audio-assets/zhenguo-temple/stop-04.mp3",
       "transcript": "zhenguo-temple/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 388.04999999999995,
+      "durationSeconds": 388,
+      "sizeBytes": 4657885
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "zhenguo-temple/stop-05.mp3",
       "src": "audio-assets/zhenguo-temple/stop-05.mp3",
       "transcript": "zhenguo-temple/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 376.05,
+      "durationSeconds": 376,
+      "sizeBytes": 4513689
     }
   ]
 }

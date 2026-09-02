@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T13:20:41.313Z",
+  "generatedAt": "2026-09-02T18:17:01.720Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xian",
   "cityName": "西安",
@@ -14,9 +14,9 @@
       "file": "xian-muslim-quarter/intro.mp3",
       "src": "audio-assets/xian-muslim-quarter/intro.mp3",
       "transcript": "xian-muslim-quarter/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.15,
+      "durationSeconds": 71,
+      "sizeBytes": 854875
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "xian-muslim-quarter/stop-01.mp3",
       "src": "audio-assets/xian-muslim-quarter/stop-01.mp3",
       "transcript": "xian-muslim-quarter/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 368.3,
+      "durationSeconds": 368,
+      "sizeBytes": 4420589
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "xian-muslim-quarter/stop-02.mp3",
       "src": "audio-assets/xian-muslim-quarter/stop-02.mp3",
       "transcript": "xian-muslim-quarter/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 373.54999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4483596
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "xian-muslim-quarter/stop-03.mp3",
       "src": "audio-assets/xian-muslim-quarter/stop-03.mp3",
       "transcript": "xian-muslim-quarter/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 378.05,
+      "durationSeconds": 378,
+      "sizeBytes": 4537826
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "xian-muslim-quarter/stop-04.mp3",
       "src": "audio-assets/xian-muslim-quarter/stop-04.mp3",
       "transcript": "xian-muslim-quarter/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 374.3,
+      "durationSeconds": 374,
+      "sizeBytes": 4492687
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "xian-muslim-quarter/stop-05.mp3",
       "src": "audio-assets/xian-muslim-quarter/stop-05.mp3",
       "transcript": "xian-muslim-quarter/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 386.29999999999995,
+      "durationSeconds": 386,
+      "sizeBytes": 4636883
     }
   ]
 }

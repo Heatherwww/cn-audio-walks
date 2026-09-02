@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T14:01:01.705Z",
+  "generatedAt": "2026-09-02T18:51:36.590Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chengdu",
   "cityName": "成都",
@@ -14,9 +14,9 @@
       "file": "chengdu-wenshu-taikoo/intro.mp3",
       "src": "audio-assets/chengdu-wenshu-taikoo/intro.mp3",
       "transcript": "chengdu-wenshu-taikoo/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 68.65000000000002,
+      "durationSeconds": 69,
+      "sizeBytes": 825095
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "chengdu-wenshu-taikoo/stop-01.mp3",
       "src": "audio-assets/chengdu-wenshu-taikoo/stop-01.mp3",
       "transcript": "chengdu-wenshu-taikoo/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 373.79999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4486731
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "chengdu-wenshu-taikoo/stop-02.mp3",
       "src": "audio-assets/chengdu-wenshu-taikoo/stop-02.mp3",
       "transcript": "chengdu-wenshu-taikoo/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 371.04999999999995,
+      "durationSeconds": 371,
+      "sizeBytes": 4453817
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "chengdu-wenshu-taikoo/stop-03.mp3",
       "src": "audio-assets/chengdu-wenshu-taikoo/stop-03.mp3",
       "transcript": "chengdu-wenshu-taikoo/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 360.55000000000007,
+      "durationSeconds": 361,
+      "sizeBytes": 4327802
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "chengdu-wenshu-taikoo/stop-04.mp3",
       "src": "audio-assets/chengdu-wenshu-taikoo/stop-04.mp3",
       "transcript": "chengdu-wenshu-taikoo/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 369.79999999999995,
+      "durationSeconds": 370,
+      "sizeBytes": 4438770
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "chengdu-wenshu-taikoo/stop-05.mp3",
       "src": "audio-assets/chengdu-wenshu-taikoo/stop-05.mp3",
       "transcript": "chengdu-wenshu-taikoo/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 369.04999999999995,
+      "durationSeconds": 369,
+      "sizeBytes": 4429679
     }
   ]
 }

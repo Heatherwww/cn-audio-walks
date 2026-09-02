@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T16:29:45.346Z",
+  "generatedAt": "2026-09-02T20:58:18.016Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "nanjing",
   "cityName": "南京",
@@ -14,9 +14,9 @@
       "file": "nanjing-chaotiangong/intro.mp3",
       "src": "audio-assets/nanjing-chaotiangong/intro.mp3",
       "transcript": "nanjing-chaotiangong/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.15000000000002,
+      "durationSeconds": 69,
+      "sizeBytes": 831051
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "nanjing-chaotiangong/stop-01.mp3",
       "src": "audio-assets/nanjing-chaotiangong/stop-01.mp3",
       "transcript": "nanjing-chaotiangong/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 373.04999999999995,
+      "durationSeconds": 373,
+      "sizeBytes": 4477640
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "nanjing-chaotiangong/stop-02.mp3",
       "src": "audio-assets/nanjing-chaotiangong/stop-02.mp3",
       "transcript": "nanjing-chaotiangong/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 390.29999999999995,
+      "durationSeconds": 390,
+      "sizeBytes": 4684844
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "nanjing-chaotiangong/stop-03.mp3",
       "src": "audio-assets/nanjing-chaotiangong/stop-03.mp3",
       "transcript": "nanjing-chaotiangong/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 380.05,
+      "durationSeconds": 380,
+      "sizeBytes": 4561650
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "nanjing-chaotiangong/stop-04.mp3",
       "src": "audio-assets/nanjing-chaotiangong/stop-04.mp3",
       "transcript": "nanjing-chaotiangong/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 380.05,
+      "durationSeconds": 380,
+      "sizeBytes": 4561650
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "nanjing-chaotiangong/stop-05.mp3",
       "src": "audio-assets/nanjing-chaotiangong/stop-05.mp3",
       "transcript": "nanjing-chaotiangong/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 377.55,
+      "durationSeconds": 378,
+      "sizeBytes": 4531870
     }
   ]
 }

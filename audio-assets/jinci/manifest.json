@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T08:14:15.600Z",
+  "generatedAt": "2026-09-02T14:55:30.275Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "taiyuan",
   "cityName": "太原",
@@ -14,9 +14,9 @@
       "file": "jinci/intro.mp3",
       "src": "audio-assets/jinci/intro.mp3",
       "transcript": "jinci/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 64.4,
+      "durationSeconds": 64,
+      "sizeBytes": 773999
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "jinci/stop-01.mp3",
       "src": "audio-assets/jinci/stop-01.mp3",
       "transcript": "jinci/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 381.05,
+      "durationSeconds": 381,
+      "sizeBytes": 4573875
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "jinci/stop-02.mp3",
       "src": "audio-assets/jinci/stop-02.mp3",
       "transcript": "jinci/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 370.04999999999995,
+      "durationSeconds": 370,
+      "sizeBytes": 4441591
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "jinci/stop-03.mp3",
       "src": "audio-assets/jinci/stop-03.mp3",
       "transcript": "jinci/stop-03.txt",
-      "plannedSeconds": 480,
-      "durationSeconds": 480,
-      "sizeBytes": 5760984
+      "plannedSeconds": 357.55000000000007,
+      "durationSeconds": 358,
+      "sizeBytes": 4291753
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "jinci/stop-04.mp3",
       "src": "audio-assets/jinci/stop-04.mp3",
       "transcript": "jinci/stop-04.txt",
-      "plannedSeconds": 480,
-      "durationSeconds": 480,
-      "sizeBytes": 5760984
+      "plannedSeconds": 368.04999999999995,
+      "durationSeconds": 368,
+      "sizeBytes": 4417768
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "jinci/stop-05.mp3",
       "src": "audio-assets/jinci/stop-05.mp3",
       "transcript": "jinci/stop-05.txt",
-      "plannedSeconds": 480,
-      "durationSeconds": 480,
-      "sizeBytes": 5760984
+      "plannedSeconds": 367.29999999999995,
+      "durationSeconds": 367,
+      "sizeBytes": 4408677
     },
     {
       "kind": "stop",
@@ -80,9 +80,9 @@
       "file": "jinci/stop-06.mp3",
       "src": "audio-assets/jinci/stop-06.mp3",
       "transcript": "jinci/stop-06.txt",
-      "plannedSeconds": 480,
-      "durationSeconds": 480,
-      "sizeBytes": 5760984
+      "plannedSeconds": 374.04999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4489866
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T10:39:15.982Z",
+  "generatedAt": "2026-09-02T16:37:59.676Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "yuncheng",
   "cityName": "运城",
@@ -14,9 +14,9 @@
       "file": "yongle-murals/intro.mp3",
       "src": "audio-assets/yongle-murals/intro.mp3",
       "transcript": "yongle-murals/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 68.9,
+      "durationSeconds": 69,
+      "sizeBytes": 827916
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "yongle-murals/stop-01.mp3",
       "src": "audio-assets/yongle-murals/stop-01.mp3",
       "transcript": "yongle-murals/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 384.8,
+      "durationSeconds": 385,
+      "sizeBytes": 4618702
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "yongle-murals/stop-02.mp3",
       "src": "audio-assets/yongle-murals/stop-02.mp3",
       "transcript": "yongle-murals/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 397.05,
+      "durationSeconds": 397,
+      "sizeBytes": 4765719
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "yongle-murals/stop-03.mp3",
       "src": "audio-assets/yongle-murals/stop-03.mp3",
       "transcript": "yongle-murals/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 380.79999999999995,
+      "durationSeconds": 381,
+      "sizeBytes": 4570741
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "yongle-murals/stop-04.mp3",
       "src": "audio-assets/yongle-murals/stop-04.mp3",
       "transcript": "yongle-murals/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 389.8,
+      "durationSeconds": 390,
+      "sizeBytes": 4678888
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "yongle-murals/stop-05.mp3",
       "src": "audio-assets/yongle-murals/stop-05.mp3",
       "transcript": "yongle-murals/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 407.8,
+      "durationSeconds": 408,
+      "sizeBytes": 4894868
     }
   ]
 }

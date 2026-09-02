@@ -3084,3 +3084,40 @@ svg .icon-stroke {
   background: rgba(255, 255, 255, 0.16);
   color: #fff;
 }
+
+/* ---------- City intro card ---------- */
+
+.city-intro-card {
+  margin: 12px 0 18px;
+  padding: 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--malachite);
+  background: var(--porcelain);
+  box-shadow: 0 2px 10px rgba(17, 32, 29, 0.06);
+  text-align: center;
+}
+
+.city-intro-card h3 {
+  margin: 4px 0 10px;
+  font-family: var(--font-display);
+  font-size: 24px;
+}
+
+.city-intro-card .sheet-kicker {
+  color: var(--malachite);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.city-intro-card .sheet-copy {
+  text-align: left;
+  margin: 0 auto 14px;
+  max-width: 640px;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.city-intro-card.playing {
+  border-color: var(--cinnabar);
+}

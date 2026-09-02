@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T07:30:57.282Z",
+  "generatedAt": "2026-09-02T14:18:50.897Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "jinzhong",
   "cityName": "晋中",
@@ -14,9 +14,9 @@
       "file": "pingyao/intro.mp3",
       "src": "audio-assets/pingyao/intro.mp3",
       "transcript": "pingyao/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 63.15,
+      "durationSeconds": 63,
+      "sizeBytes": 758953
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "pingyao/stop-01.mp3",
       "src": "audio-assets/pingyao/stop-01.mp3",
       "transcript": "pingyao/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 381.54999999999995,
+      "durationSeconds": 382,
+      "sizeBytes": 4579831
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "pingyao/stop-02.mp3",
       "src": "audio-assets/pingyao/stop-02.mp3",
       "transcript": "pingyao/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 358.04999999999995,
+      "durationSeconds": 358,
+      "sizeBytes": 4297709
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "pingyao/stop-03.mp3",
       "src": "audio-assets/pingyao/stop-03.mp3",
       "transcript": "pingyao/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 377.30000000000007,
+      "durationSeconds": 377,
+      "sizeBytes": 4528736
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "pingyao/stop-04.mp3",
       "src": "audio-assets/pingyao/stop-04.mp3",
       "transcript": "pingyao/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 383.8,
+      "durationSeconds": 384,
+      "sizeBytes": 4606790
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "pingyao/stop-05.mp3",
       "src": "audio-assets/pingyao/stop-05.mp3",
       "transcript": "pingyao/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 375.3,
+      "durationSeconds": 375,
+      "sizeBytes": 4504599
     },
     {
       "kind": "stop",
@@ -80,9 +80,9 @@
       "file": "pingyao/stop-06.mp3",
       "src": "audio-assets/pingyao/stop-06.mp3",
       "transcript": "pingyao/stop-06.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 385.55,
+      "durationSeconds": 386,
+      "sizeBytes": 4627792
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T13:14:50.021Z",
+  "generatedAt": "2026-09-02T18:11:32.454Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xian",
   "cityName": "西安",
@@ -14,9 +14,9 @@
       "file": "xian-wall/intro.mp3",
       "src": "audio-assets/xian-wall/intro.mp3",
       "transcript": "xian-wall/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 67.15,
+      "durationSeconds": 67,
+      "sizeBytes": 806914
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "xian-wall/stop-01.mp3",
       "src": "audio-assets/xian-wall/stop-01.mp3",
       "transcript": "xian-wall/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 384.54999999999995,
+      "durationSeconds": 385,
+      "sizeBytes": 4615880
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "xian-wall/stop-02.mp3",
       "src": "audio-assets/xian-wall/stop-02.mp3",
       "transcript": "xian-wall/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 383.04999999999995,
+      "durationSeconds": 383,
+      "sizeBytes": 4597699
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "xian-wall/stop-03.mp3",
       "src": "audio-assets/xian-wall/stop-03.mp3",
       "transcript": "xian-wall/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 354.05,
+      "durationSeconds": 354,
+      "sizeBytes": 4249748
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "xian-wall/stop-04.mp3",
       "src": "audio-assets/xian-wall/stop-04.mp3",
       "transcript": "xian-wall/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 370.55,
+      "durationSeconds": 371,
+      "sizeBytes": 4447861
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "xian-wall/stop-05.mp3",
       "src": "audio-assets/xian-wall/stop-05.mp3",
       "transcript": "xian-wall/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 380.2999999999999,
+      "durationSeconds": 380,
+      "sizeBytes": 4564785
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T10:29:15.331Z",
+  "generatedAt": "2026-09-02T16:32:00.930Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shuozhou",
   "cityName": "朔州",
@@ -14,9 +14,9 @@
       "file": "shahukou-west/intro.mp3",
       "src": "audio-assets/shahukou-west/intro.mp3",
       "transcript": "shahukou-west/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 73.90000000000002,
+      "durationSeconds": 74,
+      "sizeBytes": 887789
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "shahukou-west/stop-01.mp3",
       "src": "audio-assets/shahukou-west/stop-01.mp3",
       "transcript": "shahukou-west/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 380.3,
+      "durationSeconds": 380,
+      "sizeBytes": 4564785
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "shahukou-west/stop-02.mp3",
       "src": "audio-assets/shahukou-west/stop-02.mp3",
       "transcript": "shahukou-west/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 386.05,
+      "durationSeconds": 386,
+      "sizeBytes": 4633748
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "shahukou-west/stop-03.mp3",
       "src": "audio-assets/shahukou-west/stop-03.mp3",
       "transcript": "shahukou-west/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 387.79999999999995,
+      "durationSeconds": 388,
+      "sizeBytes": 4654750
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "shahukou-west/stop-04.mp3",
       "src": "audio-assets/shahukou-west/stop-04.mp3",
       "transcript": "shahukou-west/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 387.55000000000007,
+      "durationSeconds": 388,
+      "sizeBytes": 4651616
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "shahukou-west/stop-05.mp3",
       "src": "audio-assets/shahukou-west/stop-05.mp3",
       "transcript": "shahukou-west/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 395.8,
+      "durationSeconds": 396,
+      "sizeBytes": 4750672
     }
   ]
 }

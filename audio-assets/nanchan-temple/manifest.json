@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T09:13:31.575Z",
+  "generatedAt": "2026-09-02T15:42:04.628Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xinzhou",
   "cityName": "忻州",
@@ -14,9 +14,9 @@
       "file": "nanchan-temple/intro.mp3",
       "src": "audio-assets/nanchan-temple/intro.mp3",
       "transcript": "nanchan-temple/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.4,
+      "durationSeconds": 71,
+      "sizeBytes": 858009
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "nanchan-temple/stop-01.mp3",
       "src": "audio-assets/nanchan-temple/stop-01.mp3",
       "transcript": "nanchan-temple/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 378.79999999999995,
+      "durationSeconds": 379,
+      "sizeBytes": 4546604
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "nanchan-temple/stop-02.mp3",
       "src": "audio-assets/nanchan-temple/stop-02.mp3",
       "transcript": "nanchan-temple/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 373.04999999999995,
+      "durationSeconds": 373,
+      "sizeBytes": 4477640
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "nanchan-temple/stop-03.mp3",
       "src": "audio-assets/nanchan-temple/stop-03.mp3",
       "transcript": "nanchan-temple/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 363.80000000000007,
+      "durationSeconds": 364,
+      "sizeBytes": 4366672
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "nanchan-temple/stop-04.mp3",
       "src": "audio-assets/nanchan-temple/stop-04.mp3",
       "transcript": "nanchan-temple/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 373.29999999999995,
+      "durationSeconds": 373,
+      "sizeBytes": 4480775
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "nanchan-temple/stop-05.mp3",
       "src": "audio-assets/nanchan-temple/stop-05.mp3",
       "transcript": "nanchan-temple/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 372.05,
+      "durationSeconds": 372,
+      "sizeBytes": 4465728
     }
   ]
 }

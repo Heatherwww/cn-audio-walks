@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T15:21:16.163Z",
+  "generatedAt": "2026-09-02T20:00:44.851Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "suzhou",
   "cityName": "苏州",
@@ -14,9 +14,9 @@
       "file": "suzhou-shantang/intro.mp3",
       "src": "audio-assets/suzhou-shantang/intro.mp3",
       "transcript": "suzhou-shantang/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 68.9,
+      "durationSeconds": 69,
+      "sizeBytes": 827916
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "suzhou-shantang/stop-01.mp3",
       "src": "audio-assets/suzhou-shantang/stop-01.mp3",
       "transcript": "suzhou-shantang/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 357.04999999999995,
+      "durationSeconds": 357,
+      "sizeBytes": 4285797
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "suzhou-shantang/stop-02.mp3",
       "src": "audio-assets/suzhou-shantang/stop-02.mp3",
       "transcript": "suzhou-shantang/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 376.04999999999995,
+      "durationSeconds": 376,
+      "sizeBytes": 4513689
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "suzhou-shantang/stop-03.mp3",
       "src": "audio-assets/suzhou-shantang/stop-03.mp3",
       "transcript": "suzhou-shantang/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 378.55,
+      "durationSeconds": 379,
+      "sizeBytes": 4543782
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "suzhou-shantang/stop-04.mp3",
       "src": "audio-assets/suzhou-shantang/stop-04.mp3",
       "transcript": "suzhou-shantang/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 363.79999999999995,
+      "durationSeconds": 364,
+      "sizeBytes": 4366672
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "suzhou-shantang/stop-05.mp3",
       "src": "audio-assets/suzhou-shantang/stop-05.mp3",
       "transcript": "suzhou-shantang/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 359.54999999999995,
+      "durationSeconds": 360,
+      "sizeBytes": 4315890
     }
   ]
 }

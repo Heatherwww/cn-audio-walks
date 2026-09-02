@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T17:17:21.414Z",
+  "generatedAt": "2026-09-02T21:38:26.025Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chongqing",
   "cityName": "重庆",
@@ -14,9 +14,9 @@
       "file": "chongqing-hill/intro.mp3",
       "src": "audio-assets/chongqing-hill/intro.mp3",
       "transcript": "chongqing-hill/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 67.15,
+      "durationSeconds": 67,
+      "sizeBytes": 806914
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "chongqing-hill/stop-01.mp3",
       "src": "audio-assets/chongqing-hill/stop-01.mp3",
       "transcript": "chongqing-hill/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 396.8,
+      "durationSeconds": 397,
+      "sizeBytes": 4762584
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "chongqing-hill/stop-02.mp3",
       "src": "audio-assets/chongqing-hill/stop-02.mp3",
       "transcript": "chongqing-hill/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 376.5499999999999,
+      "durationSeconds": 377,
+      "sizeBytes": 4519645
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "chongqing-hill/stop-03.mp3",
       "src": "audio-assets/chongqing-hill/stop-03.mp3",
       "transcript": "chongqing-hill/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 379.79999999999995,
+      "durationSeconds": 380,
+      "sizeBytes": 4558829
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "chongqing-hill/stop-04.mp3",
       "src": "audio-assets/chongqing-hill/stop-04.mp3",
       "transcript": "chongqing-hill/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 373.8,
+      "durationSeconds": 374,
+      "sizeBytes": 4486731
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "chongqing-hill/stop-05.mp3",
       "src": "audio-assets/chongqing-hill/stop-05.mp3",
       "transcript": "chongqing-hill/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 380.8,
+      "durationSeconds": 381,
+      "sizeBytes": 4570741
     }
   ]
 }

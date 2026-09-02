@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T16:48:03.544Z",
+  "generatedAt": "2026-09-02T21:15:29.056Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guilin",
   "cityName": "桂林",
@@ -14,9 +14,9 @@
       "file": "guilin-wangcheng/intro.mp3",
       "src": "audio-assets/guilin-wangcheng/intro.mp3",
       "transcript": "guilin-wangcheng/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 72.65,
+      "durationSeconds": 73,
+      "sizeBytes": 873056
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guilin-wangcheng/stop-01.mp3",
       "src": "audio-assets/guilin-wangcheng/stop-01.mp3",
       "transcript": "guilin-wangcheng/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 392.54999999999995,
+      "durationSeconds": 393,
+      "sizeBytes": 4711802
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guilin-wangcheng/stop-02.mp3",
       "src": "audio-assets/guilin-wangcheng/stop-02.mp3",
       "transcript": "guilin-wangcheng/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 381.05,
+      "durationSeconds": 381,
+      "sizeBytes": 4573875
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guilin-wangcheng/stop-03.mp3",
       "src": "audio-assets/guilin-wangcheng/stop-03.mp3",
       "transcript": "guilin-wangcheng/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 387.79999999999995,
+      "durationSeconds": 388,
+      "sizeBytes": 4654750
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guilin-wangcheng/stop-04.mp3",
       "src": "audio-assets/guilin-wangcheng/stop-04.mp3",
       "transcript": "guilin-wangcheng/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 398.3,
+      "durationSeconds": 398,
+      "sizeBytes": 4780765
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guilin-wangcheng/stop-05.mp3",
       "src": "audio-assets/guilin-wangcheng/stop-05.mp3",
       "transcript": "guilin-wangcheng/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 378.55,
+      "durationSeconds": 379,
+      "sizeBytes": 4543782
     }
   ]
 }

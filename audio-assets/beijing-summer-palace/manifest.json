@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T12:07:54.057Z",
+  "generatedAt": "2026-09-02T17:27:16.958Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "beijing",
   "cityName": "北京",
@@ -14,9 +14,9 @@
       "file": "beijing-summer-palace/intro.mp3",
       "src": "audio-assets/beijing-summer-palace/intro.mp3",
       "transcript": "beijing-summer-palace/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 67.4,
+      "durationSeconds": 67,
+      "sizeBytes": 810048
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "beijing-summer-palace/stop-01.mp3",
       "src": "audio-assets/beijing-summer-palace/stop-01.mp3",
       "transcript": "beijing-summer-palace/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 398.55,
+      "durationSeconds": 399,
+      "sizeBytes": 4783586
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "beijing-summer-palace/stop-02.mp3",
       "src": "audio-assets/beijing-summer-palace/stop-02.mp3",
       "transcript": "beijing-summer-palace/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 394.54999999999995,
+      "durationSeconds": 395,
+      "sizeBytes": 4735626
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "beijing-summer-palace/stop-03.mp3",
       "src": "audio-assets/beijing-summer-palace/stop-03.mp3",
       "transcript": "beijing-summer-palace/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 403.79999999999995,
+      "durationSeconds": 404,
+      "sizeBytes": 4846594
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "beijing-summer-palace/stop-04.mp3",
       "src": "audio-assets/beijing-summer-palace/stop-04.mp3",
       "transcript": "beijing-summer-palace/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 406.05000000000007,
+      "durationSeconds": 406,
+      "sizeBytes": 4873866
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "beijing-summer-palace/stop-05.mp3",
       "src": "audio-assets/beijing-summer-palace/stop-05.mp3",
       "transcript": "beijing-summer-palace/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 390.05,
+      "durationSeconds": 390,
+      "sizeBytes": 4681709
     }
   ]
 }

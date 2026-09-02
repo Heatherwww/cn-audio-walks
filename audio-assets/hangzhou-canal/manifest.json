@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T14:39:19.433Z",
+  "generatedAt": "2026-09-02T19:26:17.182Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "hangzhou",
   "cityName": "杭州",
@@ -14,9 +14,9 @@
       "file": "hangzhou-canal/intro.mp3",
       "src": "audio-assets/hangzhou-canal/intro.mp3",
       "transcript": "hangzhou-canal/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 66.9,
+      "durationSeconds": 67,
+      "sizeBytes": 804093
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "hangzhou-canal/stop-01.mp3",
       "src": "audio-assets/hangzhou-canal/stop-01.mp3",
       "transcript": "hangzhou-canal/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 367.79999999999995,
+      "durationSeconds": 368,
+      "sizeBytes": 4414633
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "hangzhou-canal/stop-02.mp3",
       "src": "audio-assets/hangzhou-canal/stop-02.mp3",
       "transcript": "hangzhou-canal/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 367.04999999999995,
+      "durationSeconds": 367,
+      "sizeBytes": 4405856
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "hangzhou-canal/stop-03.mp3",
       "src": "audio-assets/hangzhou-canal/stop-03.mp3",
       "transcript": "hangzhou-canal/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 364.79999999999995,
+      "durationSeconds": 365,
+      "sizeBytes": 4378584
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "hangzhou-canal/stop-04.mp3",
       "src": "audio-assets/hangzhou-canal/stop-04.mp3",
       "transcript": "hangzhou-canal/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 372.8,
+      "durationSeconds": 373,
+      "sizeBytes": 4474819
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "hangzhou-canal/stop-05.mp3",
       "src": "audio-assets/hangzhou-canal/stop-05.mp3",
       "transcript": "hangzhou-canal/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 374.54999999999995,
+      "durationSeconds": 375,
+      "sizeBytes": 4495822
     }
   ]
 }

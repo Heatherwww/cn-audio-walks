@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T13:08:39.055Z",
+  "generatedAt": "2026-09-02T18:05:47.789Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shanghai",
   "cityName": "上海",
@@ -14,9 +14,9 @@
       "file": "shanghai-suzhou-creek/intro.mp3",
       "src": "audio-assets/shanghai-suzhou-creek/intro.mp3",
       "transcript": "shanghai-suzhou-creek/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 76.15,
+      "durationSeconds": 76,
+      "sizeBytes": 915061
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "shanghai-suzhou-creek/stop-01.mp3",
       "src": "audio-assets/shanghai-suzhou-creek/stop-01.mp3",
       "transcript": "shanghai-suzhou-creek/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 397.8,
+      "durationSeconds": 398,
+      "sizeBytes": 4774809
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "shanghai-suzhou-creek/stop-02.mp3",
       "src": "audio-assets/shanghai-suzhou-creek/stop-02.mp3",
       "transcript": "shanghai-suzhou-creek/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 386.29999999999995,
+      "durationSeconds": 386,
+      "sizeBytes": 4636883
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "shanghai-suzhou-creek/stop-03.mp3",
       "src": "audio-assets/shanghai-suzhou-creek/stop-03.mp3",
       "transcript": "shanghai-suzhou-creek/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 382.54999999999995,
+      "durationSeconds": 383,
+      "sizeBytes": 4591743
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "shanghai-suzhou-creek/stop-04.mp3",
       "src": "audio-assets/shanghai-suzhou-creek/stop-04.mp3",
       "transcript": "shanghai-suzhou-creek/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 397.3,
+      "durationSeconds": 397,
+      "sizeBytes": 4768853
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "shanghai-suzhou-creek/stop-05.mp3",
       "src": "audio-assets/shanghai-suzhou-creek/stop-05.mp3",
       "transcript": "shanghai-suzhou-creek/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 382.55,
+      "durationSeconds": 383,
+      "sizeBytes": 4591743
     }
   ]
 }

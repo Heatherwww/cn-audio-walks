@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T17:54:16.399Z",
+  "generatedAt": "2026-09-02T22:06:46.532Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chongqing",
   "cityName": "重庆",
@@ -14,9 +14,9 @@
       "file": "chongqing-baidicheng/intro.mp3",
       "src": "audio-assets/chongqing-baidicheng/intro.mp3",
       "transcript": "chongqing-baidicheng/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.65000000000002,
+      "durationSeconds": 70,
+      "sizeBytes": 837007
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "chongqing-baidicheng/stop-01.mp3",
       "src": "audio-assets/chongqing-baidicheng/stop-01.mp3",
       "transcript": "chongqing-baidicheng/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 380.54999999999995,
+      "durationSeconds": 381,
+      "sizeBytes": 4567606
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "chongqing-baidicheng/stop-02.mp3",
       "src": "audio-assets/chongqing-baidicheng/stop-02.mp3",
       "transcript": "chongqing-baidicheng/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 383.3,
+      "durationSeconds": 383,
+      "sizeBytes": 4600834
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "chongqing-baidicheng/stop-03.mp3",
       "src": "audio-assets/chongqing-baidicheng/stop-03.mp3",
       "transcript": "chongqing-baidicheng/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 385.54999999999995,
+      "durationSeconds": 386,
+      "sizeBytes": 4627792
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "chongqing-baidicheng/stop-04.mp3",
       "src": "audio-assets/chongqing-baidicheng/stop-04.mp3",
       "transcript": "chongqing-baidicheng/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 378.79999999999995,
+      "durationSeconds": 379,
+      "sizeBytes": 4546604
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "chongqing-baidicheng/stop-05.mp3",
       "src": "audio-assets/chongqing-baidicheng/stop-05.mp3",
       "transcript": "chongqing-baidicheng/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 377.54999999999995,
+      "durationSeconds": 378,
+      "sizeBytes": 4531870
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T08:22:00.101Z",
+  "generatedAt": "2026-09-02T15:01:08.937Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "taiyuan",
   "cityName": "太原",
@@ -14,9 +14,9 @@
       "file": "shanxi-museum/intro.mp3",
       "src": "audio-assets/shanxi-museum/intro.mp3",
       "transcript": "shanxi-museum/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.9,
+      "durationSeconds": 70,
+      "sizeBytes": 839828
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "shanxi-museum/stop-01.mp3",
       "src": "audio-assets/shanxi-museum/stop-01.mp3",
       "transcript": "shanxi-museum/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 380.55,
+      "durationSeconds": 381,
+      "sizeBytes": 4567606
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "shanxi-museum/stop-02.mp3",
       "src": "audio-assets/shanxi-museum/stop-02.mp3",
       "transcript": "shanxi-museum/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 377.55,
+      "durationSeconds": 378,
+      "sizeBytes": 4531870
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "shanxi-museum/stop-03.mp3",
       "src": "audio-assets/shanxi-museum/stop-03.mp3",
       "transcript": "shanxi-museum/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 390.3,
+      "durationSeconds": 390,
+      "sizeBytes": 4684844
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "shanxi-museum/stop-04.mp3",
       "src": "audio-assets/shanxi-museum/stop-04.mp3",
       "transcript": "shanxi-museum/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 384.05,
+      "durationSeconds": 384,
+      "sizeBytes": 4609611
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "shanxi-museum/stop-05.mp3",
       "src": "audio-assets/shanxi-museum/stop-05.mp3",
       "transcript": "shanxi-museum/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 391.54999999999995,
+      "durationSeconds": 392,
+      "sizeBytes": 4699890
     }
   ]
 }

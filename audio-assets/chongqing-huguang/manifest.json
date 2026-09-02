@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T17:47:00.404Z",
+  "generatedAt": "2026-09-02T22:01:25.875Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chongqing",
   "cityName": "重庆",
@@ -14,9 +14,9 @@
       "file": "chongqing-huguang/intro.mp3",
       "src": "audio-assets/chongqing-huguang/intro.mp3",
       "transcript": "chongqing-huguang/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 77.4,
+      "durationSeconds": 77,
+      "sizeBytes": 929794
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "chongqing-huguang/stop-01.mp3",
       "src": "audio-assets/chongqing-huguang/stop-01.mp3",
       "transcript": "chongqing-huguang/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 386.0499999999999,
+      "durationSeconds": 386,
+      "sizeBytes": 4633748
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "chongqing-huguang/stop-02.mp3",
       "src": "audio-assets/chongqing-huguang/stop-02.mp3",
       "transcript": "chongqing-huguang/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 395.29999999999995,
+      "durationSeconds": 395,
+      "sizeBytes": 4744716
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "chongqing-huguang/stop-03.mp3",
       "src": "audio-assets/chongqing-huguang/stop-03.mp3",
       "transcript": "chongqing-huguang/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 383.3,
+      "durationSeconds": 383,
+      "sizeBytes": 4600834
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "chongqing-huguang/stop-04.mp3",
       "src": "audio-assets/chongqing-huguang/stop-04.mp3",
       "transcript": "chongqing-huguang/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 380.3,
+      "durationSeconds": 380,
+      "sizeBytes": 4564785
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "chongqing-huguang/stop-05.mp3",
       "src": "audio-assets/chongqing-huguang/stop-05.mp3",
       "transcript": "chongqing-huguang/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 399.8,
+      "durationSeconds": 400,
+      "sizeBytes": 4798633
     }
   ]
 }

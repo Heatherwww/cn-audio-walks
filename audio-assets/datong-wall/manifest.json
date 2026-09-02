@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T06:59:20.700Z",
+  "generatedAt": "2026-09-02T13:58:49.861Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "datong",
   "cityName": "大同",
@@ -14,9 +14,9 @@
       "file": "datong-wall/intro.mp3",
       "src": "audio-assets/datong-wall/intro.mp3",
       "transcript": "datong-wall/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 73.40000000000002,
+      "durationSeconds": 73,
+      "sizeBytes": 881833
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "datong-wall/stop-01.mp3",
       "src": "audio-assets/datong-wall/stop-01.mp3",
       "transcript": "datong-wall/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 376.54999999999995,
+      "durationSeconds": 377,
+      "sizeBytes": 4519645
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "datong-wall/stop-02.mp3",
       "src": "audio-assets/datong-wall/stop-02.mp3",
       "transcript": "datong-wall/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 374.29999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4492687
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "datong-wall/stop-03.mp3",
       "src": "audio-assets/datong-wall/stop-03.mp3",
       "transcript": "datong-wall/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 377.55,
+      "durationSeconds": 378,
+      "sizeBytes": 4531870
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "datong-wall/stop-04.mp3",
       "src": "audio-assets/datong-wall/stop-04.mp3",
       "transcript": "datong-wall/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 373.54999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4483596
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "datong-wall/stop-05.mp3",
       "src": "audio-assets/datong-wall/stop-05.mp3",
       "transcript": "datong-wall/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 378.79999999999995,
+      "durationSeconds": 379,
+      "sizeBytes": 4546604
     }
   ]
 }

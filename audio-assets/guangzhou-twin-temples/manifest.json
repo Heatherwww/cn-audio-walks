@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T18:19:26.260Z",
+  "generatedAt": "2026-09-02T22:30:20.910Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guangzhou",
   "cityName": "广州",
@@ -14,9 +14,9 @@
       "file": "guangzhou-twin-temples/intro.mp3",
       "src": "audio-assets/guangzhou-twin-temples/intro.mp3",
       "transcript": "guangzhou-twin-temples/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 70.65,
+      "durationSeconds": 71,
+      "sizeBytes": 848919
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guangzhou-twin-temples/stop-01.mp3",
       "src": "audio-assets/guangzhou-twin-temples/stop-01.mp3",
       "transcript": "guangzhou-twin-temples/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 395.55,
+      "durationSeconds": 396,
+      "sizeBytes": 4747851
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guangzhou-twin-temples/stop-02.mp3",
       "src": "audio-assets/guangzhou-twin-temples/stop-02.mp3",
       "transcript": "guangzhou-twin-temples/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 382.05,
+      "durationSeconds": 382,
+      "sizeBytes": 4585787
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guangzhou-twin-temples/stop-03.mp3",
       "src": "audio-assets/guangzhou-twin-temples/stop-03.mp3",
       "transcript": "guangzhou-twin-temples/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 386.79999999999995,
+      "durationSeconds": 387,
+      "sizeBytes": 4642839
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guangzhou-twin-temples/stop-04.mp3",
       "src": "audio-assets/guangzhou-twin-temples/stop-04.mp3",
       "transcript": "guangzhou-twin-temples/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 386.05,
+      "durationSeconds": 386,
+      "sizeBytes": 4633748
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guangzhou-twin-temples/stop-05.mp3",
       "src": "audio-assets/guangzhou-twin-temples/stop-05.mp3",
       "transcript": "guangzhou-twin-temples/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 390.05000000000007,
+      "durationSeconds": 390,
+      "sizeBytes": 4681709
     }
   ]
 }

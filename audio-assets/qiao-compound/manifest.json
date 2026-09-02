@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T07:50:25.292Z",
+  "generatedAt": "2026-09-02T14:36:57.287Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "jinzhong",
   "cityName": "晋中",
@@ -14,9 +14,9 @@
       "file": "qiao-compound/intro.mp3",
       "src": "audio-assets/qiao-compound/intro.mp3",
       "transcript": "qiao-compound/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 68.65,
+      "durationSeconds": 69,
+      "sizeBytes": 825095
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "qiao-compound/stop-01.mp3",
       "src": "audio-assets/qiao-compound/stop-01.mp3",
       "transcript": "qiao-compound/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 381.8,
+      "durationSeconds": 382,
+      "sizeBytes": 4582653
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "qiao-compound/stop-02.mp3",
       "src": "audio-assets/qiao-compound/stop-02.mp3",
       "transcript": "qiao-compound/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 382.04999999999995,
+      "durationSeconds": 382,
+      "sizeBytes": 4585787
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "qiao-compound/stop-03.mp3",
       "src": "audio-assets/qiao-compound/stop-03.mp3",
       "transcript": "qiao-compound/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 379.29999999999995,
+      "durationSeconds": 379,
+      "sizeBytes": 4552873
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "qiao-compound/stop-04.mp3",
       "src": "audio-assets/qiao-compound/stop-04.mp3",
       "transcript": "qiao-compound/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 377.5499999999999,
+      "durationSeconds": 378,
+      "sizeBytes": 4531870
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "qiao-compound/stop-05.mp3",
       "src": "audio-assets/qiao-compound/stop-05.mp3",
       "transcript": "qiao-compound/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 394.04999999999995,
+      "durationSeconds": 394,
+      "sizeBytes": 4729670
     }
   ]
 }

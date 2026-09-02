@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T08:29:42.630Z",
+  "generatedAt": "2026-09-02T15:06:56.944Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "taiyuan",
   "cityName": "太原",
@@ -14,9 +14,9 @@
       "file": "yongzuo-shuangta/intro.mp3",
       "src": "audio-assets/yongzuo-shuangta/intro.mp3",
       "transcript": "yongzuo-shuangta/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.15,
+      "durationSeconds": 71,
+      "sizeBytes": 854875
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "yongzuo-shuangta/stop-01.mp3",
       "src": "audio-assets/yongzuo-shuangta/stop-01.mp3",
       "transcript": "yongzuo-shuangta/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 383.79999999999995,
+      "durationSeconds": 384,
+      "sizeBytes": 4606790
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "yongzuo-shuangta/stop-02.mp3",
       "src": "audio-assets/yongzuo-shuangta/stop-02.mp3",
       "transcript": "yongzuo-shuangta/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 390.04999999999995,
+      "durationSeconds": 390,
+      "sizeBytes": 4681709
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "yongzuo-shuangta/stop-03.mp3",
       "src": "audio-assets/yongzuo-shuangta/stop-03.mp3",
       "transcript": "yongzuo-shuangta/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 378.5499999999999,
+      "durationSeconds": 379,
+      "sizeBytes": 4543782
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "yongzuo-shuangta/stop-04.mp3",
       "src": "audio-assets/yongzuo-shuangta/stop-04.mp3",
       "transcript": "yongzuo-shuangta/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 387.05,
+      "durationSeconds": 387,
+      "sizeBytes": 4645660
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "yongzuo-shuangta/stop-05.mp3",
       "src": "audio-assets/yongzuo-shuangta/stop-05.mp3",
       "transcript": "yongzuo-shuangta/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 373.04999999999995,
+      "durationSeconds": 373,
+      "sizeBytes": 4477640
     }
   ]
 }

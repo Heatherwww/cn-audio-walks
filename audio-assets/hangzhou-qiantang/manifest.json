@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T15:09:21.329Z",
+  "generatedAt": "2026-09-02T19:49:24.313Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "hangzhou",
   "cityName": "杭州",
@@ -14,9 +14,9 @@
       "file": "hangzhou-qiantang/intro.mp3",
       "src": "audio-assets/hangzhou-qiantang/intro.mp3",
       "transcript": "hangzhou-qiantang/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.15,
+      "durationSeconds": 69,
+      "sizeBytes": 831051
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "hangzhou-qiantang/stop-01.mp3",
       "src": "audio-assets/hangzhou-qiantang/stop-01.mp3",
       "transcript": "hangzhou-qiantang/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 396.55,
+      "durationSeconds": 397,
+      "sizeBytes": 4759763
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "hangzhou-qiantang/stop-02.mp3",
       "src": "audio-assets/hangzhou-qiantang/stop-02.mp3",
       "transcript": "hangzhou-qiantang/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 376.54999999999995,
+      "durationSeconds": 377,
+      "sizeBytes": 4519645
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "hangzhou-qiantang/stop-03.mp3",
       "src": "audio-assets/hangzhou-qiantang/stop-03.mp3",
       "transcript": "hangzhou-qiantang/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 405.8,
+      "durationSeconds": 406,
+      "sizeBytes": 4870731
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "hangzhou-qiantang/stop-04.mp3",
       "src": "audio-assets/hangzhou-qiantang/stop-04.mp3",
       "transcript": "hangzhou-qiantang/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 380.05,
+      "durationSeconds": 380,
+      "sizeBytes": 4561650
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "hangzhou-qiantang/stop-05.mp3",
       "src": "audio-assets/hangzhou-qiantang/stop-05.mp3",
       "transcript": "hangzhou-qiantang/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 397.55,
+      "durationSeconds": 398,
+      "sizeBytes": 4771675
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T13:27:40.491Z",
+  "generatedAt": "2026-09-02T18:22:54.296Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xian",
   "cityName": "西安",
@@ -14,9 +14,9 @@
       "file": "xian-dayan-pagoda/intro.mp3",
       "src": "audio-assets/xian-dayan-pagoda/intro.mp3",
       "transcript": "xian-dayan-pagoda/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 73.40000000000002,
+      "durationSeconds": 73,
+      "sizeBytes": 881833
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "xian-dayan-pagoda/stop-01.mp3",
       "src": "audio-assets/xian-dayan-pagoda/stop-01.mp3",
       "transcript": "xian-dayan-pagoda/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 391.30000000000007,
+      "durationSeconds": 391,
+      "sizeBytes": 4696755
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "xian-dayan-pagoda/stop-02.mp3",
       "src": "audio-assets/xian-dayan-pagoda/stop-02.mp3",
       "transcript": "xian-dayan-pagoda/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 379.3,
+      "durationSeconds": 379,
+      "sizeBytes": 4552873
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "xian-dayan-pagoda/stop-03.mp3",
       "src": "audio-assets/xian-dayan-pagoda/stop-03.mp3",
       "transcript": "xian-dayan-pagoda/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 359.29999999999995,
+      "durationSeconds": 359,
+      "sizeBytes": 4312755
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "xian-dayan-pagoda/stop-04.mp3",
       "src": "audio-assets/xian-dayan-pagoda/stop-04.mp3",
       "transcript": "xian-dayan-pagoda/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 375.05,
+      "durationSeconds": 375,
+      "sizeBytes": 4501777
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "xian-dayan-pagoda/stop-05.mp3",
       "src": "audio-assets/xian-dayan-pagoda/stop-05.mp3",
       "transcript": "xian-dayan-pagoda/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 375.54999999999995,
+      "durationSeconds": 376,
+      "sizeBytes": 4507733
     }
   ]
 }

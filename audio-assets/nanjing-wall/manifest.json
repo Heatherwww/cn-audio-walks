@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T15:55:15.295Z",
+  "generatedAt": "2026-09-02T20:29:22.595Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "nanjing",
   "cityName": "南京",
@@ -14,9 +14,9 @@
       "file": "nanjing-wall/intro.mp3",
       "src": "audio-assets/nanjing-wall/intro.mp3",
       "transcript": "nanjing-wall/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 67.4,
+      "durationSeconds": 67,
+      "sizeBytes": 810048
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "nanjing-wall/stop-01.mp3",
       "src": "audio-assets/nanjing-wall/stop-01.mp3",
       "transcript": "nanjing-wall/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 392.05,
+      "durationSeconds": 392,
+      "sizeBytes": 4705846
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "nanjing-wall/stop-02.mp3",
       "src": "audio-assets/nanjing-wall/stop-02.mp3",
       "transcript": "nanjing-wall/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 372.55,
+      "durationSeconds": 373,
+      "sizeBytes": 4471684
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "nanjing-wall/stop-03.mp3",
       "src": "audio-assets/nanjing-wall/stop-03.mp3",
       "transcript": "nanjing-wall/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 387.05,
+      "durationSeconds": 387,
+      "sizeBytes": 4645660
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "nanjing-wall/stop-04.mp3",
       "src": "audio-assets/nanjing-wall/stop-04.mp3",
       "transcript": "nanjing-wall/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 367.04999999999995,
+      "durationSeconds": 367,
+      "sizeBytes": 4405856
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "nanjing-wall/stop-05.mp3",
       "src": "audio-assets/nanjing-wall/stop-05.mp3",
       "transcript": "nanjing-wall/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 402.04999999999995,
+      "durationSeconds": 402,
+      "sizeBytes": 4825591
     }
   ]
 }

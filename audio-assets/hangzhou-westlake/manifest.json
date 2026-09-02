@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T14:33:42.248Z",
+  "generatedAt": "2026-09-02T19:20:34.991Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "hangzhou",
   "cityName": "杭州",
@@ -14,9 +14,9 @@
       "file": "hangzhou-westlake/intro.mp3",
       "src": "audio-assets/hangzhou-westlake/intro.mp3",
       "transcript": "hangzhou-westlake/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 66.15,
+      "durationSeconds": 66,
+      "sizeBytes": 795002
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "hangzhou-westlake/stop-01.mp3",
       "src": "audio-assets/hangzhou-westlake/stop-01.mp3",
       "transcript": "hangzhou-westlake/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 376.5499999999999,
+      "durationSeconds": 377,
+      "sizeBytes": 4519645
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "hangzhou-westlake/stop-02.mp3",
       "src": "audio-assets/hangzhou-westlake/stop-02.mp3",
       "transcript": "hangzhou-westlake/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 375.29999999999995,
+      "durationSeconds": 375,
+      "sizeBytes": 4504599
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "hangzhou-westlake/stop-03.mp3",
       "src": "audio-assets/hangzhou-westlake/stop-03.mp3",
       "transcript": "hangzhou-westlake/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 374.79999999999995,
+      "durationSeconds": 375,
+      "sizeBytes": 4498643
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "hangzhou-westlake/stop-04.mp3",
       "src": "audio-assets/hangzhou-westlake/stop-04.mp3",
       "transcript": "hangzhou-westlake/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 364.79999999999995,
+      "durationSeconds": 365,
+      "sizeBytes": 4378584
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "hangzhou-westlake/stop-05.mp3",
       "src": "audio-assets/hangzhou-westlake/stop-05.mp3",
       "transcript": "hangzhou-westlake/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 373.79999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4486731
     }
   ]
 }

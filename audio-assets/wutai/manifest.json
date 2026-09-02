@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T09:01:01.492Z",
+  "generatedAt": "2026-09-02T15:30:39.140Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xinzhou",
   "cityName": "忻州",
@@ -14,9 +14,9 @@
       "file": "wutai/intro.mp3",
       "src": "audio-assets/wutai/intro.mp3",
       "transcript": "wutai/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 65.4,
+      "durationSeconds": 65,
+      "sizeBytes": 785911
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "wutai/stop-01.mp3",
       "src": "audio-assets/wutai/stop-01.mp3",
       "transcript": "wutai/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 378.05,
+      "durationSeconds": 378,
+      "sizeBytes": 4537826
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "wutai/stop-02.mp3",
       "src": "audio-assets/wutai/stop-02.mp3",
       "transcript": "wutai/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 383.29999999999995,
+      "durationSeconds": 383,
+      "sizeBytes": 4600834
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "wutai/stop-03.mp3",
       "src": "audio-assets/wutai/stop-03.mp3",
       "transcript": "wutai/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 365.79999999999995,
+      "durationSeconds": 366,
+      "sizeBytes": 4390809
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "wutai/stop-04.mp3",
       "src": "audio-assets/wutai/stop-04.mp3",
       "transcript": "wutai/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 364.29999999999995,
+      "durationSeconds": 364,
+      "sizeBytes": 4372628
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "wutai/stop-05.mp3",
       "src": "audio-assets/wutai/stop-05.mp3",
       "transcript": "wutai/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 379.80000000000007,
+      "durationSeconds": 380,
+      "sizeBytes": 4558829
     }
   ]
 }

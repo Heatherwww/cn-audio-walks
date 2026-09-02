@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T12:17:43.276Z",
+  "generatedAt": "2026-09-02T17:32:40.630Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "beijing",
   "cityName": "北京",
@@ -14,9 +14,9 @@
       "file": "beijing-lama-confucius/intro.mp3",
       "src": "audio-assets/beijing-lama-confucius/intro.mp3",
       "transcript": "beijing-lama-confucius/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.65,
+      "durationSeconds": 72,
+      "sizeBytes": 860830
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "beijing-lama-confucius/stop-01.mp3",
       "src": "audio-assets/beijing-lama-confucius/stop-01.mp3",
       "transcript": "beijing-lama-confucius/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 402.79999999999995,
+      "durationSeconds": 403,
+      "sizeBytes": 4834682
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "beijing-lama-confucius/stop-02.mp3",
       "src": "audio-assets/beijing-lama-confucius/stop-02.mp3",
       "transcript": "beijing-lama-confucius/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 393.79999999999995,
+      "durationSeconds": 394,
+      "sizeBytes": 4726848
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "beijing-lama-confucius/stop-03.mp3",
       "src": "audio-assets/beijing-lama-confucius/stop-03.mp3",
       "transcript": "beijing-lama-confucius/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 415.55,
+      "durationSeconds": 416,
+      "sizeBytes": 4987655
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "beijing-lama-confucius/stop-04.mp3",
       "src": "audio-assets/beijing-lama-confucius/stop-04.mp3",
       "transcript": "beijing-lama-confucius/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 387.8,
+      "durationSeconds": 388,
+      "sizeBytes": 4654750
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "beijing-lama-confucius/stop-05.mp3",
       "src": "audio-assets/beijing-lama-confucius/stop-05.mp3",
       "transcript": "beijing-lama-confucius/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 397.54999999999995,
+      "durationSeconds": 398,
+      "sizeBytes": 4771675
     }
   ]
 }

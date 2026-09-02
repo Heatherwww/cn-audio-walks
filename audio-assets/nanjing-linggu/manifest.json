@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T16:17:10.763Z",
+  "generatedAt": "2026-09-02T20:46:44.748Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "nanjing",
   "cityName": "南京",
@@ -14,9 +14,9 @@
       "file": "nanjing-linggu/intro.mp3",
       "src": "audio-assets/nanjing-linggu/intro.mp3",
       "transcript": "nanjing-linggu/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 68.15,
+      "durationSeconds": 68,
+      "sizeBytes": 818826
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "nanjing-linggu/stop-01.mp3",
       "src": "audio-assets/nanjing-linggu/stop-01.mp3",
       "transcript": "nanjing-linggu/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 386.54999999999995,
+      "durationSeconds": 387,
+      "sizeBytes": 4639704
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "nanjing-linggu/stop-02.mp3",
       "src": "audio-assets/nanjing-linggu/stop-02.mp3",
       "transcript": "nanjing-linggu/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 389.05,
+      "durationSeconds": 389,
+      "sizeBytes": 4669797
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "nanjing-linggu/stop-03.mp3",
       "src": "audio-assets/nanjing-linggu/stop-03.mp3",
       "transcript": "nanjing-linggu/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 395.29999999999995,
+      "durationSeconds": 395,
+      "sizeBytes": 4744716
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "nanjing-linggu/stop-04.mp3",
       "src": "audio-assets/nanjing-linggu/stop-04.mp3",
       "transcript": "nanjing-linggu/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 387.29999999999995,
+      "durationSeconds": 387,
+      "sizeBytes": 4648795
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "nanjing-linggu/stop-05.mp3",
       "src": "audio-assets/nanjing-linggu/stop-05.mp3",
       "transcript": "nanjing-linggu/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 396.05000000000007,
+      "durationSeconds": 396,
+      "sizeBytes": 4753807
     }
   ]
 }

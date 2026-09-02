@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T08:54:39.926Z",
+  "generatedAt": "2026-09-02T15:24:52.735Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "taiyuan",
   "cityName": "太原",
@@ -14,9 +14,9 @@
       "file": "guxiancheng/intro.mp3",
       "src": "audio-assets/guxiancheng/intro.mp3",
       "transcript": "guxiancheng/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 66.9,
+      "durationSeconds": 67,
+      "sizeBytes": 804093
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guxiancheng/stop-01.mp3",
       "src": "audio-assets/guxiancheng/stop-01.mp3",
       "transcript": "guxiancheng/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 383.55,
+      "durationSeconds": 384,
+      "sizeBytes": 4603655
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guxiancheng/stop-02.mp3",
       "src": "audio-assets/guxiancheng/stop-02.mp3",
       "transcript": "guxiancheng/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 384.80000000000007,
+      "durationSeconds": 385,
+      "sizeBytes": 4618702
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guxiancheng/stop-03.mp3",
       "src": "audio-assets/guxiancheng/stop-03.mp3",
       "transcript": "guxiancheng/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 392.05000000000007,
+      "durationSeconds": 392,
+      "sizeBytes": 4705846
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guxiancheng/stop-04.mp3",
       "src": "audio-assets/guxiancheng/stop-04.mp3",
       "transcript": "guxiancheng/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 381.29999999999995,
+      "durationSeconds": 381,
+      "sizeBytes": 4576697
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guxiancheng/stop-05.mp3",
       "src": "audio-assets/guxiancheng/stop-05.mp3",
       "transcript": "guxiancheng/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 380.05,
+      "durationSeconds": 380,
+      "sizeBytes": 4561650
     }
   ]
 }

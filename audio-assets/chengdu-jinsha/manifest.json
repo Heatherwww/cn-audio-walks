@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T14:14:47.972Z",
+  "generatedAt": "2026-09-02T19:03:09.891Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "chengdu",
   "cityName": "成都",
@@ -14,9 +14,9 @@
       "file": "chengdu-jinsha/intro.mp3",
       "src": "audio-assets/chengdu-jinsha/intro.mp3",
       "transcript": "chengdu-jinsha/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 67.9,
+      "durationSeconds": 68,
+      "sizeBytes": 816004
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "chengdu-jinsha/stop-01.mp3",
       "src": "audio-assets/chengdu-jinsha/stop-01.mp3",
       "transcript": "chengdu-jinsha/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 384.55,
+      "durationSeconds": 385,
+      "sizeBytes": 4615880
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "chengdu-jinsha/stop-02.mp3",
       "src": "audio-assets/chengdu-jinsha/stop-02.mp3",
       "transcript": "chengdu-jinsha/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 358.79999999999995,
+      "durationSeconds": 359,
+      "sizeBytes": 4306799
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "chengdu-jinsha/stop-03.mp3",
       "src": "audio-assets/chengdu-jinsha/stop-03.mp3",
       "transcript": "chengdu-jinsha/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 392.05,
+      "durationSeconds": 392,
+      "sizeBytes": 4705846
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "chengdu-jinsha/stop-04.mp3",
       "src": "audio-assets/chengdu-jinsha/stop-04.mp3",
       "transcript": "chengdu-jinsha/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 374.29999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4492687
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "chengdu-jinsha/stop-05.mp3",
       "src": "audio-assets/chengdu-jinsha/stop-05.mp3",
       "transcript": "chengdu-jinsha/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 371.05,
+      "durationSeconds": 371,
+      "sizeBytes": 4453817
     }
   ]
 }

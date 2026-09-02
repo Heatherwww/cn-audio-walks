@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T16:55:01.357Z",
+  "generatedAt": "2026-09-02T21:21:17.359Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "guilin",
   "cityName": "桂林",
@@ -14,9 +14,9 @@
       "file": "guilin-lingqu/intro.mp3",
       "src": "audio-assets/guilin-lingqu/intro.mp3",
       "transcript": "guilin-lingqu/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.40000000000002,
+      "durationSeconds": 69,
+      "sizeBytes": 833872
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "guilin-lingqu/stop-01.mp3",
       "src": "audio-assets/guilin-lingqu/stop-01.mp3",
       "transcript": "guilin-lingqu/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 381.79999999999995,
+      "durationSeconds": 382,
+      "sizeBytes": 4582653
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "guilin-lingqu/stop-02.mp3",
       "src": "audio-assets/guilin-lingqu/stop-02.mp3",
       "transcript": "guilin-lingqu/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 381.5499999999999,
+      "durationSeconds": 382,
+      "sizeBytes": 4579831
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "guilin-lingqu/stop-03.mp3",
       "src": "audio-assets/guilin-lingqu/stop-03.mp3",
       "transcript": "guilin-lingqu/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 376.05,
+      "durationSeconds": 376,
+      "sizeBytes": 4513689
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "guilin-lingqu/stop-04.mp3",
       "src": "audio-assets/guilin-lingqu/stop-04.mp3",
       "transcript": "guilin-lingqu/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 389.05,
+      "durationSeconds": 389,
+      "sizeBytes": 4669797
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "guilin-lingqu/stop-05.mp3",
       "src": "audio-assets/guilin-lingqu/stop-05.mp3",
       "transcript": "guilin-lingqu/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 378.05,
+      "durationSeconds": 378,
+      "sizeBytes": 4537826
     }
   ]
 }

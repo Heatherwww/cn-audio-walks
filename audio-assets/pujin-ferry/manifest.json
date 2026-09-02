@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T11:18:48.524Z",
+  "generatedAt": "2026-09-02T16:55:29.865Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "yuncheng",
   "cityName": "运城",
@@ -14,9 +14,9 @@
       "file": "pujin-ferry/intro.mp3",
       "src": "audio-assets/pujin-ferry/intro.mp3",
       "transcript": "pujin-ferry/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 74.4,
+      "durationSeconds": 74,
+      "sizeBytes": 894058
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "pujin-ferry/stop-01.mp3",
       "src": "audio-assets/pujin-ferry/stop-01.mp3",
       "transcript": "pujin-ferry/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 371.79999999999995,
+      "durationSeconds": 372,
+      "sizeBytes": 4462594
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "pujin-ferry/stop-02.mp3",
       "src": "audio-assets/pujin-ferry/stop-02.mp3",
       "transcript": "pujin-ferry/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 388.3,
+      "durationSeconds": 388,
+      "sizeBytes": 4660706
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "pujin-ferry/stop-03.mp3",
       "src": "audio-assets/pujin-ferry/stop-03.mp3",
       "transcript": "pujin-ferry/stop-03.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 384.29999999999995,
+      "durationSeconds": 384,
+      "sizeBytes": 4612746
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "pujin-ferry/stop-04.mp3",
       "src": "audio-assets/pujin-ferry/stop-04.mp3",
       "transcript": "pujin-ferry/stop-04.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 379.8,
+      "durationSeconds": 380,
+      "sizeBytes": 4558829
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "pujin-ferry/stop-05.mp3",
       "src": "audio-assets/pujin-ferry/stop-05.mp3",
       "transcript": "pujin-ferry/stop-05.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 381.8,
+      "durationSeconds": 382,
+      "sizeBytes": 4582653
     }
   ]
 }

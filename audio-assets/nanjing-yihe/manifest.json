@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T16:23:48.212Z",
+  "generatedAt": "2026-09-02T20:52:31.897Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "nanjing",
   "cityName": "南京",
@@ -14,9 +14,9 @@
       "file": "nanjing-yihe/intro.mp3",
       "src": "audio-assets/nanjing-yihe/intro.mp3",
       "transcript": "nanjing-yihe/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.65,
+      "durationSeconds": 72,
+      "sizeBytes": 860830
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "nanjing-yihe/stop-01.mp3",
       "src": "audio-assets/nanjing-yihe/stop-01.mp3",
       "transcript": "nanjing-yihe/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 392.55,
+      "durationSeconds": 393,
+      "sizeBytes": 4711802
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "nanjing-yihe/stop-02.mp3",
       "src": "audio-assets/nanjing-yihe/stop-02.mp3",
       "transcript": "nanjing-yihe/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 377.04999999999995,
+      "durationSeconds": 377,
+      "sizeBytes": 4525601
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "nanjing-yihe/stop-03.mp3",
       "src": "audio-assets/nanjing-yihe/stop-03.mp3",
       "transcript": "nanjing-yihe/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 383.8,
+      "durationSeconds": 384,
+      "sizeBytes": 4606790
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "nanjing-yihe/stop-04.mp3",
       "src": "audio-assets/nanjing-yihe/stop-04.mp3",
       "transcript": "nanjing-yihe/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 397.04999999999995,
+      "durationSeconds": 397,
+      "sizeBytes": 4765719
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "nanjing-yihe/stop-05.mp3",
       "src": "audio-assets/nanjing-yihe/stop-05.mp3",
       "transcript": "nanjing-yihe/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 367.2999999999999,
+      "durationSeconds": 367,
+      "sizeBytes": 4408677
     }
   ]
 }

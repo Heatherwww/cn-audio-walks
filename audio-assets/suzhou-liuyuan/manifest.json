@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T15:28:12.324Z",
+  "generatedAt": "2026-09-02T20:06:27.562Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "suzhou",
   "cityName": "苏州",
@@ -14,9 +14,9 @@
       "file": "suzhou-liuyuan/intro.mp3",
       "src": "audio-assets/suzhou-liuyuan/intro.mp3",
       "transcript": "suzhou-liuyuan/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 65.9,
+      "durationSeconds": 66,
+      "sizeBytes": 791867
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "suzhou-liuyuan/stop-01.mp3",
       "src": "audio-assets/suzhou-liuyuan/stop-01.mp3",
       "transcript": "suzhou-liuyuan/stop-01.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 379.8,
+      "durationSeconds": 380,
+      "sizeBytes": 4558829
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "suzhou-liuyuan/stop-02.mp3",
       "src": "audio-assets/suzhou-liuyuan/stop-02.mp3",
       "transcript": "suzhou-liuyuan/stop-02.txt",
-      "plannedSeconds": 660,
-      "durationSeconds": 660,
-      "sizeBytes": 7921102
+      "plannedSeconds": 367.3,
+      "durationSeconds": 367,
+      "sizeBytes": 4408677
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "suzhou-liuyuan/stop-03.mp3",
       "src": "audio-assets/suzhou-liuyuan/stop-03.mp3",
       "transcript": "suzhou-liuyuan/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 362.3,
+      "durationSeconds": 362,
+      "sizeBytes": 4348804
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "suzhou-liuyuan/stop-04.mp3",
       "src": "audio-assets/suzhou-liuyuan/stop-04.mp3",
       "transcript": "suzhou-liuyuan/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 367.54999999999995,
+      "durationSeconds": 368,
+      "sizeBytes": 4411812
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "suzhou-liuyuan/stop-05.mp3",
       "src": "audio-assets/suzhou-liuyuan/stop-05.mp3",
       "transcript": "suzhou-liuyuan/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 360.05,
+      "durationSeconds": 360,
+      "sizeBytes": 4321846
     }
   ]
 }

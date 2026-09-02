@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T12:32:29.256Z",
+  "generatedAt": "2026-09-02T17:43:15.410Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shanghai",
   "cityName": "上海",
@@ -14,9 +14,9 @@
       "file": "shanghai-shikumen/intro.mp3",
       "src": "audio-assets/shanghai-shikumen/intro.mp3",
       "transcript": "shanghai-shikumen/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.15,
+      "durationSeconds": 71,
+      "sizeBytes": 854875
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "shanghai-shikumen/stop-01.mp3",
       "src": "audio-assets/shanghai-shikumen/stop-01.mp3",
       "transcript": "shanghai-shikumen/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 386.3,
+      "durationSeconds": 386,
+      "sizeBytes": 4636883
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "shanghai-shikumen/stop-02.mp3",
       "src": "audio-assets/shanghai-shikumen/stop-02.mp3",
       "transcript": "shanghai-shikumen/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 386.29999999999995,
+      "durationSeconds": 386,
+      "sizeBytes": 4636883
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "shanghai-shikumen/stop-03.mp3",
       "src": "audio-assets/shanghai-shikumen/stop-03.mp3",
       "transcript": "shanghai-shikumen/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 373.79999999999995,
+      "durationSeconds": 374,
+      "sizeBytes": 4486731
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "shanghai-shikumen/stop-04.mp3",
       "src": "audio-assets/shanghai-shikumen/stop-04.mp3",
       "transcript": "shanghai-shikumen/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 374.3,
+      "durationSeconds": 374,
+      "sizeBytes": 4492687
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "shanghai-shikumen/stop-05.mp3",
       "src": "audio-assets/shanghai-shikumen/stop-05.mp3",
       "transcript": "shanghai-shikumen/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 395.80000000000007,
+      "durationSeconds": 396,
+      "sizeBytes": 4750672
     }
   ]
 }

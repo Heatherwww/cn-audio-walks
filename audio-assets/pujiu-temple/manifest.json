@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T10:59:30.405Z",
+  "generatedAt": "2026-09-02T16:46:31.037Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "yuncheng",
   "cityName": "运城",
@@ -14,9 +14,9 @@
       "file": "pujiu-temple/intro.mp3",
       "src": "audio-assets/pujiu-temple/intro.mp3",
       "transcript": "pujiu-temple/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 71.9,
+      "durationSeconds": 72,
+      "sizeBytes": 863965
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "pujiu-temple/stop-01.mp3",
       "src": "audio-assets/pujiu-temple/stop-01.mp3",
       "transcript": "pujiu-temple/stop-01.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 379.04999999999995,
+      "durationSeconds": 379,
+      "sizeBytes": 4549738
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "pujiu-temple/stop-02.mp3",
       "src": "audio-assets/pujiu-temple/stop-02.mp3",
       "transcript": "pujiu-temple/stop-02.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 385.30000000000007,
+      "durationSeconds": 385,
+      "sizeBytes": 4624657
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "pujiu-temple/stop-03.mp3",
       "src": "audio-assets/pujiu-temple/stop-03.mp3",
       "transcript": "pujiu-temple/stop-03.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 396.54999999999995,
+      "durationSeconds": 397,
+      "sizeBytes": 4759763
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "pujiu-temple/stop-04.mp3",
       "src": "audio-assets/pujiu-temple/stop-04.mp3",
       "transcript": "pujiu-temple/stop-04.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 379.8,
+      "durationSeconds": 380,
+      "sizeBytes": 4558829
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "pujiu-temple/stop-05.mp3",
       "src": "audio-assets/pujiu-temple/stop-05.mp3",
       "transcript": "pujiu-temple/stop-05.txt",
-      "plannedSeconds": 600,
-      "durationSeconds": 600,
-      "sizeBytes": 7201062
+      "plannedSeconds": 370.54999999999995,
+      "durationSeconds": 371,
+      "sizeBytes": 4447861
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T12:24:44.538Z",
+  "generatedAt": "2026-09-02T17:37:56.098Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "shanghai",
   "cityName": "上海",
@@ -14,9 +14,9 @@
       "file": "shanghai-bund/intro.mp3",
       "src": "audio-assets/shanghai-bund/intro.mp3",
       "transcript": "shanghai-bund/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 67.64999999999999,
+      "durationSeconds": 68,
+      "sizeBytes": 812870
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "shanghai-bund/stop-01.mp3",
       "src": "audio-assets/shanghai-bund/stop-01.mp3",
       "transcript": "shanghai-bund/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 374.30000000000007,
+      "durationSeconds": 374,
+      "sizeBytes": 4492687
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "shanghai-bund/stop-02.mp3",
       "src": "audio-assets/shanghai-bund/stop-02.mp3",
       "transcript": "shanghai-bund/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 378.04999999999995,
+      "durationSeconds": 378,
+      "sizeBytes": 4537826
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "shanghai-bund/stop-03.mp3",
       "src": "audio-assets/shanghai-bund/stop-03.mp3",
       "transcript": "shanghai-bund/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 387.55,
+      "durationSeconds": 388,
+      "sizeBytes": 4651616
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "shanghai-bund/stop-04.mp3",
       "src": "audio-assets/shanghai-bund/stop-04.mp3",
       "transcript": "shanghai-bund/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 386.3,
+      "durationSeconds": 386,
+      "sizeBytes": 4636883
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "shanghai-bund/stop-05.mp3",
       "src": "audio-assets/shanghai-bund/stop-05.mp3",
       "transcript": "shanghai-bund/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 377.54999999999995,
+      "durationSeconds": 378,
+      "sizeBytes": 4531870
     }
   ]
 }

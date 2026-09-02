@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T13:42:20.402Z",
+  "generatedAt": "2026-09-02T18:34:22.855Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "xian",
   "cityName": "西安",
@@ -14,9 +14,9 @@
       "file": "xian-daming-palace/intro.mp3",
       "src": "audio-assets/xian-daming-palace/intro.mp3",
       "transcript": "xian-daming-palace/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 73.65000000000002,
+      "durationSeconds": 74,
+      "sizeBytes": 884968
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "xian-daming-palace/stop-01.mp3",
       "src": "audio-assets/xian-daming-palace/stop-01.mp3",
       "transcript": "xian-daming-palace/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 373.30000000000007,
+      "durationSeconds": 373,
+      "sizeBytes": 4480775
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "xian-daming-palace/stop-02.mp3",
       "src": "audio-assets/xian-daming-palace/stop-02.mp3",
       "transcript": "xian-daming-palace/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 359.29999999999995,
+      "durationSeconds": 359,
+      "sizeBytes": 4312755
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "xian-daming-palace/stop-03.mp3",
       "src": "audio-assets/xian-daming-palace/stop-03.mp3",
       "transcript": "xian-daming-palace/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 377.3,
+      "durationSeconds": 377,
+      "sizeBytes": 4528736
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "xian-daming-palace/stop-04.mp3",
       "src": "audio-assets/xian-daming-palace/stop-04.mp3",
       "transcript": "xian-daming-palace/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 375.54999999999995,
+      "durationSeconds": 376,
+      "sizeBytes": 4507733
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "xian-daming-palace/stop-05.mp3",
       "src": "audio-assets/xian-daming-palace/stop-05.mp3",
       "transcript": "xian-daming-palace/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 368.7999999999999,
+      "durationSeconds": 369,
+      "sizeBytes": 4426858
     }
   ]
 }

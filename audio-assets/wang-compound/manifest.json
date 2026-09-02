@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T07:59:35.454Z",
+  "generatedAt": "2026-09-02T14:42:49.005Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "jinzhong",
   "cityName": "晋中",
@@ -14,9 +14,9 @@
       "file": "wang-compound/intro.mp3",
       "src": "audio-assets/wang-compound/intro.mp3",
       "transcript": "wang-compound/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 69.65,
+      "durationSeconds": 70,
+      "sizeBytes": 837007
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "wang-compound/stop-01.mp3",
       "src": "audio-assets/wang-compound/stop-01.mp3",
       "transcript": "wang-compound/stop-01.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 399.29999999999995,
+      "durationSeconds": 399,
+      "sizeBytes": 4792677
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "wang-compound/stop-02.mp3",
       "src": "audio-assets/wang-compound/stop-02.mp3",
       "transcript": "wang-compound/stop-02.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 377.54999999999995,
+      "durationSeconds": 378,
+      "sizeBytes": 4531870
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "wang-compound/stop-03.mp3",
       "src": "audio-assets/wang-compound/stop-03.mp3",
       "transcript": "wang-compound/stop-03.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 381.05000000000007,
+      "durationSeconds": 381,
+      "sizeBytes": 4573875
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "wang-compound/stop-04.mp3",
       "src": "audio-assets/wang-compound/stop-04.mp3",
       "transcript": "wang-compound/stop-04.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 388.55000000000007,
+      "durationSeconds": 389,
+      "sizeBytes": 4663841
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "wang-compound/stop-05.mp3",
       "src": "audio-assets/wang-compound/stop-05.mp3",
       "transcript": "wang-compound/stop-05.txt",
-      "plannedSeconds": 720,
-      "durationSeconds": 720,
-      "sizeBytes": 8641141
+      "plannedSeconds": 384.3,
+      "durationSeconds": 384,
+      "sizeBytes": 4612746
     }
   ]
 }

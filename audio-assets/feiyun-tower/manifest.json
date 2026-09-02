@@ -1,6 +1,6 @@
 {
   "version": "20260824-v01",
-  "generatedAt": "2026-09-01T11:25:29.208Z",
+  "generatedAt": "2026-09-02T17:00:34.475Z",
   "voice": "zh-CN-YunxiNeural",
   "cityId": "yuncheng",
   "cityName": "运城",
@@ -14,9 +14,9 @@
       "file": "feiyun-tower/intro.mp3",
       "src": "audio-assets/feiyun-tower/intro.mp3",
       "transcript": "feiyun-tower/intro.txt",
-      "plannedSeconds": 120,
-      "durationSeconds": 120,
-      "sizeBytes": 1441062
+      "plannedSeconds": 75.15,
+      "durationSeconds": 75,
+      "sizeBytes": 902835
     },
     {
       "kind": "stop",
@@ -25,9 +25,9 @@
       "file": "feiyun-tower/stop-01.mp3",
       "src": "audio-assets/feiyun-tower/stop-01.mp3",
       "transcript": "feiyun-tower/stop-01.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 368.29999999999995,
+      "durationSeconds": 368,
+      "sizeBytes": 4420589
     },
     {
       "kind": "stop",
@@ -36,9 +36,9 @@
       "file": "feiyun-tower/stop-02.mp3",
       "src": "audio-assets/feiyun-tower/stop-02.mp3",
       "transcript": "feiyun-tower/stop-02.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 382.79999999999995,
+      "durationSeconds": 383,
+      "sizeBytes": 4594878
     },
     {
       "kind": "stop",
@@ -47,9 +47,9 @@
       "file": "feiyun-tower/stop-03.mp3",
       "src": "audio-assets/feiyun-tower/stop-03.mp3",
       "transcript": "feiyun-tower/stop-03.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 392.29999999999995,
+      "durationSeconds": 392,
+      "sizeBytes": 4708667
     },
     {
       "kind": "stop",
@@ -58,9 +58,9 @@
       "file": "feiyun-tower/stop-04.mp3",
       "src": "audio-assets/feiyun-tower/stop-04.mp3",
       "transcript": "feiyun-tower/stop-04.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 365.29999999999995,
+      "durationSeconds": 365,
+      "sizeBytes": 4384853
     },
     {
       "kind": "stop",
@@ -69,9 +69,9 @@
       "file": "feiyun-tower/stop-05.mp3",
       "src": "audio-assets/feiyun-tower/stop-05.mp3",
       "transcript": "feiyun-tower/stop-05.txt",
-      "plannedSeconds": 540,
-      "durationSeconds": 540,
-      "sizeBytes": 6481023
+      "plannedSeconds": 384.79999999999995,
+      "durationSeconds": 385,
+      "sizeBytes": 4618702
     }
   ]
 }
