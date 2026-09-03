@@ -3121,3 +3121,62 @@ svg .icon-stroke {
 .city-intro-card.playing {
   border-color: var(--cinnabar);
 }
+
+/* ---------- Stop photos (Wikimedia) ---------- */
+
+.stop-photo {
+  margin: 0 0 14px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(22, 33, 31, 0.14);
+  background: rgba(255, 250, 238, 0.65);
+}
+
+.stop-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+.stop-photo figcaption {
+  padding: 7px 12px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(22, 33, 31, 0.6);
+}
+
+/* ---------- Real-layout (OSM) map features ---------- */
+
+.layout-water:not(.area) {
+  fill: none;
+  stroke: rgba(78, 140, 155, 0.55);
+  stroke-width: 12;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.layout-green:not(.area) {
+  fill: none;
+  stroke: rgba(119, 151, 87, 0.4);
+  stroke-width: 16;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.layout-road {
+  fill: none;
+  stroke: rgba(116, 78, 54, 0.3);
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.layout-rail {
+  fill: none;
+  stroke: rgba(22, 33, 31, 0.3);
+  stroke-width: 4;
+  stroke-dasharray: 10 8;
+  stroke-linecap: round;
+}
