@@ -9665,6 +9665,7 @@ let audioAssetManifest = {
 
 const state = {
   view: "cities",
+  query: "",
   cityId: data.cities[0].id,
   routeId: data.cities[0].routes[0].id,
   stopIndex: 0,
@@ -9689,6 +9690,7 @@ const state = {
   routeTourMode: false,
   stopImages: null,
   routeLayouts: null,
+  mapView: { dx: 0, dy: 0, scale: 1 },
   routeTourCompleted: false,
   downloaded: new Set(["yungang"]),
   libraryDownloaded: false,
@@ -9747,6 +9749,7 @@ function setRoute(routeId) {
   state.stopIndex = 0;
   state.introSelected = false;
   state.tab = "info";
+  state.mapView = { dx: 0, dy: 0, scale: 1 };
   loadReviewChecks();
   render();
 }
@@ -11179,20 +11182,28 @@ function currentAudioSourceInfo(route) {
 function routeViewBox(points) {
   const xs = points.map((xy) => xy[0]);
   const ys = points.map((xy) => xy[1] - 170);
-  const minX = Math.max(10, Math.min(...xs) - 170);
-  const maxX = Math.min(950, Math.max(...xs) + 170);
-  // No lower clamp on minY: real-layout points can sit near the canvas top
-  // (y≈170), and clamping to 0 would slice their circles in half.
-  const minY = Math.min(...ys) - 170;
-  const maxY = Math.min(680, Math.max(...ys) + 110);
+  const minX = Math.min(...xs);
+  const maxX = Math.max(...xs);
+  const minY = Math.min(...ys);
+  const maxY = Math.max(...ys);
+  // Centered, fixed-aspect viewBox: pad the points bbox symmetrically and
+  // expand the shorter side until the box matches the element's 960:680
+  // aspect, so the route always sits in the middle with no letterboxing.
+  const cx = (minX + maxX) / 2;
+  const cy = (minY + maxY) / 2;
+  const aspect = 960 / 680;
+  let halfW = Math.max((maxX - minX) / 2 + 170, 300);
+  let halfH = Math.max((maxY - minY) / 2 + 150, 215);
+  if (halfW / halfH < aspect) halfW = halfH * aspect;
+  else halfH = halfW / aspect;
   return {
-    value: `${Math.round(minX)} ${Math.round(minY)} ${Math.round(maxX - minX)} ${Math.round(maxY - minY)}`,
-    minX,
-    minY,
-    maxX,
-    maxY,
-    noteX: Math.round(minX + 26),
-    noteY: Math.round(maxY - 22)
+    value: `${Math.round(cx - halfW)} ${Math.round(cy - halfH)} ${Math.round(halfW * 2)} ${Math.round(halfH * 2)}`,
+    minX: cx - halfW,
+    minY: cy - halfH,
+    maxX: cx + halfW,
+    maxY: cy + halfH,
+    noteX: Math.round(cx - halfW + 26),
+    noteY: Math.round(cy + halfH - 22)
   };
 }
 
@@ -11862,14 +11873,119 @@ function mapBackdrop(routeId) {
   `;
 }
 
+function resetMapView() {
+  state.mapView = { dx: 0, dy: 0, scale: 1 };
+  render();
+}
+
+function clampMapView() {
+  const route = getRoute();
+  if (!route) return;
+  const base = routeViewBox(mapPoints(route));
+  const baseW = base.maxX - base.minX;
+  const baseH = base.maxY - base.minY;
+  const v = state.mapView;
+  v.scale = Math.max(1, Math.min(5, v.scale));
+  const maxDx = (baseW / 2) * (1 - 1 / v.scale);
+  const maxDy = (baseH / 2) * (1 - 1 / v.scale);
+  v.dx = Math.max(-maxDx, Math.min(maxDx, v.dx));
+  v.dy = Math.max(-maxDy, Math.min(maxDy, v.dy));
+}
+
+function effectiveMapViewBox() {
+  const route = getRoute();
+  const base = routeViewBox(mapPoints(route));
+  const v = state.mapView;
+  const w = (base.maxX - base.minX) / v.scale;
+  const h = (base.maxY - base.minY) / v.scale;
+  const cx = (base.minX + base.maxX) / 2 + v.dx;
+  const cy = (base.minY + base.maxY) / 2 + v.dy;
+  return { x: cx - w / 2, y: cy - h / 2, w, h };
+}
+
+function applyMapViewBoxAttr() {
+  if (typeof app.querySelector !== "function") return;
+  const svg = app.querySelector(".route-map");
+  if (!svg || !svg.setAttribute) return;
+  const vb = effectiveMapViewBox();
+  svg.setAttribute("viewBox", `${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
+}
+
+// Map pan/zoom: wheel to zoom, double-click toggles zoom, drag pans only when
+// zoomed in (so page scroll stays untouched at 1x). Touch gets the same rules
+// via a zoomed-only touch-action switch.
+function bindMapInteractions() {
+  if (typeof app.querySelector !== "function") return;
+  const svg = app.querySelector(".route-map");
+  if (!svg || !svg.addEventListener || svg.dataset.mapBound) return;
+  svg.dataset.mapBound = "1";
+  let drag = null;
+  let suppressClick = false;
+
+  svg.addEventListener("pointerdown", (event) => {
+    if (state.mapView.scale <= 1) return;
+    drag = { x: event.clientX, y: event.clientY, startDx: state.mapView.dx, startDy: state.mapView.dy, moved: false };
+    svg.setPointerCapture(event.pointerId);
+  });
+  svg.addEventListener("pointermove", (event) => {
+    if (!drag) return;
+    const rect = svg.getBoundingClientRect();
+    if (!rect.width) return;
+    const vb = effectiveMapViewBox();
+    const stepX = (event.clientX - drag.x) * (vb.w / rect.width);
+    const stepY = (event.clientY - drag.y) * (vb.h / rect.height);
+    if (!drag.moved && Math.hypot(stepX, stepY) > 8) drag.moved = true;
+    if (!drag.moved) return;
+    state.mapView.dx = drag.startDx - stepX;
+    state.mapView.dy = drag.startDy - stepY;
+    clampMapView();
+    applyMapViewBoxAttr();
+  });
+  const endDrag = () => {
+    if (drag?.moved) {
+      suppressClick = true;
+      setTimeout(() => (suppressClick = false), 0);
+      render();
+    }
+    drag = null;
+  };
+  svg.addEventListener("pointerup", endDrag);
+  svg.addEventListener("pointercancel", () => (drag = null));
+  svg.addEventListener("click", (event) => {
+    if (suppressClick) {
+      event.stopPropagation();
+      event.preventDefault();
+    }
+  }, true);
+  svg.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    state.mapView.scale *= Math.exp(-event.deltaY * 0.0012);
+    clampMapView();
+    applyMapViewBoxAttr();
+    clearTimeout(svg._wheelRender);
+    svg._wheelRender = setTimeout(() => render(), 250);
+  }, { passive: false });
+  svg.addEventListener("dblclick", (event) => {
+    event.preventDefault();
+    state.mapView.scale = state.mapView.scale > 1 ? 1 : 2.2;
+    if (state.mapView.scale === 1) { state.mapView.dx = 0; state.mapView.dy = 0; }
+    clampMapView();
+    render();
+  });
+}
+
 function renderMap(route) {
   const layout = layoutFor(route);
   const points = mapPoints(route);
   const path = routePath(points);
-  const viewBox = routeViewBox(points);
+  const baseViewBox = routeViewBox(points);
+  const view = state.mapView || { dx: 0, dy: 0, scale: 1 };
+  const vbW = (baseViewBox.maxX - baseViewBox.minX) / view.scale;
+  const vbH = (baseViewBox.maxY - baseViewBox.minY) / view.scale;
+  const vbCX = (baseViewBox.minX + baseViewBox.maxX) / 2 + view.dx;
+  const vbCY = (baseViewBox.minY + baseViewBox.maxY) / 2 + view.dy;
+  const viewBoxValue = `${Math.round(vbCX - vbW / 2)} ${Math.round(vbCY - vbH / 2)} ${Math.round(vbW)} ${Math.round(vbH)}`;
   const currentXY = points[state.stopIndex];
-  const hereX = Math.min(820, currentXY[0] + 34);
-  const hereY = Math.max(76, currentXY[1] - 42);
   const first = points[0];
   const second = points[1] || [first[0], first[1] + 1];
   const dirX = first[0] - second[0];
@@ -11887,30 +12003,71 @@ function renderMap(route) {
   }
   introX = Math.max(60, Math.min(900, introX));
   introY = Math.max(84, Math.min(614, introY));
+  // Compass rides inside the visible viewBox (it is drawn in viewBox space,
+  // not in the shifted map-drawing space).
+  const compassX = vbCX + vbW / 2 - 48;
+  const compassY = vbCY - vbH / 2 + 48;
+
+  // Label placement with collision avoidance: try right/left/above/below,
+  // reject candidates that hit another label, a marker circle, or the compass.
+  const placedRects = [];
+  const allMarkers = points.map(([x, y]) => ({ x, y, r: 26 }));
+  allMarkers.push({ x: introX, y: introY, r: 24 });
+  const compassRect = { x0: compassX - 44, y0: compassY - 44, x1: compassX + 44, y1: compassY + 44 };
+  const hitsAny = (rect) =>
+    placedRects.some((p) => !(rect.x1 < p.x0 || rect.x0 > p.x1 || rect.y1 < p.y0 || rect.y0 > p.y1)) ||
+    allMarkers.some((m) => !(rect.x1 < m.x - m.r || rect.x0 > m.x + m.r || rect.y1 < m.y - m.r || rect.y0 > m.y + m.r)) ||
+    !(rect.x1 < compassRect.x0 || rect.x0 > compassRect.x1 || rect.y1 < compassRect.y0 || rect.y0 > compassRect.y1);
+  const placeLabel = (x, y, title) => {
+    const w = title.length * 14;
+    const h = 20;
+    const candidates = [
+      { tx: x + 28, ty: y + 5, anchor: "start", rect: { x0: x + 26, y0: y - 9, x1: x + 26 + w, y1: y + 11 } },
+      { tx: x - 28, ty: y + 5, anchor: "end", rect: { x0: x - 26 - w, y0: y - 9, x1: x - 26, y1: y + 11 } },
+      { tx: x, ty: y - 32, anchor: "middle", rect: { x0: x - w / 2, y0: y - 46, x1: x + w / 2, y1: y - 26 } },
+      { tx: x, ty: y + 44, anchor: "middle", rect: { x0: x - w / 2, y0: y + 30, x1: x + w / 2, y1: y + 50 } }
+    ];
+    for (const c of candidates) {
+      if (!hitsAny(c.rect)) {
+        placedRects.push(c.rect);
+        return `<text class="poi-label" x="${c.tx}" y="${c.ty}"${c.anchor !== "start" ? ` text-anchor="${c.anchor}"` : ""}>${title}</text>`;
+      }
+    }
+    return ""; // dense cluster: skip the label rather than overlap
+  };
   const labels = route.stops
     .map((stop, index) => {
       const xy = points[index];
       const active = index === state.stopIndex && !state.introSelected ? " active" : "";
-      // Label sits right of the circle, vertically centered; only the bottom
-      // edge flips it above-left so it stays inside the canvas.
-      const yLabel = xy[1] > 610 ? xy[1] - 30 : xy[1] + 5;
       return `
         <g class="poi-button${active}" role="button" tabindex="0" data-stop="${index}" onclick="selectStopAndPlay(${index})" aria-label="${stop.title}">
           <circle cx="${xy[0]}" cy="${xy[1]}" r="21"></circle>
           <text x="${xy[0]}" y="${xy[1] + 1}">${index + 1}</text>
         </g>
-        <text class="poi-label" x="${xy[0] + 28}" y="${yLabel}">${stop.title}</text>
+        ${placeLabel(xy[0], xy[1], stop.title)}
       `;
     })
     .join("");
-  // Compass rides inside the visible viewBox (it is drawn in viewBox space,
-  // not in the shifted map-drawing space), otherwise it gets clipped on routes
-  // whose stops sit far right or low on the canvas.
-  const compassX = viewBox.maxX - 48;
-  const compassY = viewBox.minY + 48;
+  // "你在这里" pill: above → below → left of the point; hidden if all collide.
+  const pillW = 92;
+  let hereX = currentXY[0] + 26;
+  let hereY = currentXY[1] - 46;
+  let pillVisible = true;
+  const pillRect = { x0: hereX, y0: hereY, x1: hereX + pillW, y1: hereY + 30 };
+  if (hitsAny(pillRect)) {
+    hereY = currentXY[1] + 28;
+    pillRect.y0 = hereY; pillRect.y1 = hereY + 30;
+    if (hitsAny(pillRect)) {
+      hereX = currentXY[0] - pillW - 26;
+      hereY = currentXY[1] - 46;
+      pillRect.x0 = hereX; pillRect.x1 = hereX + pillW; pillRect.y0 = hereY; pillRect.y1 = hereY + 30;
+      if (hitsAny(pillRect)) pillVisible = false;
+    }
+  }
+  const introLabel = placeLabel(introX, introY, "路线开场");
 
   return `
-    <svg class="route-map" viewBox="${viewBox.value}" role="img" aria-label="${route.title}路线地图">
+    <svg class="route-map${view.scale > 1 ? " zoomed" : ""}" viewBox="${viewBoxValue}" role="img" aria-label="${route.title}路线地图">
       <defs>
         <filter id="mapWobble" x="-5%" y="-5%" width="110%" height="110%">
           <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="7" result="noise" />
@@ -11941,13 +12098,14 @@ function renderMap(route) {
           <circle cx="${introX}" cy="${introY}" r="19"></circle>
           <text x="${introX}" y="${introY + 1}">起</text>
         </g>
-        <text class="poi-label" x="${introX + 26}" y="${introY + 5}">路线开场</text>
-        <g class="map-here">
+        ${introLabel}
+        ${pillVisible ? `<g class="map-here">
           <path d="M${hereX} ${hereY} h92 a18 18 0 0 1 18 18 v0 a18 18 0 0 1 -18 18 h-92 a18 18 0 0 1 -18 -18 v0 a18 18 0 0 1 18 -18Z"></path>
           <text x="${hereX + 46}" y="${hereY + 19}">你在这里</text>
-        </g>
+        </g>` : ""}
       </g>
-      <text class="map-note" x="${viewBox.noteX}" y="${viewBox.noteY}">${route.start} → ${route.end}</text>
+      <text class="map-note" x="${Math.round(vbCX - vbW / 2 + 26)}" y="${Math.round(vbCY + vbH / 2 - 22)}">${route.start} → ${route.end}</text>
+      ${view.scale > 1 ? `<g class="map-reset" role="button" tabindex="0" onclick="resetMapView()" aria-label="复位地图"><circle cx="${vbCX - vbW / 2 + 46}" cy="${vbCY - vbH / 2 + 46}" r="26"></circle><text x="${vbCX - vbW / 2 + 46}" y="${vbCY - vbH / 2 + 52}">复位</text></g>` : ""}
     </svg>
   `;
 }
@@ -11964,28 +12122,138 @@ function renderBrand() {
   `;
 }
 
+const cityProvinces = {
+  datong: "山西", jinzhong: "山西", taiyuan: "山西", xinzhou: "山西", shuozhou: "山西", yuncheng: "山西",
+  beijing: "北京", shanghai: "上海", xian: "陕西", chengdu: "四川",
+  hangzhou: "浙江", suzhou: "江苏", nanjing: "江苏",
+  guilin: "广西", chongqing: "重庆", guangzhou: "广东"
+};
+
+function setSearch(value) {
+  state.query = value || "";
+  render();
+  const el = app.querySelector(".home-search");
+  if (el) {
+    el.focus();
+    el.setSelectionRange(el.value.length, el.value.length);
+  }
+}
+
+function searchResults(query) {
+  const q = query.trim().toLowerCase();
+  if (!q) return null;
+  const cities = data.cities.filter((city) =>
+    [city.name, city.subtitle, cityProvinces[city.id] || ""].some((text) => text.toLowerCase().includes(q))
+  );
+  const routes = [];
+  data.cities.forEach((city) => {
+    city.routes.forEach((route) => {
+      const haystack = [route.title, route.theme, route.start, route.end, ...route.stops.map((stop) => stop.title)].join(" ");
+      if (haystack.toLowerCase().includes(q)) routes.push({ city, route });
+    });
+  });
+  return { cities, routes };
+}
+
+function gotoRoute(cityId, routeId) {
+  const city = data.cities.find((item) => item.id === cityId);
+  if (!city) return;
+  stopAudio();
+  state.view = "route";
+  state.cityId = city.id;
+  state.routeId = city.routes.some((item) => item.id === routeId) ? routeId : city.routes[0].id;
+  state.stopIndex = 0;
+  state.introSelected = false;
+  state.tab = "info";
+  state.mapView = { dx: 0, dy: 0, scale: 1 };
+  loadReviewChecks();
+  render();
+}
+
 function renderHomeView() {
+  const query = (state.query || "").trim();
+  const results = searchResults(query);
+  const searchBox = `
+    <div class="home-search-wrap">
+      <input class="home-search" type="search" placeholder="搜索城市或景点，比如「大同」「云冈」「西湖」" value="${state.query || ""}" oninput="setSearch(this.value)" aria-label="搜索城市或景点">
+    </div>
+  `;
+  if (results) {
+    return `
+      <main class="home-view">
+        <header class="home-hero">
+          ${renderBrand()}
+        </header>
+        ${searchBox}
+        <div class="section-label">搜索「${query}」 · ${results.cities.length} 个城市 · ${results.routes.length} 条路线</div>
+        ${results.cities.length ? `<div class="city-grid">${results.cities
+          .map((city) => {
+            const stopCount = city.routes.reduce((sum, route) => sum + route.stops.length, 0);
+            return `
+              <button class="city-tile" data-city="${city.id}" onclick="setCity('${city.id}')">
+                <span class="city-tile-name">${city.name}</span>
+                <span class="city-tile-meta">${cityProvinces[city.id]} · ${city.subtitle}</span>
+                <span class="city-tile-stats">${city.routes.length} 条路线 · ${stopCount} 个点位</span>
+              </button>
+            `;
+          })
+          .join("")}</div>` : ""}
+        ${results.routes.length ? `<div class="route-card-list home-search-results">${results.routes
+          .map(
+            ({ city, route }) => `
+            <button class="sight-card" data-goto="${city.id}:${route.id}" onclick="gotoRoute('${city.id}', '${route.id}')">
+              <span class="sight-card-top">
+                <span class="sight-title">${route.title}</span>
+                <span class="sight-state">${city.name}</span>
+              </span>
+              <span class="sight-theme">${route.theme}</span>
+              <span class="sight-path">${route.start} → ${route.end}</span>
+            </button>
+          `
+          )
+          .join("")}</div>` : ""}
+        ${!results.cities.length && !results.routes.length ? `<p class="home-empty">没有找到「${query}」相关的城市或景点，换个词试试。</p>` : ""}
+      </main>
+    `;
+  }
+  const provinces = [];
+  data.cities.forEach((city) => {
+    const province = cityProvinces[city.id] || "其他";
+    let group = provinces.find((item) => item.name === province);
+    if (!group) {
+      group = { name: province, cities: [] };
+      provinces.push(group);
+    }
+    group.cities.push(city);
+  });
   return `
     <main class="home-view">
       <header class="home-hero">
         ${renderBrand()}
         <p class="home-tagline">先选城市，再选一条路线，然后跟着地图一站一站听。像 Rick Steves Audio Europe 一样的现场音频导览。</p>
       </header>
-      <div class="section-label">选择目的地 · ${data.cities.length} 个城市</div>
-      <div class="city-grid">
-        ${data.cities
-          .map((city) => {
-            const stopCount = city.routes.reduce((sum, route) => sum + route.stops.length, 0);
-            return `
-              <button class="city-tile" data-city="${city.id}" onclick="setCity('${city.id}')">
-                <span class="city-tile-name">${city.name}</span>
-                <span class="city-tile-meta">${city.subtitle}</span>
-                <span class="city-tile-stats">${city.routes.length} 条路线 · ${stopCount} 个点位</span>
-              </button>
-            `;
-          })
-          .join("")}
-      </div>
+      ${searchBox}
+      ${provinces
+        .map(
+          (group) => `
+          <div class="section-label">${group.name} · ${group.cities.length} 个城市</div>
+          <div class="city-grid">
+            ${group.cities
+              .map((city) => {
+                const stopCount = city.routes.reduce((sum, route) => sum + route.stops.length, 0);
+                return `
+                  <button class="city-tile" data-city="${city.id}" onclick="setCity('${city.id}')">
+                    <span class="city-tile-name">${city.name}</span>
+                    <span class="city-tile-meta">${city.subtitle}</span>
+                    <span class="city-tile-stats">${city.routes.length} 条路线 · ${stopCount} 个点位</span>
+                  </button>
+                `;
+              })
+              .join("")}
+          </div>
+        `
+        )
+        .join("")}
     </main>
   `;
 }
@@ -12389,6 +12657,7 @@ function render() {
     return;
   }
   app.innerHTML = renderRouteView(city, route, stop);
+  bindMapInteractions();
 }
 
 function handleAction(target) {

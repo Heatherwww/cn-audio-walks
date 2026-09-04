@@ -1207,6 +1207,20 @@ button {
   font-size: 13px;
   font-weight: 800;
   pointer-events: none;
+  paint-order: stroke;
+  stroke: rgba(255, 250, 238, 0.92);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+
+.map-landmark,
+.map-note,
+.map-building-label,
+.map-small-label {
+  paint-order: stroke;
+  stroke: rgba(255, 250, 238, 0.85);
+  stroke-width: 3px;
+  stroke-linejoin: round;
 }
 
 .map-here path {
@@ -3179,4 +3193,64 @@ svg .icon-stroke {
   stroke-width: 4;
   stroke-dasharray: 10 8;
   stroke-linecap: round;
+}
+
+/* ---------- Map pan/zoom + reset ---------- */
+
+.route-map.zoomed {
+  cursor: grab;
+  touch-action: none;
+}
+
+.map-reset circle {
+  fill: rgba(255, 250, 238, 0.92);
+  stroke: rgba(22, 33, 31, 0.35);
+  stroke-width: 2;
+  cursor: pointer;
+}
+
+.map-reset text {
+  font-size: 13px;
+  font-weight: 700;
+  fill: #33413d;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+/* ---------- Home search + province groups ---------- */
+
+.home-search-wrap {
+  margin: 4px 0 18px;
+}
+
+.home-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 18px;
+  border: 1px solid rgba(22, 33, 31, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 250, 238, 0.85);
+  font-size: 15px;
+  color: #16211f;
+  outline: none;
+}
+
+.home-search:focus {
+  border-color: #b94434;
+  box-shadow: 0 0 0 3px rgba(185, 68, 52, 0.12);
+}
+
+.home-search-results {
+  margin-bottom: 26px;
+}
+
+.home-empty {
+  padding: 30px 0;
+  text-align: center;
+  color: rgba(22, 33, 31, 0.6);
+}
+
+.home-view .section-label {
+  color: rgba(22, 33, 31, 0.55);
+  margin-top: 22px;
 }
