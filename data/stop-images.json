@@ -1,2836 +1,3336 @@
 {
-  "yungang/0": {
-    "file": "images/stops/yungang/0.webp",
-    "name": "61292-Yungang-Grottoes_(28498548881).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "yungang/1": {
-    "file": "images/stops/yungang/1.webp",
-    "name": "Datong Yungang Shiku 2013.08.29 14-47-44.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "yungang/2": {
-    "file": "images/stops/yungang/2.webp",
-    "name": "61292-Yungang-Grottoes_(28498548881).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "yungang/3": {
-    "file": "images/stops/yungang/3.webp",
-    "name": "云冈石窟第20窟正面.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "yungang/4": {
-    "file": "images/stops/yungang/4.webp",
-    "name": "61292-Yungang-Grottoes_(28498548881).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "datong-city/0": {
-    "file": "images/stops/datong-city/0.webp",
-    "name": "Datong_Huayan_Si_2013.08.29_08-54-08.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "datong-city/1": {
-    "file": "images/stops/datong-city/1.webp",
-    "name": "Datong_Huayan_Si_2013.08.29_08-54-08.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "datong-city/2": {
-    "file": "images/stops/datong-city/2.webp",
-    "name": "华严寺薄伽教藏殿雨后正面.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-city/3": {
-    "file": "images/stops/datong-city/3.webp",
-    "name": "Datong_Jiulongbi_2013.08.29_13-37-51.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "datong-city/4": {
-    "file": "images/stops/datong-city/4.webp",
-    "name": "Datong_Shanhua_Si_2013.08.29_12-28-45.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "datong-wall/0": {
-    "file": "images/stops/datong-wall/0.webp",
-    "name": "Datongsouthgate2019.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-wall/1": {
-    "file": "images/stops/datong-wall/1.webp",
-    "name": "Datongsouthgate2019.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-wall/2": {
-    "file": "images/stops/datong-wall/2.webp",
-    "name": "Datongsouthgate2019.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-wall/3": {
-    "file": "images/stops/datong-wall/3.webp",
-    "name": "Datong_Wenmiao_2013.08.29_12-10-00.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "datong-wall/4": {
-    "file": "images/stops/datong-wall/4.webp",
-    "name": "Datongsouthgate2019.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-axis/2": {
-    "file": "images/stops/datong-axis/2.webp",
-    "name": "Datong_Chunyang_Gong_2013.08.29_10-18-52.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "datong-axis/3": {
-    "file": "images/stops/datong-axis/3.webp",
-    "name": "代王府棂星门_2025-06-01_(54578937826).jpg",
-    "match": "stop",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "datong-axis/4": {
-    "file": "images/stops/datong-axis/4.webp",
-    "name": "Datong_Jiulongbi_2013.08.29_13-37-51.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "xuankong-temple/0": {
-    "file": "images/stops/xuankong-temple/0.webp",
-    "name": "Hangingtemple20190929.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "xuankong-temple/1": {
-    "file": "images/stops/xuankong-temple/1.webp",
-    "name": "Hangingtemple20190929.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "xuankong-temple/2": {
-    "file": "images/stops/xuankong-temple/2.webp",
-    "name": "Hangingtemple20190929.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "xuankong-temple/3": {
-    "file": "images/stops/xuankong-temple/3.webp",
-    "name": "Hunyuan Xuankong Si 2013.08.30 09-24-59.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "xuankong-temple/4": {
-    "file": "images/stops/xuankong-temple/4.webp",
-    "name": "Hangingtemple20190929.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-museum/0": {
-    "file": "images/stops/datong-museum/0.webp",
-    "name": "平城_大同博物馆_01.jpg",
-    "match": "route",
-    "artist": "Liuxingy",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-museum/1": {
-    "file": "images/stops/datong-museum/1.webp",
-    "name": "平城_大同博物馆_01.jpg",
-    "match": "route",
-    "artist": "Liuxingy",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-museum/2": {
-    "file": "images/stops/datong-museum/2.webp",
-    "name": "平城 大同市博物馆之司马金龙墓俑群 02.jpg",
-    "match": "stop",
-    "artist": "Liuxingy",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-museum/3": {
-    "file": "images/stops/datong-museum/3.webp",
-    "name": "平城_大同博物馆_01.jpg",
-    "match": "route",
-    "artist": "Liuxingy",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-museum/4": {
-    "file": "images/stops/datong-museum/4.webp",
-    "name": "平城_大同博物馆_01.jpg",
-    "match": "route",
-    "artist": "Liuxingy",
-    "license": "CC BY-SA 4.0"
-  },
-  "pingyao/0": {
-    "file": "images/stops/pingyao/0.webp",
-    "name": "Pingyao_40.JPG",
-    "match": "route",
-    "artist": "Nicor",
-    "license": "CC BY-SA 3.0"
-  },
-  "pingyao/1": {
-    "file": "images/stops/pingyao/1.webp",
-    "name": "Pingyao_40.JPG",
-    "match": "route",
-    "artist": "Nicor",
-    "license": "CC BY-SA 3.0"
-  },
-  "pingyao/2": {
-    "file": "images/stops/pingyao/2.webp",
-    "name": "山西平遥古城日升昌票号院内 - panoramio.jpg",
-    "match": "stop",
-    "artist": "Tiger@西北",
-    "license": "CC BY-SA 3.0"
-  },
-  "pingyao/3": {
-    "file": "images/stops/pingyao/3.webp",
-    "name": "Pingyao_40.JPG",
-    "match": "route",
-    "artist": "Nicor",
-    "license": "CC BY-SA 3.0"
-  },
-  "pingyao/4": {
-    "file": "images/stops/pingyao/4.webp",
-    "name": "山西平遥古城县衙 - panoramio.jpg",
-    "match": "route",
-    "artist": "Tiger@西北",
-    "license": "CC BY-SA 3.0"
-  },
-  "pingyao/5": {
-    "file": "images/stops/pingyao/5.webp",
-    "name": "Pingyao_40.JPG",
-    "match": "route",
-    "artist": "Nicor",
-    "license": "CC BY-SA 3.0"
-  },
-  "shuanglin-temple/0": {
-    "file": "images/stops/shuanglin-temple/0.webp",
-    "name": "Pingyao Shuanglin Si 2013.08.26 09-49-00.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "shuanglin-temple/1": {
-    "file": "images/stops/shuanglin-temple/1.webp",
-    "name": "Pingyao_Shuanglin_Si_2013.08.26_08-53-26.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "shuanglin-temple/2": {
-    "file": "images/stops/shuanglin-temple/2.webp",
-    "name": "平遥双林寺释迦殿.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "shuanglin-temple/3": {
-    "file": "images/stops/shuanglin-temple/3.webp",
-    "name": "平遥双林寺千佛殿左侧.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "shuanglin-temple/4": {
-    "file": "images/stops/shuanglin-temple/4.webp",
-    "name": "平遥双林寺菩萨殿匾额.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "zhenguo-temple/0": {
-    "file": "images/stops/zhenguo-temple/0.webp",
-    "name": "Pingyao_Zhenguo_Si_2013.08.26_15-22-26.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "zhenguo-temple/1": {
-    "file": "images/stops/zhenguo-temple/1.webp",
-    "name": "Pingyao_Zhenguo_Si_2013.08.26_15-22-26.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "zhenguo-temple/2": {
-    "file": "images/stops/zhenguo-temple/2.webp",
-    "name": "镇国寺-6.jpg",
-    "match": "route",
-    "artist": "Fymking",
-    "license": "CC BY-SA 4.0"
-  },
-  "zhenguo-temple/3": {
-    "file": "images/stops/zhenguo-temple/3.webp",
-    "name": "镇国寺-6.jpg",
-    "match": "route",
-    "artist": "Fymking",
-    "license": "CC BY-SA 4.0"
-  },
-  "zhenguo-temple/4": {
-    "file": "images/stops/zhenguo-temple/4.webp",
-    "name": "Pingyao_Zhenguo_Si_2013.08.26_15-22-26.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "qiao-compound/0": {
-    "file": "images/stops/qiao-compound/0.webp",
-    "name": "乔家大院.jpg",
-    "match": "route",
-    "artist": "螺钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "qiao-compound/1": {
-    "file": "images/stops/qiao-compound/1.webp",
-    "name": "乔家大院.jpg",
-    "match": "route",
-    "artist": "螺钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "qiao-compound/2": {
-    "file": "images/stops/qiao-compound/2.webp",
-    "name": "乔家大院.jpg",
-    "match": "route",
-    "artist": "螺钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "qiao-compound/3": {
-    "file": "images/stops/qiao-compound/3.webp",
-    "name": "乔家大院.jpg",
-    "match": "route",
-    "artist": "螺钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "qiao-compound/4": {
-    "file": "images/stops/qiao-compound/4.webp",
-    "name": "乔家大院.jpg",
-    "match": "route",
-    "artist": "螺钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "datong-axis/0": {
-    "file": "images/stops/datong-axis/0.webp",
-    "name": "Qingyuan_Street_in_Datong_City.jpg",
-    "match": "stop",
-    "artist": "Japanese invaders",
-    "license": "Public domain"
-  },
-  "datong-axis/1": {
-    "file": "images/stops/datong-axis/1.webp",
-    "name": "Datong_Drum_Tower,_2020-09-08_01.jpg",
-    "match": "stop",
-    "artist": "Siyuwj",
-    "license": "CC BY-SA 4.0"
-  },
-  "wang-compound/0": {
-    "file": "images/stops/wang-compound/0.webp",
-    "name": "Lingshi_Jingsheng_Wangjia_Dayuan_2013.08.24_13-35-03.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "wang-compound/1": {
-    "file": "images/stops/wang-compound/1.webp",
-    "name": "Lingshi Jingsheng Wangjia Dayuan 2013.08.24 13-38-27.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "wang-compound/2": {
-    "file": "images/stops/wang-compound/2.webp",
-    "name": "靈石王家大院 - 高家崖凝瑞居 - panoramio.jpg",
-    "match": "stop",
-    "artist": "Tiger@西北",
-    "license": "CC BY-SA 3.0"
-  },
-  "wang-compound/3": {
-    "file": "images/stops/wang-compound/3.webp",
-    "name": "Lingshi_Jingsheng_Wangjia_Dayuan_2013.08.24_13-35-03.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "wang-compound/4": {
-    "file": "images/stops/wang-compound/4.webp",
-    "name": "Lingshi_Jingsheng_Wangjia_Dayuan_2013.08.24_13-35-03.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "jinci/0": {
-    "file": "images/stops/jinci/0.webp",
-    "name": "晋祠胜境.JPG",
-    "match": "stop",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "jinci/1": {
-    "file": "images/stops/jinci/1.webp",
-    "name": "晋祠水镜台正面.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "jinci/2": {
-    "file": "images/stops/jinci/2.webp",
-    "name": "晋祠献殿侧面.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "jinci/3": {
-    "file": "images/stops/jinci/3.webp",
-    "name": "晋祠圣母殿和鱼沼飞梁.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "jinci/4": {
-    "file": "images/stops/jinci/4.webp",
-    "name": "晋祠圣母殿侧面.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "jinci/5": {
-    "file": "images/stops/jinci/5.webp",
-    "name": "1962-06 1962年 晋祠 难老泉.jpg",
-    "match": "stop",
-    "artist": "《人民画报》",
-    "license": "Public domain"
-  },
-  "shanxi-museum/0": {
-    "file": "images/stops/shanxi-museum/0.webp",
-    "name": "Shanxi_Museum_2025.jpg",
-    "match": "route",
-    "artist": "1969社论",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanxi-museum/1": {
-    "file": "images/stops/shanxi-museum/1.webp",
-    "name": "Shanxi_Museum_2025.jpg",
-    "match": "route",
-    "artist": "1969社论",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanxi-museum/2": {
-    "file": "images/stops/shanxi-museum/2.webp",
-    "name": "Shanxi_Museum_2025.jpg",
-    "match": "route",
-    "artist": "1969社论",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanxi-museum/3": {
-    "file": "images/stops/shanxi-museum/3.webp",
-    "name": "TheMeltingpot1.jpg",
-    "match": "stop",
-    "artist": "Unknown authorUnknown author",
-    "license": "Public domain"
-  },
-  "shanxi-museum/4": {
-    "file": "images/stops/shanxi-museum/4.webp",
-    "name": "Shanxi_Museum_2025.jpg",
-    "match": "route",
-    "artist": "1969社论",
-    "license": "CC BY-SA 4.0"
-  },
-  "yongzuo-shuangta/0": {
-    "file": "images/stops/yongzuo-shuangta/0.webp",
-    "name": "Twin_Pagoda_Revolutionary_Martyr_Cemetery_in_Taiyuan_2011-10.JPG",
-    "match": "stop",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "yongzuo-shuangta/1": {
-    "file": "images/stops/yongzuo-shuangta/1.webp",
-    "name": "太原永祚寺双塔 The Twin Pagodas of Yongzuo Temple in Taiyuan.jpg",
-    "match": "route",
-    "artist": "HerryCFPL",
-    "license": "CC0"
-  },
-  "yongzuo-shuangta/2": {
-    "file": "images/stops/yongzuo-shuangta/2.webp",
-    "name": "太原永祚寺双塔 The Twin Pagodas of Yongzuo Temple in Taiyuan.jpg",
-    "match": "route",
-    "artist": "HerryCFPL",
-    "license": "CC0"
-  },
-  "yongzuo-shuangta/3": {
-    "file": "images/stops/yongzuo-shuangta/3.webp",
-    "name": "Tayuan_Residential_Community_(20211221155240).jpg",
-    "match": "stop",
-    "artist": "N509FZ",
-    "license": "CC BY-SA 4.0"
-  },
-  "yongzuo-shuangta/4": {
-    "file": "images/stops/yongzuo-shuangta/4.webp",
-    "name": "太原永祚寺双塔 The Twin Pagodas of Yongzuo Temple in Taiyuan.jpg",
-    "match": "route",
-    "artist": "HerryCFPL",
-    "license": "CC0"
-  },
-  "tianlongshan/0": {
-    "file": "images/stops/tianlongshan/0.webp",
-    "name": "Taiyuan_tianlongshanshiku.JPG",
-    "match": "stop",
-    "artist": "Halazhang",
-    "license": "CC BY-SA 4.0"
-  },
-  "tianlongshan/1": {
-    "file": "images/stops/tianlongshan/1.webp",
-    "name": "Taiyuan_tianlongshanshiku.JPG",
-    "match": "route",
-    "artist": "Halazhang",
-    "license": "CC BY-SA 4.0"
-  },
-  "tianlongshan/2": {
-    "file": "images/stops/tianlongshan/2.webp",
-    "name": "Taiyuan_tianlongshanshiku.JPG",
-    "match": "route",
-    "artist": "Halazhang",
-    "license": "CC BY-SA 4.0"
-  },
-  "tianlongshan/3": {
-    "file": "images/stops/tianlongshan/3.webp",
-    "name": "天龙山石窟第8窟-隋代.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "tianlongshan/4": {
-    "file": "images/stops/tianlongshan/4.webp",
-    "name": "天龙山石窟第9窟漫山阁.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "fucheng-walk/0": {
-    "file": "images/stops/fucheng-walk/0.webp",
-    "name": "Taiyuan Chongshan Si 2013.08.27 15-24-49.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "fucheng-walk/1": {
-    "file": "images/stops/fucheng-walk/1.webp",
-    "name": "Taiyuan Chongshan Si 2013.08.27 15-24-49.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "fucheng-walk/2": {
-    "file": "images/stops/fucheng-walk/2.webp",
-    "name": "Taiyuan Chongshan Si 2013.08.27 15-24-49.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "fucheng-walk/3": {
-    "file": "images/stops/fucheng-walk/3.webp",
-    "name": "Taiyuan Chongshan Si 2013.08.27 15-24-49.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "wutai/0": {
-    "file": "images/stops/wutai/0.webp",
-    "name": "中國山西五台山世界遺產534.jpg",
-    "match": "route",
-    "artist": "林高志",
-    "license": "CC BY-SA 4.0"
-  },
-  "wutai/1": {
-    "file": "images/stops/wutai/1.webp",
-    "name": "中國山西五台山世界遺產534.jpg",
-    "match": "route",
-    "artist": "林高志",
-    "license": "CC BY-SA 4.0"
-  },
-  "wutai/2": {
-    "file": "images/stops/wutai/2.webp",
-    "name": "中國山西五台山世界遺產534.jpg",
-    "match": "route",
-    "artist": "林高志",
-    "license": "CC BY-SA 4.0"
-  },
-  "wutai/3": {
-    "file": "images/stops/wutai/3.webp",
-    "name": "五台山塔院寺 ta yuan si, Wutai Mountain - panoramio.jpg",
-    "match": "route",
-    "artist": "wanghongliu",
-    "license": "CC BY-SA 3.0"
-  },
-  "wutai/4": {
-    "file": "images/stops/wutai/4.webp",
-    "name": "中國山西五台山世界遺產534.jpg",
-    "match": "route",
-    "artist": "林高志",
-    "license": "CC BY-SA 4.0"
-  },
-  "foguang-temple/0": {
-    "file": "images/stops/foguang-temple/0.webp",
-    "name": "佛光寺-1.jpg",
-    "match": "route",
-    "artist": "Fymking",
-    "license": "CC BY-SA 4.0"
-  },
-  "foguang-temple/1": {
-    "file": "images/stops/foguang-temple/1.webp",
-    "name": "佛光寺-1.jpg",
-    "match": "route",
-    "artist": "Fymking",
-    "license": "CC BY-SA 4.0"
-  },
-  "foguang-temple/2": {
-    "file": "images/stops/foguang-temple/2.webp",
-    "name": "佛光寺-1.jpg",
-    "match": "route",
-    "artist": "Fymking",
-    "license": "CC BY-SA 4.0"
-  },
-  "foguang-temple/3": {
-    "file": "images/stops/foguang-temple/3.webp",
-    "name": "佛光寺-1.jpg",
-    "match": "route",
-    "artist": "Fymking",
-    "license": "CC BY-SA 4.0"
-  },
-  "foguang-temple/4": {
-    "file": "images/stops/foguang-temple/4.webp",
-    "name": "佛光寺-1.jpg",
-    "match": "route",
-    "artist": "Fymking",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanchan-temple/0": {
-    "file": "images/stops/nanchan-temple/0.webp",
-    "name": "南禅寺大殿正面二.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanchan-temple/1": {
-    "file": "images/stops/nanchan-temple/1.webp",
-    "name": "南禅寺大殿正面二.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanchan-temple/2": {
-    "file": "images/stops/nanchan-temple/2.webp",
-    "name": "南禅寺大殿正面.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanchan-temple/3": {
-    "file": "images/stops/nanchan-temple/3.webp",
-    "name": "南禅寺大殿正面二.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanchan-temple/4": {
-    "file": "images/stops/nanchan-temple/4.webp",
-    "name": "南禅寺大殿正面二.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "xinzhou-ancient-city/2": {
-    "file": "images/stops/xinzhou-ancient-city/2.webp",
-    "name": "Entrance_paifang_of_Xiurong_Academy_(20250712082728).jpg",
-    "match": "stop",
-    "artist": "N509FZ",
-    "license": "CC BY-SA 4.0"
-  },
-  "xinzhou-ancient-city/3": {
-    "file": "images/stops/xinzhou-ancient-city/3.webp",
-    "name": "Entrance_paifang_of_Xiurong_Academy_(20250712082728).jpg",
-    "match": "stop",
-    "artist": "N509FZ",
-    "license": "CC BY-SA 4.0"
-  },
-  "yanmenguan-pass/1": {
-    "file": "images/stops/yanmenguan-pass/1.webp",
-    "name": "20250604_Yanmenguan_Zhan.jpg",
-    "match": "route",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "yanmenguan-pass/2": {
-    "file": "images/stops/yanmenguan-pass/2.webp",
-    "name": "20250604_Yanmenguan_Zhan.jpg",
-    "match": "route",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "yanmenguan-pass/3": {
-    "file": "images/stops/yanmenguan-pass/3.webp",
-    "name": "20250604_Yanmenguan_Zhan.jpg",
-    "match": "route",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "yanmenguan-pass/4": {
-    "file": "images/stops/yanmenguan-pass/4.webp",
-    "name": "20250604_Yanmenguan_Zhan.jpg",
-    "match": "route",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "daixian-ancient-city/4": {
-    "file": "images/stops/daixian-ancient-city/4.webp",
-    "name": "代县阿育王塔正面.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "yingxian-pagoda/0": {
-    "file": "images/stops/yingxian-pagoda/0.webp",
-    "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "yingxian-pagoda/1": {
-    "file": "images/stops/yingxian-pagoda/1.webp",
-    "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "yingxian-pagoda/2": {
-    "file": "images/stops/yingxian-pagoda/2.webp",
-    "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
-    "match": "stop",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "yingxian-pagoda/3": {
-    "file": "images/stops/yingxian-pagoda/3.webp",
-    "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "yingxian-pagoda/4": {
-    "file": "images/stops/yingxian-pagoda/4.webp",
-    "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
-    "match": "route",
-    "artist": "Charlie fong",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongfu-temple/0": {
-    "file": "images/stops/chongfu-temple/0.webp",
-    "name": "崇福寺山门.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongfu-temple/1": {
-    "file": "images/stops/chongfu-temple/1.webp",
-    "name": "崇福寺山门.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongfu-temple/2": {
-    "file": "images/stops/chongfu-temple/2.webp",
-    "name": "崇福寺山门.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongfu-temple/3": {
-    "file": "images/stops/chongfu-temple/3.webp",
-    "name": "崇福寺弥陀殿远景.jpg",
-    "match": "stop",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongfu-temple/4": {
-    "file": "images/stops/chongfu-temple/4.webp",
-    "name": "崇福寺山门.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "jingtu-temple/0": {
-    "file": "images/stops/jingtu-temple/0.webp",
-    "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "jingtu-temple/1": {
-    "file": "images/stops/jingtu-temple/1.webp",
-    "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "jingtu-temple/2": {
-    "file": "images/stops/jingtu-temple/2.webp",
-    "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "jingtu-temple/3": {
-    "file": "images/stops/jingtu-temple/3.webp",
-    "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "jingtu-temple/4": {
-    "file": "images/stops/jingtu-temple/4.webp",
-    "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "haizhou-guandi/1": {
-    "file": "images/stops/haizhou-guandi/1.webp",
-    "name": "20260504_Haizhou_Emperor_Guan_Temple_11.jpg",
-    "match": "route",
-    "artist": "Windmemories",
-    "license": "CC BY-SA 4.0"
-  },
-  "haizhou-guandi/2": {
-    "file": "images/stops/haizhou-guandi/2.webp",
-    "name": "20260504_Haizhou_Emperor_Guan_Temple_11.jpg",
-    "match": "route",
-    "artist": "Windmemories",
-    "license": "CC BY-SA 4.0"
-  },
-  "haizhou-guandi/3": {
-    "file": "images/stops/haizhou-guandi/3.webp",
-    "name": "20260504_Haizhou_Emperor_Guan_Temple_11.jpg",
-    "match": "route",
-    "artist": "Windmemories",
-    "license": "CC BY-SA 4.0"
-  },
-  "haizhou-guandi/4": {
-    "file": "images/stops/haizhou-guandi/4.webp",
-    "name": "20260504_Haizhou_Emperor_Guan_Temple_11.jpg",
-    "match": "route",
-    "artist": "Windmemories",
-    "license": "CC BY-SA 4.0"
-  },
-  "pujiu-temple/0": {
-    "file": "images/stops/pujiu-temple/0.webp",
-    "name": "Pujiu_Temple,_6_October_2017.jpg",
-    "match": "route",
-    "artist": "hwcmsb@126",
-    "license": "CC BY 2.5"
-  },
-  "pujiu-temple/1": {
-    "file": "images/stops/pujiu-temple/1.webp",
-    "name": "Pujiu_Temple,_6_October_2017.jpg",
-    "match": "route",
-    "artist": "hwcmsb@126",
-    "license": "CC BY 2.5"
-  },
-  "pujiu-temple/2": {
-    "file": "images/stops/pujiu-temple/2.webp",
-    "name": "Pujiu_Temple,_6_October_2017.jpg",
-    "match": "stop",
-    "artist": "hwcmsb@126",
-    "license": "CC BY 2.5"
-  },
-  "pujiu-temple/3": {
-    "file": "images/stops/pujiu-temple/3.webp",
-    "name": "Pujiu_Temple,_6_October_2017.jpg",
-    "match": "route",
-    "artist": "hwcmsb@126",
-    "license": "CC BY 2.5"
-  },
-  "pujiu-temple/4": {
-    "file": "images/stops/pujiu-temple/4.webp",
-    "name": "Pujiu_Temple,_6_October_2017.jpg",
-    "match": "route",
-    "artist": "hwcmsb@126",
-    "license": "CC BY 2.5"
-  },
-  "feiyun-tower/0": {
-    "file": "images/stops/feiyun-tower/0.webp",
-    "name": "飞云楼右侧庙墙外.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "feiyun-tower/1": {
-    "file": "images/stops/feiyun-tower/1.webp",
-    "name": "飞云楼右侧庙墙外.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "feiyun-tower/2": {
-    "file": "images/stops/feiyun-tower/2.webp",
-    "name": "飞云楼右侧庙墙外.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "feiyun-tower/3": {
-    "file": "images/stops/feiyun-tower/3.webp",
-    "name": "飞云楼右侧庙墙外.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "feiyun-tower/4": {
-    "file": "images/stops/feiyun-tower/4.webp",
-    "name": "飞云楼右侧庙墙外.jpg",
-    "match": "route",
-    "artist": "Patrick20242023",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-axis/0": {
-    "file": "images/stops/beijing-axis/0.webp",
-    "name": "正阳门背.jpg",
-    "match": "route",
-    "artist": "Liuyi",
-    "license": "CC BY-SA 3.0"
-  },
-  "beijing-axis/1": {
-    "file": "images/stops/beijing-axis/1.webp",
-    "name": "Tian'anmen_from_the_square_(20200825114150).jpg",
-    "match": "stop",
-    "artist": "N509FZ",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-axis/2": {
-    "file": "images/stops/beijing-axis/2.webp",
-    "name": "Tiananmen_beijing_Panorama.jpg",
-    "match": "stop",
-    "artist": "张瑜",
-    "license": "Public domain"
-  },
-  "beijing-axis/3": {
-    "file": "images/stops/beijing-axis/3.webp",
-    "name": "Tian'anmen_from_the_square_(20200825114150).jpg",
-    "match": "route",
-    "artist": "N509FZ",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-axis/4": {
-    "file": "images/stops/beijing-axis/4.webp",
-    "name": "The_Drum_Tower_in_Beijing.jpg",
-    "match": "stop",
-    "artist": "Czzhermit",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-hutong/0": {
-    "file": "images/stops/beijing-hutong/0.webp",
-    "name": "什刹海银锭桥西望.jpg",
-    "match": "stop",
-    "artist": "shizhao",
-    "license": "CC BY-SA 2.0"
-  },
-  "beijing-hutong/2": {
-    "file": "images/stops/beijing-hutong/2.webp",
-    "name": "CN-pek-hutong-bei-trommelturm.jpg",
-    "match": "stop",
-    "artist": "Bgabel",
-    "license": "CC BY-SA 3.0"
-  },
-  "beijing-hutong/4": {
-    "file": "images/stops/beijing-hutong/4.webp",
-    "name": "View_down_Nanluoguxiang_2011.jpg",
-    "match": "stop",
-    "artist": "Dimitris Argyris from Athens, Greece. Edited slightly prior to upload by Daniel Case",
-    "license": "CC BY 2.0"
-  },
-  "beijing-forbidden-city/0": {
-    "file": "images/stops/beijing-forbidden-city/0.webp",
-    "name": "故宫午门23.jpg",
-    "match": "stop",
-    "artist": "红烧腰果",
-    "license": "CC BY 4.0"
-  },
-  "beijing-forbidden-city/1": {
-    "file": "images/stops/beijing-forbidden-city/1.webp",
-    "name": "Forbidden_City_Beijing_Shenwumen_Gate.JPG",
-    "match": "route",
-    "artist": "user:kallgan",
-    "license": "CC BY-SA 3.0"
-  },
-  "beijing-forbidden-city/2": {
-    "file": "images/stops/beijing-forbidden-city/2.webp",
-    "name": "故宫乾清门椽子万寿彩画.JPG",
-    "match": "stop",
-    "artist": "Gisling",
-    "license": "CC BY 3.0"
-  },
-  "beijing-forbidden-city/3": {
-    "file": "images/stops/beijing-forbidden-city/3.webp",
-    "name": "故宫御花园 - panoramio.jpg",
-    "match": "stop",
-    "artist": "江上清风1961",
-    "license": "CC BY 3.0"
-  },
-  "beijing-forbidden-city/4": {
-    "file": "images/stops/beijing-forbidden-city/4.webp",
-    "name": "Forbidden_City_Beijing_Shenwumen_Gate.JPG",
-    "match": "stop",
-    "artist": "user:kallgan",
-    "license": "CC BY-SA 3.0"
-  },
-  "beijing-temple-of-heaven/4": {
-    "file": "images/stops/beijing-temple-of-heaven/4.webp",
-    "name": "Temple_of_Heaven_20160323_01.jpg",
-    "match": "stop",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-summer-palace/0": {
-    "file": "images/stops/beijing-summer-palace/0.webp",
-    "name": "The East Side of the Memorial Archway, East Palace Gate, Summer Palace, Haidian District, Beijing (202602230641).jpg",
-    "match": "stop",
-    "artist": "MiiCii",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-summer-palace/1": {
-    "file": "images/stops/beijing-summer-palace/1.webp",
-    "name": "北京颐和园仁寿殿2023.6 (1).jpg",
-    "match": "stop",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-summer-palace/2": {
-    "file": "images/stops/beijing-summer-palace/2.webp",
-    "name": "Summer_Palace_at_Beijing_21.jpg",
-    "match": "stop",
-    "artist": "Kallgan",
-    "license": "CC BY-SA 3.0"
-  },
-  "beijing-summer-palace/3": {
-    "file": "images/stops/beijing-summer-palace/3.webp",
-    "name": "Summer_Palace_at_Beijing_21.jpg",
-    "match": "route",
-    "artist": "Kallgan",
-    "license": "CC BY-SA 3.0"
-  },
-  "beijing-summer-palace/4": {
-    "file": "images/stops/beijing-summer-palace/4.webp",
-    "name": "颐和园石舫 - panoramio.jpg",
-    "match": "stop",
-    "artist": "zhanyoun",
-    "license": "CC BY-SA 3.0"
-  },
-  "beijing-lama-confucius/1": {
-    "file": "images/stops/beijing-lama-confucius/1.webp",
-    "name": "雍和宫法轮殿.jpg",
-    "match": "stop",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "beijing-lama-confucius/2": {
-    "file": "images/stops/beijing-lama-confucius/2.webp",
-    "name": "雍和宫万福阁2019.jpg",
-    "match": "stop",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-lama-confucius/3": {
-    "file": "images/stops/beijing-lama-confucius/3.webp",
-    "name": "Guozijian_Street_West_Entrance.jpg",
-    "match": "stop",
-    "artist": "高晶 at Chinese Wikipedia",
-    "license": "Public domain"
-  },
-  "beijing-lama-confucius/4": {
-    "file": "images/stops/beijing-lama-confucius/4.webp",
-    "name": "北京国子监辟雍.jpg",
-    "match": "stop",
-    "artist": "刘灼盛",
-    "license": "CC BY-SA 3.0"
-  },
-  "shanghai-bund/0": {
-    "file": "images/stops/shanghai-bund/0.webp",
-    "name": "WaibaiduBridgeOld1.jpg",
-    "match": "stop",
-    "artist": "Unknown authorUnknown author",
-    "license": "Public domain"
-  },
-  "shanghai-bund/1": {
-    "file": "images/stops/shanghai-bund/1.webp",
-    "name": "Raffles_City,_the_North_Bund.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-bund/2": {
-    "file": "images/stops/shanghai-bund/2.webp",
-    "name": "Shanghai_Customs_House_Dec_2017.jpg",
-    "match": "stop",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-bund/3": {
-    "file": "images/stops/shanghai-bund/3.webp",
-    "name": "DSC00244外滩夜景.jpg",
-    "match": "route",
-    "artist": "Ding Kezhong",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-bund/4": {
-    "file": "images/stops/shanghai-bund/4.webp",
-    "name": "The_Peace_Hotel.jpg",
-    "match": "stop",
-    "artist": "Paul Pak-hing Lee",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-shikumen/0": {
-    "file": "images/stops/shanghai-shikumen/0.webp",
-    "name": "Tingzijian,_Shikumen_Open_House_Museum_1.JPG",
-    "match": "route",
-    "artist": "BrokenSphere",
-    "license": "CC BY 3.0"
-  },
-  "shanghai-shikumen/1": {
-    "file": "images/stops/shanghai-shikumen/1.webp",
-    "name": "Tingzijian,_Shikumen_Open_House_Museum_1.JPG",
-    "match": "route",
-    "artist": "BrokenSphere",
-    "license": "CC BY 3.0"
-  },
-  "shanghai-shikumen/2": {
-    "file": "images/stops/shanghai-shikumen/2.webp",
-    "name": "Tingzijian,_Shikumen_Open_House_Museum_1.JPG",
-    "match": "route",
-    "artist": "BrokenSphere",
-    "license": "CC BY 3.0"
-  },
-  "shanghai-shikumen/3": {
-    "file": "images/stops/shanghai-shikumen/3.webp",
-    "name": "Fuxing_Park,_Shanghai.JPG",
-    "match": "stop",
-    "artist": "Jpbowen",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-shikumen/4": {
-    "file": "images/stops/shanghai-shikumen/4.webp",
-    "name": "Tingzijian,_Shikumen_Open_House_Museum_1.JPG",
-    "match": "route",
-    "artist": "BrokenSphere",
-    "license": "CC BY 3.0"
-  },
-  "shanghai-yuyuan/1": {
-    "file": "images/stops/shanghai-yuyuan/1.webp",
-    "name": "Yu Garden 03 2015-09.JPG",
-    "match": "stop",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-yuyuan/2": {
-    "file": "images/stops/shanghai-yuyuan/2.webp",
-    "name": "Dianchun_Tang.JPG",
-    "match": "stop",
-    "artist": "Yuqi Qiao",
-    "license": "CC BY-SA 3.0"
-  },
-  "shanghai-yuyuan/3": {
-    "file": "images/stops/shanghai-yuyuan/3.webp",
-    "name": "上海豫园玉玲珑-1.jpg",
-    "match": "stop",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "shanghai-longhua/0": {
-    "file": "images/stops/shanghai-longhua/0.webp",
-    "name": "Shanghai_Longhua_Si_2016.08.21_08-51-22.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-longhua/1": {
-    "file": "images/stops/shanghai-longhua/1.webp",
-    "name": "上海龙华塔2019.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-longhua/2": {
-    "file": "images/stops/shanghai-longhua/2.webp",
-    "name": "上海龙华塔2019.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-longhua/3": {
-    "file": "images/stops/shanghai-longhua/3.webp",
-    "name": "上海龙华塔2019.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-longhua/4": {
-    "file": "images/stops/shanghai-longhua/4.webp",
-    "name": "Temple_roofline.jpg",
-    "match": "stop",
-    "artist": "Joshua W",
-    "license": "CC BY-SA 2.0"
-  },
-  "shanghai-wukang/0": {
-    "file": "images/stops/shanghai-wukang/0.webp",
-    "name": "Wukang_Mansion_(20191114161507).jpg",
-    "match": "route",
-    "artist": "N509FZ",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-wukang/1": {
-    "file": "images/stops/shanghai-wukang/1.webp",
-    "name": "20260209_393_Wukang_Road.jpg",
-    "match": "stop",
-    "artist": "Windmemories",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-wukang/2": {
-    "file": "images/stops/shanghai-wukang/2.webp",
-    "name": "Wukang_Mansion_(20191114161507).jpg",
-    "match": "route",
-    "artist": "N509FZ",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-wukang/3": {
-    "file": "images/stops/shanghai-wukang/3.webp",
-    "name": "20260209_210_Wukang_Road.jpg",
-    "match": "stop",
-    "artist": "Windmemories",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-wukang/4": {
-    "file": "images/stops/shanghai-wukang/4.webp",
-    "name": "周立民 20240819 巴金故居常务副馆长.jpg",
-    "match": "stop",
-    "artist": "Auongkinghe",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-suzhou-creek/0": {
-    "file": "images/stops/shanghai-suzhou-creek/0.webp",
-    "name": "Sihang_Warehouse_2017.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-suzhou-creek/1": {
-    "file": "images/stops/shanghai-suzhou-creek/1.webp",
-    "name": "Chekiang_Road_Bridge.jpg",
-    "match": "stop",
-    "artist": "Fayhoo",
-    "license": "CC BY-SA 3.0"
-  },
-  "shanghai-suzhou-creek/2": {
-    "file": "images/stops/shanghai-suzhou-creek/2.webp",
-    "name": "上海总商会·上海.jpg",
-    "match": "stop",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "shanghai-suzhou-creek/3": {
-    "file": "images/stops/shanghai-suzhou-creek/3.webp",
-    "name": "Embankment_House_20250501.jpg",
-    "match": "stop",
-    "artist": "Suicasmo",
-    "license": "CC0"
-  },
-  "shanghai-suzhou-creek/4": {
-    "file": "images/stops/shanghai-suzhou-creek/4.webp",
-    "name": "General_Post_Office_Building.jpg",
-    "match": "stop",
-    "artist": "乔茗星",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-wall/0": {
-    "file": "images/stops/xian-wall/0.webp",
-    "name": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "xian-wall/1": {
-    "file": "images/stops/xian-wall/1.webp",
-    "name": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg",
-    "match": "stop",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "xian-wall/2": {
-    "file": "images/stops/xian-wall/2.webp",
-    "name": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "xian-wall/3": {
-    "file": "images/stops/xian-wall/3.webp",
-    "name": "GuanZhongShuYuan.JPG",
-    "match": "stop",
-    "artist": "Wang Zhongyin",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-wall/4": {
-    "file": "images/stops/xian-wall/4.webp",
-    "name": "西安碑林博物馆大门_2023-09-29.jpg",
-    "match": "stop",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-muslim-quarter/0": {
-    "file": "images/stops/xian-muslim-quarter/0.webp",
-    "name": "Xi'an_Bell_Tower_1.jpg",
-    "match": "stop",
-    "artist": "H2v5o68z",
-    "license": "CC0"
-  },
-  "xian-muslim-quarter/1": {
-    "file": "images/stops/xian-muslim-quarter/1.webp",
-    "name": "Xi'an_Drum_Tower_50308-Xian_(28004571916).jpg",
-    "match": "stop",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "xian-muslim-quarter/2": {
-    "file": "images/stops/xian-muslim-quarter/2.webp",
-    "name": "Xi'an_Bell_Tower_1.jpg",
-    "match": "route",
-    "artist": "H2v5o68z",
-    "license": "CC0"
-  },
-  "xian-muslim-quarter/3": {
-    "file": "images/stops/xian-muslim-quarter/3.webp",
-    "name": "Former_Residence_of_Gao_Yuesong_2011-07.JPG",
-    "match": "stop",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-muslim-quarter/4": {
-    "file": "images/stops/xian-muslim-quarter/4.webp",
-    "name": "Chinese-style_minaret_of_the_Great_Mosque.jpg",
-    "match": "stop",
-    "artist": "No machine-readable author provided. Mr. Tickle assumed (based on copyright claims).",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-dayan-pagoda/0": {
-    "file": "images/stops/xian-dayan-pagoda/0.webp",
-    "name": "Square_north2DayanTower.jpg",
-    "match": "stop",
-    "artist": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-dayan-pagoda/1": {
-    "file": "images/stops/xian-dayan-pagoda/1.webp",
-    "name": "Daci'en_Temple_51202-Xian_(27424345563).jpg",
-    "match": "stop",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "xian-dayan-pagoda/3": {
-    "file": "images/stops/xian-dayan-pagoda/3.webp",
-    "name": "2023-10-10 Hsüan-tsang san-tsang hall, Ta-tzu-en Temple, Hsi-An 西安大慈恩寺玄奘三藏院.jpg",
-    "match": "stop",
-    "artist": "源義信",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-dayan-pagoda/4": {
-    "file": "images/stops/xian-dayan-pagoda/4.webp",
-    "name": "大雁塔南广场 - panoramio.jpg",
-    "match": "stop",
-    "artist": "dayu490301",
-    "license": "CC BY 3.0"
-  },
-  "xian-xiaoyan-temple/0": {
-    "file": "images/stops/xian-xiaoyan-temple/0.webp",
-    "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
-    "match": "route",
-    "artist": "wanghongliu",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-xiaoyan-temple/1": {
-    "file": "images/stops/xian-xiaoyan-temple/1.webp",
-    "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
-    "match": "route",
-    "artist": "wanghongliu",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-xiaoyan-temple/2": {
-    "file": "images/stops/xian-xiaoyan-temple/2.webp",
-    "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
-    "match": "route",
-    "artist": "wanghongliu",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-xiaoyan-temple/3": {
-    "file": "images/stops/xian-xiaoyan-temple/3.webp",
-    "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
-    "match": "route",
-    "artist": "wanghongliu",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-xiaoyan-temple/4": {
-    "file": "images/stops/xian-xiaoyan-temple/4.webp",
-    "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
-    "match": "route",
-    "artist": "wanghongliu",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-daming-palace/0": {
-    "file": "images/stops/xian-daming-palace/0.webp",
-    "name": "Relics_of_Hanyuan_Dian.jpg",
-    "match": "route",
-    "artist": "Acstar",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-daming-palace/1": {
-    "file": "images/stops/xian-daming-palace/1.webp",
-    "name": "Relics_of_Hanyuan_Dian.jpg",
-    "match": "route",
-    "artist": "Acstar",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-daming-palace/2": {
-    "file": "images/stops/xian-daming-palace/2.webp",
-    "name": "大明宫—含元殿遗址.JPG",
-    "match": "stop",
-    "artist": "申威隆",
-    "license": "CC BY-SA 3.0"
-  },
-  "xian-daming-palace/3": {
-    "file": "images/stops/xian-daming-palace/3.webp",
-    "name": "太液池边的雕塑 - panoramio.jpg",
-    "match": "stop",
-    "artist": "dayu490301",
-    "license": "CC BY 3.0"
-  },
-  "xian-daming-palace/4": {
-    "file": "images/stops/xian-daming-palace/4.webp",
-    "name": "Relics_of_Hanyuan_Dian.jpg",
-    "match": "route",
-    "artist": "Acstar",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-qinglong-temple/0": {
-    "file": "images/stops/xian-qinglong-temple/0.webp",
-    "name": "青龙寺遗址-殿堂遗址（三号遗址）_(1).jpg",
-    "match": "route",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-qinglong-temple/1": {
-    "file": "images/stops/xian-qinglong-temple/1.webp",
-    "name": "青龙寺遗址-殿堂遗址（三号遗址）_(1).jpg",
-    "match": "route",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-qinglong-temple/2": {
-    "file": "images/stops/xian-qinglong-temple/2.webp",
-    "name": "青龙寺遗址-殿堂遗址（三号遗址）_(1).jpg",
-    "match": "route",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-qinglong-temple/3": {
-    "file": "images/stops/xian-qinglong-temple/3.webp",
-    "name": "西安青龙寺-惠果空海纪念堂 01.jpg",
-    "match": "stop",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "xian-qinglong-temple/4": {
-    "file": "images/stops/xian-qinglong-temple/4.webp",
-    "name": "青龙寺遗址-殿堂遗址（三号遗址）_(1).jpg",
-    "match": "route",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-tea/0": {
-    "file": "images/stops/chengdu-tea/0.webp",
-    "name": "成都人民公园北大门.jpg",
-    "match": "stop",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-tea/1": {
-    "file": "images/stops/chengdu-tea/1.webp",
-    "name": "Teahouse_in_Peoples_Park_-_Chengdu,_China_-_DSC05348.jpg",
-    "match": "stop",
-    "artist": "Daderot",
-    "license": "CC0"
-  },
-  "chengdu-tea/3": {
-    "file": "images/stops/chengdu-tea/3.webp",
-    "name": "武侯祠.jpg",
-    "match": "stop",
-    "artist": "Shizhao",
-    "license": "CC BY-SA 3.0"
-  },
-  "chengdu-tea/4": {
-    "file": "images/stops/chengdu-tea/4.webp",
-    "name": "Chengdu_travel_045_(36150300546).jpg",
-    "match": "route",
-    "artist": "JianEn Yu",
-    "license": "CC BY 2.0"
-  },
-  "chengdu-dufu/0": {
-    "file": "images/stops/chengdu-dufu/0.webp",
-    "name": "杜甫草堂西门（正门） 01.jpg",
-    "match": "route",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-dufu/1": {
-    "file": "images/stops/chengdu-dufu/1.webp",
-    "name": "杜甫草堂-大廨.jpg",
-    "match": "stop",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-dufu/2": {
-    "file": "images/stops/chengdu-dufu/2.webp",
-    "name": "杜甫草堂-诗史堂.jpg",
-    "match": "stop",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-dufu/3": {
-    "file": "images/stops/chengdu-dufu/3.webp",
-    "name": "Du_Fu_cao_tang.jpg",
-    "match": "route",
-    "artist": "User:唐戈",
-    "license": "CC BY-SA 3.0"
-  },
-  "chengdu-dufu/4": {
-    "file": "images/stops/chengdu-dufu/4.webp",
-    "name": "Du_Fu_cao_tang.jpg",
-    "match": "route",
-    "artist": "User:唐戈",
-    "license": "CC BY-SA 3.0"
-  },
-  "chengdu-jinsha/0": {
-    "file": "images/stops/chengdu-jinsha/0.webp",
-    "name": "金沙遗址博物馆遗迹馆.jpg",
-    "match": "stop",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-jinsha/1": {
-    "file": "images/stops/chengdu-jinsha/1.webp",
-    "name": "20250515_Jinsha_Yizhi_Bowuguan.jpg",
-    "match": "route",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-jinsha/2": {
-    "file": "images/stops/chengdu-jinsha/2.webp",
-    "name": "金沙遗址太阳神鸟_2018.jpg",
-    "match": "stop",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "chengdu-jinsha/3": {
-    "file": "images/stops/chengdu-jinsha/3.webp",
-    "name": "2014_Jinsha_Gold_Mask_a.jpg",
-    "match": "stop",
-    "artist": "Gary Todd",
-    "license": "CC0"
-  },
-  "chengdu-jinsha/4": {
-    "file": "images/stops/chengdu-jinsha/4.webp",
-    "name": "日落乌木林(金沙遗址) - panoramio.jpg",
-    "match": "stop",
-    "artist": "landagent",
-    "license": "CC BY-SA 3.0"
-  },
-  "chengdu-qingyang/1": {
-    "file": "images/stops/chengdu-qingyang/1.webp",
-    "name": "青羊宫混元殿 2024-10-17.jpg",
-    "match": "stop",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-qingyang/2": {
-    "file": "images/stops/chengdu-qingyang/2.webp",
-    "name": "成都青羊宫八卦亭.jpg",
-    "match": "stop",
-    "artist": "螺钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-qingyang/4": {
-    "file": "images/stops/chengdu-qingyang/4.webp",
-    "name": "斗姥殿.jpg",
-    "match": "stop",
-    "artist": "Shizhao",
-    "license": "CC BY-SA 3.0"
-  },
-  "chengdu-dujiangyan/0": {
-    "file": "images/stops/chengdu-dujiangyan/0.webp",
-    "name": "都江堰堰功道 阿尔泰 2024-05-01.jpg",
-    "match": "stop",
-    "artist": "Kcx36",
-    "license": "CC BY-SA 4.0"
-  },
-  "chengdu-dujiangyan/1": {
-    "file": "images/stops/chengdu-dujiangyan/1.webp",
-    "name": "伏龙观.jpg",
-    "match": "stop",
-    "artist": "Shizhao",
-    "license": "CC BY-SA 3.0"
-  },
-  "chengdu-dujiangyan/2": {
-    "file": "images/stops/chengdu-dujiangyan/2.webp",
-    "name": "36661-Dujiangyan_(44634340644).jpg",
-    "match": "stop",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "chengdu-dujiangyan/3": {
-    "file": "images/stops/chengdu-dujiangyan/3.webp",
-    "name": "飞沙堰.jpg",
-    "match": "stop",
-    "artist": "Shizhao",
-    "license": "CC BY-SA 3.0"
-  },
-  "chengdu-dujiangyan/4": {
-    "file": "images/stops/chengdu-dujiangyan/4.webp",
-    "name": "都江堰鱼嘴.jpg",
-    "match": "stop",
-    "artist": "星星",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-westlake/0": {
-    "file": "images/stops/hangzhou-westlake/0.webp",
-    "name": "西湖断桥 - panoramio.jpg",
-    "match": "stop",
-    "artist": "薄兰安",
-    "license": "CC BY 3.0"
-  },
-  "hangzhou-westlake/1": {
-    "file": "images/stops/hangzhou-westlake/1.webp",
-    "name": "West_Lake,_Hangzhou_2025.jpg",
-    "match": "route",
-    "artist": "Takashishin",
-    "license": "CC BY 4.0"
-  },
-  "hangzhou-westlake/2": {
-    "file": "images/stops/hangzhou-westlake/2.webp",
-    "name": "平湖秋月国保碑.JPG",
-    "match": "stop",
-    "artist": "Nekitarc",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-westlake/3": {
-    "file": "images/stops/hangzhou-westlake/3.webp",
-    "name": "西泠印社紀念社門.JPG",
-    "match": "stop",
-    "artist": "Inhorw",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-westlake/4": {
-    "file": "images/stops/hangzhou-westlake/4.webp",
-    "name": "West_Lake,_Hangzhou_2025.jpg",
-    "match": "route",
-    "artist": "Takashishin",
-    "license": "CC BY 4.0"
-  },
-  "hangzhou-canal/2": {
-    "file": "images/stops/hangzhou-canal/2.webp",
-    "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
-    "match": "stop",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-lingyin/0": {
-    "file": "images/stops/hangzhou-lingyin/0.webp",
-    "name": "Feilaifeng_zaoxiang_7577.jpg",
-    "match": "route",
-    "artist": "Doctoroftcm",
-    "license": "CC BY-SA 3.0"
-  },
-  "hangzhou-lingyin/1": {
-    "file": "images/stops/hangzhou-lingyin/1.webp",
-    "name": "Feilaifeng_zaoxiang_7577.jpg",
-    "match": "route",
-    "artist": "Doctoroftcm",
-    "license": "CC BY-SA 3.0"
-  },
-  "hangzhou-lingyin/2": {
-    "file": "images/stops/hangzhou-lingyin/2.webp",
-    "name": "Feilaifeng_zaoxiang_7577.jpg",
-    "match": "route",
-    "artist": "Doctoroftcm",
-    "license": "CC BY-SA 3.0"
-  },
-  "hangzhou-lingyin/3": {
-    "file": "images/stops/hangzhou-lingyin/3.webp",
-    "name": "Feilaifeng_zaoxiang_7577.jpg",
-    "match": "route",
-    "artist": "Doctoroftcm",
-    "license": "CC BY-SA 3.0"
-  },
-  "hangzhou-lingyin/4": {
-    "file": "images/stops/hangzhou-lingyin/4.webp",
-    "name": "灵隐寺景区 永福寺 - panoramio.jpg",
-    "match": "stop",
-    "artist": "zhiyin586@163.com",
-    "license": "CC BY 3.0"
-  },
-  "hangzhou-hefang/1": {
-    "file": "images/stops/hangzhou-hefang/1.webp",
-    "name": "Southern_Song_Imperial_Street.jpg",
-    "match": "stop",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-hefang/2": {
-    "file": "images/stops/hangzhou-hefang/2.webp",
-    "name": "杭州清河坊.JPG",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "hangzhou-hefang/3": {
-    "file": "images/stops/hangzhou-hefang/3.webp",
-    "name": "杭州清河坊.JPG",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "hangzhou-hefang/4": {
-    "file": "images/stops/hangzhou-hefang/4.webp",
-    "name": "Hu_Xueyan_jiuju_7322.jpg",
-    "match": "stop",
-    "artist": "Doctoroftcm",
-    "license": "CC BY-SA 3.0"
-  },
-  "hangzhou-liangzhu/0": {
-    "file": "images/stops/hangzhou-liangzhu/0.webp",
-    "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
-    "match": "route",
-    "artist": "Siyuwj",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-liangzhu/1": {
-    "file": "images/stops/hangzhou-liangzhu/1.webp",
-    "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
-    "match": "route",
-    "artist": "Siyuwj",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-liangzhu/2": {
-    "file": "images/stops/hangzhou-liangzhu/2.webp",
-    "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
-    "match": "route",
-    "artist": "Siyuwj",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-liangzhu/3": {
-    "file": "images/stops/hangzhou-liangzhu/3.webp",
-    "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
-    "match": "route",
-    "artist": "Siyuwj",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-liangzhu/4": {
-    "file": "images/stops/hangzhou-liangzhu/4.webp",
-    "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
-    "match": "route",
-    "artist": "Siyuwj",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-qiantang/1": {
-    "file": "images/stops/hangzhou-qiantang/1.webp",
-    "name": "Qiantang_River_Bridge_DJI_0582.jpg",
-    "match": "route",
-    "artist": "David290",
-    "license": "CC BY-SA 4.0"
-  },
-  "beijing-hutong/1": {
-    "file": "images/stops/beijing-hutong/1.webp",
-    "name": "北京 什刹海.jpg",
-    "match": "route",
-    "artist": "Worldtravelwiki",
-    "license": "CC0"
-  },
-  "beijing-hutong/3": {
-    "file": "images/stops/beijing-hutong/3.webp",
-    "name": "北京 什刹海.jpg",
-    "match": "route",
-    "artist": "Worldtravelwiki",
-    "license": "CC0"
-  },
-  "shanghai-yuyuan/0": {
-    "file": "images/stops/shanghai-yuyuan/0.webp",
-    "name": "2024-Apr Shanghai Yu Yuan Garden 豫园 - img 20.jpg",
-    "match": "route",
-    "artist": "Chainwit.",
-    "license": "CC BY 4.0"
-  },
-  "shanghai-yuyuan/4": {
-    "file": "images/stops/shanghai-yuyuan/4.webp",
-    "name": "2024-Apr Shanghai Yu Yuan Garden 豫园 - img 20.jpg",
-    "match": "route",
-    "artist": "Chainwit.",
-    "license": "CC BY 4.0"
-  },
-  "xian-dayan-pagoda/2": {
-    "file": "images/stops/xian-dayan-pagoda/2.webp",
-    "name": "Daci'en_Temple_51202-Xian_(27424345563).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "chengdu-tea/2": {
-    "file": "images/stops/chengdu-tea/2.webp",
-    "name": "Chengdu_travel_045_(36150300546).jpg",
-    "match": "route",
-    "artist": "JianEn Yu",
-    "license": "CC BY 2.0"
-  },
-  "chengdu-qingyang/0": {
-    "file": "images/stops/chengdu-qingyang/0.webp",
-    "name": "成都青羊宫.png",
-    "match": "route",
-    "artist": "Sunatnight",
-    "license": "CC BY-SA 3.0"
-  },
-  "chengdu-qingyang/3": {
-    "file": "images/stops/chengdu-qingyang/3.webp",
-    "name": "成都青羊宫.png",
-    "match": "route",
-    "artist": "Sunatnight",
-    "license": "CC BY-SA 3.0"
-  },
-  "hangzhou-canal/0": {
-    "file": "images/stops/hangzhou-canal/0.webp",
-    "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-canal/1": {
-    "file": "images/stops/hangzhou-canal/1.webp",
-    "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-canal/3": {
-    "file": "images/stops/hangzhou-canal/3.webp",
-    "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-canal/4": {
-    "file": "images/stops/hangzhou-canal/4.webp",
-    "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-qiantang/2": {
-    "file": "images/stops/hangzhou-qiantang/2.webp",
-    "name": "Qiantang_River_Bridge_DJI_0582.jpg",
-    "match": "route",
-    "artist": "David290",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-qiantang/3": {
-    "file": "images/stops/hangzhou-qiantang/3.webp",
-    "name": "Qiantang_River_Bridge_DJI_0582.jpg",
-    "match": "route",
-    "artist": "David290",
-    "license": "CC BY-SA 4.0"
-  },
-  "hangzhou-qiantang/4": {
-    "file": "images/stops/hangzhou-qiantang/4.webp",
-    "name": "20260802_Zhakou_White_Pagoda_01.jpg",
-    "match": "stop",
-    "artist": "Windmemories",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-garden/0": {
-    "file": "images/stops/suzhou-garden/0.webp",
-    "name": "Humble_Administrator's_Garden_Suzhou_November_2017_008.jpg",
-    "match": "route",
-    "artist": "King of Hearts",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-garden/1": {
-    "file": "images/stops/suzhou-garden/1.webp",
-    "name": "Humble_Administrator's_Garden_Suzhou_November_2017_008.jpg",
-    "match": "route",
-    "artist": "King of Hearts",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-garden/2": {
-    "file": "images/stops/suzhou-garden/2.webp",
-    "name": "苏州博物馆·苏州·西南向东北.jpg",
-    "match": "stop",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-garden/3": {
-    "file": "images/stops/suzhou-garden/3.webp",
-    "name": "Humble_Administrator's_Garden_Suzhou_November_2017_008.jpg",
-    "match": "route",
-    "artist": "King of Hearts",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-garden/4": {
-    "file": "images/stops/suzhou-garden/4.webp",
-    "name": "Humble_Administrator's_Garden_Suzhou_November_2017_008.jpg",
-    "match": "route",
-    "artist": "King of Hearts",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-shantang/0": {
-    "file": "images/stops/suzhou-shantang/0.webp",
-    "name": "Pagoda_Yunyan_Ta.jpg",
-    "match": "route",
-    "artist": "Mr. Tickle",
-    "license": "CC BY-SA 3.0"
-  },
-  "suzhou-shantang/1": {
-    "file": "images/stops/suzhou-shantang/1.webp",
-    "name": "Pagoda_Yunyan_Ta.jpg",
-    "match": "route",
-    "artist": "Mr. Tickle",
-    "license": "CC BY-SA 3.0"
-  },
-  "suzhou-shantang/2": {
-    "file": "images/stops/suzhou-shantang/2.webp",
-    "name": "Yunyan_Pagoda_at_Tiger_Hill.JPG",
-    "match": "stop",
-    "artist": "螺钉",
-    "license": "CC BY-SA 3.0"
-  },
-  "suzhou-shantang/3": {
-    "file": "images/stops/suzhou-shantang/3.webp",
-    "name": "Pagoda_Yunyan_Ta.jpg",
-    "match": "route",
-    "artist": "Mr. Tickle",
-    "license": "CC BY-SA 3.0"
-  },
-  "suzhou-shantang/4": {
-    "file": "images/stops/suzhou-shantang/4.webp",
-    "name": "Pagoda_Yunyan_Ta.jpg",
-    "match": "route",
-    "artist": "Mr. Tickle",
-    "license": "CC BY-SA 3.0"
-  },
-  "suzhou-liuyuan/0": {
-    "file": "images/stops/suzhou-liuyuan/0.webp",
-    "name": "Lingering_Garden_8.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-liuyuan/1": {
-    "file": "images/stops/suzhou-liuyuan/1.webp",
-    "name": "Lingering_Garden_8.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-liuyuan/2": {
-    "file": "images/stops/suzhou-liuyuan/2.webp",
-    "name": "Lingering Garden - 五峰仙馆 20220904.jpg",
-    "match": "stop",
-    "artist": "颐园居",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-liuyuan/3": {
-    "file": "images/stops/suzhou-liuyuan/3.webp",
-    "name": "Lingering Garden - 湖石冠云峰 20220904.jpg",
-    "match": "route",
-    "artist": "颐园居",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-liuyuan/4": {
-    "file": "images/stops/suzhou-liuyuan/4.webp",
-    "name": "Lingering_Garden_8.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-hanshan/1": {
-    "file": "images/stops/suzhou-hanshan/1.webp",
-    "name": "寒山寺大雄宝殿前香火.jpg",
-    "match": "stop",
-    "artist": "User:CatOnMars",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-hanshan/3": {
-    "file": "images/stops/suzhou-hanshan/3.webp",
-    "name": "蘇州 寒山寺 Hanshan Temple - panoramio.jpg",
-    "match": "route",
-    "artist": "Foxy Who \\(^∀^)/",
-    "license": "CC BY-SA 3.0"
-  },
-  "suzhou-hanshan/4": {
-    "file": "images/stops/suzhou-hanshan/4.webp",
-    "name": "Feng_Qiao_of_Suzhou.jpg",
-    "match": "stop",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "suzhou-panmen/0": {
-    "file": "images/stops/suzhou-panmen/0.webp",
-    "name": "Land_Gate_of_Pan_Men.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-panmen/1": {
-    "file": "images/stops/suzhou-panmen/1.webp",
-    "name": "Land_Gate_of_Pan_Men.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-panmen/3": {
-    "file": "images/stops/suzhou-panmen/3.webp",
-    "name": "瑞光塔·苏州·（西向东）.jpg",
-    "match": "stop",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-panmen/4": {
-    "file": "images/stops/suzhou-panmen/4.webp",
-    "name": "Land_Gate_of_Pan_Men.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-canglang/0": {
-    "file": "images/stops/suzhou-canglang/0.webp",
-    "name": "沧浪亭·苏州·全景.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-canglang/1": {
-    "file": "images/stops/suzhou-canglang/1.webp",
-    "name": "沧浪亭·苏州·全景.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-canglang/3": {
-    "file": "images/stops/suzhou-canglang/3.webp",
-    "name": "沧浪亭·苏州·全景.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "suzhou-canglang/4": {
-    "file": "images/stops/suzhou-canglang/4.webp",
-    "name": "沧浪亭·苏州·全景.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-wall/1": {
-    "file": "images/stops/nanjing-wall/1.webp",
-    "name": "南京站南广场玄武湖边西南向夜景.jpg",
-    "match": "stop",
-    "artist": "董辰兴",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-wall/4": {
-    "file": "images/stops/nanjing-wall/4.webp",
-    "name": "中华民国总统府·南京·航拍.jpg",
-    "match": "stop",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-qinhuai/0": {
-    "file": "images/stops/nanjing-qinhuai/0.webp",
-    "name": "LingXingMen_of_Nanjing_Confucian_Temple.jpg",
-    "match": "route",
-    "artist": "Kinden Kuo from Taipei, Taiwan",
-    "license": "CC BY-SA 2.0"
-  },
-  "nanjing-qinhuai/1": {
-    "file": "images/stops/nanjing-qinhuai/1.webp",
-    "name": "LingXingMen_of_Nanjing_Confucian_Temple.jpg",
-    "match": "route",
-    "artist": "Kinden Kuo from Taipei, Taiwan",
-    "license": "CC BY-SA 2.0"
-  },
-  "nanjing-qinhuai/2": {
-    "file": "images/stops/nanjing-qinhuai/2.webp",
-    "name": "Qinhuai_River_along_Fuzimiao_2008.jpg",
-    "match": "stop",
-    "artist": "Jaye Z",
-    "license": "CC BY-SA 2.0"
-  },
-  "nanjing-qinhuai/3": {
-    "file": "images/stops/nanjing-qinhuai/3.webp",
-    "name": "南京乌衣巷口, 2009-01-26.jpg",
-    "match": "stop",
-    "artist": "江上清风1961",
-    "license": "CC BY 3.0"
-  },
-  "nanjing-qinhuai/4": {
-    "file": "images/stops/nanjing-qinhuai/4.webp",
-    "name": "LingXingMen_of_Nanjing_Confucian_Temple.jpg",
-    "match": "route",
-    "artist": "Kinden Kuo from Taipei, Taiwan",
-    "license": "CC BY-SA 2.0"
-  },
-  "nanjing-mingxiaoling/0": {
-    "file": "images/stops/nanjing-mingxiaoling/0.webp",
-    "name": "明孝陵-大金门.jpg",
-    "match": "stop",
-    "artist": "Kallgan",
-    "license": "CC BY-SA 3.0"
-  },
-  "nanjing-mingxiaoling/1": {
-    "file": "images/stops/nanjing-mingxiaoling/1.webp",
-    "name": "明孝陵四方城石碑.jpg",
-    "match": "stop",
-    "artist": "Changongke",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-mingxiaoling/2": {
-    "file": "images/stops/nanjing-mingxiaoling/2.webp",
-    "name": "明孝陵石象路神道.jpg",
-    "match": "stop",
-    "artist": "董辰兴",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-mingxiaoling/3": {
-    "file": "images/stops/nanjing-mingxiaoling/3.webp",
-    "name": "南京明孝陵景区翁仲路 - panoramio.jpg",
-    "match": "stop",
-    "artist": "helkonig",
-    "license": "CC BY 3.0"
-  },
-  "nanjing-mingxiaoling/4": {
-    "file": "images/stops/nanjing-mingxiaoling/4.webp",
-    "name": "南京明孝陵景区方城明楼 - panoramio.jpg",
-    "match": "stop",
-    "artist": "helkonig",
-    "license": "CC BY 3.0"
-  },
-  "nanjing-linggu/0": {
-    "file": "images/stops/nanjing-linggu/0.webp",
-    "name": "Nanjing_Beamless_Hall,_Mar_2018.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-linggu/1": {
-    "file": "images/stops/nanjing-linggu/1.webp",
-    "name": "Nanjing_Beamless_Hall,_Mar_2018.jpg",
-    "match": "stop",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-linggu/2": {
-    "file": "images/stops/nanjing-linggu/2.webp",
-    "name": "Nanjing_Beamless_Hall,_Mar_2018.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-linggu/3": {
-    "file": "images/stops/nanjing-linggu/3.webp",
-    "name": "Nanjing_Beamless_Hall,_Mar_2018.jpg",
-    "match": "stop",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-linggu/4": {
-    "file": "images/stops/nanjing-linggu/4.webp",
-    "name": "20120831南京灵谷寺院内林地鲜花正艳 - panoramio.jpg",
-    "match": "stop",
-    "artist": "fish4fish",
-    "license": "CC BY-SA 3.0"
-  },
-  "nanjing-yihe/0": {
-    "file": "images/stops/nanjing-yihe/0.webp",
-    "name": "No.15_in_Yihe_Road_2012-11.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "nanjing-yihe/1": {
-    "file": "images/stops/nanjing-yihe/1.webp",
-    "name": "No.15_in_Yihe_Road_2012-11.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "nanjing-yihe/2": {
-    "file": "images/stops/nanjing-yihe/2.webp",
-    "name": "颐和路公馆区第十二片区20210404 02.jpg",
-    "match": "route",
-    "artist": "西安兵马俑",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-yihe/3": {
-    "file": "images/stops/nanjing-yihe/3.webp",
-    "name": "No.15_in_Yihe_Road_2012-11.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "nanjing-yihe/4": {
-    "file": "images/stops/nanjing-yihe/4.webp",
-    "name": "No.15_in_Yihe_Road_2012-11.JPG",
-    "match": "route",
-    "artist": "猫猫的日记本",
-    "license": "CC BY-SA 3.0"
-  },
-  "nanjing-chaotiangong/0": {
-    "file": "images/stops/nanjing-chaotiangong/0.webp",
-    "name": "Pingnan_Confucian_Temple_2014.08.03_07-09-20.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "nanjing-chaotiangong/2": {
-    "file": "images/stops/nanjing-chaotiangong/2.webp",
-    "name": "南京朝天宫大成门, 2009-01-28.jpg",
-    "match": "stop",
-    "artist": "江上清风1961",
-    "license": "CC BY 3.0"
-  },
-  "nanjing-chaotiangong/3": {
-    "file": "images/stops/nanjing-chaotiangong/3.webp",
-    "name": "朝天宫·南京·航拍.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "nanjing-chaotiangong/4": {
-    "file": "images/stops/nanjing-chaotiangong/4.webp",
-    "name": "朝天宫·南京·航拍.jpg",
-    "match": "route",
-    "artist": "Legolas1024",
-    "license": "CC BY-SA 4.0"
-  },
-  "guilin-river/0": {
-    "file": "images/stops/guilin-river/0.webp",
-    "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guilin-river/1": {
-    "file": "images/stops/guilin-river/1.webp",
-    "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guilin-river/2": {
-    "file": "images/stops/guilin-river/2.webp",
-    "name": "Ronghu_Lake_Guilin_November_2017_HDR.jpg",
-    "match": "stop",
-    "artist": "King of Hearts",
-    "license": "CC BY-SA 4.0"
-  },
-  "guilin-river/3": {
-    "file": "images/stops/guilin-river/3.webp",
-    "name": "桂林东西巷.jpg",
-    "match": "stop",
-    "artist": "神樂坂秀吉",
-    "license": "CC0"
-  },
-  "guilin-river/4": {
-    "file": "images/stops/guilin-river/4.webp",
-    "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
-    "match": "stop",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guilin-yangshuo/0": {
-    "file": "images/stops/guilin-yangshuo/0.webp",
-    "name": "Xijie-m.jpg",
-    "match": "stop",
-    "artist": "Gisling",
-    "license": "CC BY 2.5"
-  },
-  "guilin-yangshuo/1": {
-    "file": "images/stops/guilin-yangshuo/1.webp",
-    "name": "Xijie-m.jpg",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY 2.5"
-  },
-  "guilin-yangshuo/2": {
-    "file": "images/stops/guilin-yangshuo/2.webp",
-    "name": "Xijie-m.jpg",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY 2.5"
-  },
-  "guilin-yangshuo/3": {
-    "file": "images/stops/guilin-yangshuo/3.webp",
-    "name": "漓江山水.jpg",
-    "match": "stop",
-    "artist": "Charlie fong",
-    "license": "Public domain"
-  },
-  "guilin-yangshuo/4": {
-    "file": "images/stops/guilin-yangshuo/4.webp",
-    "name": "Xijie-m.jpg",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY 2.5"
-  },
-  "guilin-wangcheng/0": {
-    "file": "images/stops/guilin-wangcheng/0.webp",
-    "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guilin-wangcheng/1": {
-    "file": "images/stops/guilin-wangcheng/1.webp",
-    "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guilin-wangcheng/2": {
-    "file": "images/stops/guilin-wangcheng/2.webp",
-    "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guilin-wangcheng/3": {
-    "file": "images/stops/guilin-wangcheng/3.webp",
-    "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guilin-wangcheng/4": {
-    "file": "images/stops/guilin-wangcheng/4.webp",
-    "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
-    "match": "route",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guilin-lingqu/0": {
-    "file": "images/stops/guilin-lingqu/0.webp",
-    "name": "Lingqu_Canal.jpg",
-    "match": "route",
-    "artist": "Farm",
-    "license": "CC BY 3.0"
-  },
-  "guilin-lingqu/1": {
-    "file": "images/stops/guilin-lingqu/1.webp",
-    "name": "Lingqu_Canal.jpg",
-    "match": "route",
-    "artist": "Farm",
-    "license": "CC BY 3.0"
-  },
-  "guilin-lingqu/2": {
-    "file": "images/stops/guilin-lingqu/2.webp",
-    "name": "Lingqu_Canal.jpg",
-    "match": "route",
-    "artist": "Farm",
-    "license": "CC BY 3.0"
-  },
-  "guilin-lingqu/3": {
-    "file": "images/stops/guilin-lingqu/3.webp",
-    "name": "Lingqu_Canal.jpg",
-    "match": "route",
-    "artist": "Farm",
-    "license": "CC BY 3.0"
-  },
-  "guilin-lingqu/4": {
-    "file": "images/stops/guilin-lingqu/4.webp",
-    "name": "Lingqu_Canal.jpg",
-    "match": "route",
-    "artist": "Farm",
-    "license": "CC BY 3.0"
-  },
-  "guilin-gongcheng/0": {
-    "file": "images/stops/guilin-gongcheng/0.webp",
-    "name": "Gongcheng_Wenmiao_2012.09.29_16-28-39.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "guilin-gongcheng/2": {
-    "file": "images/stops/guilin-gongcheng/2.webp",
-    "name": "Gongcheng_Wenmiao_2012.09.29_16-28-39.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "guilin-gongcheng/4": {
-    "file": "images/stops/guilin-gongcheng/4.webp",
-    "name": "Gongcheng_Zhou_Wei_Ci_2012.09.29_15-19-10.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-hill/0": {
-    "file": "images/stops/chongqing-hill/0.webp",
-    "name": "重庆山城步道入口.jpg",
-    "match": "stop",
-    "artist": "kmahyyg",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-hill/1": {
-    "file": "images/stops/chongqing-hill/1.webp",
-    "name": "202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg",
-    "match": "route",
-    "artist": "Jonashtand",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-hill/2": {
-    "file": "images/stops/chongqing-hill/2.webp",
-    "name": "十八梯.jpg",
-    "match": "stop",
-    "artist": "重庆轨交18",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-hill/3": {
-    "file": "images/stops/chongqing-hill/3.webp",
-    "name": "Jiefangbei_at_Night_20201024.jpg",
-    "match": "stop",
-    "artist": "Este Momento",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-hill/4": {
-    "file": "images/stops/chongqing-hill/4.webp",
-    "name": "202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg",
-    "match": "route",
-    "artist": "Jonashtand",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-ciqikou/0": {
-    "file": "images/stops/chongqing-ciqikou/0.webp",
-    "name": "重庆磁器口古镇远眺.jpg",
-    "match": "route",
-    "artist": "Xiumuzidiao",
-    "license": "CC BY 4.0"
-  },
-  "chongqing-ciqikou/1": {
-    "file": "images/stops/chongqing-ciqikou/1.webp",
-    "name": "重庆磁器口古镇远眺.jpg",
-    "match": "route",
-    "artist": "Xiumuzidiao",
-    "license": "CC BY 4.0"
-  },
-  "chongqing-ciqikou/2": {
-    "file": "images/stops/chongqing-ciqikou/2.webp",
-    "name": "20250521_Baolun_Si.jpg",
-    "match": "stop",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-ciqikou/3": {
-    "file": "images/stops/chongqing-ciqikou/3.webp",
-    "name": "重庆磁器口古镇远眺.jpg",
-    "match": "route",
-    "artist": "Xiumuzidiao",
-    "license": "CC BY 4.0"
-  },
-  "chongqing-ciqikou/4": {
-    "file": "images/stops/chongqing-ciqikou/4.webp",
-    "name": "重庆磁器口古镇远眺.jpg",
-    "match": "route",
-    "artist": "Xiumuzidiao",
-    "license": "CC BY 4.0"
-  },
-  "chongqing-dazu/0": {
-    "file": "images/stops/chongqing-dazu/0.webp",
-    "name": "大足石刻.JPG",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-dazu/1": {
-    "file": "images/stops/chongqing-dazu/1.webp",
-    "name": "大足石刻.JPG",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-dazu/2": {
-    "file": "images/stops/chongqing-dazu/2.webp",
-    "name": "大足石刻.JPG",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-dazu/3": {
-    "file": "images/stops/chongqing-dazu/3.webp",
-    "name": "大足石刻.JPG",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-dazu/4": {
-    "file": "images/stops/chongqing-dazu/4.webp",
-    "name": "大足石刻.JPG",
-    "match": "route",
-    "artist": "Gisling",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-diaoyucheng/0": {
-    "file": "images/stops/chongqing-diaoyucheng/0.webp",
-    "name": "护国门 - panoramio.jpg",
-    "match": "stop",
-    "artist": "天王星",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-diaoyucheng/1": {
-    "file": "images/stops/chongqing-diaoyucheng/1.webp",
-    "name": "Fishingtown.jpg",
-    "match": "route",
-    "artist": "Harveychl at English Wikipedia",
-    "license": "Public domain"
-  },
-  "chongqing-diaoyucheng/2": {
-    "file": "images/stops/chongqing-diaoyucheng/2.webp",
-    "name": "Fishingtown.jpg",
-    "match": "route",
-    "artist": "Harveychl at English Wikipedia",
-    "license": "Public domain"
-  },
-  "chongqing-diaoyucheng/3": {
-    "file": "images/stops/chongqing-diaoyucheng/3.webp",
-    "name": "Fishingtown.jpg",
-    "match": "route",
-    "artist": "Harveychl at English Wikipedia",
-    "license": "Public domain"
-  },
-  "chongqing-diaoyucheng/4": {
-    "file": "images/stops/chongqing-diaoyucheng/4.webp",
-    "name": "通往水军码头 - panoramio.jpg",
-    "match": "stop",
-    "artist": "天王星",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-huguang/0": {
-    "file": "images/stops/chongqing-huguang/0.webp",
-    "name": "Chongqing_Dongshuimen_Chengqiang_2014.04.21_13-00-49.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-huguang/1": {
-    "file": "images/stops/chongqing-huguang/1.webp",
-    "name": "Chongqing_Huguang_Huiguan_2014.04.21_13-14-42.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-huguang/2": {
-    "file": "images/stops/chongqing-huguang/2.webp",
-    "name": "Chongqing_Huguang_Huiguan_2014.04.21_13-14-42.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-huguang/3": {
-    "file": "images/stops/chongqing-huguang/3.webp",
-    "name": "Guangdong Association, Chongqing.jpg",
-    "match": "stop",
-    "artist": "HoweyYuan",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-huguang/4": {
-    "file": "images/stops/chongqing-huguang/4.webp",
-    "name": "Chongqing_Huguang_Huiguan_2014.04.21_13-14-42.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-baidicheng/0": {
-    "file": "images/stops/chongqing-baidicheng/0.webp",
-    "name": "北岸村俯瞰圖.jpg",
-    "match": "stop",
-    "artist": "洪洋",
-    "license": "CC BY-SA 3.0"
-  },
-  "chongqing-baidicheng/1": {
-    "file": "images/stops/chongqing-baidicheng/1.webp",
-    "name": "20250523_Baidi_Miao.jpg",
-    "match": "route",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-baidicheng/2": {
-    "file": "images/stops/chongqing-baidicheng/2.webp",
-    "name": "20250523_Baidi_Miao.jpg",
-    "match": "route",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-baidicheng/3": {
-    "file": "images/stops/chongqing-baidicheng/3.webp",
-    "name": "20250523_Baidi_Miao.jpg",
-    "match": "route",
-    "artist": "Yumeto",
-    "license": "CC BY-SA 4.0"
-  },
-  "chongqing-baidicheng/4": {
-    "file": "images/stops/chongqing-baidicheng/4.webp",
-    "name": "夔門.jpg",
-    "match": "stop",
-    "artist": "鄭璧成",
-    "license": "Public domain"
-  },
-  "guangzhou-xiguan/0": {
-    "file": "images/stops/guangzhou-xiguan/0.webp",
-    "name": "广州永庆坊.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-xiguan/1": {
-    "file": "images/stops/guangzhou-xiguan/1.webp",
-    "name": "广州永庆坊.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-xiguan/2": {
-    "file": "images/stops/guangzhou-xiguan/2.webp",
-    "name": "广州永庆坊.jpg",
-    "match": "stop",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-xiguan/3": {
-    "file": "images/stops/guangzhou-xiguan/3.webp",
-    "name": "广州永庆坊.jpg",
-    "match": "route",
-    "artist": "钉钉",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-xiguan/4": {
-    "file": "images/stops/guangzhou-xiguan/4.webp",
-    "name": "ShaMianBuildings.JPG",
-    "match": "stop",
-    "artist": "Ricky Chow",
-    "license": "CC BY-SA 3.0"
-  },
-  "guangzhou-yuexiu/0": {
-    "file": "images/stops/guangzhou-yuexiu/0.webp",
-    "name": "广州镇海楼2019.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-yuexiu/1": {
-    "file": "images/stops/guangzhou-yuexiu/1.webp",
-    "name": "Five-Ram_Sculpture_03290-Guangzhou_(32923532571).jpg",
-    "match": "stop",
-    "artist": "xiquinhosilva",
-    "license": "CC BY 2.0"
-  },
-  "guangzhou-yuexiu/2": {
-    "file": "images/stops/guangzhou-yuexiu/2.webp",
-    "name": "广州镇海楼2019.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-yuexiu/3": {
-    "file": "images/stops/guangzhou-yuexiu/3.webp",
-    "name": "广州镇海楼2019.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-yuexiu/4": {
-    "file": "images/stops/guangzhou-yuexiu/4.webp",
-    "name": "广州镇海楼2019.jpg",
-    "match": "route",
-    "artist": "ScareCriterion12",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-chen-clan/0": {
-    "file": "images/stops/guangzhou-chen-clan/0.webp",
-    "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
-    "match": "route",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-chen-clan/1": {
-    "file": "images/stops/guangzhou-chen-clan/1.webp",
-    "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
-    "match": "route",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-chen-clan/2": {
-    "file": "images/stops/guangzhou-chen-clan/2.webp",
-    "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
-    "match": "route",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-chen-clan/3": {
-    "file": "images/stops/guangzhou-chen-clan/3.webp",
-    "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
-    "match": "route",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-chen-clan/4": {
-    "file": "images/stops/guangzhou-chen-clan/4.webp",
-    "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
-    "match": "route",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-twin-temples/0": {
-    "file": "images/stops/guangzhou-twin-temples/0.webp",
-    "name": "Guangzhou_Guangxiao_Si_2012.11.15_16-41-08.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "guangzhou-twin-temples/1": {
-    "file": "images/stops/guangzhou-twin-temples/1.webp",
-    "name": "Guangzhou_Guangxiao_Si_2012.11.15_16-41-08.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "guangzhou-twin-temples/2": {
-    "file": "images/stops/guangzhou-twin-temples/2.webp",
-    "name": "Guangzhou_Guangxiao_Si_2012.11.15_16-41-08.jpg",
-    "match": "route",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "guangzhou-twin-temples/3": {
-    "file": "images/stops/guangzhou-twin-temples/3.webp",
-    "name": "Temple_of_the_Six_Banyan_Trees_pagoda.jpg",
-    "match": "stop",
-    "artist": "Shujianyang",
-    "license": "CC0"
-  },
-  "guangzhou-twin-temples/4": {
-    "file": "images/stops/guangzhou-twin-temples/4.webp",
-    "name": "Temple_of_the_Six_Banyan_Trees_pagoda.jpg",
-    "match": "stop",
-    "artist": "Shujianyang",
-    "license": "CC0"
-  },
-  "guangzhou-nanyue-beijinglu/0": {
-    "file": "images/stops/guangzhou-nanyue-beijinglu/0.webp",
-    "name": "Site_of_King’s_Tomb,_Nanyue_King_Museum_2025.06-01.jpg",
-    "match": "stop",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-nanyue-beijinglu/1": {
-    "file": "images/stops/guangzhou-nanyue-beijinglu/1.webp",
-    "name": "Mausoleum_of_the_Nanyue_King.JPG",
-    "match": "route",
-    "artist": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
-    "license": "CC BY-SA 2.5"
-  },
-  "guangzhou-nanyue-beijinglu/2": {
-    "file": "images/stops/guangzhou-nanyue-beijinglu/2.webp",
-    "name": "Si_lü_yu_yi.JPG",
-    "match": "stop",
-    "license": "CC BY-SA 2.5"
-  },
-  "guangzhou-nanyue-beijinglu/3": {
-    "file": "images/stops/guangzhou-nanyue-beijinglu/3.webp",
-    "name": "Mausoleum_of_the_Nanyue_King.JPG",
-    "match": "route",
-    "artist": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
-    "license": "CC BY-SA 2.5"
-  },
-  "guangzhou-nanyue-beijinglu/4": {
-    "file": "images/stops/guangzhou-nanyue-beijinglu/4.webp",
-    "name": "Mausoleum_of_the_Nanyue_King.JPG",
-    "match": "route",
-    "artist": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
-    "license": "CC BY-SA 2.5"
-  },
-  "guangzhou-shishi-yanjiang/0": {
-    "file": "images/stops/guangzhou-shishi-yanjiang/0.webp",
-    "name": "Sacred_Heart_Cathedral_of_Guangzhou_2025.06_02.jpg",
-    "match": "stop",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-shishi-yanjiang/1": {
-    "file": "images/stops/guangzhou-shishi-yanjiang/1.webp",
-    "name": "Sacred_Heart_Cathedral_of_Guangzhou_2025.06_02.jpg",
-    "match": "route",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-shishi-yanjiang/2": {
-    "file": "images/stops/guangzhou-shishi-yanjiang/2.webp",
-    "name": "Sacred_Heart_Cathedral_of_Guangzhou_2025.06_02.jpg",
-    "match": "route",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  },
-  "guangzhou-shishi-yanjiang/3": {
-    "file": "images/stops/guangzhou-shishi-yanjiang/3.webp",
-    "name": "Guangzhou_Aiqun_Dasha_2012.11.15_10-31-07.jpg",
-    "match": "stop",
-    "artist": "Zhangzhugang",
-    "license": "CC BY-SA 3.0"
-  },
-  "guangzhou-shishi-yanjiang/4": {
-    "file": "images/stops/guangzhou-shishi-yanjiang/4.webp",
-    "name": "Sacred_Heart_Cathedral_of_Guangzhou_2025.06_02.jpg",
-    "match": "route",
-    "artist": "Shujianyang",
-    "license": "CC BY-SA 4.0"
-  }
+ "yungang/0": {
+  "file": "images/stops/yungang/0.webp",
+  "name": "61292-Yungang-Grottoes_(28498548881).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "yungang/1": {
+  "file": "images/stops/yungang/1.webp",
+  "name": "Datong Yungang Shiku 2013.08.29 14-47-44.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "yungang/2": {
+  "file": "images/stops/yungang/2.webp",
+  "name": "61292-Yungang-Grottoes_(28498548881).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "yungang/3": {
+  "file": "images/stops/yungang/3.webp",
+  "name": "云冈石窟第20窟正面.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "yungang/4": {
+  "file": "images/stops/yungang/4.webp",
+  "name": "61292-Yungang-Grottoes_(28498548881).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "datong-city/0": {
+  "file": "images/stops/datong-city/0.webp",
+  "name": "Datong_Huayan_Si_2013.08.29_08-54-08.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "datong-city/1": {
+  "file": "images/stops/datong-city/1.webp",
+  "name": "Datong_Huayan_Si_2013.08.29_08-54-08.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "datong-city/2": {
+  "file": "images/stops/datong-city/2.webp",
+  "name": "华严寺薄伽教藏殿雨后正面.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-city/3": {
+  "file": "images/stops/datong-city/3.webp",
+  "name": "Datong_Jiulongbi_2013.08.29_13-37-51.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "datong-city/4": {
+  "file": "images/stops/datong-city/4.webp",
+  "name": "Datong_Shanhua_Si_2013.08.29_12-28-45.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "datong-wall/0": {
+  "file": "images/stops/datong-wall/0.webp",
+  "name": "Datongsouthgate2019.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-wall/1": {
+  "file": "images/stops/datong-wall/1.webp",
+  "name": "Datongsouthgate2019.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-wall/2": {
+  "file": "images/stops/datong-wall/2.webp",
+  "name": "Datongsouthgate2019.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-wall/3": {
+  "file": "images/stops/datong-wall/3.webp",
+  "name": "Datong_Wenmiao_2013.08.29_12-10-00.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "datong-wall/4": {
+  "file": "images/stops/datong-wall/4.webp",
+  "name": "Datongsouthgate2019.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-axis/2": {
+  "file": "images/stops/datong-axis/2.webp",
+  "name": "Datong_Chunyang_Gong_2013.08.29_10-18-52.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "datong-axis/3": {
+  "file": "images/stops/datong-axis/3.webp",
+  "name": "代王府棂星门_2025-06-01_(54578937826).jpg",
+  "match": "stop",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "datong-axis/4": {
+  "file": "images/stops/datong-axis/4.webp",
+  "name": "Datong_Jiulongbi_2013.08.29_13-37-51.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "xuankong-temple/0": {
+  "file": "images/stops/xuankong-temple/0.webp",
+  "name": "Hangingtemple20190929.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "xuankong-temple/1": {
+  "file": "images/stops/xuankong-temple/1.webp",
+  "name": "Hangingtemple20190929.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "xuankong-temple/2": {
+  "file": "images/stops/xuankong-temple/2.webp",
+  "name": "Hangingtemple20190929.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "xuankong-temple/3": {
+  "file": "images/stops/xuankong-temple/3.webp",
+  "name": "Hunyuan Xuankong Si 2013.08.30 09-24-59.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "xuankong-temple/4": {
+  "file": "images/stops/xuankong-temple/4.webp",
+  "name": "Hangingtemple20190929.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-museum/0": {
+  "file": "images/stops/datong-museum/0.webp",
+  "name": "平城_大同博物馆_01.jpg",
+  "match": "route",
+  "artist": "Liuxingy",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-museum/1": {
+  "file": "images/stops/datong-museum/1.webp",
+  "name": "平城_大同博物馆_01.jpg",
+  "match": "route",
+  "artist": "Liuxingy",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-museum/2": {
+  "file": "images/stops/datong-museum/2.webp",
+  "name": "平城 大同市博物馆之司马金龙墓俑群 02.jpg",
+  "match": "stop",
+  "artist": "Liuxingy",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-museum/3": {
+  "file": "images/stops/datong-museum/3.webp",
+  "name": "平城_大同博物馆_01.jpg",
+  "match": "route",
+  "artist": "Liuxingy",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-museum/4": {
+  "file": "images/stops/datong-museum/4.webp",
+  "name": "平城_大同博物馆_01.jpg",
+  "match": "route",
+  "artist": "Liuxingy",
+  "license": "CC BY-SA 4.0"
+ },
+ "pingyao/0": {
+  "file": "images/stops/pingyao/0.webp",
+  "name": "Pingyao_40.JPG",
+  "match": "route",
+  "artist": "Nicor",
+  "license": "CC BY-SA 3.0"
+ },
+ "pingyao/1": {
+  "file": "images/stops/pingyao/1.webp",
+  "name": "Pingyao_40.JPG",
+  "match": "route",
+  "artist": "Nicor",
+  "license": "CC BY-SA 3.0"
+ },
+ "pingyao/2": {
+  "file": "images/stops/pingyao/2.webp",
+  "name": "山西平遥古城日升昌票号院内 - panoramio.jpg",
+  "match": "stop",
+  "artist": "Tiger@西北",
+  "license": "CC BY-SA 3.0"
+ },
+ "pingyao/3": {
+  "file": "images/stops/pingyao/3.webp",
+  "name": "Pingyao_40.JPG",
+  "match": "route",
+  "artist": "Nicor",
+  "license": "CC BY-SA 3.0"
+ },
+ "pingyao/4": {
+  "file": "images/stops/pingyao/4.webp",
+  "name": "山西平遥古城县衙 - panoramio.jpg",
+  "match": "route",
+  "artist": "Tiger@西北",
+  "license": "CC BY-SA 3.0"
+ },
+ "pingyao/5": {
+  "file": "images/stops/pingyao/5.webp",
+  "name": "Pingyao_40.JPG",
+  "match": "route",
+  "artist": "Nicor",
+  "license": "CC BY-SA 3.0"
+ },
+ "shuanglin-temple/0": {
+  "file": "images/stops/shuanglin-temple/0.webp",
+  "name": "Pingyao Shuanglin Si 2013.08.26 09-49-00.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "shuanglin-temple/1": {
+  "file": "images/stops/shuanglin-temple/1.webp",
+  "name": "Pingyao_Shuanglin_Si_2013.08.26_08-53-26.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "shuanglin-temple/2": {
+  "file": "images/stops/shuanglin-temple/2.webp",
+  "name": "平遥双林寺释迦殿.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "shuanglin-temple/3": {
+  "file": "images/stops/shuanglin-temple/3.webp",
+  "name": "平遥双林寺千佛殿左侧.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "shuanglin-temple/4": {
+  "file": "images/stops/shuanglin-temple/4.webp",
+  "name": "平遥双林寺菩萨殿匾额.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "zhenguo-temple/0": {
+  "file": "images/stops/zhenguo-temple/0.webp",
+  "name": "Pingyao_Zhenguo_Si_2013.08.26_15-22-26.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "zhenguo-temple/1": {
+  "file": "images/stops/zhenguo-temple/1.webp",
+  "name": "Pingyao_Zhenguo_Si_2013.08.26_15-22-26.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "zhenguo-temple/2": {
+  "file": "images/stops/zhenguo-temple/2.webp",
+  "name": "镇国寺-6.jpg",
+  "match": "route",
+  "artist": "Fymking",
+  "license": "CC BY-SA 4.0"
+ },
+ "zhenguo-temple/3": {
+  "file": "images/stops/zhenguo-temple/3.webp",
+  "name": "镇国寺-6.jpg",
+  "match": "route",
+  "artist": "Fymking",
+  "license": "CC BY-SA 4.0"
+ },
+ "zhenguo-temple/4": {
+  "file": "images/stops/zhenguo-temple/4.webp",
+  "name": "Pingyao_Zhenguo_Si_2013.08.26_15-22-26.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "qiao-compound/0": {
+  "file": "images/stops/qiao-compound/0.webp",
+  "name": "乔家大院.jpg",
+  "match": "route",
+  "artist": "螺钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "qiao-compound/1": {
+  "file": "images/stops/qiao-compound/1.webp",
+  "name": "乔家大院.jpg",
+  "match": "route",
+  "artist": "螺钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "qiao-compound/2": {
+  "file": "images/stops/qiao-compound/2.webp",
+  "name": "乔家大院.jpg",
+  "match": "route",
+  "artist": "螺钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "qiao-compound/3": {
+  "file": "images/stops/qiao-compound/3.webp",
+  "name": "乔家大院.jpg",
+  "match": "route",
+  "artist": "螺钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "qiao-compound/4": {
+  "file": "images/stops/qiao-compound/4.webp",
+  "name": "乔家大院.jpg",
+  "match": "route",
+  "artist": "螺钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "datong-axis/0": {
+  "file": "images/stops/datong-axis/0.webp",
+  "name": "Qingyuan_Street_in_Datong_City.jpg",
+  "match": "stop",
+  "artist": "Japanese invaders",
+  "license": "Public domain"
+ },
+ "datong-axis/1": {
+  "file": "images/stops/datong-axis/1.webp",
+  "name": "Datong_Drum_Tower,_2020-09-08_01.jpg",
+  "match": "stop",
+  "artist": "Siyuwj",
+  "license": "CC BY-SA 4.0"
+ },
+ "wang-compound/0": {
+  "file": "images/stops/wang-compound/0.webp",
+  "name": "Lingshi_Jingsheng_Wangjia_Dayuan_2013.08.24_13-35-03.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "wang-compound/1": {
+  "file": "images/stops/wang-compound/1.webp",
+  "name": "Lingshi Jingsheng Wangjia Dayuan 2013.08.24 13-38-27.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "wang-compound/2": {
+  "file": "images/stops/wang-compound/2.webp",
+  "name": "靈石王家大院 - 高家崖凝瑞居 - panoramio.jpg",
+  "match": "stop",
+  "artist": "Tiger@西北",
+  "license": "CC BY-SA 3.0"
+ },
+ "wang-compound/3": {
+  "file": "images/stops/wang-compound/3.webp",
+  "name": "Lingshi_Jingsheng_Wangjia_Dayuan_2013.08.24_13-35-03.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "wang-compound/4": {
+  "file": "images/stops/wang-compound/4.webp",
+  "name": "Lingshi_Jingsheng_Wangjia_Dayuan_2013.08.24_13-35-03.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "jinci/0": {
+  "file": "images/stops/jinci/0.webp",
+  "name": "晋祠胜境.JPG",
+  "match": "stop",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "jinci/1": {
+  "file": "images/stops/jinci/1.webp",
+  "name": "晋祠水镜台正面.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "jinci/2": {
+  "file": "images/stops/jinci/2.webp",
+  "name": "晋祠献殿侧面.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "jinci/3": {
+  "file": "images/stops/jinci/3.webp",
+  "name": "晋祠圣母殿和鱼沼飞梁.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "jinci/4": {
+  "file": "images/stops/jinci/4.webp",
+  "name": "晋祠圣母殿侧面.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "jinci/5": {
+  "file": "images/stops/jinci/5.webp",
+  "name": "1962-06 1962年 晋祠 难老泉.jpg",
+  "match": "stop",
+  "artist": "《人民画报》",
+  "license": "Public domain"
+ },
+ "shanxi-museum/0": {
+  "file": "images/stops/shanxi-museum/0.webp",
+  "name": "Shanxi_Museum_2025.jpg",
+  "match": "route",
+  "artist": "1969社论",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanxi-museum/1": {
+  "file": "images/stops/shanxi-museum/1.webp",
+  "name": "Shanxi_Museum_2025.jpg",
+  "match": "route",
+  "artist": "1969社论",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanxi-museum/2": {
+  "file": "images/stops/shanxi-museum/2.webp",
+  "name": "Shanxi_Museum_2025.jpg",
+  "match": "route",
+  "artist": "1969社论",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanxi-museum/3": {
+  "file": "images/stops/shanxi-museum/3.webp",
+  "name": "TheMeltingpot1.jpg",
+  "match": "stop",
+  "artist": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
+ "shanxi-museum/4": {
+  "file": "images/stops/shanxi-museum/4.webp",
+  "name": "Shanxi_Museum_2025.jpg",
+  "match": "route",
+  "artist": "1969社论",
+  "license": "CC BY-SA 4.0"
+ },
+ "yongzuo-shuangta/0": {
+  "file": "images/stops/yongzuo-shuangta/0.webp",
+  "name": "Twin_Pagoda_Revolutionary_Martyr_Cemetery_in_Taiyuan_2011-10.JPG",
+  "match": "stop",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "yongzuo-shuangta/1": {
+  "file": "images/stops/yongzuo-shuangta/1.webp",
+  "name": "太原永祚寺双塔 The Twin Pagodas of Yongzuo Temple in Taiyuan.jpg",
+  "match": "route",
+  "artist": "HerryCFPL",
+  "license": "CC0"
+ },
+ "yongzuo-shuangta/2": {
+  "file": "images/stops/yongzuo-shuangta/2.webp",
+  "name": "太原永祚寺双塔 The Twin Pagodas of Yongzuo Temple in Taiyuan.jpg",
+  "match": "route",
+  "artist": "HerryCFPL",
+  "license": "CC0"
+ },
+ "yongzuo-shuangta/3": {
+  "file": "images/stops/yongzuo-shuangta/3.webp",
+  "name": "Tayuan_Residential_Community_(20211221155240).jpg",
+  "match": "stop",
+  "artist": "N509FZ",
+  "license": "CC BY-SA 4.0"
+ },
+ "yongzuo-shuangta/4": {
+  "file": "images/stops/yongzuo-shuangta/4.webp",
+  "name": "太原永祚寺双塔 The Twin Pagodas of Yongzuo Temple in Taiyuan.jpg",
+  "match": "route",
+  "artist": "HerryCFPL",
+  "license": "CC0"
+ },
+ "tianlongshan/0": {
+  "file": "images/stops/tianlongshan/0.webp",
+  "name": "Taiyuan_tianlongshanshiku.JPG",
+  "match": "stop",
+  "artist": "Halazhang",
+  "license": "CC BY-SA 4.0"
+ },
+ "tianlongshan/1": {
+  "file": "images/stops/tianlongshan/1.webp",
+  "name": "Taiyuan_tianlongshanshiku.JPG",
+  "match": "route",
+  "artist": "Halazhang",
+  "license": "CC BY-SA 4.0"
+ },
+ "tianlongshan/2": {
+  "file": "images/stops/tianlongshan/2.webp",
+  "name": "Taiyuan_tianlongshanshiku.JPG",
+  "match": "route",
+  "artist": "Halazhang",
+  "license": "CC BY-SA 4.0"
+ },
+ "tianlongshan/3": {
+  "file": "images/stops/tianlongshan/3.webp",
+  "name": "天龙山石窟第8窟-隋代.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "tianlongshan/4": {
+  "file": "images/stops/tianlongshan/4.webp",
+  "name": "天龙山石窟第9窟漫山阁.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "fucheng-walk/0": {
+  "file": "images/stops/fucheng-walk/0.webp",
+  "name": "Taiyuan Chongshan Si 2013.08.27 15-24-49.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "fucheng-walk/1": {
+  "file": "images/stops/fucheng-walk/1.webp",
+  "name": "Taiyuan Chongshan Si 2013.08.27 15-24-49.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "fucheng-walk/2": {
+  "file": "images/stops/fucheng-walk/2.webp",
+  "name": "Taiyuan Chongshan Si 2013.08.27 15-24-49.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "fucheng-walk/3": {
+  "file": "images/stops/fucheng-walk/3.webp",
+  "name": "Taiyuan Chongshan Si 2013.08.27 15-24-49.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "wutai/0": {
+  "file": "images/stops/wutai/0.webp",
+  "name": "中國山西五台山世界遺產534.jpg",
+  "match": "route",
+  "artist": "林高志",
+  "license": "CC BY-SA 4.0"
+ },
+ "wutai/1": {
+  "file": "images/stops/wutai/1.webp",
+  "name": "中國山西五台山世界遺產534.jpg",
+  "match": "route",
+  "artist": "林高志",
+  "license": "CC BY-SA 4.0"
+ },
+ "wutai/2": {
+  "file": "images/stops/wutai/2.webp",
+  "name": "中國山西五台山世界遺產534.jpg",
+  "match": "route",
+  "artist": "林高志",
+  "license": "CC BY-SA 4.0"
+ },
+ "wutai/3": {
+  "file": "images/stops/wutai/3.webp",
+  "name": "五台山塔院寺 ta yuan si, Wutai Mountain - panoramio.jpg",
+  "match": "route",
+  "artist": "wanghongliu",
+  "license": "CC BY-SA 3.0"
+ },
+ "wutai/4": {
+  "file": "images/stops/wutai/4.webp",
+  "name": "中國山西五台山世界遺產534.jpg",
+  "match": "route",
+  "artist": "林高志",
+  "license": "CC BY-SA 4.0"
+ },
+ "foguang-temple/0": {
+  "file": "images/stops/foguang-temple/0.webp",
+  "name": "佛光寺-1.jpg",
+  "match": "route",
+  "artist": "Fymking",
+  "license": "CC BY-SA 4.0"
+ },
+ "foguang-temple/1": {
+  "file": "images/stops/foguang-temple/1.webp",
+  "name": "佛光寺-1.jpg",
+  "match": "route",
+  "artist": "Fymking",
+  "license": "CC BY-SA 4.0"
+ },
+ "foguang-temple/2": {
+  "file": "images/stops/foguang-temple/2.webp",
+  "name": "佛光寺-1.jpg",
+  "match": "route",
+  "artist": "Fymking",
+  "license": "CC BY-SA 4.0"
+ },
+ "foguang-temple/3": {
+  "file": "images/stops/foguang-temple/3.webp",
+  "name": "佛光寺-1.jpg",
+  "match": "route",
+  "artist": "Fymking",
+  "license": "CC BY-SA 4.0"
+ },
+ "foguang-temple/4": {
+  "file": "images/stops/foguang-temple/4.webp",
+  "name": "佛光寺-1.jpg",
+  "match": "route",
+  "artist": "Fymking",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanchan-temple/0": {
+  "file": "images/stops/nanchan-temple/0.webp",
+  "name": "南禅寺大殿正面二.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanchan-temple/1": {
+  "file": "images/stops/nanchan-temple/1.webp",
+  "name": "南禅寺大殿正面二.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanchan-temple/2": {
+  "file": "images/stops/nanchan-temple/2.webp",
+  "name": "南禅寺大殿正面.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanchan-temple/3": {
+  "file": "images/stops/nanchan-temple/3.webp",
+  "name": "南禅寺大殿正面二.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanchan-temple/4": {
+  "file": "images/stops/nanchan-temple/4.webp",
+  "name": "南禅寺大殿正面二.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "xinzhou-ancient-city/2": {
+  "file": "images/stops/xinzhou-ancient-city/2.webp",
+  "name": "Entrance_paifang_of_Xiurong_Academy_(20250712082728).jpg",
+  "match": "stop",
+  "artist": "N509FZ",
+  "license": "CC BY-SA 4.0"
+ },
+ "xinzhou-ancient-city/3": {
+  "file": "images/stops/xinzhou-ancient-city/3.webp",
+  "name": "Entrance_paifang_of_Xiurong_Academy_(20250712082728).jpg",
+  "match": "stop",
+  "artist": "N509FZ",
+  "license": "CC BY-SA 4.0"
+ },
+ "yanmenguan-pass/1": {
+  "file": "images/stops/yanmenguan-pass/1.webp",
+  "name": "20250604_Yanmenguan_Zhan.jpg",
+  "match": "route",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "yanmenguan-pass/2": {
+  "file": "images/stops/yanmenguan-pass/2.webp",
+  "name": "20250604_Yanmenguan_Zhan.jpg",
+  "match": "route",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "yanmenguan-pass/3": {
+  "file": "images/stops/yanmenguan-pass/3.webp",
+  "name": "20250604_Yanmenguan_Zhan.jpg",
+  "match": "route",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "yanmenguan-pass/4": {
+  "file": "images/stops/yanmenguan-pass/4.webp",
+  "name": "20250604_Yanmenguan_Zhan.jpg",
+  "match": "route",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "daixian-ancient-city/4": {
+  "file": "images/stops/daixian-ancient-city/4.webp",
+  "name": "代县阿育王塔正面.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "yingxian-pagoda/0": {
+  "file": "images/stops/yingxian-pagoda/0.webp",
+  "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "yingxian-pagoda/1": {
+  "file": "images/stops/yingxian-pagoda/1.webp",
+  "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "yingxian-pagoda/2": {
+  "file": "images/stops/yingxian-pagoda/2.webp",
+  "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
+  "match": "stop",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "yingxian-pagoda/3": {
+  "file": "images/stops/yingxian-pagoda/3.webp",
+  "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "yingxian-pagoda/4": {
+  "file": "images/stops/yingxian-pagoda/4.webp",
+  "name": "Pagoda_of_Fogong_Temple_at_Dust.jpg",
+  "match": "route",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongfu-temple/0": {
+  "file": "images/stops/chongfu-temple/0.webp",
+  "name": "崇福寺山门.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongfu-temple/1": {
+  "file": "images/stops/chongfu-temple/1.webp",
+  "name": "崇福寺山门.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongfu-temple/2": {
+  "file": "images/stops/chongfu-temple/2.webp",
+  "name": "崇福寺山门.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongfu-temple/3": {
+  "file": "images/stops/chongfu-temple/3.webp",
+  "name": "崇福寺弥陀殿远景.jpg",
+  "match": "stop",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongfu-temple/4": {
+  "file": "images/stops/chongfu-temple/4.webp",
+  "name": "崇福寺山门.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "jingtu-temple/0": {
+  "file": "images/stops/jingtu-temple/0.webp",
+  "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "jingtu-temple/1": {
+  "file": "images/stops/jingtu-temple/1.webp",
+  "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "jingtu-temple/2": {
+  "file": "images/stops/jingtu-temple/2.webp",
+  "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "jingtu-temple/3": {
+  "file": "images/stops/jingtu-temple/3.webp",
+  "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "jingtu-temple/4": {
+  "file": "images/stops/jingtu-temple/4.webp",
+  "name": "Jing_Tu_Temple_in_Yingxian_2011-07.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "haizhou-guandi/1": {
+  "file": "images/stops/haizhou-guandi/1.webp",
+  "name": "20260504_Haizhou_Emperor_Guan_Temple_11.jpg",
+  "match": "route",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0"
+ },
+ "haizhou-guandi/2": {
+  "file": "images/stops/haizhou-guandi/2.webp",
+  "name": "20260504_Haizhou_Emperor_Guan_Temple_11.jpg",
+  "match": "route",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0"
+ },
+ "haizhou-guandi/3": {
+  "file": "images/stops/haizhou-guandi/3.webp",
+  "name": "20260504_Haizhou_Emperor_Guan_Temple_11.jpg",
+  "match": "route",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0"
+ },
+ "haizhou-guandi/4": {
+  "file": "images/stops/haizhou-guandi/4.webp",
+  "name": "20260504_Haizhou_Emperor_Guan_Temple_11.jpg",
+  "match": "route",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0"
+ },
+ "pujiu-temple/0": {
+  "file": "images/stops/pujiu-temple/0.webp",
+  "name": "Pujiu_Temple,_6_October_2017.jpg",
+  "match": "route",
+  "artist": "hwcmsb@126",
+  "license": "CC BY 2.5"
+ },
+ "pujiu-temple/1": {
+  "file": "images/stops/pujiu-temple/1.webp",
+  "name": "Pujiu_Temple,_6_October_2017.jpg",
+  "match": "route",
+  "artist": "hwcmsb@126",
+  "license": "CC BY 2.5"
+ },
+ "pujiu-temple/2": {
+  "file": "images/stops/pujiu-temple/2.webp",
+  "name": "Pujiu_Temple,_6_October_2017.jpg",
+  "match": "stop",
+  "artist": "hwcmsb@126",
+  "license": "CC BY 2.5"
+ },
+ "pujiu-temple/3": {
+  "file": "images/stops/pujiu-temple/3.webp",
+  "name": "Pujiu_Temple,_6_October_2017.jpg",
+  "match": "route",
+  "artist": "hwcmsb@126",
+  "license": "CC BY 2.5"
+ },
+ "pujiu-temple/4": {
+  "file": "images/stops/pujiu-temple/4.webp",
+  "name": "Pujiu_Temple,_6_October_2017.jpg",
+  "match": "route",
+  "artist": "hwcmsb@126",
+  "license": "CC BY 2.5"
+ },
+ "feiyun-tower/0": {
+  "file": "images/stops/feiyun-tower/0.webp",
+  "name": "飞云楼右侧庙墙外.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "feiyun-tower/1": {
+  "file": "images/stops/feiyun-tower/1.webp",
+  "name": "飞云楼右侧庙墙外.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "feiyun-tower/2": {
+  "file": "images/stops/feiyun-tower/2.webp",
+  "name": "飞云楼右侧庙墙外.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "feiyun-tower/3": {
+  "file": "images/stops/feiyun-tower/3.webp",
+  "name": "飞云楼右侧庙墙外.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "feiyun-tower/4": {
+  "file": "images/stops/feiyun-tower/4.webp",
+  "name": "飞云楼右侧庙墙外.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-axis/0": {
+  "file": "images/stops/beijing-axis/0.webp",
+  "name": "正阳门背.jpg",
+  "match": "route",
+  "artist": "Liuyi",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-axis/1": {
+  "file": "images/stops/beijing-axis/1.webp",
+  "name": "Tian'anmen_from_the_square_(20200825114150).jpg",
+  "match": "stop",
+  "artist": "N509FZ",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-axis/2": {
+  "file": "images/stops/beijing-axis/2.webp",
+  "name": "Tiananmen_beijing_Panorama.jpg",
+  "match": "stop",
+  "artist": "张瑜",
+  "license": "Public domain"
+ },
+ "beijing-axis/3": {
+  "file": "images/stops/beijing-axis/3.webp",
+  "name": "Tian'anmen_from_the_square_(20200825114150).jpg",
+  "match": "route",
+  "artist": "N509FZ",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-axis/4": {
+  "file": "images/stops/beijing-axis/4.webp",
+  "name": "The_Drum_Tower_in_Beijing.jpg",
+  "match": "stop",
+  "artist": "Czzhermit",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-hutong/0": {
+  "file": "images/stops/beijing-hutong/0.webp",
+  "name": "什刹海银锭桥西望.jpg",
+  "match": "stop",
+  "artist": "shizhao",
+  "license": "CC BY-SA 2.0"
+ },
+ "beijing-hutong/2": {
+  "file": "images/stops/beijing-hutong/2.webp",
+  "name": "CN-pek-hutong-bei-trommelturm.jpg",
+  "match": "stop",
+  "artist": "Bgabel",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-hutong/4": {
+  "file": "images/stops/beijing-hutong/4.webp",
+  "name": "View_down_Nanluoguxiang_2011.jpg",
+  "match": "stop",
+  "artist": "Dimitris Argyris from Athens, Greece. Edited slightly prior to upload by Daniel Case",
+  "license": "CC BY 2.0"
+ },
+ "beijing-forbidden-city/0": {
+  "file": "images/stops/beijing-forbidden-city/0.webp",
+  "name": "故宫午门23.jpg",
+  "match": "stop",
+  "artist": "红烧腰果",
+  "license": "CC BY 4.0"
+ },
+ "beijing-forbidden-city/2": {
+  "file": "images/stops/beijing-forbidden-city/2.webp",
+  "name": "故宫乾清门椽子万寿彩画.JPG",
+  "match": "stop",
+  "artist": "Gisling",
+  "license": "CC BY 3.0"
+ },
+ "beijing-forbidden-city/3": {
+  "file": "images/stops/beijing-forbidden-city/3.webp",
+  "name": "故宫御花园 - panoramio.jpg",
+  "match": "stop",
+  "artist": "江上清风1961",
+  "license": "CC BY 3.0"
+ },
+ "beijing-forbidden-city/4": {
+  "file": "images/stops/beijing-forbidden-city/4.webp",
+  "name": "Forbidden_City_Beijing_Shenwumen_Gate.JPG",
+  "match": "stop",
+  "artist": "user:kallgan",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-temple-of-heaven/4": {
+  "file": "images/stops/beijing-temple-of-heaven/4.webp",
+  "name": "Temple_of_Heaven_20160323_01.jpg",
+  "match": "stop",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-summer-palace/0": {
+  "file": "images/stops/beijing-summer-palace/0.webp",
+  "name": "The East Side of the Memorial Archway, East Palace Gate, Summer Palace, Haidian District, Beijing (202602230641).jpg",
+  "match": "stop",
+  "artist": "MiiCii",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-summer-palace/1": {
+  "file": "images/stops/beijing-summer-palace/1.webp",
+  "name": "北京颐和园仁寿殿2023.6 (1).jpg",
+  "match": "stop",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-summer-palace/2": {
+  "file": "images/stops/beijing-summer-palace/2.webp",
+  "name": "Summer_Palace_at_Beijing_21.jpg",
+  "match": "stop",
+  "artist": "Kallgan",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-summer-palace/3": {
+  "file": "images/stops/beijing-summer-palace/3.webp",
+  "name": "Summer_Palace_at_Beijing_21.jpg",
+  "match": "route",
+  "artist": "Kallgan",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-summer-palace/4": {
+  "file": "images/stops/beijing-summer-palace/4.webp",
+  "name": "颐和园石舫 - panoramio.jpg",
+  "match": "stop",
+  "artist": "zhanyoun",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-lama-confucius/1": {
+  "file": "images/stops/beijing-lama-confucius/1.webp",
+  "name": "雍和宫法轮殿.jpg",
+  "match": "stop",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-lama-confucius/2": {
+  "file": "images/stops/beijing-lama-confucius/2.webp",
+  "name": "雍和宫万福阁2019.jpg",
+  "match": "stop",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-lama-confucius/3": {
+  "file": "images/stops/beijing-lama-confucius/3.webp",
+  "name": "Guozijian_Street_West_Entrance.jpg",
+  "match": "stop",
+  "artist": "高晶 at Chinese Wikipedia",
+  "license": "Public domain"
+ },
+ "beijing-lama-confucius/4": {
+  "file": "images/stops/beijing-lama-confucius/4.webp",
+  "name": "北京国子监辟雍.jpg",
+  "match": "stop",
+  "artist": "刘灼盛",
+  "license": "CC BY-SA 3.0"
+ },
+ "shanghai-bund/0": {
+  "file": "images/stops/shanghai-bund/0.webp",
+  "name": "WaibaiduBridgeOld1.jpg",
+  "match": "stop",
+  "artist": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
+ "shanghai-bund/1": {
+  "file": "images/stops/shanghai-bund/1.webp",
+  "name": "Raffles_City,_the_North_Bund.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-bund/2": {
+  "file": "images/stops/shanghai-bund/2.webp",
+  "name": "Shanghai_Customs_House_Dec_2017.jpg",
+  "match": "stop",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-bund/3": {
+  "file": "images/stops/shanghai-bund/3.webp",
+  "name": "DSC00244外滩夜景.jpg",
+  "match": "route",
+  "artist": "Ding Kezhong",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-bund/4": {
+  "file": "images/stops/shanghai-bund/4.webp",
+  "name": "The_Peace_Hotel.jpg",
+  "match": "stop",
+  "artist": "Paul Pak-hing Lee",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-shikumen/0": {
+  "file": "images/stops/shanghai-shikumen/0.webp",
+  "name": "Tingzijian,_Shikumen_Open_House_Museum_1.JPG",
+  "match": "route",
+  "artist": "BrokenSphere",
+  "license": "CC BY 3.0"
+ },
+ "shanghai-shikumen/1": {
+  "file": "images/stops/shanghai-shikumen/1.webp",
+  "name": "Tingzijian,_Shikumen_Open_House_Museum_1.JPG",
+  "match": "route",
+  "artist": "BrokenSphere",
+  "license": "CC BY 3.0"
+ },
+ "shanghai-shikumen/2": {
+  "file": "images/stops/shanghai-shikumen/2.webp",
+  "name": "Tingzijian,_Shikumen_Open_House_Museum_1.JPG",
+  "match": "route",
+  "artist": "BrokenSphere",
+  "license": "CC BY 3.0"
+ },
+ "shanghai-shikumen/3": {
+  "file": "images/stops/shanghai-shikumen/3.webp",
+  "name": "Fuxing_Park,_Shanghai.JPG",
+  "match": "stop",
+  "artist": "Jpbowen",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-shikumen/4": {
+  "file": "images/stops/shanghai-shikumen/4.webp",
+  "name": "Tingzijian,_Shikumen_Open_House_Museum_1.JPG",
+  "match": "route",
+  "artist": "BrokenSphere",
+  "license": "CC BY 3.0"
+ },
+ "shanghai-yuyuan/1": {
+  "file": "images/stops/shanghai-yuyuan/1.webp",
+  "name": "Yu Garden 03 2015-09.JPG",
+  "match": "stop",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-yuyuan/2": {
+  "file": "images/stops/shanghai-yuyuan/2.webp",
+  "name": "Dianchun_Tang.JPG",
+  "match": "stop",
+  "artist": "Yuqi Qiao",
+  "license": "CC BY-SA 3.0"
+ },
+ "shanghai-yuyuan/3": {
+  "file": "images/stops/shanghai-yuyuan/3.webp",
+  "name": "上海豫园玉玲珑-1.jpg",
+  "match": "stop",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "shanghai-longhua/0": {
+  "file": "images/stops/shanghai-longhua/0.webp",
+  "name": "Shanghai_Longhua_Si_2016.08.21_08-51-22.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-longhua/1": {
+  "file": "images/stops/shanghai-longhua/1.webp",
+  "name": "上海龙华塔2019.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-longhua/2": {
+  "file": "images/stops/shanghai-longhua/2.webp",
+  "name": "上海龙华塔2019.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-longhua/3": {
+  "file": "images/stops/shanghai-longhua/3.webp",
+  "name": "上海龙华塔2019.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-longhua/4": {
+  "file": "images/stops/shanghai-longhua/4.webp",
+  "name": "Temple_roofline.jpg",
+  "match": "stop",
+  "artist": "Joshua W",
+  "license": "CC BY-SA 2.0"
+ },
+ "shanghai-wukang/0": {
+  "file": "images/stops/shanghai-wukang/0.webp",
+  "name": "Wukang_Mansion_(20191114161507).jpg",
+  "match": "route",
+  "artist": "N509FZ",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-wukang/1": {
+  "file": "images/stops/shanghai-wukang/1.webp",
+  "name": "20260209_393_Wukang_Road.jpg",
+  "match": "stop",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-wukang/2": {
+  "file": "images/stops/shanghai-wukang/2.webp",
+  "name": "Wukang_Mansion_(20191114161507).jpg",
+  "match": "route",
+  "artist": "N509FZ",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-wukang/3": {
+  "file": "images/stops/shanghai-wukang/3.webp",
+  "name": "20260209_210_Wukang_Road.jpg",
+  "match": "stop",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-wukang/4": {
+  "file": "images/stops/shanghai-wukang/4.webp",
+  "name": "周立民 20240819 巴金故居常务副馆长.jpg",
+  "match": "stop",
+  "artist": "Auongkinghe",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-suzhou-creek/0": {
+  "file": "images/stops/shanghai-suzhou-creek/0.webp",
+  "name": "Sihang_Warehouse_2017.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-suzhou-creek/1": {
+  "file": "images/stops/shanghai-suzhou-creek/1.webp",
+  "name": "Chekiang_Road_Bridge.jpg",
+  "match": "stop",
+  "artist": "Fayhoo",
+  "license": "CC BY-SA 3.0"
+ },
+ "shanghai-suzhou-creek/2": {
+  "file": "images/stops/shanghai-suzhou-creek/2.webp",
+  "name": "上海总商会·上海.jpg",
+  "match": "stop",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "shanghai-suzhou-creek/3": {
+  "file": "images/stops/shanghai-suzhou-creek/3.webp",
+  "name": "Embankment_House_20250501.jpg",
+  "match": "stop",
+  "artist": "Suicasmo",
+  "license": "CC0"
+ },
+ "shanghai-suzhou-creek/4": {
+  "file": "images/stops/shanghai-suzhou-creek/4.webp",
+  "name": "General_Post_Office_Building.jpg",
+  "match": "stop",
+  "artist": "乔茗星",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-wall/0": {
+  "file": "images/stops/xian-wall/0.webp",
+  "name": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "xian-wall/1": {
+  "file": "images/stops/xian-wall/1.webp",
+  "name": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg",
+  "match": "stop",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "xian-wall/2": {
+  "file": "images/stops/xian-wall/2.webp",
+  "name": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "xian-wall/3": {
+  "file": "images/stops/xian-wall/3.webp",
+  "name": "GuanZhongShuYuan.JPG",
+  "match": "stop",
+  "artist": "Wang Zhongyin",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-wall/4": {
+  "file": "images/stops/xian-wall/4.webp",
+  "name": "西安碑林博物馆大门_2023-09-29.jpg",
+  "match": "stop",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-muslim-quarter/0": {
+  "file": "images/stops/xian-muslim-quarter/0.webp",
+  "name": "Xi'an_Bell_Tower_1.jpg",
+  "match": "stop",
+  "artist": "H2v5o68z",
+  "license": "CC0"
+ },
+ "xian-muslim-quarter/1": {
+  "file": "images/stops/xian-muslim-quarter/1.webp",
+  "name": "Xi'an_Drum_Tower_50308-Xian_(28004571916).jpg",
+  "match": "stop",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "xian-muslim-quarter/2": {
+  "file": "images/stops/xian-muslim-quarter/2.webp",
+  "name": "Xi'an_Bell_Tower_1.jpg",
+  "match": "route",
+  "artist": "H2v5o68z",
+  "license": "CC0"
+ },
+ "xian-muslim-quarter/3": {
+  "file": "images/stops/xian-muslim-quarter/3.webp",
+  "name": "Former_Residence_of_Gao_Yuesong_2011-07.JPG",
+  "match": "stop",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-muslim-quarter/4": {
+  "file": "images/stops/xian-muslim-quarter/4.webp",
+  "name": "Chinese-style_minaret_of_the_Great_Mosque.jpg",
+  "match": "stop",
+  "artist": "No machine-readable author provided. Mr. Tickle assumed (based on copyright claims).",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-dayan-pagoda/0": {
+  "file": "images/stops/xian-dayan-pagoda/0.webp",
+  "name": "Square_north2DayanTower.jpg",
+  "match": "stop",
+  "artist": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-dayan-pagoda/1": {
+  "file": "images/stops/xian-dayan-pagoda/1.webp",
+  "name": "Daci'en_Temple_51202-Xian_(27424345563).jpg",
+  "match": "stop",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "xian-dayan-pagoda/3": {
+  "file": "images/stops/xian-dayan-pagoda/3.webp",
+  "name": "2023-10-10 Hsüan-tsang san-tsang hall, Ta-tzu-en Temple, Hsi-An 西安大慈恩寺玄奘三藏院.jpg",
+  "match": "stop",
+  "artist": "源義信",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-dayan-pagoda/4": {
+  "file": "images/stops/xian-dayan-pagoda/4.webp",
+  "name": "大雁塔南广场 - panoramio.jpg",
+  "match": "stop",
+  "artist": "dayu490301",
+  "license": "CC BY 3.0"
+ },
+ "xian-xiaoyan-temple/0": {
+  "file": "images/stops/xian-xiaoyan-temple/0.webp",
+  "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
+  "match": "route",
+  "artist": "wanghongliu",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-xiaoyan-temple/1": {
+  "file": "images/stops/xian-xiaoyan-temple/1.webp",
+  "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
+  "match": "route",
+  "artist": "wanghongliu",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-xiaoyan-temple/2": {
+  "file": "images/stops/xian-xiaoyan-temple/2.webp",
+  "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
+  "match": "route",
+  "artist": "wanghongliu",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-xiaoyan-temple/3": {
+  "file": "images/stops/xian-xiaoyan-temple/3.webp",
+  "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
+  "match": "route",
+  "artist": "wanghongliu",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-xiaoyan-temple/4": {
+  "file": "images/stops/xian-xiaoyan-temple/4.webp",
+  "name": "西安 荐福寺 jian fu si, Xi'an - panoramio.jpg",
+  "match": "route",
+  "artist": "wanghongliu",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-daming-palace/0": {
+  "file": "images/stops/xian-daming-palace/0.webp",
+  "name": "Relics_of_Hanyuan_Dian.jpg",
+  "match": "route",
+  "artist": "Acstar",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-daming-palace/1": {
+  "file": "images/stops/xian-daming-palace/1.webp",
+  "name": "Relics_of_Hanyuan_Dian.jpg",
+  "match": "route",
+  "artist": "Acstar",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-daming-palace/2": {
+  "file": "images/stops/xian-daming-palace/2.webp",
+  "name": "大明宫—含元殿遗址.JPG",
+  "match": "stop",
+  "artist": "申威隆",
+  "license": "CC BY-SA 3.0"
+ },
+ "xian-daming-palace/3": {
+  "file": "images/stops/xian-daming-palace/3.webp",
+  "name": "太液池边的雕塑 - panoramio.jpg",
+  "match": "stop",
+  "artist": "dayu490301",
+  "license": "CC BY 3.0"
+ },
+ "xian-daming-palace/4": {
+  "file": "images/stops/xian-daming-palace/4.webp",
+  "name": "Relics_of_Hanyuan_Dian.jpg",
+  "match": "route",
+  "artist": "Acstar",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-qinglong-temple/0": {
+  "file": "images/stops/xian-qinglong-temple/0.webp",
+  "name": "青龙寺遗址-殿堂遗址（三号遗址）_(1).jpg",
+  "match": "route",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-qinglong-temple/1": {
+  "file": "images/stops/xian-qinglong-temple/1.webp",
+  "name": "青龙寺遗址-殿堂遗址（三号遗址）_(1).jpg",
+  "match": "route",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-qinglong-temple/2": {
+  "file": "images/stops/xian-qinglong-temple/2.webp",
+  "name": "青龙寺遗址-殿堂遗址（三号遗址）_(1).jpg",
+  "match": "route",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-qinglong-temple/3": {
+  "file": "images/stops/xian-qinglong-temple/3.webp",
+  "name": "西安青龙寺-惠果空海纪念堂 01.jpg",
+  "match": "stop",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "xian-qinglong-temple/4": {
+  "file": "images/stops/xian-qinglong-temple/4.webp",
+  "name": "青龙寺遗址-殿堂遗址（三号遗址）_(1).jpg",
+  "match": "route",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-tea/0": {
+  "file": "images/stops/chengdu-tea/0.webp",
+  "name": "成都人民公园北大门.jpg",
+  "match": "stop",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-tea/1": {
+  "file": "images/stops/chengdu-tea/1.webp",
+  "name": "Teahouse_in_Peoples_Park_-_Chengdu,_China_-_DSC05348.jpg",
+  "match": "stop",
+  "artist": "Daderot",
+  "license": "CC0"
+ },
+ "chengdu-tea/3": {
+  "file": "images/stops/chengdu-tea/3.webp",
+  "name": "武侯祠.jpg",
+  "match": "stop",
+  "artist": "Shizhao",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-tea/4": {
+  "file": "images/stops/chengdu-tea/4.webp",
+  "name": "Chengdu_travel_045_(36150300546).jpg",
+  "match": "route",
+  "artist": "JianEn Yu",
+  "license": "CC BY 2.0"
+ },
+ "chengdu-dufu/0": {
+  "file": "images/stops/chengdu-dufu/0.webp",
+  "name": "杜甫草堂西门（正门） 01.jpg",
+  "match": "route",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-dufu/1": {
+  "file": "images/stops/chengdu-dufu/1.webp",
+  "name": "杜甫草堂-大廨.jpg",
+  "match": "stop",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-dufu/2": {
+  "file": "images/stops/chengdu-dufu/2.webp",
+  "name": "杜甫草堂-诗史堂.jpg",
+  "match": "stop",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-dufu/3": {
+  "file": "images/stops/chengdu-dufu/3.webp",
+  "name": "Du_Fu_cao_tang.jpg",
+  "match": "route",
+  "artist": "User:唐戈",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-dufu/4": {
+  "file": "images/stops/chengdu-dufu/4.webp",
+  "name": "Du_Fu_cao_tang.jpg",
+  "match": "route",
+  "artist": "User:唐戈",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-jinsha/0": {
+  "file": "images/stops/chengdu-jinsha/0.webp",
+  "name": "金沙遗址博物馆遗迹馆.jpg",
+  "match": "stop",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-jinsha/1": {
+  "file": "images/stops/chengdu-jinsha/1.webp",
+  "name": "20250515_Jinsha_Yizhi_Bowuguan.jpg",
+  "match": "route",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-jinsha/2": {
+  "file": "images/stops/chengdu-jinsha/2.webp",
+  "name": "金沙遗址太阳神鸟_2018.jpg",
+  "match": "stop",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "chengdu-jinsha/3": {
+  "file": "images/stops/chengdu-jinsha/3.webp",
+  "name": "2014_Jinsha_Gold_Mask_a.jpg",
+  "match": "stop",
+  "artist": "Gary Todd",
+  "license": "CC0"
+ },
+ "chengdu-jinsha/4": {
+  "file": "images/stops/chengdu-jinsha/4.webp",
+  "name": "日落乌木林(金沙遗址) - panoramio.jpg",
+  "match": "stop",
+  "artist": "landagent",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-qingyang/1": {
+  "file": "images/stops/chengdu-qingyang/1.webp",
+  "name": "青羊宫混元殿 2024-10-17.jpg",
+  "match": "stop",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-qingyang/2": {
+  "file": "images/stops/chengdu-qingyang/2.webp",
+  "name": "成都青羊宫八卦亭.jpg",
+  "match": "stop",
+  "artist": "螺钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-qingyang/4": {
+  "file": "images/stops/chengdu-qingyang/4.webp",
+  "name": "斗姥殿.jpg",
+  "match": "stop",
+  "artist": "Shizhao",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-dujiangyan/0": {
+  "file": "images/stops/chengdu-dujiangyan/0.webp",
+  "name": "都江堰堰功道 阿尔泰 2024-05-01.jpg",
+  "match": "stop",
+  "artist": "Kcx36",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-dujiangyan/1": {
+  "file": "images/stops/chengdu-dujiangyan/1.webp",
+  "name": "伏龙观.jpg",
+  "match": "stop",
+  "artist": "Shizhao",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-dujiangyan/2": {
+  "file": "images/stops/chengdu-dujiangyan/2.webp",
+  "name": "36661-Dujiangyan_(44634340644).jpg",
+  "match": "stop",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "chengdu-dujiangyan/3": {
+  "file": "images/stops/chengdu-dujiangyan/3.webp",
+  "name": "飞沙堰.jpg",
+  "match": "stop",
+  "artist": "Shizhao",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-dujiangyan/4": {
+  "file": "images/stops/chengdu-dujiangyan/4.webp",
+  "name": "都江堰鱼嘴.jpg",
+  "match": "stop",
+  "artist": "星星",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-westlake/0": {
+  "file": "images/stops/hangzhou-westlake/0.webp",
+  "name": "西湖断桥 - panoramio.jpg",
+  "match": "stop",
+  "artist": "薄兰安",
+  "license": "CC BY 3.0"
+ },
+ "hangzhou-westlake/1": {
+  "file": "images/stops/hangzhou-westlake/1.webp",
+  "name": "West_Lake,_Hangzhou_2025.jpg",
+  "match": "route",
+  "artist": "Takashishin",
+  "license": "CC BY 4.0"
+ },
+ "hangzhou-westlake/2": {
+  "file": "images/stops/hangzhou-westlake/2.webp",
+  "name": "平湖秋月国保碑.JPG",
+  "match": "stop",
+  "artist": "Nekitarc",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-westlake/3": {
+  "file": "images/stops/hangzhou-westlake/3.webp",
+  "name": "西泠印社紀念社門.JPG",
+  "match": "stop",
+  "artist": "Inhorw",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-westlake/4": {
+  "file": "images/stops/hangzhou-westlake/4.webp",
+  "name": "West_Lake,_Hangzhou_2025.jpg",
+  "match": "route",
+  "artist": "Takashishin",
+  "license": "CC BY 4.0"
+ },
+ "hangzhou-canal/2": {
+  "file": "images/stops/hangzhou-canal/2.webp",
+  "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
+  "match": "stop",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-lingyin/0": {
+  "file": "images/stops/hangzhou-lingyin/0.webp",
+  "name": "Feilaifeng_zaoxiang_7577.jpg",
+  "match": "route",
+  "artist": "Doctoroftcm",
+  "license": "CC BY-SA 3.0"
+ },
+ "hangzhou-lingyin/1": {
+  "file": "images/stops/hangzhou-lingyin/1.webp",
+  "name": "Feilaifeng_zaoxiang_7577.jpg",
+  "match": "route",
+  "artist": "Doctoroftcm",
+  "license": "CC BY-SA 3.0"
+ },
+ "hangzhou-lingyin/2": {
+  "file": "images/stops/hangzhou-lingyin/2.webp",
+  "name": "Feilaifeng_zaoxiang_7577.jpg",
+  "match": "route",
+  "artist": "Doctoroftcm",
+  "license": "CC BY-SA 3.0"
+ },
+ "hangzhou-lingyin/3": {
+  "file": "images/stops/hangzhou-lingyin/3.webp",
+  "name": "Feilaifeng_zaoxiang_7577.jpg",
+  "match": "route",
+  "artist": "Doctoroftcm",
+  "license": "CC BY-SA 3.0"
+ },
+ "hangzhou-lingyin/4": {
+  "file": "images/stops/hangzhou-lingyin/4.webp",
+  "name": "灵隐寺景区 永福寺 - panoramio.jpg",
+  "match": "stop",
+  "artist": "zhiyin586@163.com",
+  "license": "CC BY 3.0"
+ },
+ "hangzhou-hefang/1": {
+  "file": "images/stops/hangzhou-hefang/1.webp",
+  "name": "Southern_Song_Imperial_Street.jpg",
+  "match": "stop",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-hefang/2": {
+  "file": "images/stops/hangzhou-hefang/2.webp",
+  "name": "杭州清河坊.JPG",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "hangzhou-hefang/3": {
+  "file": "images/stops/hangzhou-hefang/3.webp",
+  "name": "杭州清河坊.JPG",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "hangzhou-hefang/4": {
+  "file": "images/stops/hangzhou-hefang/4.webp",
+  "name": "Hu_Xueyan_jiuju_7322.jpg",
+  "match": "stop",
+  "artist": "Doctoroftcm",
+  "license": "CC BY-SA 3.0"
+ },
+ "hangzhou-liangzhu/0": {
+  "file": "images/stops/hangzhou-liangzhu/0.webp",
+  "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
+  "match": "route",
+  "artist": "Siyuwj",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-liangzhu/1": {
+  "file": "images/stops/hangzhou-liangzhu/1.webp",
+  "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
+  "match": "route",
+  "artist": "Siyuwj",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-liangzhu/2": {
+  "file": "images/stops/hangzhou-liangzhu/2.webp",
+  "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
+  "match": "route",
+  "artist": "Siyuwj",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-liangzhu/3": {
+  "file": "images/stops/hangzhou-liangzhu/3.webp",
+  "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
+  "match": "route",
+  "artist": "Siyuwj",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-liangzhu/4": {
+  "file": "images/stops/hangzhou-liangzhu/4.webp",
+  "name": "Liangzhu_Ancient_City_Site,_2016-06-18_02.jpg",
+  "match": "route",
+  "artist": "Siyuwj",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-qiantang/1": {
+  "file": "images/stops/hangzhou-qiantang/1.webp",
+  "name": "Qiantang_River_Bridge_DJI_0582.jpg",
+  "match": "route",
+  "artist": "David290",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-hutong/1": {
+  "file": "images/stops/beijing-hutong/1.webp",
+  "name": "北京 什刹海.jpg",
+  "match": "route",
+  "artist": "Worldtravelwiki",
+  "license": "CC0"
+ },
+ "beijing-hutong/3": {
+  "file": "images/stops/beijing-hutong/3.webp",
+  "name": "北京 什刹海.jpg",
+  "match": "route",
+  "artist": "Worldtravelwiki",
+  "license": "CC0"
+ },
+ "shanghai-yuyuan/0": {
+  "file": "images/stops/shanghai-yuyuan/0.webp",
+  "name": "2024-Apr Shanghai Yu Yuan Garden 豫园 - img 20.jpg",
+  "match": "route",
+  "artist": "Chainwit.",
+  "license": "CC BY 4.0"
+ },
+ "shanghai-yuyuan/4": {
+  "file": "images/stops/shanghai-yuyuan/4.webp",
+  "name": "2024-Apr Shanghai Yu Yuan Garden 豫园 - img 20.jpg",
+  "match": "route",
+  "artist": "Chainwit.",
+  "license": "CC BY 4.0"
+ },
+ "xian-dayan-pagoda/2": {
+  "file": "images/stops/xian-dayan-pagoda/2.webp",
+  "name": "Daci'en_Temple_51202-Xian_(27424345563).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "chengdu-tea/2": {
+  "file": "images/stops/chengdu-tea/2.webp",
+  "name": "Chengdu_travel_045_(36150300546).jpg",
+  "match": "route",
+  "artist": "JianEn Yu",
+  "license": "CC BY 2.0"
+ },
+ "chengdu-qingyang/0": {
+  "file": "images/stops/chengdu-qingyang/0.webp",
+  "name": "成都青羊宫.png",
+  "match": "route",
+  "artist": "Sunatnight",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-qingyang/3": {
+  "file": "images/stops/chengdu-qingyang/3.webp",
+  "name": "成都青羊宫.png",
+  "match": "route",
+  "artist": "Sunatnight",
+  "license": "CC BY-SA 3.0"
+ },
+ "hangzhou-canal/0": {
+  "file": "images/stops/hangzhou-canal/0.webp",
+  "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-canal/1": {
+  "file": "images/stops/hangzhou-canal/1.webp",
+  "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-canal/3": {
+  "file": "images/stops/hangzhou-canal/3.webp",
+  "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-canal/4": {
+  "file": "images/stops/hangzhou-canal/4.webp",
+  "name": "拱宸橋·浙江杭州·（航拍自東南往西北）.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-qiantang/2": {
+  "file": "images/stops/hangzhou-qiantang/2.webp",
+  "name": "Qiantang_River_Bridge_DJI_0582.jpg",
+  "match": "route",
+  "artist": "David290",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-qiantang/3": {
+  "file": "images/stops/hangzhou-qiantang/3.webp",
+  "name": "Qiantang_River_Bridge_DJI_0582.jpg",
+  "match": "route",
+  "artist": "David290",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-qiantang/4": {
+  "file": "images/stops/hangzhou-qiantang/4.webp",
+  "name": "20260802_Zhakou_White_Pagoda_01.jpg",
+  "match": "stop",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-garden/0": {
+  "file": "images/stops/suzhou-garden/0.webp",
+  "name": "Humble_Administrator's_Garden_Suzhou_November_2017_008.jpg",
+  "match": "route",
+  "artist": "King of Hearts",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-garden/1": {
+  "file": "images/stops/suzhou-garden/1.webp",
+  "name": "Humble_Administrator's_Garden_Suzhou_November_2017_008.jpg",
+  "match": "route",
+  "artist": "King of Hearts",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-garden/2": {
+  "file": "images/stops/suzhou-garden/2.webp",
+  "name": "苏州博物馆·苏州·西南向东北.jpg",
+  "match": "stop",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-garden/3": {
+  "file": "images/stops/suzhou-garden/3.webp",
+  "name": "Humble_Administrator's_Garden_Suzhou_November_2017_008.jpg",
+  "match": "route",
+  "artist": "King of Hearts",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-garden/4": {
+  "file": "images/stops/suzhou-garden/4.webp",
+  "name": "Humble_Administrator's_Garden_Suzhou_November_2017_008.jpg",
+  "match": "route",
+  "artist": "King of Hearts",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-shantang/0": {
+  "file": "images/stops/suzhou-shantang/0.webp",
+  "name": "Pagoda_Yunyan_Ta.jpg",
+  "match": "route",
+  "artist": "Mr. Tickle",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-shantang/1": {
+  "file": "images/stops/suzhou-shantang/1.webp",
+  "name": "Pagoda_Yunyan_Ta.jpg",
+  "match": "route",
+  "artist": "Mr. Tickle",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-shantang/2": {
+  "file": "images/stops/suzhou-shantang/2.webp",
+  "name": "Yunyan_Pagoda_at_Tiger_Hill.JPG",
+  "match": "stop",
+  "artist": "螺钉",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-shantang/3": {
+  "file": "images/stops/suzhou-shantang/3.webp",
+  "name": "Pagoda_Yunyan_Ta.jpg",
+  "match": "route",
+  "artist": "Mr. Tickle",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-shantang/4": {
+  "file": "images/stops/suzhou-shantang/4.webp",
+  "name": "Pagoda_Yunyan_Ta.jpg",
+  "match": "route",
+  "artist": "Mr. Tickle",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-liuyuan/0": {
+  "file": "images/stops/suzhou-liuyuan/0.webp",
+  "name": "Lingering_Garden_8.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-liuyuan/1": {
+  "file": "images/stops/suzhou-liuyuan/1.webp",
+  "name": "Lingering_Garden_8.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-liuyuan/2": {
+  "file": "images/stops/suzhou-liuyuan/2.webp",
+  "name": "Lingering Garden - 五峰仙馆 20220904.jpg",
+  "match": "stop",
+  "artist": "颐园居",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-liuyuan/3": {
+  "file": "images/stops/suzhou-liuyuan/3.webp",
+  "name": "Lingering Garden - 湖石冠云峰 20220904.jpg",
+  "match": "route",
+  "artist": "颐园居",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-liuyuan/4": {
+  "file": "images/stops/suzhou-liuyuan/4.webp",
+  "name": "Lingering_Garden_8.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-hanshan/1": {
+  "file": "images/stops/suzhou-hanshan/1.webp",
+  "name": "寒山寺大雄宝殿前香火.jpg",
+  "match": "stop",
+  "artist": "User:CatOnMars",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-hanshan/3": {
+  "file": "images/stops/suzhou-hanshan/3.webp",
+  "name": "蘇州 寒山寺 Hanshan Temple - panoramio.jpg",
+  "match": "route",
+  "artist": "Foxy Who \\(^∀^)/",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-hanshan/4": {
+  "file": "images/stops/suzhou-hanshan/4.webp",
+  "name": "Feng_Qiao_of_Suzhou.jpg",
+  "match": "stop",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-panmen/0": {
+  "file": "images/stops/suzhou-panmen/0.webp",
+  "name": "Land_Gate_of_Pan_Men.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-panmen/1": {
+  "file": "images/stops/suzhou-panmen/1.webp",
+  "name": "Land_Gate_of_Pan_Men.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-panmen/3": {
+  "file": "images/stops/suzhou-panmen/3.webp",
+  "name": "瑞光塔·苏州·（西向东）.jpg",
+  "match": "stop",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-panmen/4": {
+  "file": "images/stops/suzhou-panmen/4.webp",
+  "name": "Land_Gate_of_Pan_Men.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-canglang/0": {
+  "file": "images/stops/suzhou-canglang/0.webp",
+  "name": "沧浪亭·苏州·全景.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-canglang/1": {
+  "file": "images/stops/suzhou-canglang/1.webp",
+  "name": "沧浪亭·苏州·全景.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-canglang/3": {
+  "file": "images/stops/suzhou-canglang/3.webp",
+  "name": "沧浪亭·苏州·全景.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "suzhou-canglang/4": {
+  "file": "images/stops/suzhou-canglang/4.webp",
+  "name": "沧浪亭·苏州·全景.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-wall/1": {
+  "file": "images/stops/nanjing-wall/1.webp",
+  "name": "南京站南广场玄武湖边西南向夜景.jpg",
+  "match": "stop",
+  "artist": "董辰兴",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-wall/4": {
+  "file": "images/stops/nanjing-wall/4.webp",
+  "name": "中华民国总统府·南京·航拍.jpg",
+  "match": "stop",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-qinhuai/0": {
+  "file": "images/stops/nanjing-qinhuai/0.webp",
+  "name": "LingXingMen_of_Nanjing_Confucian_Temple.jpg",
+  "match": "route",
+  "artist": "Kinden Kuo from Taipei, Taiwan",
+  "license": "CC BY-SA 2.0"
+ },
+ "nanjing-qinhuai/1": {
+  "file": "images/stops/nanjing-qinhuai/1.webp",
+  "name": "LingXingMen_of_Nanjing_Confucian_Temple.jpg",
+  "match": "route",
+  "artist": "Kinden Kuo from Taipei, Taiwan",
+  "license": "CC BY-SA 2.0"
+ },
+ "nanjing-qinhuai/2": {
+  "file": "images/stops/nanjing-qinhuai/2.webp",
+  "name": "Qinhuai_River_along_Fuzimiao_2008.jpg",
+  "match": "stop",
+  "artist": "Jaye Z",
+  "license": "CC BY-SA 2.0"
+ },
+ "nanjing-qinhuai/3": {
+  "file": "images/stops/nanjing-qinhuai/3.webp",
+  "name": "南京乌衣巷口, 2009-01-26.jpg",
+  "match": "stop",
+  "artist": "江上清风1961",
+  "license": "CC BY 3.0"
+ },
+ "nanjing-qinhuai/4": {
+  "file": "images/stops/nanjing-qinhuai/4.webp",
+  "name": "LingXingMen_of_Nanjing_Confucian_Temple.jpg",
+  "match": "route",
+  "artist": "Kinden Kuo from Taipei, Taiwan",
+  "license": "CC BY-SA 2.0"
+ },
+ "nanjing-mingxiaoling/0": {
+  "file": "images/stops/nanjing-mingxiaoling/0.webp",
+  "name": "明孝陵-大金门.jpg",
+  "match": "stop",
+  "artist": "Kallgan",
+  "license": "CC BY-SA 3.0"
+ },
+ "nanjing-mingxiaoling/1": {
+  "file": "images/stops/nanjing-mingxiaoling/1.webp",
+  "name": "明孝陵四方城石碑.jpg",
+  "match": "stop",
+  "artist": "Changongke",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-mingxiaoling/2": {
+  "file": "images/stops/nanjing-mingxiaoling/2.webp",
+  "name": "明孝陵石象路神道.jpg",
+  "match": "stop",
+  "artist": "董辰兴",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-mingxiaoling/3": {
+  "file": "images/stops/nanjing-mingxiaoling/3.webp",
+  "name": "南京明孝陵景区翁仲路 - panoramio.jpg",
+  "match": "stop",
+  "artist": "helkonig",
+  "license": "CC BY 3.0"
+ },
+ "nanjing-mingxiaoling/4": {
+  "file": "images/stops/nanjing-mingxiaoling/4.webp",
+  "name": "南京明孝陵景区方城明楼 - panoramio.jpg",
+  "match": "stop",
+  "artist": "helkonig",
+  "license": "CC BY 3.0"
+ },
+ "nanjing-linggu/0": {
+  "file": "images/stops/nanjing-linggu/0.webp",
+  "name": "Nanjing_Beamless_Hall,_Mar_2018.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-linggu/1": {
+  "file": "images/stops/nanjing-linggu/1.webp",
+  "name": "Nanjing_Beamless_Hall,_Mar_2018.jpg",
+  "match": "stop",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-linggu/2": {
+  "file": "images/stops/nanjing-linggu/2.webp",
+  "name": "Nanjing_Beamless_Hall,_Mar_2018.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-linggu/3": {
+  "file": "images/stops/nanjing-linggu/3.webp",
+  "name": "Nanjing_Beamless_Hall,_Mar_2018.jpg",
+  "match": "stop",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-linggu/4": {
+  "file": "images/stops/nanjing-linggu/4.webp",
+  "name": "20120831南京灵谷寺院内林地鲜花正艳 - panoramio.jpg",
+  "match": "stop",
+  "artist": "fish4fish",
+  "license": "CC BY-SA 3.0"
+ },
+ "nanjing-yihe/0": {
+  "file": "images/stops/nanjing-yihe/0.webp",
+  "name": "No.15_in_Yihe_Road_2012-11.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "nanjing-yihe/1": {
+  "file": "images/stops/nanjing-yihe/1.webp",
+  "name": "No.15_in_Yihe_Road_2012-11.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "nanjing-yihe/2": {
+  "file": "images/stops/nanjing-yihe/2.webp",
+  "name": "颐和路公馆区第十二片区20210404 02.jpg",
+  "match": "route",
+  "artist": "西安兵马俑",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-yihe/3": {
+  "file": "images/stops/nanjing-yihe/3.webp",
+  "name": "No.15_in_Yihe_Road_2012-11.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "nanjing-yihe/4": {
+  "file": "images/stops/nanjing-yihe/4.webp",
+  "name": "No.15_in_Yihe_Road_2012-11.JPG",
+  "match": "route",
+  "artist": "猫猫的日记本",
+  "license": "CC BY-SA 3.0"
+ },
+ "nanjing-chaotiangong/0": {
+  "file": "images/stops/nanjing-chaotiangong/0.webp",
+  "name": "Pingnan_Confucian_Temple_2014.08.03_07-09-20.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "nanjing-chaotiangong/2": {
+  "file": "images/stops/nanjing-chaotiangong/2.webp",
+  "name": "南京朝天宫大成门, 2009-01-28.jpg",
+  "match": "stop",
+  "artist": "江上清风1961",
+  "license": "CC BY 3.0"
+ },
+ "nanjing-chaotiangong/3": {
+  "file": "images/stops/nanjing-chaotiangong/3.webp",
+  "name": "朝天宫·南京·航拍.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-chaotiangong/4": {
+  "file": "images/stops/nanjing-chaotiangong/4.webp",
+  "name": "朝天宫·南京·航拍.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "guilin-river/0": {
+  "file": "images/stops/guilin-river/0.webp",
+  "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-river/1": {
+  "file": "images/stops/guilin-river/1.webp",
+  "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-river/2": {
+  "file": "images/stops/guilin-river/2.webp",
+  "name": "Ronghu_Lake_Guilin_November_2017_HDR.jpg",
+  "match": "stop",
+  "artist": "King of Hearts",
+  "license": "CC BY-SA 4.0"
+ },
+ "guilin-river/3": {
+  "file": "images/stops/guilin-river/3.webp",
+  "name": "桂林东西巷.jpg",
+  "match": "stop",
+  "artist": "神樂坂秀吉",
+  "license": "CC0"
+ },
+ "guilin-river/4": {
+  "file": "images/stops/guilin-river/4.webp",
+  "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
+  "match": "stop",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-yangshuo/0": {
+  "file": "images/stops/guilin-yangshuo/0.webp",
+  "name": "Xijie-m.jpg",
+  "match": "stop",
+  "artist": "Gisling",
+  "license": "CC BY 2.5"
+ },
+ "guilin-yangshuo/1": {
+  "file": "images/stops/guilin-yangshuo/1.webp",
+  "name": "Xijie-m.jpg",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY 2.5"
+ },
+ "guilin-yangshuo/2": {
+  "file": "images/stops/guilin-yangshuo/2.webp",
+  "name": "Xijie-m.jpg",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY 2.5"
+ },
+ "guilin-yangshuo/3": {
+  "file": "images/stops/guilin-yangshuo/3.webp",
+  "name": "漓江山水.jpg",
+  "match": "stop",
+  "artist": "Charlie fong",
+  "license": "Public domain"
+ },
+ "guilin-yangshuo/4": {
+  "file": "images/stops/guilin-yangshuo/4.webp",
+  "name": "Xijie-m.jpg",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY 2.5"
+ },
+ "guilin-wangcheng/0": {
+  "file": "images/stops/guilin-wangcheng/0.webp",
+  "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-wangcheng/1": {
+  "file": "images/stops/guilin-wangcheng/1.webp",
+  "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-wangcheng/2": {
+  "file": "images/stops/guilin-wangcheng/2.webp",
+  "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-wangcheng/3": {
+  "file": "images/stops/guilin-wangcheng/3.webp",
+  "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-wangcheng/4": {
+  "file": "images/stops/guilin-wangcheng/4.webp",
+  "name": "Jingjiang_Princes_City_89785-Guilin_(49040802591).jpg",
+  "match": "route",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-lingqu/0": {
+  "file": "images/stops/guilin-lingqu/0.webp",
+  "name": "Lingqu_Canal.jpg",
+  "match": "route",
+  "artist": "Farm",
+  "license": "CC BY 3.0"
+ },
+ "guilin-lingqu/1": {
+  "file": "images/stops/guilin-lingqu/1.webp",
+  "name": "Lingqu_Canal.jpg",
+  "match": "route",
+  "artist": "Farm",
+  "license": "CC BY 3.0"
+ },
+ "guilin-lingqu/2": {
+  "file": "images/stops/guilin-lingqu/2.webp",
+  "name": "Lingqu_Canal.jpg",
+  "match": "route",
+  "artist": "Farm",
+  "license": "CC BY 3.0"
+ },
+ "guilin-lingqu/3": {
+  "file": "images/stops/guilin-lingqu/3.webp",
+  "name": "Lingqu_Canal.jpg",
+  "match": "route",
+  "artist": "Farm",
+  "license": "CC BY 3.0"
+ },
+ "guilin-lingqu/4": {
+  "file": "images/stops/guilin-lingqu/4.webp",
+  "name": "Lingqu_Canal.jpg",
+  "match": "route",
+  "artist": "Farm",
+  "license": "CC BY 3.0"
+ },
+ "guilin-gongcheng/0": {
+  "file": "images/stops/guilin-gongcheng/0.webp",
+  "name": "Gongcheng_Wenmiao_2012.09.29_16-28-39.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "guilin-gongcheng/2": {
+  "file": "images/stops/guilin-gongcheng/2.webp",
+  "name": "Gongcheng_Wenmiao_2012.09.29_16-28-39.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "guilin-gongcheng/4": {
+  "file": "images/stops/guilin-gongcheng/4.webp",
+  "name": "Gongcheng_Zhou_Wei_Ci_2012.09.29_15-19-10.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-hill/0": {
+  "file": "images/stops/chongqing-hill/0.webp",
+  "name": "重庆山城步道入口.jpg",
+  "match": "stop",
+  "artist": "kmahyyg",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-hill/1": {
+  "file": "images/stops/chongqing-hill/1.webp",
+  "name": "202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg",
+  "match": "route",
+  "artist": "Jonashtand",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-hill/2": {
+  "file": "images/stops/chongqing-hill/2.webp",
+  "name": "十八梯.jpg",
+  "match": "stop",
+  "artist": "重庆轨交18",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-hill/3": {
+  "file": "images/stops/chongqing-hill/3.webp",
+  "name": "Jiefangbei_at_Night_20201024.jpg",
+  "match": "stop",
+  "artist": "Este Momento",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-hill/4": {
+  "file": "images/stops/chongqing-hill/4.webp",
+  "name": "202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg",
+  "match": "route",
+  "artist": "Jonashtand",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-ciqikou/0": {
+  "file": "images/stops/chongqing-ciqikou/0.webp",
+  "name": "重庆磁器口古镇远眺.jpg",
+  "match": "route",
+  "artist": "Xiumuzidiao",
+  "license": "CC BY 4.0"
+ },
+ "chongqing-ciqikou/1": {
+  "file": "images/stops/chongqing-ciqikou/1.webp",
+  "name": "重庆磁器口古镇远眺.jpg",
+  "match": "route",
+  "artist": "Xiumuzidiao",
+  "license": "CC BY 4.0"
+ },
+ "chongqing-ciqikou/2": {
+  "file": "images/stops/chongqing-ciqikou/2.webp",
+  "name": "20250521_Baolun_Si.jpg",
+  "match": "stop",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-ciqikou/3": {
+  "file": "images/stops/chongqing-ciqikou/3.webp",
+  "name": "重庆磁器口古镇远眺.jpg",
+  "match": "route",
+  "artist": "Xiumuzidiao",
+  "license": "CC BY 4.0"
+ },
+ "chongqing-ciqikou/4": {
+  "file": "images/stops/chongqing-ciqikou/4.webp",
+  "name": "重庆磁器口古镇远眺.jpg",
+  "match": "route",
+  "artist": "Xiumuzidiao",
+  "license": "CC BY 4.0"
+ },
+ "chongqing-dazu/0": {
+  "file": "images/stops/chongqing-dazu/0.webp",
+  "name": "大足石刻.JPG",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-dazu/1": {
+  "file": "images/stops/chongqing-dazu/1.webp",
+  "name": "大足石刻.JPG",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-dazu/3": {
+  "file": "images/stops/chongqing-dazu/3.webp",
+  "name": "大足石刻.JPG",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-dazu/4": {
+  "file": "images/stops/chongqing-dazu/4.webp",
+  "name": "大足石刻.JPG",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-diaoyucheng/0": {
+  "file": "images/stops/chongqing-diaoyucheng/0.webp",
+  "name": "护国门 - panoramio.jpg",
+  "match": "stop",
+  "artist": "天王星",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-diaoyucheng/1": {
+  "file": "images/stops/chongqing-diaoyucheng/1.webp",
+  "name": "Fishingtown.jpg",
+  "match": "route",
+  "artist": "Harveychl at English Wikipedia",
+  "license": "Public domain"
+ },
+ "chongqing-diaoyucheng/2": {
+  "file": "images/stops/chongqing-diaoyucheng/2.webp",
+  "name": "Fishingtown.jpg",
+  "match": "route",
+  "artist": "Harveychl at English Wikipedia",
+  "license": "Public domain"
+ },
+ "chongqing-diaoyucheng/3": {
+  "file": "images/stops/chongqing-diaoyucheng/3.webp",
+  "name": "Fishingtown.jpg",
+  "match": "route",
+  "artist": "Harveychl at English Wikipedia",
+  "license": "Public domain"
+ },
+ "chongqing-diaoyucheng/4": {
+  "file": "images/stops/chongqing-diaoyucheng/4.webp",
+  "name": "通往水军码头 - panoramio.jpg",
+  "match": "stop",
+  "artist": "天王星",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-huguang/0": {
+  "file": "images/stops/chongqing-huguang/0.webp",
+  "name": "Chongqing_Dongshuimen_Chengqiang_2014.04.21_13-00-49.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-huguang/1": {
+  "file": "images/stops/chongqing-huguang/1.webp",
+  "name": "Chongqing_Huguang_Huiguan_2014.04.21_13-14-42.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-huguang/2": {
+  "file": "images/stops/chongqing-huguang/2.webp",
+  "name": "Chongqing_Huguang_Huiguan_2014.04.21_13-14-42.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-huguang/3": {
+  "file": "images/stops/chongqing-huguang/3.webp",
+  "name": "Guangdong Association, Chongqing.jpg",
+  "match": "stop",
+  "artist": "HoweyYuan",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-huguang/4": {
+  "file": "images/stops/chongqing-huguang/4.webp",
+  "name": "Chongqing_Huguang_Huiguan_2014.04.21_13-14-42.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-baidicheng/0": {
+  "file": "images/stops/chongqing-baidicheng/0.webp",
+  "name": "北岸村俯瞰圖.jpg",
+  "match": "stop",
+  "artist": "洪洋",
+  "license": "CC BY-SA 3.0"
+ },
+ "chongqing-baidicheng/1": {
+  "file": "images/stops/chongqing-baidicheng/1.webp",
+  "name": "20250523_Baidi_Miao.jpg",
+  "match": "route",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-baidicheng/2": {
+  "file": "images/stops/chongqing-baidicheng/2.webp",
+  "name": "20250523_Baidi_Miao.jpg",
+  "match": "route",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-baidicheng/3": {
+  "file": "images/stops/chongqing-baidicheng/3.webp",
+  "name": "20250523_Baidi_Miao.jpg",
+  "match": "route",
+  "artist": "Yumeto",
+  "license": "CC BY-SA 4.0"
+ },
+ "chongqing-baidicheng/4": {
+  "file": "images/stops/chongqing-baidicheng/4.webp",
+  "name": "夔門.jpg",
+  "match": "stop",
+  "artist": "鄭璧成",
+  "license": "Public domain"
+ },
+ "guangzhou-xiguan/0": {
+  "file": "images/stops/guangzhou-xiguan/0.webp",
+  "name": "广州永庆坊.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-xiguan/1": {
+  "file": "images/stops/guangzhou-xiguan/1.webp",
+  "name": "广州永庆坊.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-xiguan/2": {
+  "file": "images/stops/guangzhou-xiguan/2.webp",
+  "name": "广州永庆坊.jpg",
+  "match": "stop",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-xiguan/3": {
+  "file": "images/stops/guangzhou-xiguan/3.webp",
+  "name": "广州永庆坊.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-xiguan/4": {
+  "file": "images/stops/guangzhou-xiguan/4.webp",
+  "name": "ShaMianBuildings.JPG",
+  "match": "stop",
+  "artist": "Ricky Chow",
+  "license": "CC BY-SA 3.0"
+ },
+ "guangzhou-yuexiu/0": {
+  "file": "images/stops/guangzhou-yuexiu/0.webp",
+  "name": "广州镇海楼2019.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-yuexiu/1": {
+  "file": "images/stops/guangzhou-yuexiu/1.webp",
+  "name": "Five-Ram_Sculpture_03290-Guangzhou_(32923532571).jpg",
+  "match": "stop",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guangzhou-yuexiu/2": {
+  "file": "images/stops/guangzhou-yuexiu/2.webp",
+  "name": "广州镇海楼2019.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-yuexiu/3": {
+  "file": "images/stops/guangzhou-yuexiu/3.webp",
+  "name": "广州镇海楼2019.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-yuexiu/4": {
+  "file": "images/stops/guangzhou-yuexiu/4.webp",
+  "name": "广州镇海楼2019.jpg",
+  "match": "route",
+  "artist": "ScareCriterion12",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-chen-clan/0": {
+  "file": "images/stops/guangzhou-chen-clan/0.webp",
+  "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-chen-clan/1": {
+  "file": "images/stops/guangzhou-chen-clan/1.webp",
+  "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-chen-clan/2": {
+  "file": "images/stops/guangzhou-chen-clan/2.webp",
+  "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-chen-clan/3": {
+  "file": "images/stops/guangzhou-chen-clan/3.webp",
+  "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-chen-clan/4": {
+  "file": "images/stops/guangzhou-chen-clan/4.webp",
+  "name": "Chen_Clan_Ancestral_Hall_2025.06_02.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-twin-temples/0": {
+  "file": "images/stops/guangzhou-twin-temples/0.webp",
+  "name": "Guangzhou_Guangxiao_Si_2012.11.15_16-41-08.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "guangzhou-twin-temples/1": {
+  "file": "images/stops/guangzhou-twin-temples/1.webp",
+  "name": "Guangzhou_Guangxiao_Si_2012.11.15_16-41-08.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "guangzhou-twin-temples/2": {
+  "file": "images/stops/guangzhou-twin-temples/2.webp",
+  "name": "Guangzhou_Guangxiao_Si_2012.11.15_16-41-08.jpg",
+  "match": "route",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "guangzhou-twin-temples/3": {
+  "file": "images/stops/guangzhou-twin-temples/3.webp",
+  "name": "Temple_of_the_Six_Banyan_Trees_pagoda.jpg",
+  "match": "stop",
+  "artist": "Shujianyang",
+  "license": "CC0"
+ },
+ "guangzhou-twin-temples/4": {
+  "file": "images/stops/guangzhou-twin-temples/4.webp",
+  "name": "Temple_of_the_Six_Banyan_Trees_pagoda.jpg",
+  "match": "stop",
+  "artist": "Shujianyang",
+  "license": "CC0"
+ },
+ "guangzhou-nanyue-beijinglu/0": {
+  "file": "images/stops/guangzhou-nanyue-beijinglu/0.webp",
+  "name": "Site_of_King’s_Tomb,_Nanyue_King_Museum_2025.06-01.jpg",
+  "match": "stop",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-nanyue-beijinglu/1": {
+  "file": "images/stops/guangzhou-nanyue-beijinglu/1.webp",
+  "name": "Mausoleum_of_the_Nanyue_King.JPG",
+  "match": "route",
+  "artist": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
+  "license": "CC BY-SA 2.5"
+ },
+ "guangzhou-nanyue-beijinglu/2": {
+  "file": "images/stops/guangzhou-nanyue-beijinglu/2.webp",
+  "name": "Si_lü_yu_yi.JPG",
+  "match": "stop",
+  "license": "CC BY-SA 2.5"
+ },
+ "guangzhou-nanyue-beijinglu/3": {
+  "file": "images/stops/guangzhou-nanyue-beijinglu/3.webp",
+  "name": "Mausoleum_of_the_Nanyue_King.JPG",
+  "match": "route",
+  "artist": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
+  "license": "CC BY-SA 2.5"
+ },
+ "guangzhou-nanyue-beijinglu/4": {
+  "file": "images/stops/guangzhou-nanyue-beijinglu/4.webp",
+  "name": "Mausoleum_of_the_Nanyue_King.JPG",
+  "match": "route",
+  "artist": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
+  "license": "CC BY-SA 2.5"
+ },
+ "guangzhou-shishi-yanjiang/0": {
+  "file": "images/stops/guangzhou-shishi-yanjiang/0.webp",
+  "name": "Sacred_Heart_Cathedral_of_Guangzhou_2025.06_02.jpg",
+  "match": "stop",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-shishi-yanjiang/1": {
+  "file": "images/stops/guangzhou-shishi-yanjiang/1.webp",
+  "name": "Sacred_Heart_Cathedral_of_Guangzhou_2025.06_02.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangzhou-shishi-yanjiang/2": {
+  "file": "images/stops/guangzhou-shishi-yanjiang/2.webp",
+  "name": "一德路沿街建筑",
+  "match": "stop"
+ },
+ "guangzhou-shishi-yanjiang/3": {
+  "file": "images/stops/guangzhou-shishi-yanjiang/3.webp",
+  "name": "Guangzhou_Aiqun_Dasha_2012.11.15_10-31-07.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "guangzhou-shishi-yanjiang/4": {
+  "file": "images/stops/guangzhou-shishi-yanjiang/4.webp",
+  "name": "粤海关旧址（大钟楼）",
+  "match": "stop"
+ },
+ "guxiancheng/0": {
+  "file": "images/stops/guxiancheng/0.webp",
+  "name": "Taiyuan20190430.jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guxiancheng/1": {
+  "file": "images/stops/guxiancheng/1.webp",
+  "name": "Taiyuan20190430.jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guxiancheng/2": {
+  "file": "images/stops/guxiancheng/2.webp",
+  "name": "Taiyuan20190430.jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guxiancheng/3": {
+  "file": "images/stops/guxiancheng/3.webp",
+  "name": "Taiyuan20190430.jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guxiancheng/4": {
+  "file": "images/stops/guxiancheng/4.webp",
+  "name": "Taiyuan20190430.jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "xinzhou-ancient-city/0": {
+  "file": "images/stops/xinzhou-ancient-city/0.webp",
+  "name": "WutaiShanTaihuai.jpg",
+  "match": "city",
+  "artist": "User:Doron",
+  "license": "CC BY-SA 3.0"
+ },
+ "xinzhou-ancient-city/1": {
+  "file": "images/stops/xinzhou-ancient-city/1.webp",
+  "name": "WutaiShanTaihuai.jpg",
+  "match": "city",
+  "artist": "User:Doron",
+  "license": "CC BY-SA 3.0"
+ },
+ "xinzhou-ancient-city/4": {
+  "file": "images/stops/xinzhou-ancient-city/4.webp",
+  "name": "WutaiShanTaihuai.jpg",
+  "match": "city",
+  "artist": "User:Doron",
+  "license": "CC BY-SA 3.0"
+ },
+ "yanmenguan-pass/0": {
+  "file": "images/stops/yanmenguan-pass/0.webp",
+  "name": "Yanmen_Pass_(20250712164217).jpg",
+  "match": "route",
+  "artist": "N509FZ",
+  "license": "CC BY-SA 4.0"
+ },
+ "daixian-ancient-city/0": {
+  "file": "images/stops/daixian-ancient-city/0.webp",
+  "name": "代县边靖楼.jpg",
+  "match": "route",
+  "artist": "Redpipe",
+  "license": "CC BY-SA 3.0"
+ },
+ "daixian-ancient-city/1": {
+  "file": "images/stops/daixian-ancient-city/1.webp",
+  "name": "代县边靖楼.jpg",
+  "match": "route",
+  "artist": "Redpipe",
+  "license": "CC BY-SA 3.0"
+ },
+ "daixian-ancient-city/2": {
+  "file": "images/stops/daixian-ancient-city/2.webp",
+  "name": "代县边靖楼.jpg",
+  "match": "route",
+  "artist": "Redpipe",
+  "license": "CC BY-SA 3.0"
+ },
+ "daixian-ancient-city/3": {
+  "file": "images/stops/daixian-ancient-city/3.webp",
+  "name": "代县边靖楼.jpg",
+  "match": "route",
+  "artist": "Redpipe",
+  "license": "CC BY-SA 3.0"
+ },
+ "shuozhou-old-city/1": {
+  "file": "images/stops/shuozhou-old-city/1.webp",
+  "name": "Chongfu_Temple_in_Shuozhou_2011-07.JPG",
+  "match": "city",
+  "artist": "猫猫的日记本",
+  "license": "CC BY 3.0"
+ },
+ "shuozhou-old-city/2": {
+  "file": "images/stops/shuozhou-old-city/2.webp",
+  "name": "Chongfu_Temple_in_Shuozhou_2011-07.JPG",
+  "match": "city",
+  "artist": "猫猫的日记本",
+  "license": "CC BY 3.0"
+ },
+ "shuozhou-old-city/3": {
+  "file": "images/stops/shuozhou-old-city/3.webp",
+  "name": "Chongfu_Temple_in_Shuozhou_2011-07.JPG",
+  "match": "city",
+  "artist": "猫猫的日记本",
+  "license": "CC BY 3.0"
+ },
+ "shuozhou-old-city/4": {
+  "file": "images/stops/shuozhou-old-city/4.webp",
+  "name": "Chongfu_Temple_in_Shuozhou_2011-07.JPG",
+  "match": "city",
+  "artist": "猫猫的日记本",
+  "license": "CC BY 3.0"
+ },
+ "yongle-murals/0": {
+  "file": "images/stops/yongle-murals/0.webp",
+  "name": "无极之殿.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "yongle-murals/1": {
+  "file": "images/stops/yongle-murals/1.webp",
+  "name": "无极之殿.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "yongle-murals/2": {
+  "file": "images/stops/yongle-murals/2.webp",
+  "name": "无极之殿.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "yongle-murals/3": {
+  "file": "images/stops/yongle-murals/3.webp",
+  "name": "无极之殿.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "yongle-murals/4": {
+  "file": "images/stops/yongle-murals/4.webp",
+  "name": "无极之殿.jpg",
+  "match": "route",
+  "artist": "Patrick20242023",
+  "license": "CC BY-SA 4.0"
+ },
+ "pujin-ferry/0": {
+  "file": "images/stops/pujin-ferry/0.webp",
+  "name": "南风广场-2010_-_panoramio.jpg",
+  "match": "city",
+  "artist": "Li Meng",
+  "license": "CC BY-SA 3.0"
+ },
+ "pujin-ferry/1": {
+  "file": "images/stops/pujin-ferry/1.webp",
+  "name": "南风广场-2010_-_panoramio.jpg",
+  "match": "city",
+  "artist": "Li Meng",
+  "license": "CC BY-SA 3.0"
+ },
+ "pujin-ferry/2": {
+  "file": "images/stops/pujin-ferry/2.webp",
+  "name": "南风广场-2010_-_panoramio.jpg",
+  "match": "city",
+  "artist": "Li Meng",
+  "license": "CC BY-SA 3.0"
+ },
+ "pujin-ferry/3": {
+  "file": "images/stops/pujin-ferry/3.webp",
+  "name": "南风广场-2010_-_panoramio.jpg",
+  "match": "city",
+  "artist": "Li Meng",
+  "license": "CC BY-SA 3.0"
+ },
+ "pujin-ferry/4": {
+  "file": "images/stops/pujin-ferry/4.webp",
+  "name": "南风广场-2010_-_panoramio.jpg",
+  "match": "city",
+  "artist": "Li Meng",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-temple-of-heaven/0": {
+  "file": "images/stops/beijing-temple-of-heaven/0.webp",
+  "name": "Temple_of_Heaven_20160323_01.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-temple-of-heaven/2": {
+  "file": "images/stops/beijing-temple-of-heaven/2.webp",
+  "name": "Temple_of_Heaven_20160323_01.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-temple-of-heaven/3": {
+  "file": "images/stops/beijing-temple-of-heaven/3.webp",
+  "name": "Temple_of_Heaven_20160323_01.jpg",
+  "match": "route",
+  "artist": "Shujianyang",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-lama-confucius/0": {
+  "file": "images/stops/beijing-lama-confucius/0.webp",
+  "name": "Lascar_Lama_temple_(4478042700).jpg",
+  "match": "route",
+  "artist": "Jorge Láscar from Australia",
+  "license": "CC BY 2.0"
+ },
+ "chengdu-wenshu-taikoo/0": {
+  "file": "images/stops/chengdu-wenshu-taikoo/0.webp",
+  "name": "ChengDu_WenShuYuan_Tower.jpg",
+  "match": "route",
+  "artist": "Jason Zou",
+  "license": "Public domain"
+ },
+ "chengdu-wenshu-taikoo/1": {
+  "file": "images/stops/chengdu-wenshu-taikoo/1.webp",
+  "name": "ChengDu_WenShuYuan_Tower.jpg",
+  "match": "route",
+  "artist": "Jason Zou",
+  "license": "Public domain"
+ },
+ "chengdu-wenshu-taikoo/2": {
+  "file": "images/stops/chengdu-wenshu-taikoo/2.webp",
+  "name": "文殊坊.JPG",
+  "match": "stop",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "chengdu-wenshu-taikoo/3": {
+  "file": "images/stops/chengdu-wenshu-taikoo/3.webp",
+  "name": "Chunxi_Road_seen_from_viaduct,_Chengdu.jpg",
+  "match": "stop",
+  "artist": "Gong Chen, Mlogic",
+  "license": "CC BY-SA 4.0"
+ },
+ "chengdu-wenshu-taikoo/4": {
+  "file": "images/stops/chengdu-wenshu-taikoo/4.webp",
+  "name": "ChengDu_WenShuYuan_Tower.jpg",
+  "match": "route",
+  "artist": "Jason Zou",
+  "license": "Public domain"
+ },
+ "hangzhou-hefang/0": {
+  "file": "images/stops/hangzhou-hefang/0.webp",
+  "name": "杭州清河坊.JPG",
+  "match": "route",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-hanshan/0": {
+  "file": "images/stops/suzhou-hanshan/0.webp",
+  "name": "蘇州 寒山寺 Hanshan Temple - panoramio.jpg",
+  "match": "route",
+  "artist": "Foxy Who \\(^∀^)/",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-hanshan/2": {
+  "file": "images/stops/suzhou-hanshan/2.webp",
+  "name": "蘇州 寒山寺 Hanshan Temple - panoramio.jpg",
+  "match": "route",
+  "artist": "Foxy Who \\(^∀^)/",
+  "license": "CC BY-SA 3.0"
+ },
+ "suzhou-panmen/2": {
+  "file": "images/stops/suzhou-panmen/2.webp",
+  "name": "Land_Gate_of_Pan_Men.jpg",
+  "match": "route",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-chaotiangong/1": {
+  "file": "images/stops/nanjing-chaotiangong/1.webp",
+  "name": "朝天宫·南京·航拍.jpg",
+  "match": "route",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "guilin-daxu/0": {
+  "file": "images/stops/guilin-daxu/0.webp",
+  "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-daxu/1": {
+  "file": "images/stops/guilin-daxu/1.webp",
+  "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-daxu/2": {
+  "file": "images/stops/guilin-daxu/2.webp",
+  "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-daxu/3": {
+  "file": "images/stops/guilin-daxu/3.webp",
+  "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "guilin-daxu/4": {
+  "file": "images/stops/guilin-daxu/4.webp",
+  "name": "Xiangshan_Scenic_Area_89468-Guilin_(31130832628).jpg",
+  "match": "city",
+  "artist": "xiquinhosilva",
+  "license": "CC BY 2.0"
+ },
+ "fucheng-walk/4": {
+  "file": "images/stops/fucheng-walk/4.webp",
+  "name": "太原文庙.jpg",
+  "match": "stop",
+  "artist": "DukeAnt",
+  "license": "CC BY-SA 4.0"
+ },
+ "shuozhou-old-city/0": {
+  "file": "images/stops/shuozhou-old-city/0.webp",
+  "name": "Chongfu_Temple_in_Shuozhou_2011-07.JPG",
+  "match": "city",
+  "artist": "猫猫的日记本",
+  "license": "CC BY 3.0"
+ },
+ "guangwu-great-wall/0": {
+  "file": "images/stops/guangwu-great-wall/0.webp",
+  "name": "Guangwu Great Wall 2014-03-26.jpg",
+  "match": "route",
+  "artist": "Underbar dk",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangwu-great-wall/1": {
+  "file": "images/stops/guangwu-great-wall/1.webp",
+  "name": "Guangwu Great Wall 2014-03-26.jpg",
+  "match": "route",
+  "artist": "Underbar dk",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangwu-great-wall/2": {
+  "file": "images/stops/guangwu-great-wall/2.webp",
+  "name": "Guangwu Great Wall 2014-03-26.jpg",
+  "match": "route",
+  "artist": "Underbar dk",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangwu-great-wall/3": {
+  "file": "images/stops/guangwu-great-wall/3.webp",
+  "name": "Guangwu Great Wall 2014-03-26.jpg",
+  "match": "route",
+  "artist": "Underbar dk",
+  "license": "CC BY-SA 4.0"
+ },
+ "guangwu-great-wall/4": {
+  "file": "images/stops/guangwu-great-wall/4.webp",
+  "name": "广武长城月亮门2.jpg",
+  "match": "stop",
+  "artist": "Zanhe",
+  "license": "CC BY-SA 4.0"
+ },
+ "shahukou-west/0": {
+  "file": "images/stops/shahukou-west/0.webp",
+  "name": "Greatwall Shahukou Datong Shanxi.jpg",
+  "match": "route",
+  "artist": "Chlukoe",
+  "license": "CC0"
+ },
+ "shahukou-west/1": {
+  "file": "images/stops/shahukou-west/1.webp",
+  "name": "Greatwall Shahukou Datong Shanxi.jpg",
+  "match": "route",
+  "artist": "Chlukoe",
+  "license": "CC0"
+ },
+ "shahukou-west/2": {
+  "file": "images/stops/shahukou-west/2.webp",
+  "name": "Greatwall Shahukou Datong Shanxi.jpg",
+  "match": "route",
+  "artist": "Chlukoe",
+  "license": "CC0"
+ },
+ "shahukou-west/3": {
+  "file": "images/stops/shahukou-west/3.webp",
+  "name": "Greatwall Shahukou Datong Shanxi.jpg",
+  "match": "route",
+  "artist": "Chlukoe",
+  "license": "CC0"
+ },
+ "shahukou-west/4": {
+  "file": "images/stops/shahukou-west/4.webp",
+  "name": "Greatwall Shahukou Datong Shanxi.jpg",
+  "match": "route",
+  "artist": "Chlukoe",
+  "license": "CC0"
+ },
+ "haizhou-guandi/0": {
+  "file": "images/stops/haizhou-guandi/0.webp",
+  "name": "20260504 Haizhou Emperor Guan Temple 01.jpg",
+  "match": "stop",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0"
+ },
+ "guanque-tower/0": {
+  "file": "images/stops/guanque-tower/0.webp",
+  "name": "鹳雀楼_(cropped).jpg",
+  "match": "route",
+  "artist": "Yanxutong1215",
+  "license": "CC BY-SA 4.0"
+ },
+ "guanque-tower/1": {
+  "file": "images/stops/guanque-tower/1.webp",
+  "name": "鹳雀楼_(cropped).jpg",
+  "match": "route",
+  "artist": "Yanxutong1215",
+  "license": "CC BY-SA 4.0"
+ },
+ "guanque-tower/2": {
+  "file": "images/stops/guanque-tower/2.webp",
+  "name": "鹳雀楼_(cropped).jpg",
+  "match": "route",
+  "artist": "Yanxutong1215",
+  "license": "CC BY-SA 4.0"
+ },
+ "guanque-tower/3": {
+  "file": "images/stops/guanque-tower/3.webp",
+  "name": "鹳雀楼_(cropped).jpg",
+  "match": "route",
+  "artist": "Yanxutong1215",
+  "license": "CC BY-SA 4.0"
+ },
+ "guanque-tower/4": {
+  "file": "images/stops/guanque-tower/4.webp",
+  "name": "鹳雀楼_(cropped).jpg",
+  "match": "route",
+  "artist": "Yanxutong1215",
+  "license": "CC BY-SA 4.0"
+ },
+ "hangzhou-qiantang/0": {
+  "file": "images/stops/hangzhou-qiantang/0.webp",
+  "name": "Liuhe Pagoda in Hangzhou.jpg",
+  "match": "stop",
+  "artist": "Tokiwa Daijō",
+  "license": "Public domain"
+ },
+ "suzhou-canglang/2": {
+  "file": "images/stops/suzhou-canglang/2.webp",
+  "name": "沧浪亭·苏州·全景.jpg",
+  "match": "stop",
+  "artist": "Legolas1024",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-wall/0": {
+  "file": "images/stops/nanjing-wall/0.webp",
+  "name": "南京明城墙-台城段 - panoramio.jpg",
+  "match": "stop",
+  "artist": "史氏",
+  "license": "CC BY 3.0"
+ },
+ "nanjing-wall/2": {
+  "file": "images/stops/nanjing-wall/2.webp",
+  "name": "南京鸡鸣寺.jpg",
+  "match": "stop",
+  "artist": "钉钉",
+  "license": "CC BY-SA 4.0"
+ },
+ "nanjing-wall/3": {
+  "file": "images/stops/nanjing-wall/3.webp",
+  "name": "南京长江路江苏省美术馆 - panoramio.jpg",
+  "match": "stop",
+  "artist": "东京村子",
+  "license": "CC BY-SA 3.0"
+ },
+ "guilin-gongcheng/1": {
+  "file": "images/stops/guilin-gongcheng/1.webp",
+  "name": "Gongcheng Wenmiao 2012.09.29 16-04-57.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "guilin-gongcheng/3": {
+  "file": "images/stops/guilin-gongcheng/3.webp",
+  "name": "Gongcheng Wumiao 2012.09.29 16-59-38.jpg",
+  "match": "stop",
+  "artist": "Zhangzhugang",
+  "license": "CC BY-SA 3.0"
+ },
+ "beijing-temple-of-heaven/1": {
+  "file": "images/stops/beijing-temple-of-heaven/1.webp",
+  "name": "圜丘坛北望皇穹宇和祈年殿.jpg",
+  "match": "stop",
+  "artist": "三猎",
+  "license": "CC BY-SA 4.0"
+ },
+ "beijing-forbidden-city/1": {
+  "file": "images/stops/beijing-forbidden-city/1.webp",
+  "name": "北京故宫太和殿.jpg",
+  "match": "stop",
+  "artist": "红烧腰果",
+  "license": "CC BY 4.0"
+ },
+ "chongqing-dazu/2": {
+  "file": "images/stops/chongqing-dazu/2.webp",
+  "name": "宝顶山千手观音.JPG",
+  "match": "stop",
+  "artist": "Gisling",
+  "license": "CC BY-SA 3.0"
+ }
 }
